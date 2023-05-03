@@ -1,7 +1,7 @@
 baseURL = 'https://musingmaddy.github.io/'
 languageCode = 'en-us'
 title = 'Mahadevans Logs'
-theme = 'Anatole'
+theme = 'anatole'
 
 #disqusShortname = 'mahadevan'
 googleFonts = ["Readex+Pro"]
