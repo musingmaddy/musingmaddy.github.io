@@ -1,0 +1,143 @@
+baseURL = 'https://musingmaddy.github.io/'
+languageCode = 'en-us'
+title = 'Mahadevans Logs'
+theme = 'Anatole'
+
+#disqusShortname = 'mahadevan'
+googleFonts = ["Readex+Pro"]
+
+[params.utterances]
+repo = "musingmaddy/musingmaddy.github.io"
+issueTerm = "pathname"
+theme= "github-dark"
+label = "musingmaddy-comment"
+
+[params]
+title = "Musing Maddy"
+author = "Maddy"
+description = """ Maddy's Logs
+Here Maddy will share his experience & learnings.
+"""
+profilePicture = "images/profile-dark.png"
+mainSections = ["post"]
+
+#gtagId = ""
+enableRobotsTXT = true
+keywords = "personal"
+favicon = "favicon/favicon.ico"
+doNotLoadAnimations = false
+reversepagetitle = true 
+enableMediumZoom = true
+contentratio = 0.75
+singleDateFormat = "Mon, Jan 2, 2006"
+indexDateFormat = "Mon, Jan 2, 2006"
+listDateFormat = "Jan 2"
+readMore = true
+summarylength = 300
+enableEmoji = true
+localizedDates = true
+relatedPosts = false
+numberOfRelatedPosts = 3
+#contactFormReCaptcha = "6Lc-VoUlAAAAAH9oCf5GGtKsICLjyucEJmY-biNP"
+#contactFormAction = ""
+
+#fullPostContent = true
+#hidesidebar = true
+displayMode = "dark"
+
+[[params.socialIcons]]
+icon = "fab fa-twitter"
+title = "Twitter"
+url = "https://www.twitter.com"
+
+[[params.socialIcons]]
+icon = "fab fa-youtube"
+title = "Youtube"
+url = "https://www.youtube.com"
+
+[[params.socialIcons]]
+icon = "fas fa-envelope"
+title = "Email"
+url = "mailto:musingmaddy@gmail.com"
+
+[[params.socialIcons]]
+#icon = "fa-solid fa-envelope-open-text"
+icon = "fa-solid fa-bell"
+title = "Substack"
+url = "https://musingmaddy.substack.com"
+
+[taxonomies]
+    category = "categories"
+    series = "series"
+    tag = "tags"
+
+[markup]
+    [markup.goldmark]
+        [markup.goldmark.renderer]
+        unsafe=true
+
+# Syntax highlighting
+pygmentsUseClasses = true   
+pygmentsCodeFences = true
+pygmentsCodefencesGuessSyntax = true
+
+[related]
+  includeNewer = true
+  threshold = 80
+  toLower = true
+[[related.indices]]
+  name = 'keywords'
+  weight = 100
+[[related.indices]]
+  name = 'tags'
+  weight = 80
+
+
+
+[menu]
+
+  [[menu.main]]
+  name = "Home"
+  identifier = "home"
+  weight = 100
+  url = "/"
+
+  [[menu.main]]
+  name = "Post"
+  weight = 200
+  identifier = "post"
+  url = "/post/"
+
+  [[menu.main]]
+  name = "Tags"
+  weight = 300
+  identifier = "tags"
+  url = "/tags/"
+
+
+  #[[menu.main]]
+  #name = "🗂️Categories"
+  #weight = 320
+  #identifier = "categories"
+  #url = "/categories/"
+  #parent = "find"
+
+  #[[menu.main]]
+  #name = "💥Portfolio"
+  #weight = 400
+  #identifier = "portfolio"
+  #url = "/portfolio/"
+
+  [[menu.main]]
+  name = "About"
+  weight = 500
+  identifier = "about"
+  url = "/about/"
+
+  [[menu.main]]
+  name = "Contact"
+  weight = 600
+  identifier = "contact"
+  url = "/contact/"
+
+
