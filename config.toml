@@ -15,8 +15,7 @@ label = "musingmaddy-comment"
 [params]
 title = "Musing Maddy"
 author = "Maddy"
-description = """ Maddy's Musings
-Reviews & Opinions 
+description = """ Maddy's Musings, Reviews & Opinions 
 on Best Books📚, Movies🍿, Games🎮, 
 Series🎞️ & Tech🧑🏼‍💻.
 """
