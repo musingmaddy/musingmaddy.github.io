@@ -16,7 +16,7 @@ label = "musingmaddy-comment"
 title = "Musing Maddy"
 author = "Maddy"
 description = """ Maddy's Logs
-Here Maddy will share his experience & learnings.
+Reviews & Opinions on Best Books📚, Movies🍿, Games🎮, Series🎞️ & Tech🧑🏼‍💻.
 """
 profilePicture = "images/profile-dark.png"
 mainSections = ["post"]

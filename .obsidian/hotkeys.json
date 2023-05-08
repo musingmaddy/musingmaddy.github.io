@@ -1,0 +1,12 @@
+{
+  "templater-obsidian:insert-templater": [],
+  "markdown:toggle-preview": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "`"
+    }
+  ],
+  "workspace:goto-tab-1": []
+}

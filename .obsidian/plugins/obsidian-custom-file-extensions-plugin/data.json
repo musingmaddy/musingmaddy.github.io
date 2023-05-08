@@ -1,0 +1,20 @@
+{
+  "additionalFileTypes": {
+    "markdown": [
+      "",
+      "txt",
+      "html",
+      "toml",
+      "js",
+      "css",
+      "ts",
+      "jsx",
+      "tsx",
+      "yaml",
+      "yml",
+      "sass",
+      "scss"
+    ]
+  },
+  "currentValueIsInvalidJson": false
+}
