@@ -8,15 +8,11 @@
         "type": "tabs",
         "children": [
           {
-            "id": "6183caea3108ab7b",
+            "id": "5adb9f51172e8d51",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "config.toml",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "config.toml",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "config.toml",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "config.toml"
-              }
+              "state": {}
             }
           }
         ]
@@ -148,12 +140,12 @@
       "obsidian-media-db-plugin:Add new Media DB entry": false
     }
   },
-  "active": "6183caea3108ab7b",
+  "active": "5adb9f51172e8d51",
   "lastOpenFiles": [
+    "config.toml",
     "content/post/Test2.md",
     "content/post/Beau Is Afraid.md",
     "content/post/my-first-post.md",
-    "config.toml",
     "templates/Template for Plugins/Periodic Weekly Template_old 📆.md",
     "templates/Template for Plugins/New Movie Review 🍿.md",
     "templates/Template for Plugins/New Series Review 📽️.md",
@@ -177,7 +169,6 @@
     "templates/My Templates/Callout Quote.md",
     "templates/My Templates/_New Note 📝.md",
     "templates/My Templates/Write Atomic Essay ✍️.md",
-    "templates/My Templates/Write Haiku ✍️.md",
     "templates/My Templates",
     "templates"
   ]
