@@ -6,7 +6,7 @@ type: "movie"
 englishTitle: "Beau Is Afraid"
 year: "2023"
 dataSource: "OMDbAPI"
-url: "https://www.imdb.com/title/tt13521006/"
+url: "http://www.imdb.com/title/tt13521006/"
 id: "tt13521006"
 genres: 
   - "Comedy"
@@ -35,7 +35,7 @@ personalRating: 0
 - Type : **movie**
 - Producer : **Ari Aster**
 - Genres : **Comedy,Drama,Horror**
-- URL : [https://www.imdb.com/title/tt13521006/](https://www.imdb.com/title/tt13521006/)
+- URL : [http://www.imdb.com/title/tt13521006/](http://www.imdb.com/title/tt13521006/)
 - Online Rating : **( 7 / 100 )**
 - Year : **2023**
 ---
