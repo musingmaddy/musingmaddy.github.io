@@ -1,15 +1,16 @@
 baseURL = 'https://musingmaddy.github.io/'
 languageCode = 'en-us'
 title = 'Maddys Musings'
+theme = 'anatole'
 
-disqusShortname = 'mahadevan'
+#disqusShortname = 'mahadevan'
 googleFonts = ["Readex+Pro"]
 
-# [params.utterances]
-# repo = "musingmaddy/musingmaddy.github.io"
-# issueTerm = "pathname"
-# theme= "github-dark"
-# label = "musingmaddy-comment"
+[params.utterances]
+repo = "musingmaddy/musingmaddy.github.io"
+issueTerm = "pathname"
+theme= "github-dark"
+label = "musingmaddy-comment"
 
 [params]
 title = "Musing Maddy"
