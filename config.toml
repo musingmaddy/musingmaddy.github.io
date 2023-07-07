@@ -49,12 +49,12 @@ displayMode = "dark"
 [[params.socialIcons]]
 icon = "fab fa-twitter"
 title = "Twitter"
-url = "https://www.twitter.com"
+url = "https://www.twitter.com/musingmaddy"
 
 [[params.socialIcons]]
 icon = "fab fa-youtube"
 title = "Youtube"
-url = "https://www.youtube.com"
+url = "https://www.youtube.com/@musingmaddy"
 
 [[params.socialIcons]]
 icon = "fas fa-envelope"
