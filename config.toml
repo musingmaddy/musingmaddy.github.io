@@ -1,16 +1,16 @@
 baseURL = 'https://musingmaddy.github.io/'
 languageCode = 'en-us'
-title = 'Mahadevans Musings'
+title = 'Maddys Musings'
 theme = 'anatole'
 
-#disqusShortname = 'mahadevan'
+disqusShortname = 'mahadevan'
 googleFonts = ["Readex+Pro"]
 
-[params.utterances]
-repo = "musingmaddy/musingmaddy.github.io"
-issueTerm = "pathname"
-theme= "github-dark"
-label = "musingmaddy-comment"
+# [params.utterances]
+# repo = "musingmaddy/musingmaddy.github.io"
+# issueTerm = "pathname"
+# theme= "github-dark"
+# label = "musingmaddy-comment"
 
 [params]
 title = "Musing Maddy"
@@ -141,4 +141,9 @@ pygmentsCodefencesGuessSyntax = true
   identifier = "contact"
   url = "/contact/"
 
-
+  [module]
+  # uncomment line below for temporary local development of module
+  # replacements = "github.com/lxndrblz/anatole -> ../../anatole"
+  [[module.imports]]
+    path = "github.com/lxndrblz/anatole"
+    disable = false

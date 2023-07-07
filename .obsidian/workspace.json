@@ -61,7 +61,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#disqusShortname",
+                "query": " ",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -78,11 +78,13 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 205.5
+    "width": 205.5,
+    "collapsed": true
   },
   "right": {
     "id": "1d3e0726bc508ee2",
@@ -161,7 +163,7 @@
       "obsidian-media-db-plugin:Add new Media DB entry": false
     }
   },
-  "active": "8fe0343ee9be88b8",
+  "active": "f3e897c6f8c22d40",
   "lastOpenFiles": [
     "content/post/Beau Is Afraid.md",
     "content/post/my-first-post.md",
