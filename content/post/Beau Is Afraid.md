@@ -6,7 +6,6 @@ type: "movie"
 englishTitle: "Beau Is Afraid"
 year: "2023"
 dataSource: "OMDbAPI"
-url: "http://www.imdb.com/title/tt13521006/"
 id: "tt13521006"
 genres: 
   - "Comedy"
@@ -42,6 +41,5 @@ personalRating: 0
 - Loved this movie.
 
 ---
-###### 📅 `=dateformat(this.file.ctime, "DDDD '('hh':'mm a')'")`
 
 🏷️Tags : #Movie-Review🍿
