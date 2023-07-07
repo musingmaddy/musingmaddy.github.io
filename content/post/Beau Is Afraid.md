@@ -33,13 +33,13 @@ personalRating: 0
 - Title : **Beau Is Afraid**
 - Type : **movie**
 - Producer : **Ari Aster**
-- Genres : **Comedy,Drama,Horror**
+- Genres : **Comedy, Drama, Horror**
 - URL : [http://www.imdb.com/title/tt13521006/](http://www.imdb.com/title/tt13521006/)
 - Online Rating : **( 7 / 100 )**
 - Year : **2023**
 ---
 - Loved this movie.
-
+- All most all anxieties are covered in this movie.
 ---
 
 🏷️Tags : #Movie-Review🍿
