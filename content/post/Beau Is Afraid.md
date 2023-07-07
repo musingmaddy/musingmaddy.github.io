@@ -1,6 +1,6 @@
 ---
 title: "Beau Is Afraid"
-date: 2023-04-27T12:45:21+05:30
+date: 2023-07-07T12:45:21+05:30
 draft: false
 type: "movie"
 englishTitle: "Beau Is Afraid"
