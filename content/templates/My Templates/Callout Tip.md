@@ -1,0 +1,2 @@
+>[!TIP]+ TIP TITLE
+> Content

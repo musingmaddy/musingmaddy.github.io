@@ -11,8 +11,12 @@
             "id": "0c012c4c52785cd2",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "content/post/Beau Is Afraid (2023).md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "content/post/Beau Is Afraid (2023).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "content/post/Beau Is Afraid (2023).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "content/post/Beau Is Afraid (2023).md"
+              }
             }
           }
         ]
@@ -136,11 +144,41 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "templater-obsidian:Templater": false
+      "templater-obsidian:Templater": false,
+      "obsidian-media-db-plugin:Add new Media DB entry": false
     }
   },
   "active": "0c012c4c52785cd2",
   "lastOpenFiles": [
+    "content/post/Beau Is Afraid (2023).md",
+    "content/templates/Template for Plugins/Periodic Weekly Template_old 📆.md",
+    "content/templates/Template for Plugins/New Movie Review 🍿.md",
+    "content/templates/Template for Plugins/New Series Review 📽️.md",
+    "content/templates/Template for Plugins/New Game Review 🕹️.md",
+    "content/templates/Template for Plugins/BookDB Summary 📖.md",
+    "content/templates/Template for Plugins/Periodic Weekly Template 📆.md",
+    "content/templates/Template for Plugins/Periodic Monthly Template 🗓️.md",
+    "content/templates/Template for Plugins/Periodic Daily Template 🗓️.md",
+    "content/templates/Template for Plugins",
+    "content/templates/My Templates/_New Blog.md",
+    "content/templates/My Templates/Callout zHugo Update.md",
+    "content/templates/My Templates/Callout zHugo Warning.md",
+    "content/templates/My Templates/Callout zHugo Notice.md",
+    "content/templates/My Templates/Daily Template Embed 🗓️.md",
+    "content/templates/My Templates/Trade Daily Diary 📓.md",
+    "content/templates/My Templates/Trade Monthly Journal.md",
+    "content/templates/My Templates/Callout Summary.md",
+    "content/templates/My Templates/Callout Note Info.md",
+    "content/templates/My Templates/Callout Tip.md",
+    "content/templates/My Templates/Callout Example.md",
+    "content/templates/My Templates/Callout Quote.md",
+    "content/templates/My Templates/_New Note 📝.md",
+    "content/templates/My Templates/Write Atomic Essay ✍️.md",
+    "content/templates/My Templates/Write Haiku ✍️.md",
+    "content/templates/My Templates/Write Flash Fiction ✍️.md",
+    "content/templates/My Templates/Embed Mix Cloud 📻.md",
+    "content/templates/My Templates",
+    "content/templates",
     "config.toml"
   ]
 }

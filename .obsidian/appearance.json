@@ -1,5 +1,8 @@
 {
   "accentColor": "#1891b9",
   "cssTheme": "Border",
-  "theme": "moonstone"
+  "theme": "moonstone",
+  "interfaceFontFamily": "Readex Pro",
+  "textFontFamily": "Readex Pro",
+  "monospaceFontFamily": "Cascadia Code"
 }
