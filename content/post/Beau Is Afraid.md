@@ -1,7 +1,8 @@
 ---
-type: "movie"
-subType: null
 title: "Beau Is Afraid"
+date: 2023-04-27T12:45:21+05:30
+draft: false
+type: "movie"
 englishTitle: "Beau Is Afraid"
 year: "2023"
 dataSource: "OMDbAPI"
@@ -20,12 +21,9 @@ actors:
   - "Amy Ryan"
 image: "https://m.media-amazon.com/images/M/MV5BYTNhNWRmMDctYzE4OS00MzczLWJkODgtNzYxZTQxM2Y1YmM3XkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_SX300.jpg"
 released: true
-streamingServices: 
 premiere: "4/21/2023"
-watched: false
-lastWatched: ""
+watched: true
 personalRating: 0
-tags: "mediaDB/tv/movie"
 ---
 # Beau Is Afraid / ( 2023 )
 

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/post/Beau Is Afraid (2023).md",
+                "file": "content/post/Beau Is Afraid.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/post/Beau Is Afraid (2023).md",
+                "file": "content/post/Beau Is Afraid.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/post/Beau Is Afraid (2023).md",
+                "file": "content/post/Beau Is Afraid.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/post/Beau Is Afraid (2023).md"
+                "file": "content/post/Beau Is Afraid.md"
               }
             }
           }
@@ -151,7 +151,7 @@
   "active": "0c012c4c52785cd2",
   "lastOpenFiles": [
     "content/post/my-first-post.md",
-    "content/post/Beau Is Afraid (2023).md",
+    "content/post/Beau Is Afraid.md",
     "content/templates/Template for Plugins/Periodic Weekly Template_old 📆.md",
     "content/templates/Template for Plugins/New Movie Review 🍿.md",
     "content/templates/Template for Plugins/New Series Review 📽️.md",
