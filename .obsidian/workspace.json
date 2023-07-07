@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/post/Silo (2023–).md",
+                "file": "content/post/Silo.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/post/Silo (2023–).md",
+                "file": "content/post/Silo.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/post/Silo (2023–).md",
+                "file": "content/post/Silo.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/post/Silo (2023–).md"
+                "file": "content/post/Silo.md"
               }
             }
           }
@@ -151,7 +151,7 @@
   "active": "5adb9f51172e8d51",
   "lastOpenFiles": [
     "content/post/Beau Is Afraid.md",
-    "content/post/Silo (2023–).md",
+    "content/post/Silo.md",
     "config.toml",
     "content/post/Test21.md",
     "content/post/my-first-post.md",
