@@ -2,7 +2,6 @@ baseURL = 'https://musingmaddy.github.io/'
 languageCode = 'en-us'
 title = 'Maddys Musings'
 
-
 disqusShortname = 'mahadevan'
 googleFonts = ["Readex+Pro"]
 
@@ -140,3 +139,10 @@ pygmentsCodefencesGuessSyntax = true
   weight = 600
   identifier = "contact"
   url = "/contact/"
+
+  [module]
+  # uncomment line below for temporary local development of module
+  # replacements = "github.com/lxndrblz/anatole -> ../../anatole"
+  [[module.imports]]
+    path = "github.com/lxndrblz/anatole"
+    disable = false
