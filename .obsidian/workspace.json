@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "17dd9e0f7c84228c",
+        "id": "b25500c1e65a9e74",
         "type": "tabs",
         "children": [
           {
-            "id": "a9dd3428f9f3f5ec",
+            "id": "0c012c4c52785cd2",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "config.toml",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "config.toml",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "config.toml",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "config.toml"
-              }
+              "state": {}
             }
           }
         ]
@@ -147,6 +139,8 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "85ac4b4f3b56731f",
-  "lastOpenFiles": []
+  "active": "0c012c4c52785cd2",
+  "lastOpenFiles": [
+    "config.toml"
+  ]
 }
