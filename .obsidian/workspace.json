@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/post/Beau Is Afraid.md",
+                "file": "config.toml",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/post/Beau Is Afraid.md",
+                "file": "config.toml",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/post/Beau Is Afraid.md",
+                "file": "config.toml",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/post/Beau Is Afraid.md"
+                "file": "config.toml"
               }
             }
           }
@@ -150,8 +150,8 @@
   },
   "active": "5adb9f51172e8d51",
   "lastOpenFiles": [
-    "content/post/Test21.md",
     "content/post/Beau Is Afraid.md",
+    "content/post/Test21.md",
     "config.toml",
     "content/post/my-first-post.md",
     "templates/Template for Plugins/Periodic Weekly Template_old 📆.md",

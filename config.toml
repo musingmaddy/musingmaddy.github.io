@@ -42,7 +42,7 @@ numberOfRelatedPosts = 3
 #contactFormReCaptcha = "6Lc-VoUlAAAAAH9oCf5GGtKsICLjyucEJmY-biNP"
 #contactFormAction = ""
 
-#fullPostContent = true
+fullPostContent = true
 #hidesidebar = true
 displayMode = "dark"
 

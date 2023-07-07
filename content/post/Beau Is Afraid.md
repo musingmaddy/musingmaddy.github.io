@@ -2,18 +2,6 @@
 title: "Beau Is Afraid"
 date: 2023-07-07T12:45:21+05:30
 draft: false
-englishTitle: "Beau Is Afraid"
-year: "2023"
-genres: 
-  - "Comedy"
-  - "Drama"
-  - "Horror"
-producer: "Ari Aster"
-duration: "179 min"
-actors: 
-  - "Joaquin Phoenix"
-  - "Patti LuPone"
-  - "Amy Ryan"
 ---
 # Beau Is Afraid / ( 2023 )
 
