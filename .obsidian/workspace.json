@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "config/_default/params.toml",
+                "file": "content/post/Silo/Silo.md",
                 "mode": "source",
                 "source": false
               }
@@ -32,6 +32,14 @@
         "id": "d5b6c2715d433677",
         "type": "tabs",
         "children": [
+          {
+            "id": "951f9ae79ed603aa",
+            "type": "leaf",
+            "state": {
+              "type": "file-tree-view",
+              "state": {}
+            }
+          },
           {
             "id": "f7461552e95dc2e4",
             "type": "leaf",
@@ -85,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "config/_default/params.toml",
+                "file": "content/post/Silo/Silo.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "config/_default/params.toml",
+                "file": "content/post/Silo/Silo.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "config/_default/params.toml"
+                "file": "content/post/Silo/Silo.md"
               }
             }
           }
@@ -145,16 +153,18 @@
       "canvas:Create new canvas": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "daily-notes:Open today's daily note": false
+      "daily-notes:Open today's daily note": false,
+      "file-tree-alternative:File Tree Alternative Plugin": false
     }
   },
   "active": "c32c300737b1cbdb",
   "lastOpenFiles": [
-    "config/_default/module.toml",
+    "config/_default/config.toml",
+    "content/post/Silo/cover.jpg",
     "config/_default/params.toml",
+    "config/_default/module.toml",
     "config/_default/menu.toml",
     "config/_default/markup.toml",
-    "config/_default/config.toml",
     "config/_default/related.toml",
     "config/_default/permalinks.toml",
     "content/post/Silo/Beau Is Afraid.md",
