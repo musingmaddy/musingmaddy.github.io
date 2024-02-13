@@ -1,7 +1,8 @@
 ---
-title: "Beau Is Afraid"
+title: Beau Is Afraid
 date: 2023-07-07T12:45:21+05:30
 draft: false
+image: cover.jpg
 ---
 # Beau Is Afraid / ( 2023 )
 
