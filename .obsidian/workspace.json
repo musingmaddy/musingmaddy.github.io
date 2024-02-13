@@ -11,8 +11,12 @@
             "id": "c32c300737b1cbdb",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "config/_default/params.toml",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "config/_default/params.toml",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "config/_default/params.toml",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "config/_default/params.toml"
+              }
             }
           }
         ],
@@ -126,7 +134,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -141,11 +150,14 @@
   },
   "active": "c32c300737b1cbdb",
   "lastOpenFiles": [
-    "content/post/Silo/Beau Is Afraid.md",
-    "config/_default/params.toml",
     "config/_default/module.toml",
+    "config/_default/params.toml",
     "config/_default/menu.toml",
+    "config/_default/markup.toml",
     "config/_default/config.toml",
+    "config/_default/related.toml",
+    "config/_default/permalinks.toml",
+    "content/post/Silo/Beau Is Afraid.md",
     "content/post/Silo/Silo.md",
     "content/post/Silo/Silo 1.md",
     "resources/_gen/images/avatar_hu6eaa0f247c1e519cec7d707f71b509c8_15733_300x0_resize_q75_box.jpg",
