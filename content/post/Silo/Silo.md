@@ -1,7 +1,8 @@
 ---
-title: "Silo"
-date: 2023-07-05T12:45:21+05:30
-draft: false
+title: Silo Movie
+description: Silo Movie Review
+date: 2023-08-25 00:00:00+0000
+image: cover.jpg
 ---
 # Silo / ( 2023– )
 

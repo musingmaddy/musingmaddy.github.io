@@ -1,0 +1,8 @@
+{
+  "pinned": [
+    "obsidian-git:push",
+    "editor:toggle-source",
+    "theme:use-dark",
+    "theme:use-light"
+  ]
+}

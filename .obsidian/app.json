@@ -1,5 +1,7 @@
 {
   "newFileLocation": "folder",
   "newFileFolderPath": "content/post",
-  "attachmentFolderPath": "./"
+  "attachmentFolderPath": "./",
+  "promptDelete": false,
+  "showUnsupportedFiles": false
 }
