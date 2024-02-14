@@ -11,24 +11,16 @@
             "id": "c32c300737b1cbdb",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "content/post/silo/Silo.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           },
           {
             "id": "7ff0e3211f96ab02",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "content/post/beau-is-afraid/beau-is-afraid.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ],
@@ -46,14 +38,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "951f9ae79ed603aa",
-            "type": "leaf",
-            "state": {
-              "type": "file-tree-view",
-              "state": {}
-            }
-          },
-          {
             "id": "f7461552e95dc2e4",
             "type": "leaf",
             "state": {
@@ -61,6 +45,14 @@
               "state": {
                 "sortOrder": "alphabetical"
               }
+            }
+          },
+          {
+            "id": "951f9ae79ed603aa",
+            "type": "leaf",
+            "state": {
+              "type": "file-tree-view",
+              "state": {}
             }
           },
           {
@@ -86,8 +78,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -107,7 +98,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/post/beau-is-afraid/beau-is-afraid.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,7 +114,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/post/beau-is-afraid/beau-is-afraid.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,9 +135,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "content/post/beau-is-afraid/beau-is-afraid.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -171,15 +158,25 @@
       "file-tree-alternative:File Tree Alternative Plugin": false
     }
   },
-  "active": "7ff0e3211f96ab02",
+  "active": "f7461552e95dc2e4",
   "lastOpenFiles": [
+    "resources/_gen/images/post/beau-is-afraid/cover_hu691ba28469da4c97bc69ddbc074c312f_172372_1024x0_resize_q75_box.jpg",
+    "resources/_gen/images/post/beau-is-afraid/cover_hu691ba28469da4c97bc69ddbc074c312f_172372_480x0_resize_q75_box.jpg",
+    "resources/_gen/images/post/beau-is-afraid/cover_hu691ba28469da4c97bc69ddbc074c312f_172372_1600x0_resize_q75_box.jpg",
+    "resources/_gen/images/post/beau-is-afraid/cover_hu691ba28469da4c97bc69ddbc074c312f_172372_800x0_resize_q75_box.jpg",
+    "content/post/beau-is-afraid/cover.jpg",
+    "content/post/beau-is-afraid/cover_surreal00.jpg",
+    "content/post/all_posts/cover_surreal.jpg",
+    "content/post/all_posts/cover_surreal04.jpg",
+    "content/post/all_posts/cover_surreal05.jpg",
+    "content/post/all_posts/cover_surreal00.jpg",
+    "content/post/all_posts/cover_surreal07.jpg",
+    "content/post/all_posts",
     "content/post/silo/Silo.md",
     "content/post/beau-is-afraid/beau-is-afraid.md",
-    "content/post/beau-is-afraid/cover.jpg",
     "content/post/shortcodes/index.md",
     "content/post/beau-is-afraid",
     "config/_default/config.toml",
-    "content/post/silo/cover.jpg",
     "config/_default/params.toml",
     "config/_default/module.toml",
     "config/_default/menu.toml",
@@ -187,13 +184,6 @@
     "config/_default/related.toml",
     "config/_default/permalinks.toml",
     "content/post/Silo/Silo 1.md",
-    "resources/_gen/images/avatar_hu6eaa0f247c1e519cec7d707f71b509c8_15733_300x0_resize_q75_box.jpg",
-    "assets/img/avatar.jpg",
-    "assets/img/avatar0.jpg",
-    "assets/img/_751912ef-0d2b-45a1-b629-03b755606f5a.jpg",
-    "assets/img/_47ad7208-0138-47cc-9544-d053e77d58ce.jpg",
-    "assets/img/_03d3f0cf-c1fd-4d07-b07f-c74ac0cdbc37.jpg",
-    "content/post/shortcodes/cover.jpg",
     "content/post/silo",
     "content/_index.md",
     "content/post/image-gallery/index.md"
