@@ -11,8 +11,12 @@
             "id": "dc405d40bdd26ba7",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "content/post/againmd/index.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "content/post/againmd/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "content/post/againmd/index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "content/post/againmd/index.md"
+              }
             }
           }
         ],
@@ -140,9 +148,12 @@
   },
   "active": "dc405d40bdd26ba7",
   "lastOpenFiles": [
+    "content/post/againmd",
+    "static/templater/testscript.md",
+    "content/post/againmd/index.md",
+    "static/templater/testscript 1.md",
     "content/post/newertest/index.md",
     "content/post/newertest",
-    "static/templater/testscript.md",
     "content/post/newtest/index.md",
     "content/post/newtest",
     "content/post/anotherone/index.md",
@@ -182,8 +193,6 @@
     "content/templater/daily 2.md",
     "content/templater/dailycustom.md",
     "content/templater/dailycustom2.md",
-    "content/post/all_posts/Untitled 1.md",
-    "content/templater/Gemini Templater Improved.md",
-    "content/templater/deepseek coder.md"
+    "content/post/all_posts/Untitled 1.md"
   ]
 }

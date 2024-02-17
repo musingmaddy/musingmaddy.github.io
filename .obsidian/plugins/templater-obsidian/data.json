@@ -11,7 +11,7 @@
   "auto_jump_to_cursor": false,
   "enable_system_commands": true,
   "shell_path": "",
-  "user_scripts_folder": "content/templater",
+  "user_scripts_folder": "static/templater",
   "enable_folder_templates": true,
   "folder_templates": [
     {
