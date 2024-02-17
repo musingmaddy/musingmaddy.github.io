@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "7660d9ff814c1aed",
+            "id": "fcf2cd86783935f8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "static/templater/testscript.md",
+                "file": "content/post/newtest/index.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "static/templater/testscript.md",
+                "file": "content/post/newtest/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "static/templater/testscript.md",
+                "file": "content/post/newtest/index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "static/templater/testscript.md"
+                "file": "content/post/newtest/index.md"
               }
             }
           }
@@ -146,8 +146,11 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "7660d9ff814c1aed",
+  "active": "fcf2cd86783935f8",
   "lastOpenFiles": [
+    "content/post/newtest",
+    "content/post/newtest/index.md",
+    "static/templater/testscript.md",
     "content/post/anotherone/index.md",
     "public/post/page/3/index.html",
     "public/post/page/3",
@@ -157,7 +160,6 @@
     "public/p/maddyboytitle/cover_color_1.jpg",
     "public/p/hello-world/cover.jpg",
     "public/templater/index.md",
-    "static/templater/testscript.md",
     "content/post/null",
     "public/tags/themes/index.xml",
     "public/tags/markdown/index.xml",
@@ -191,7 +193,6 @@
     "content/post/all_posts/Untitled 1.md",
     "content/templater/Gemini Templater Improved.md",
     "content/templater/deepseek coder.md",
-    "content/post/all_posts/2024-02-15.md",
-    "content/templater/gpt4 daily.md"
+    "content/post/all_posts/2024-02-15.md"
   ]
 }
