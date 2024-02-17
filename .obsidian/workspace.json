@@ -31,6 +31,24 @@
           }
         ],
         "currentTab": 1
+      },
+      {
+        "id": "e51c81dc405608f5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d318c7823fb3aa76",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "content/post/silo/index.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -159,8 +177,10 @@
   },
   "active": "6f14f9b393f14dbd",
   "lastOpenFiles": [
-    "content/post/all_posts/cover_buddha.jpg",
+    "content/post/maddyboy/cover_color_1.jpg",
     "content/post/maddyboy/index.md",
+    "content/post/silo/index.md",
+    "content/post/all_posts/cover_buddha.jpg",
     "content/_index.md",
     "content/post/maddyboy",
     "content/templater/testscript.md",
@@ -192,7 +212,6 @@
     "content/post/MyFilename 5.md",
     "content/post/MyFilename 7.md",
     "MyFilename 1.md",
-    "MyFilename.md",
     "content/templater",
     "resources/_gen/images/post/beau-is-afraid/cover_hu691ba28469da4c97bc69ddbc074c312f_172372_1024x0_resize_q75_box.jpg",
     "resources/_gen/images/post/beau-is-afraid/cover_hu691ba28469da4c97bc69ddbc074c312f_172372_480x0_resize_q75_box.jpg",
@@ -201,8 +220,6 @@
     "content/post/beau-is-afraid/cover.jpg",
     "content/post/beau-is-afraid/cover_surreal00.jpg",
     "content/post/all_posts/cover_surreal.jpg",
-    "content/post/all_posts/cover_surreal04.jpg",
-    "content/post/all_posts/cover_surreal05.jpg",
     "content/post/all_posts",
     "content/post/beau-is-afraid"
   ]
