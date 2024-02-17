@@ -8,7 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "d318c7823fb3aa76",
+            "id": "7660d9ff814c1aed",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "0a743a68390d5047",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "content/post/anotherone/index.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "static/templater/testscript.md",
+                "file": "content/post/anotherone/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "static/templater/testscript.md",
+                "file": "content/post/anotherone/index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "static/templater/testscript.md"
+                "file": "content/post/anotherone/index.md"
               }
             }
           }
@@ -146,15 +159,22 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "f7461552e95dc2e4",
+  "active": "0a743a68390d5047",
   "lastOpenFiles": [
+    "content/post/anotherone",
+    "content/post/anotherone/index.md",
+    "static/templater/testscript.md",
+    "content/post/test/index.md",
+    "content/post/hello-world/index.md",
+    "content/post/test",
+    "content/post/null/index.md",
+    "content/post/null",
     "content/post/maddyboy/index.md",
     "content/post/maddyboy/cover_color_1.jpg",
     "content/post/silo/index.md",
     "content/post/all_posts/cover_buddha.jpg",
     "content/_index.md",
     "content/post/maddyboy",
-    "static/templater/testscript.md",
     "content/post/Untitled.md",
     "content/post/badmad/index.md",
     "content/post/all_posts/cover_white.jpg",
@@ -179,10 +199,6 @@
     "content/templater/gpt4 daily.md",
     "content/post/MyFilename 1.md",
     "content/post/MyFilename 2.md",
-    "content/post/MyFilename 4.md",
-    "content/post/MyFilename 5.md",
-    "content/post/MyFilename 7.md",
-    "MyFilename 1.md",
     "static/templater",
     "resources/_gen/images/post/beau-is-afraid/cover_hu691ba28469da4c97bc69ddbc074c312f_172372_1024x0_resize_q75_box.jpg",
     "resources/_gen/images/post/beau-is-afraid/cover_hu691ba28469da4c97bc69ddbc074c312f_172372_480x0_resize_q75_box.jpg",
@@ -190,8 +206,6 @@
     "resources/_gen/images/post/beau-is-afraid/cover_hu691ba28469da4c97bc69ddbc074c312f_172372_800x0_resize_q75_box.jpg",
     "content/post/beau-is-afraid/cover.jpg",
     "content/post/beau-is-afraid/cover_surreal00.jpg",
-    "content/post/all_posts/cover_surreal.jpg",
-    "content/post/all_posts",
-    "content/post/beau-is-afraid"
+    "content/post/all_posts/cover_surreal.jpg"
   ]
 }

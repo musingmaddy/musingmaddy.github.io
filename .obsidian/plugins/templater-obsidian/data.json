@@ -1,6 +1,6 @@
 {
   "command_timeout": 5,
-  "templates_folder": "content/templater",
+  "templates_folder": "static/templater",
   "templates_pairs": [
     [
       "",
