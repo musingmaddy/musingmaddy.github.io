@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/templater/testscript.md",
+                "file": "static/templater/testscript.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/templater/testscript.md",
+                "file": "static/templater/testscript.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/templater/testscript.md",
+                "file": "static/templater/testscript.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/templater/testscript.md"
+                "file": "static/templater/testscript.md"
               }
             }
           }
@@ -146,7 +146,7 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "d318c7823fb3aa76",
+  "active": "f7461552e95dc2e4",
   "lastOpenFiles": [
     "content/post/maddyboy/index.md",
     "content/post/maddyboy/cover_color_1.jpg",
@@ -154,7 +154,7 @@
     "content/post/all_posts/cover_buddha.jpg",
     "content/_index.md",
     "content/post/maddyboy",
-    "content/templater/testscript.md",
+    "static/templater/testscript.md",
     "content/post/Untitled.md",
     "content/post/badmad/index.md",
     "content/post/all_posts/cover_white.jpg",
@@ -183,7 +183,7 @@
     "content/post/MyFilename 5.md",
     "content/post/MyFilename 7.md",
     "MyFilename 1.md",
-    "content/templater",
+    "static/templater",
     "resources/_gen/images/post/beau-is-afraid/cover_hu691ba28469da4c97bc69ddbc074c312f_172372_1024x0_resize_q75_box.jpg",
     "resources/_gen/images/post/beau-is-afraid/cover_hu691ba28469da4c97bc69ddbc074c312f_172372_480x0_resize_q75_box.jpg",
     "resources/_gen/images/post/beau-is-afraid/cover_hu691ba28469da4c97bc69ddbc074c312f_172372_1600x0_resize_q75_box.jpg",
