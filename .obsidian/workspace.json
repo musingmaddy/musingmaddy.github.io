@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "2bee38cea8afe867",
+        "id": "4787a1ea597892b3",
         "type": "tabs",
         "children": [
           {
-            "id": "dc405d40bdd26ba7",
+            "id": "bfc0e0264c82496e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/post/againmd/index.md",
+                "file": "content/post/green_md/index.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/post/againmd/index.md",
+                "file": "content/post/green_md/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/post/againmd/index.md",
+                "file": "content/post/green_md/index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/post/againmd/index.md"
+                "file": "content/post/green_md/index.md"
               }
             }
           }
@@ -146,12 +146,19 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "dc405d40bdd26ba7",
+  "active": "bfc0e0264c82496e",
   "lastOpenFiles": [
-    "content/post/againmd",
+    "content/post/green_md",
     "static/templater/testscript.md",
+    "content/post/green_md/index.md",
+    "static/templater/testscript_plain.md",
+    "content/post/newewew_mds/index.md",
+    "content/post/newewew_mds",
+    "content/post/newermds/index.md",
+    "content/post/newermds",
+    "static/templater/testscript 1 1.md",
     "content/post/againmd/index.md",
-    "static/templater/testscript 1.md",
+    "content/post/againmd",
     "content/post/newertest/index.md",
     "content/post/newertest",
     "content/post/newtest/index.md",
@@ -166,9 +173,6 @@
     "public/p/hello-world/cover.jpg",
     "public/templater/index.md",
     "content/post/null",
-    "public/tags/themes/index.xml",
-    "public/tags/markdown/index.xml",
-    "public/tags/html/index.xml",
     "public/p/hello-world/cover.c514d916917173a48a42e0114b469961_hud7e36f7e20e71be184458283bdae4646_55974_250x150_fill_q75_box_smart1.jpg",
     "public/p/silo-movie/cover_hu757b279f5a3a3407bcafaeeae2467538_424824_1024x0_resize_q75_box.jpg",
     "public/p/hello-world/cover.c514d916917173a48a42e0114b469961.jpg",
@@ -189,10 +193,6 @@
     "content/post/qwest/qwest.md",
     "content/post/2024 0217 - notemad.md",
     "content/post2024 0217 - badmad.md",
-    "3. Meeting Notes/2024/02-Feb/2024 0217 - badmad.md",
-    "content/templater/daily 2.md",
-    "content/templater/dailycustom.md",
-    "content/templater/dailycustom2.md",
-    "content/post/all_posts/Untitled 1.md"
+    "3. Meeting Notes/2024/02-Feb/2024 0217 - badmad.md"
   ]
 }
