@@ -4,35 +4,6 @@
     "type": "split",
     "children": [
       {
-        "id": "f6dae8322dd40320",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "fbb12538baea5151",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "content/post/all_posts/cover_buddha.jpg"
-              }
-            }
-          },
-          {
-            "id": "6f14f9b393f14dbd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "content/post/maddyboy/index.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ],
-        "currentTab": 1
-      },
-      {
         "id": "e51c81dc405608f5",
         "type": "tabs",
         "children": [
@@ -42,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/post/silo/index.md",
+                "file": "content/templater/testscript.md",
                 "mode": "source",
                 "source": false
               }
@@ -114,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/post/maddyboy/index.md",
+                "file": "content/templater/testscript.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/post/maddyboy/index.md",
+                "file": "content/templater/testscript.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -154,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/post/maddyboy/index.md"
+                "file": "content/templater/testscript.md"
               }
             }
           }
@@ -175,10 +146,10 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "6f14f9b393f14dbd",
+  "active": "d318c7823fb3aa76",
   "lastOpenFiles": [
-    "content/post/maddyboy/cover_color_1.jpg",
     "content/post/maddyboy/index.md",
+    "content/post/maddyboy/cover_color_1.jpg",
     "content/post/silo/index.md",
     "content/post/all_posts/cover_buddha.jpg",
     "content/_index.md",
