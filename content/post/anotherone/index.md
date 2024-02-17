@@ -3,9 +3,10 @@ title: anotherone
 description: ""
 slug: ""
 date: 
-image: cover_color_1.jpg
+image: ../../all_posts/cover_color_1.jpg
 categories:
   - ""
 tags: 
 weight: 1
 ---
+rdfdfdfd

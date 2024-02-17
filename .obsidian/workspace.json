@@ -18,21 +18,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "0a743a68390d5047",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "content/post/anotherone/index.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/post/anotherone/index.md",
+                "file": "static/templater/testscript.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/post/anotherone/index.md",
+                "file": "static/templater/testscript.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/post/anotherone/index.md"
+                "file": "static/templater/testscript.md"
               }
             }
           }
@@ -159,36 +146,45 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "0a743a68390d5047",
+  "active": "7660d9ff814c1aed",
   "lastOpenFiles": [
-    "content/post/anotherone",
     "content/post/anotherone/index.md",
+    "public/post/page/3/index.html",
+    "public/post/page/3",
+    "public/page/3/index.html",
+    "public/page/3",
+    "public/p/image-gallery/1.jpg",
+    "public/p/maddyboytitle/cover_color_1.jpg",
+    "public/p/hello-world/cover.jpg",
+    "public/templater/index.md",
     "static/templater/testscript.md",
+    "content/post/null",
+    "public/tags/themes/index.xml",
+    "public/tags/markdown/index.xml",
+    "public/tags/html/index.xml",
+    "public/tags/example-tag/index.xml",
+    "public/tags/css/index.xml",
+    "public/p/hello-world/cover.c514d916917173a48a42e0114b469961_hud7e36f7e20e71be184458283bdae4646_55974_250x150_fill_q75_box_smart1.jpg",
+    "public/p/silo-movie/cover_hu757b279f5a3a3407bcafaeeae2467538_424824_1024x0_resize_q75_box.jpg",
+    "public/p/hello-world/cover.c514d916917173a48a42e0114b469961.jpg",
+    "public/p/image-gallery/2_hubce42636ecacc1a380b462f3110efcec_37455_1024x0_resize_q75_box.jpg",
+    "public/p/silo-movie/cover_hu757b279f5a3a3407bcafaeeae2467538_424824_480x0_resize_q75_box.jpg",
+    "public/p/hello-world/cover_hud7e36f7e20e71be184458283bdae4646_55974_120x120_fill_q75_box_smart1.jpg",
+    "public/p/image-gallery/2_hubce42636ecacc1a380b462f3110efcec_37455_480x0_resize_q75_box.jpg",
+    "content/post/null/index.md",
     "content/post/test/index.md",
     "content/post/hello-world/index.md",
-    "content/post/test",
     "content/post/null/index.md",
-    "content/post/null",
     "content/post/maddyboy/index.md",
-    "content/post/maddyboy/cover_color_1.jpg",
     "content/post/silo/index.md",
-    "content/post/all_posts/cover_buddha.jpg",
     "content/_index.md",
-    "content/post/maddyboy",
     "content/post/Untitled.md",
     "content/post/badmad/index.md",
-    "content/post/all_posts/cover_white.jpg",
     "content/post/madbad/madbad.md",
-    "content/post/badmad",
-    "content/post/madbad",
     "content/post/qwest/qwest.md",
-    "content/post/qwest",
     "content/post/2024 0217 - notemad.md",
     "content/post2024 0217 - badmad.md",
     "3. Meeting Notes/2024/02-Feb/2024 0217 - badmad.md",
-    "3. Meeting Notes/2024/02-Feb",
-    "3. Meeting Notes/2024",
-    "3. Meeting Notes",
     "content/templater/daily 2.md",
     "content/templater/dailycustom.md",
     "content/templater/dailycustom2.md",
@@ -196,16 +192,6 @@
     "content/templater/Gemini Templater Improved.md",
     "content/templater/deepseek coder.md",
     "content/post/all_posts/2024-02-15.md",
-    "content/templater/gpt4 daily.md",
-    "content/post/MyFilename 1.md",
-    "content/post/MyFilename 2.md",
-    "static/templater",
-    "resources/_gen/images/post/beau-is-afraid/cover_hu691ba28469da4c97bc69ddbc074c312f_172372_1024x0_resize_q75_box.jpg",
-    "resources/_gen/images/post/beau-is-afraid/cover_hu691ba28469da4c97bc69ddbc074c312f_172372_480x0_resize_q75_box.jpg",
-    "resources/_gen/images/post/beau-is-afraid/cover_hu691ba28469da4c97bc69ddbc074c312f_172372_1600x0_resize_q75_box.jpg",
-    "resources/_gen/images/post/beau-is-afraid/cover_hu691ba28469da4c97bc69ddbc074c312f_172372_800x0_resize_q75_box.jpg",
-    "content/post/beau-is-afraid/cover.jpg",
-    "content/post/beau-is-afraid/cover_surreal00.jpg",
-    "content/post/all_posts/cover_surreal.jpg"
+    "content/templater/gpt4 daily.md"
   ]
 }
