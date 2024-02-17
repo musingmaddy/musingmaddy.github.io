@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "e51c81dc405608f5",
+        "id": "2bee38cea8afe867",
         "type": "tabs",
         "children": [
           {
-            "id": "fcf2cd86783935f8",
+            "id": "dc405d40bdd26ba7",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "content/post/newtest/index.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/post/newtest/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/post/newtest/index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "content/post/newtest/index.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -146,11 +138,13 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "fcf2cd86783935f8",
+  "active": "dc405d40bdd26ba7",
   "lastOpenFiles": [
-    "content/post/newtest",
-    "content/post/newtest/index.md",
+    "content/post/newertest/index.md",
+    "content/post/newertest",
     "static/templater/testscript.md",
+    "content/post/newtest/index.md",
+    "content/post/newtest",
     "content/post/anotherone/index.md",
     "public/post/page/3/index.html",
     "public/post/page/3",
@@ -164,8 +158,6 @@
     "public/tags/themes/index.xml",
     "public/tags/markdown/index.xml",
     "public/tags/html/index.xml",
-    "public/tags/example-tag/index.xml",
-    "public/tags/css/index.xml",
     "public/p/hello-world/cover.c514d916917173a48a42e0114b469961_hud7e36f7e20e71be184458283bdae4646_55974_250x150_fill_q75_box_smart1.jpg",
     "public/p/silo-movie/cover_hu757b279f5a3a3407bcafaeeae2467538_424824_1024x0_resize_q75_box.jpg",
     "public/p/hello-world/cover.c514d916917173a48a42e0114b469961.jpg",
@@ -192,7 +184,6 @@
     "content/templater/dailycustom2.md",
     "content/post/all_posts/Untitled 1.md",
     "content/templater/Gemini Templater Improved.md",
-    "content/templater/deepseek coder.md",
-    "content/post/all_posts/2024-02-15.md"
+    "content/templater/deepseek coder.md"
   ]
 }

@@ -1,13 +1,11 @@
 ---
-title: newtest
+title: newertest
 description: ""
 slug: ""
-date: ""
 image: ""
-categories: ""
 tags: ""
 weight: 1
 ---
-# Hi
+# newertest
 
 Hello World !
