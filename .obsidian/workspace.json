@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "372dcaf5070587ae",
+        "id": "f1807e5f477029f4",
         "type": "tabs",
         "children": [
           {
-            "id": "207246d24c315be1",
+            "id": "e28e24d5ae92d631",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "content/post/tagandcategs/index.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/post/tagandcategs/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/post/tagandcategs/index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "content/post/tagandcategs/index.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -146,11 +138,13 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "207246d24c315be1",
+  "active": "e28e24d5ae92d631",
   "lastOpenFiles": [
+    "content/post/starthere/index.md",
+    "content/post/starthere",
+    "content/post/tagandcategs/index.md",
     "content/post/tagandcategs",
     "static/templater/temp.md",
-    "content/post/tagandcategs/index.md",
     "static/templater/createfolder+index.md",
     "content/post/fatandhappy/index.md",
     "content/post/fatandhappy",
@@ -177,9 +171,7 @@
     "content/post/cover_brown/index.md",
     "content/post/123/index.md",
     "content/post/123",
-    "content/post/cover_brown",
     "content/post/check1234/cover.jpg",
-    "content/post/check1234",
     "content/post/check123/index.md",
     "content/post/covercheck/index.md",
     "content/post/newtest25/index.md",
@@ -192,7 +184,6 @@
     "static/covers/cover_surreal09.jpg",
     "static/covers/cover_white.jpg",
     "static/covers/cover_tech.jpg",
-    "content/post/markdown-syntax/index.md",
-    "content/post/25thfeb/index.md"
+    "content/post/markdown-syntax/index.md"
   ]
 }
