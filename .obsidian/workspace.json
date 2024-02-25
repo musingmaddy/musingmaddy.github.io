@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "static/templater/createfolder+index.md",
+                "file": "content/post/budapestmaddy/index.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "static/templater/createfolder+index.md",
+                "file": "content/post/budapestmaddy/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "static/templater/createfolder+index.md",
+                "file": "content/post/budapestmaddy/index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "static/templater/createfolder+index.md"
+                "file": "content/post/budapestmaddy/index.md"
               }
             }
           }
@@ -146,10 +146,12 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "f7461552e95dc2e4",
+  "active": "207246d24c315be1",
   "lastOpenFiles": [
-    "content/post/new122/index.md",
+    "content/post/budapestmaddy",
     "static/templater/createfolder+index.md",
+    "content/post/budapestmaddy/index.md",
+    "content/post/new122/index.md",
     "content/post/new122",
     "static/templater/createfolder+index_1.md",
     "content/post/silo/index.md",
@@ -191,7 +193,6 @@
     "content/post/25thfeb/index.md",
     "static/templater/testscript_plain.md",
     "static/templater/testscript 1 1.md",
-    "content/post/newewew_mds/index.md",
-    "content/post/newermds/index.md"
+    "content/post/newewew_mds/index.md"
   ]
 }
