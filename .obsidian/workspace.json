@@ -8,26 +8,14 @@
         "type": "tabs",
         "children": [
           {
-            "id": "175ec8d867bba920",
+            "id": "207246d24c315be1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/post/test123456789/index.md",
+                "file": "content/post/new122/index.md",
                 "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "48cb420fa81ed3ca",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "content/post/silo/index.md",
-                "mode": "source",
-                "source": true
+                "source": false
               }
             }
           }
@@ -97,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/post/test123456789/index.md",
+                "file": "content/post/new122/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/post/test123456789/index.md",
+                "file": "content/post/new122/index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/post/test123456789/index.md"
+                "file": "content/post/new122/index.md"
               }
             }
           }
@@ -158,13 +146,17 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "175ec8d867bba920",
+  "active": "207246d24c315be1",
   "lastOpenFiles": [
-    "content/post/test123456789",
+    "content/post/new122",
     "static/templater/createfolder+index.md",
-    "content/post/test123456789/index.md",
-    "content/post/steer123/index.md",
+    "content/post/new122/index.md",
+    "static/templater/createfolder+index_1.md",
     "content/post/silo/index.md",
+    "content/post/beau-is-afraid/index.md",
+    "content/post/test123456789/index.md",
+    "content/post/test123456789",
+    "content/post/steer123/index.md",
     "content/post/stark345/index.md",
     "content/post/hello-world/cover.jpg",
     "content/_index.md",
@@ -172,7 +164,6 @@
     "content/post/steer123",
     "static/covers/cover.jpg",
     "static/covers/cover_birdeye.jpg",
-    "static/templater/createfolder+index_1.md",
     "content/post/new1/index.md",
     "content/post/new1",
     "content/post/check1234/index.md",
@@ -188,7 +179,6 @@
     "content/post/covercheck",
     "static/covers",
     "content/post/newtest25/index.md",
-    "content/post/newtest25",
     "content/post/green_md/index.md",
     "content/post/hello-world/index.md",
     "content/post/26thfeb/index.md",
@@ -200,11 +190,9 @@
     "static/covers/cover_tech.jpg",
     "content/post/markdown-syntax/index.md",
     "content/post/25thfeb/index.md",
-    "content/post/beau-is-afraid/index.md",
     "static/templater/testscript_plain.md",
     "static/templater/testscript 1 1.md",
     "content/post/newewew_mds/index.md",
-    "content/post/newermds/index.md",
-    "content/post/againmd/index.md"
+    "content/post/newermds/index.md"
   ]
 }
