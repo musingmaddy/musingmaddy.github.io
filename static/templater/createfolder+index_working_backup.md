@@ -11,7 +11,7 @@ let description = titleName+' descriptions'
 let date =  tp.date.now()
 let categories = "categories"
 let tags = "tags"
-let image = `cover.jpg`
+let image = "cover.jpg"
 let weight = "1"
 setTimeout(() => { app.fileManager.processFrontMatter(tp.config.target_file, frontmatter =>{ frontmatter["title"] = title;
 frontmatter["date"] = date;

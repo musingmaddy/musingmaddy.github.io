@@ -18,21 +18,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "e74a285bc54579ff",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "content/post/cover_brown/index.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/post/cover_brown/index.md",
+                "file": "content/post/check1234/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/post/cover_brown/index.md",
+                "file": "content/post/check1234/index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/post/cover_brown/index.md"
+                "file": "content/post/check1234/index.md"
               }
             }
           }
@@ -159,13 +146,15 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "e74a285bc54579ff",
+  "active": "5d4de8595f10ee56",
   "lastOpenFiles": [
-    "content/post/cover_brown",
-    "static/templater/createfolder+index.md",
     "content/post/cover_brown/index.md",
-    "static/templater/createfolder+index_working_backup.md",
+    "content/post/123/index.md",
+    "content/post/123",
     "content/post/check1234/index.md",
+    "static/templater/createfolder+index_working_backup.md",
+    "static/templater/createfolder+index.md",
+    "content/post/cover_brown",
     "content/post/check1234/cover.jpg",
     "content/post/check1234",
     "content/post/check123/index.md",
@@ -197,15 +186,12 @@
     "content/post/25thfeb",
     "content/post/green_md",
     "content/post/newewew_mds/index.md",
-    "content/post/newewew_mds",
     "content/post/newermds/index.md",
-    "content/post/newermds",
     "content/post/againmd/index.md",
     "content/post/newertest/index.md",
     "content/post/newtest/index.md",
     "content/post/anotherone/index.md",
     "public/templater/index.md",
-    "content/post/null/index.md",
-    "content/post/test/index.md"
+    "content/post/null/index.md"
   ]
 }
