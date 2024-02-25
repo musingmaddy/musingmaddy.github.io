@@ -8,31 +8,32 @@
         "type": "tabs",
         "children": [
           {
-            "id": "6e665c2f97dd6b8e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "content/post/hello-world/index.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "25402336a260e76e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/post/new slug in the title/index.md",
+                "file": "static/templater/create_folder_file.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
+      },
+      {
+        "id": "d7b71777cfe46cda",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c0708576b6921bee",
+            "type": "leaf",
+            "state": {
+              "type": "hugo-preview-view",
+              "state": {}
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/post/new slug in the title/index.md",
+                "file": "static/templater/create_folder_file.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/post/new slug in the title/index.md",
+                "file": "static/templater/create_folder_file.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/post/new slug in the title/index.md"
+                "file": "static/templater/create_folder_file.md"
               }
             }
           }
@@ -159,39 +160,39 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "25402336a260e76e",
+  "active": "f7461552e95dc2e4",
   "lastOpenFiles": [
-    "content/post/new slug in the title",
     "content/post/slugadd/index.md",
     "content/post/new slug in the title/index.md",
+    "content/post/peakok/index.md",
+    "content/post/markdown-syntax/index.md",
+    "resources/_gen/images/post/venturemaddy/cover_hu404bf7a9936fc822c1127ef84f0caa8e_419964_1600x0_resize_q75_box.jpg",
+    "resources/_gen/images/post/peakok/cover_hue509682d9a9fbcac7480c08a12b55068_1182243_1600x0_resize_q75_box.jpg",
+    "resources/_gen/images/post/nonprofitmaddy/cover_hu6d50f03b0922e5c7cc5036e9ea59efbd_245012_120x120_fill_q75_box_smart1.jpg",
+    "resources/_gen/images/post/nonprofitmaddy/cover_hu6d50f03b0922e5c7cc5036e9ea59efbd_245012_1600x0_resize_q75_box.jpg",
+    "resources/_gen/images/post/peakok/cover_hue509682d9a9fbcac7480c08a12b55068_1182243_120x120_fill_q75_box_smart1.jpg",
+    "resources/_gen/images/post/bingimg/cover_hu54210b1028b43a597726849f6a3f2f24_56827_120x120_fill_q75_box_smart1.jpg",
+    "resources/_gen/images/post/venturemaddy/cover_hu404bf7a9936fc822c1127ef84f0caa8e_419964_800x0_resize_q75_box.jpg",
+    "resources/_gen/images/post/peakok/cover_hue509682d9a9fbcac7480c08a12b55068_1182243_800x0_resize_q75_box.jpg",
+    "resources/_gen/images/post/peakok",
+    "resources/_gen/images/post/bingimg/cover_hu54210b1028b43a597726849f6a3f2f24_56827_1600x0_resize_q75_box.jpg",
+    "resources/_gen/images/post/nonprofitmaddy/cover_hu6d50f03b0922e5c7cc5036e9ea59efbd_245012_800x0_resize_q75_box.jpg",
+    "resources/_gen/images/post/nonprofitmaddy",
+    "resources/_gen/images/post/venturemaddy",
+    "resources/_gen/images/post/bingimg",
+    "content/post/new slug in the title",
     "content/post/slugadd",
     "static/templater/create_folder_file.md",
     "static/templater/createfolder+index.md",
     "content/post/hello-world/index.md",
-    "content/post/peakok/index.md",
-    "content/post/peakok/cover.jpg",
-    "content/post/peakok/cover1.jpg",
     "content/post/peakok",
-    "content/post/venturemaddy/cover.jpg",
-    "content/post/bingimg/cover.jpg",
-    "content/post/bingimg/cover2.jpg",
-    "content/post/nonprofitmaddy/cover.jpg",
-    "content/post/nonprofitmaddy/cover1.jpg",
-    "content/post/nonprofitmaddy/cover2.jpg",
-    "content/post/venturemaddy/cover1.jpg",
-    "content/post/venturemaddy/cover2.jpg",
     "static/covers/New folder",
     "static/cover",
     "static/covers",
-    "static/cove",
-    "static/covers - Copy",
     "content/post/bingimg/index.md",
     "content/post/venturemaddy/index.md",
     "content/post/nonprofitmaddy/index.md",
-    "content/post/venturemaddy",
-    "content/post/nonprofitmaddy",
     "content/post/beau-is-afraid/index.md",
-    "content/post/bingimg",
     "static/templater/temp.md",
     "content/post/covertest3/index.md",
     "content/post/covertest2/index.md",
