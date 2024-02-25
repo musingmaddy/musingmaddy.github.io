@@ -3,6 +3,7 @@ let qcFileName = await tp.system.prompt("Note Title")
 let titleName = qcFileName
 await tp.file.rename('index')
 let baseFolder = "/content/post/"
+let staticFolder = "/static/covers"
 let newFolder = `${baseFolder}/${titleName}/` 
 await tp.file.move(newFolder + `index`);
 let title = titleName
@@ -10,7 +11,7 @@ let description = titleName+' descriptions'
 let date =  tp.date.now()
 let categories = "categories"
 let tags = "tags"
-let image = "./cover.jpg"
+let image = `${staticFolder}/cover_food.jpg`
 let weight = "1"
 setTimeout(() => { app.fileManager.processFrontMatter(tp.config.target_file, frontmatter =>{ frontmatter["title"] = title;
 frontmatter["date"] = date;
