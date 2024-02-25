@@ -3,5 +3,6 @@
   "newFileFolderPath": "content/post",
   "attachmentFolderPath": "./",
   "promptDelete": false,
-  "showUnsupportedFiles": false
+  "showUnsupportedFiles": false,
+  "alwaysUpdateLinks": true
 }

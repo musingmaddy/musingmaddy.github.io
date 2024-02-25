@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "5d4de8595f10ee56",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "content/post/check1234/index.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -146,11 +159,12 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "27f9968b36decd63",
+  "active": "5d4de8595f10ee56",
   "lastOpenFiles": [
-    "content/post/check1234",
+    "content/post/check1234/cover.jpg",
     "static/templater/createfolder+index.md",
     "content/post/check1234/index.md",
+    "content/post/check1234",
     "content/post/check123/index.md",
     "content/post/check123",
     "content/post/covercheck/index.md",
@@ -161,7 +175,6 @@
     "content/_index.md",
     "content/post/newtest25",
     "content/post/green_md/index.md",
-    "content/post/cover.jpg",
     "content/post/hello-world/index.md",
     "content/post/26thfeb/index.md",
     "static/covers/cover_surreal02.jpg",
@@ -185,7 +198,6 @@
     "content/post/newermds/index.md",
     "content/post/newermds",
     "content/post/againmd/index.md",
-    "content/post/againmd",
     "content/post/newertest/index.md",
     "content/post/newtest/index.md",
     "content/post/anotherone/index.md",

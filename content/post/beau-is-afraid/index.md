@@ -30,7 +30,7 @@ weight: 1 # You can add weight to some posts to override the default sorting (da
 
 - Loved this movie.
 - All most all anxieties are covered in this movie.
-  ![cover](cover.jpg)
+  ![cover](content/post/beau-is-afraid/cover.jpg)
 
 ---
 
