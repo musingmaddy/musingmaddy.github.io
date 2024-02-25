@@ -11,9 +11,11 @@
             "id": "4c4f7b67a893f7e2",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "static/covers/cover.jpg"
+                "file": "content/post/bingimg/index.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -83,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "static/covers/cover.jpg",
+                "file": "content/post/bingimg/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "static/covers/cover.jpg",
+                "file": "content/post/bingimg/index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "static/covers/cover.jpg"
+                "file": "content/post/bingimg/index.md"
               }
             }
           }
@@ -146,6 +148,7 @@
   },
   "active": "4c4f7b67a893f7e2",
   "lastOpenFiles": [
+    "static/covers/cover.jpg",
     "content/post/bingimg/cover.jpeg",
     "content/post/bingimg/1024x686 wide dimension photo of a algo trading concept.jpeg",
     "content/post/bingimg/index.md",
@@ -155,7 +158,6 @@
     "content/post/covertest3/index.md",
     "content/post/covertest2/index.md",
     "content/post/covertest/index.md",
-    "static/covers/cover.jpg",
     "content/post/covertest4/index.md",
     "content/post/covertest4",
     "content/post/covertest3",
