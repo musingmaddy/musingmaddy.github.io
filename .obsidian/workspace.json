@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "72284d9754b757fe",
+        "id": "372dcaf5070587ae",
         "type": "tabs",
         "children": [
           {
-            "id": "5dd4a145a350af0e",
+            "id": "175ec8d867bba920",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "static/templater/createfolder+index.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "static/templater/createfolder+index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "static/templater/createfolder+index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "static/templater/createfolder+index.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -146,10 +138,17 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "5dd4a145a350af0e",
+  "active": "175ec8d867bba920",
   "lastOpenFiles": [
-    "content/post/new1/index.md",
+    "content/post/stark345/index.md",
+    "content/post/stark345",
+    "content/post/steer123/index.md",
+    "content/post/steer123",
+    "static/covers/cover.jpg",
+    "static/covers/cover_birdeye.jpg",
     "static/templater/createfolder+index.md",
+    "static/templater/createfolder+index_1.md",
+    "content/post/new1/index.md",
     "content/post/new1",
     "content/post/check1234/index.md",
     "content/post/cover_brown/index.md",
@@ -176,22 +175,15 @@
     "static/covers/cover_surreal09.jpg",
     "static/covers/cover_white.jpg",
     "static/covers/cover_tech.jpg",
-    "static/covers/cover_surreal11.jpg",
-    "static/covers/cover_surreal10.jpg",
     "content/post/markdown-syntax/index.md",
-    "content/post/26thfeb",
     "content/post/25thfeb/index.md",
     "content/post/beau-is-afraid/index.md",
     "static/templater/testscript_plain.md",
     "static/templater/testscript 1 1.md",
-    "content/post/25thfeb",
     "content/post/newewew_mds/index.md",
     "content/post/newermds/index.md",
     "content/post/againmd/index.md",
     "content/post/newertest/index.md",
-    "content/post/newtest/index.md",
-    "content/post/anotherone/index.md",
-    "public/templater/index.md",
-    "content/post/null/index.md"
+    "content/post/newtest/index.md"
   ]
 }
