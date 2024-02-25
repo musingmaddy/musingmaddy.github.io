@@ -11,7 +11,7 @@ let description = titleName+' descriptions'
 let date = tp.date.now()
 let categories = "categories"
 let tags = "tags"
-let image = `${staticFolder}/cover.jpg`  // Use static folder path
+let image = "cover.jpg"  // Use static folder path
 let weight = "1"
 setTimeout(() => { app.fileManager.processFrontMatter(tp.config.target_file, frontmatter =>{
     frontmatter["title"] = title;
