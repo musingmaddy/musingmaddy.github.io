@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/post/slugadd/index.md",
+                "file": "content/post/new slug in the title/index.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/post/slugadd/index.md",
+                "file": "content/post/new slug in the title/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/post/slugadd/index.md",
+                "file": "content/post/new slug in the title/index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/post/slugadd/index.md"
+                "file": "content/post/new slug in the title/index.md"
               }
             }
           }
@@ -161,9 +161,11 @@
   },
   "active": "25402336a260e76e",
   "lastOpenFiles": [
+    "content/post/new slug in the title",
+    "content/post/slugadd/index.md",
+    "content/post/new slug in the title/index.md",
     "content/post/slugadd",
     "static/templater/create_folder_file.md",
-    "content/post/slugadd/index.md",
     "static/templater/createfolder+index.md",
     "content/post/hello-world/index.md",
     "content/post/peakok/index.md",
@@ -195,7 +197,6 @@
     "content/post/covertest2/index.md",
     "content/post/covertest/index.md",
     "content/post/covertest4/index.md",
-    "content/post/covertest4",
     "content/_index.md",
     "content/post/new23/new23.md.md",
     "content/post/new/new.md.md",
@@ -205,7 +206,6 @@
     "content/post/fatandhappy/index.md",
     "content/post/budapestmaddy/index.md",
     "content/post/new122/index.md",
-    "static/templater/createfolder+index_1.md",
-    "content/post/silo/index.md"
+    "static/templater/createfolder+index_1.md"
   ]
 }
