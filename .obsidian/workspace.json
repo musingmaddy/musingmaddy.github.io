@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "2f17fa649c8a57b9",
+        "id": "72284d9754b757fe",
         "type": "tabs",
         "children": [
           {
-            "id": "5d4de8595f10ee56",
+            "id": "5dd4a145a350af0e",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "content/post/check1234/index.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/post/check1234/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/post/check1234/index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "content/post/check1234/index.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -146,14 +138,15 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "5d4de8595f10ee56",
+  "active": "f7461552e95dc2e4",
   "lastOpenFiles": [
+    "content/post/new1/index.md",
+    "content/post/new1",
+    "static/templater/createfolder+index.md",
+    "content/post/check1234/index.md",
     "content/post/cover_brown/index.md",
     "content/post/123/index.md",
     "content/post/123",
-    "content/post/check1234/index.md",
-    "static/templater/createfolder+index_working_backup.md",
-    "static/templater/createfolder+index.md",
     "content/post/cover_brown",
     "content/post/check1234/cover.jpg",
     "content/post/check1234",
@@ -184,7 +177,6 @@
     "static/templater/testscript_plain.md",
     "static/templater/testscript 1 1.md",
     "content/post/25thfeb",
-    "content/post/green_md",
     "content/post/newewew_mds/index.md",
     "content/post/newermds/index.md",
     "content/post/againmd/index.md",
