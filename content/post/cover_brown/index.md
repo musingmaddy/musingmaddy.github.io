@@ -7,6 +7,6 @@ categories: categories
 image: /static/covers/cover_brown.jpg
 weight: 1
 ---
-# Brown COver
+# Brown Cover
 
-Do You see Brown COver
+Do You see Brown Cover
