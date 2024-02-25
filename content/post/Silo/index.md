@@ -22,7 +22,7 @@ image: cover.jpg
 ---
 
 - Good Series.
-  ![cover](cover.jpg)
+  ![cover](content/post/silo/cover.jpg)
 
 ---
 

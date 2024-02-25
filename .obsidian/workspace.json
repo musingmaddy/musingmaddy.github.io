@@ -11,9 +11,11 @@
             "id": "4c4f7b67a893f7e2",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "content/post/bingimg/cover.jpeg"
+                "file": "content/post/bingimg/index.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -67,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 205.5
+    "width": 227.5
   },
   "right": {
     "id": "27f1a9b62bf2aec5",
@@ -83,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/post/bingimg/cover.jpeg",
+                "file": "content/post/bingimg/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/post/bingimg/cover.jpeg",
+                "file": "content/post/bingimg/index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/post/bingimg/cover.jpeg"
+                "file": "content/post/bingimg/index.md"
               }
             }
           }
@@ -146,9 +148,12 @@
   },
   "active": "4c4f7b67a893f7e2",
   "lastOpenFiles": [
+    "content/post/bingimg/cover.jpg",
     "content/post/bingimg/index.md",
-    "static/covers/cover.jpg",
+    "static/covers/cover_surreal08.jpg",
+    "static/covers/cover_surreal09.jpg",
     "content/post/bingimg/cover.jpeg",
+    "static/covers/cover.jpg",
     "content/post/bingimg/1024x686 wide dimension photo of a algo trading concept.jpeg",
     "content/post/bingimg",
     "static/templater/temp2.md",
@@ -187,9 +192,6 @@
     "content/post/new1/index.md",
     "content/post/check1234/index.md",
     "content/post/check1234/cover.jpg",
-    "static/covers/cover_surreal02.jpg",
-    "static/covers/cover_surreal03.jpg",
-    "static/covers/cover_surreal07.jpg",
-    "static/covers/cover_surreal09.jpg"
+    "static/covers/cover_surreal02.jpg"
   ]
 }
