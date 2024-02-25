@@ -11,8 +11,24 @@
             "id": "175ec8d867bba920",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "content/post/steer123/index.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "48cb420fa81ed3ca",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "content/post/silo/index.md",
+                "mode": "source",
+                "source": true
+              }
             }
           }
         ]
@@ -81,6 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "content/post/steer123/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "content/post/steer123/index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +136,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "content/post/steer123/index.md"
+              }
             }
           }
         ],
@@ -140,7 +160,10 @@
   },
   "active": "175ec8d867bba920",
   "lastOpenFiles": [
+    "content/post/silo/index.md",
     "content/post/stark345/index.md",
+    "content/post/hello-world/cover.jpg",
+    "content/_index.md",
     "content/post/stark345",
     "content/post/steer123/index.md",
     "content/post/steer123",
@@ -163,8 +186,6 @@
     "content/post/covercheck",
     "static/covers",
     "content/post/newtest25/index.md",
-    "content/post/hello-world/cover.jpg",
-    "content/_index.md",
     "content/post/newtest25",
     "content/post/green_md/index.md",
     "content/post/hello-world/index.md",
