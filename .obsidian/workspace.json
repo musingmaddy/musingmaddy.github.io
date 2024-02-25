@@ -11,11 +11,9 @@
             "id": "4c4f7b67a893f7e2",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "content/post/bingimg/index.md",
-                "mode": "source",
-                "source": false
+                "file": "static/covers/cover.jpg"
               }
             }
           }
@@ -85,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/post/bingimg/index.md",
+                "file": "static/covers/cover.jpg",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +100,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/post/bingimg/index.md",
+                "file": "static/covers/cover.jpg",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +123,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/post/bingimg/index.md"
+                "file": "static/covers/cover.jpg"
               }
             }
           }
@@ -146,11 +144,12 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "4c4f7b67a893f7e2",
+  "active": "f7461552e95dc2e4",
   "lastOpenFiles": [
+    "content/post/bingimg/1024x686 wide dimension photo of a algo trading concept.jpeg",
+    "content/post/bingimg/index.md",
     "content/post/bingimg",
     "static/templater/temp2.md",
-    "content/post/bingimg/index.md",
     "static/templater/temp.md",
     "content/post/covertest3/index.md",
     "content/post/covertest2/index.md",
@@ -174,7 +173,6 @@
     "content/post/tagandcategs",
     "static/templater/createfolder+index.md",
     "content/post/fatandhappy/index.md",
-    "content/post/fatandhappy",
     "content/post/budapestmaddy/index.md",
     "content/post/new122/index.md",
     "static/templater/createfolder+index_1.md",
