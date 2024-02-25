@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/post/budapestmaddy/index.md",
+                "file": "content/post/tagandcategs/index.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/post/budapestmaddy/index.md",
+                "file": "content/post/tagandcategs/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/post/budapestmaddy/index.md",
+                "file": "content/post/tagandcategs/index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/post/budapestmaddy/index.md"
+                "file": "content/post/tagandcategs/index.md"
               }
             }
           }
@@ -148,9 +148,14 @@
   },
   "active": "207246d24c315be1",
   "lastOpenFiles": [
-    "content/post/budapestmaddy",
+    "content/post/tagandcategs",
+    "static/templater/temp.md",
+    "content/post/tagandcategs/index.md",
     "static/templater/createfolder+index.md",
+    "content/post/fatandhappy/index.md",
+    "content/post/fatandhappy",
     "content/post/budapestmaddy/index.md",
+    "content/post/budapestmaddy",
     "content/post/new122/index.md",
     "content/post/new122",
     "static/templater/createfolder+index_1.md",
@@ -176,9 +181,7 @@
     "content/post/check1234/cover.jpg",
     "content/post/check1234",
     "content/post/check123/index.md",
-    "content/post/check123",
     "content/post/covercheck/index.md",
-    "content/post/covercheck",
     "content/post/newtest25/index.md",
     "content/post/green_md/index.md",
     "content/post/hello-world/index.md",
@@ -190,9 +193,6 @@
     "static/covers/cover_white.jpg",
     "static/covers/cover_tech.jpg",
     "content/post/markdown-syntax/index.md",
-    "content/post/25thfeb/index.md",
-    "static/templater/testscript_plain.md",
-    "static/templater/testscript 1 1.md",
-    "content/post/newewew_mds/index.md"
+    "content/post/25thfeb/index.md"
   ]
 }

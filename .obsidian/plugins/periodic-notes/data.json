@@ -4,7 +4,7 @@
   "hasMigratedWeeklyNoteSettings": false,
   "daily": {
     "format": "",
-    "template": "static/templater/createfolder+index.md",
+    "template": "static/templater/temp.md",
     "folder": "content/post",
     "enabled": true
   },
