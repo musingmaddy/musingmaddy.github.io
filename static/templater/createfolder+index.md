@@ -6,13 +6,17 @@ let baseFolder = "/content/post/"
 let newFolder = `${baseFolder}/${titleName}/` 
 await tp.file.move(newFolder + `index`);
 let title = titleName
-let description = ""
-let date = ""
-let image = ""
+let description = titleName+' descriptions'
+let date =  tp.date.now()
+let categories = "categories"
+let tags = "tags"
+let image = "./cover.jpg"
 let weight = "1"
-setTimeout(() => { app.fileManager.processFrontMatter(tp.config.target_file, frontmatter =>{ frontmatter["title"] = title; 
+setTimeout(() => { app.fileManager.processFrontMatter(tp.config.target_file, frontmatter =>{ frontmatter["title"] = title;
+frontmatter["date"] = date;
 frontmatter["description"] = description;
-frontmatter["date"] = date; 
+frontmatter["tags"] = tags;
+frontmatter["categories"] = categories;
 frontmatter["image"] = image; 
 frontmatter["weight"] = 1; 
 }) }, 200)

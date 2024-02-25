@@ -4,31 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "4787a1ea597892b3",
+        "id": "2f17fa649c8a57b9",
         "type": "tabs",
         "children": [
           {
-            "id": "d3ff2d66faedeb4f",
+            "id": "5057b9a4bc09f982",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "content/post/25thfeb/index.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "12b24d23aa21cbb5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "content/post/beau-is-afraid/index.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -81,7 +65,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 205.5
   },
   "right": {
     "id": "27f1a9b62bf2aec5",
@@ -97,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/post/25thfeb/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/post/25thfeb/index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "content/post/25thfeb/index.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -158,20 +138,37 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "d3ff2d66faedeb4f",
+  "active": "f7461552e95dc2e4",
   "lastOpenFiles": [
-    "content/post/beau-is-afraid/index.md",
-    "content/post/25thfeb/index.md",
-    "content/post/25thfeb",
-    "static/templater/testscript.md",
+    "content/post/hello-world/cover.jpg",
+    "content/_index.md",
+    "content/post/newtest25/index.md",
+    "content/post/newtest25",
+    "static/templater/createfolder+index.md",
     "content/post/green_md/index.md",
-    "content/post/green_md",
+    "content/post/cover.jpg",
+    "content/post/hello-world/index.md",
+    "content/post/26thfeb/index.md",
+    "content/post/all_posts/cover_surreal02.jpg",
+    "content/post/all_posts/cover_surreal03.jpg",
+    "content/post/all_posts/cover_surreal07.jpg",
+    "content/post/all_posts/cover_surreal09.jpg",
+    "content/post/all_posts/cover_white.jpg",
+    "content/post/all_posts/cover_tech.jpg",
+    "content/post/all_posts/cover_surreal11.jpg",
+    "content/post/all_posts/cover_surreal10.jpg",
+    "content/post/markdown-syntax/index.md",
+    "content/post/26thfeb",
+    "content/post/25thfeb/index.md",
+    "content/post/beau-is-afraid/index.md",
     "static/templater/testscript_plain.md",
+    "static/templater/testscript 1 1.md",
+    "content/post/25thfeb",
+    "content/post/green_md",
     "content/post/newewew_mds/index.md",
     "content/post/newewew_mds",
     "content/post/newermds/index.md",
     "content/post/newermds",
-    "static/templater/testscript 1 1.md",
     "content/post/againmd/index.md",
     "content/post/againmd",
     "content/post/newertest/index.md",
@@ -180,31 +177,13 @@
     "content/post/newtest",
     "content/post/anotherone/index.md",
     "public/post/page/3/index.html",
-    "public/post/page/3",
-    "public/page/3/index.html",
-    "public/p/image-gallery/1.jpg",
-    "public/p/maddyboytitle/cover_color_1.jpg",
-    "public/p/hello-world/cover.jpg",
     "public/templater/index.md",
-    "public/p/hello-world/cover.c514d916917173a48a42e0114b469961_hud7e36f7e20e71be184458283bdae4646_55974_250x150_fill_q75_box_smart1.jpg",
-    "public/p/silo-movie/cover_hu757b279f5a3a3407bcafaeeae2467538_424824_1024x0_resize_q75_box.jpg",
-    "public/p/hello-world/cover.c514d916917173a48a42e0114b469961.jpg",
-    "public/p/image-gallery/2_hubce42636ecacc1a380b462f3110efcec_37455_1024x0_resize_q75_box.jpg",
-    "public/p/silo-movie/cover_hu757b279f5a3a3407bcafaeeae2467538_424824_480x0_resize_q75_box.jpg",
-    "public/p/hello-world/cover_hud7e36f7e20e71be184458283bdae4646_55974_120x120_fill_q75_box_smart1.jpg",
-    "public/p/image-gallery/2_hubce42636ecacc1a380b462f3110efcec_37455_480x0_resize_q75_box.jpg",
     "content/post/null/index.md",
     "content/post/test/index.md",
-    "content/post/hello-world/index.md",
     "content/post/null/index.md",
     "content/post/maddyboy/index.md",
     "content/post/silo/index.md",
-    "content/_index.md",
     "content/post/Untitled.md",
-    "content/post/badmad/index.md",
-    "content/post/madbad/madbad.md",
-    "content/post/qwest/qwest.md",
-    "content/post/2024 0217 - notemad.md",
-    "content/post2024 0217 - badmad.md"
+    "content/post/badmad/index.md"
   ]
 }
