@@ -8,29 +8,15 @@
         "type": "tabs",
         "children": [
           {
-            "id": "25402336a260e76e",
+            "id": "08f2d2fee2b88ac9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "static/templater/create_folder_file.md",
+                "file": "content/post/Comment Policy/index.md",
                 "mode": "source",
                 "source": false
               }
-            }
-          }
-        ]
-      },
-      {
-        "id": "d7b71777cfe46cda",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "c0708576b6921bee",
-            "type": "leaf",
-            "state": {
-              "type": "hugo-preview-view",
-              "state": {}
             }
           }
         ]
@@ -99,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "static/templater/create_folder_file.md",
+                "file": "content/post/Comment Policy/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "static/templater/create_folder_file.md",
+                "file": "content/post/Comment Policy/index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "static/templater/create_folder_file.md"
+                "file": "content/post/Comment Policy/index.md"
               }
             }
           }
@@ -160,8 +146,14 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "f7461552e95dc2e4",
+  "active": "08f2d2fee2b88ac9",
   "lastOpenFiles": [
+    "content/post/Comment Policy/cover.jpg",
+    "content/post/Comment Policy",
+    "config/_default/config.toml",
+    "content/post/Comment Policy/index.md",
+    "config/_default/_languages.toml",
+    "static/templater/create_folder_file.md",
     "content/post/slugadd/index.md",
     "content/post/new slug in the title/index.md",
     "content/post/peakok/index.md",
@@ -182,13 +174,9 @@
     "resources/_gen/images/post/bingimg",
     "content/post/new slug in the title",
     "content/post/slugadd",
-    "static/templater/create_folder_file.md",
     "static/templater/createfolder+index.md",
     "content/post/hello-world/index.md",
     "content/post/peakok",
-    "static/covers/New folder",
-    "static/cover",
-    "static/covers",
     "content/post/bingimg/index.md",
     "content/post/venturemaddy/index.md",
     "content/post/nonprofitmaddy/index.md",
@@ -205,8 +193,6 @@
     "content/post/starthere/index.md",
     "content/post/coverimagecode/coverimagecode.md.md",
     "content/post/fatandhappy/index.md",
-    "content/post/budapestmaddy/index.md",
-    "content/post/new122/index.md",
-    "static/templater/createfolder+index_1.md"
+    "content/post/budapestmaddy/index.md"
   ]
 }

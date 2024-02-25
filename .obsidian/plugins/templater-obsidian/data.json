@@ -24,8 +24,6 @@
   "enabled_templates_hotkeys": [
     ""
   ],
-  "startup_templates": [
-    "content/templater/testscript.md"
-  ],
+  "startup_templates": [],
   "enable_ribbon_icon": true
 }

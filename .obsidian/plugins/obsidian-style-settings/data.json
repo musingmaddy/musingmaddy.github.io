@@ -11,5 +11,7 @@
   "Appearance-light@@background-underlying-select-light": "background-underlying-Color-light",
   "Appearance-light@@background-underlying-light": "#F0F0F0",
   "Appearance-light@@card-shadow-light": "0px 2px 4px rgba(0, 0, 0, 0.1)",
-  "Appearance-light@@shadow-activated-tab-header-light": "0px 2px 4px rgba(0, 0, 0, 0.1)"
+  "Appearance-light@@shadow-activated-tab-header-light": "0px 2px 4px rgba(0, 0, 0, 0.1)",
+  "Components@@tab-autohide": false,
+  "Components@@Ribbon-autohide": true
 }
