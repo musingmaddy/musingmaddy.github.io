@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "3417a1ed53599477",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "content/post/venturemaddy/index.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/post/bingimg/index.md",
+                "file": "content/post/venturemaddy/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/post/bingimg/index.md",
+                "file": "content/post/venturemaddy/index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/post/bingimg/index.md"
+                "file": "content/post/venturemaddy/index.md"
               }
             }
           }
@@ -146,9 +159,18 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "4c4f7b67a893f7e2",
+  "active": "3417a1ed53599477",
   "lastOpenFiles": [
+    "content/post/venturemaddy",
+    "static/templater/temp2.md",
+    "content/post/venturemaddy/index.md",
+    "static/templater/createfolder+index.md",
+    "static/favicon.png",
+    "content/post/nonprofitmaddy/index.md",
+    "content/post/nonprofitmaddy",
     "content/post/bingimg/cover.jpg",
+    "content/post/beau-is-afraid/cover.jpg",
+    "content/post/beau-is-afraid/index.md",
     "content/post/bingimg/index.md",
     "static/covers/cover_surreal08.jpg",
     "static/covers/cover_surreal09.jpg",
@@ -156,7 +178,6 @@
     "static/covers/cover.jpg",
     "content/post/bingimg/1024x686 wide dimension photo of a algo trading concept.jpeg",
     "content/post/bingimg",
-    "static/templater/temp2.md",
     "static/templater/temp.md",
     "content/post/covertest3/index.md",
     "content/post/covertest2/index.md",
@@ -176,22 +197,15 @@
     "content/post/coverimagecode/coverimagecode.md.md",
     "content/post/coverimagecode",
     "content/post/starthere",
-    "content/post/tagandcategs",
-    "static/templater/createfolder+index.md",
     "content/post/fatandhappy/index.md",
     "content/post/budapestmaddy/index.md",
     "content/post/new122/index.md",
     "static/templater/createfolder+index_1.md",
     "content/post/silo/index.md",
-    "content/post/beau-is-afraid/index.md",
     "content/post/test123456789/index.md",
     "content/post/steer123/index.md",
     "content/post/stark345/index.md",
     "content/post/hello-world/cover.jpg",
-    "static/covers/cover_birdeye.jpg",
-    "content/post/new1/index.md",
-    "content/post/check1234/index.md",
-    "content/post/check1234/cover.jpg",
-    "static/covers/cover_surreal02.jpg"
+    "static/covers/cover_birdeye.jpg"
   ]
 }

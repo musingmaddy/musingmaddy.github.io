@@ -10,7 +10,7 @@ let title = titleName;
 let date = tp.date.now();
 let description = titleName + ' descriptions';
 // Use the correct static folder path for the image
-let image = `https://www.bing.com/images/create`;
+let image = 'cover.jpg';
 let weight = '1';
 
 // Gather tags and categories from the user
