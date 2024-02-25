@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/post/new122/index.md",
+                "file": "static/templater/createfolder+index.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/post/new122/index.md",
+                "file": "static/templater/createfolder+index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/post/new122/index.md",
+                "file": "static/templater/createfolder+index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/post/new122/index.md"
+                "file": "static/templater/createfolder+index.md"
               }
             }
           }
@@ -146,11 +146,11 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "207246d24c315be1",
+  "active": "f7461552e95dc2e4",
   "lastOpenFiles": [
-    "content/post/new122",
-    "static/templater/createfolder+index.md",
     "content/post/new122/index.md",
+    "static/templater/createfolder+index.md",
+    "content/post/new122",
     "static/templater/createfolder+index_1.md",
     "content/post/silo/index.md",
     "content/post/beau-is-afraid/index.md",
@@ -177,7 +177,6 @@
     "content/post/check123",
     "content/post/covercheck/index.md",
     "content/post/covercheck",
-    "static/covers",
     "content/post/newtest25/index.md",
     "content/post/green_md/index.md",
     "content/post/hello-world/index.md",
