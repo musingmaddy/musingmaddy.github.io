@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/post/Comment Policy/index.md",
+                "file": "config/_default/config.toml",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/post/Comment Policy/index.md",
+                "file": "config/_default/config.toml",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/post/Comment Policy/index.md",
+                "file": "config/_default/config.toml",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/post/Comment Policy/index.md"
+                "file": "config/_default/config.toml"
               }
             }
           }
@@ -148,11 +148,12 @@
   },
   "active": "08f2d2fee2b88ac9",
   "lastOpenFiles": [
-    "content/post/Comment Policy/cover.jpg",
-    "content/post/Comment Policy",
+    "config/_default/_languages.toml",
+    "config/_default/markup.toml",
     "config/_default/config.toml",
     "content/post/Comment Policy/index.md",
-    "config/_default/_languages.toml",
+    "content/post/Comment Policy/cover.jpg",
+    "content/post/Comment Policy",
     "static/templater/create_folder_file.md",
     "content/post/slugadd/index.md",
     "content/post/new slug in the title/index.md",
@@ -168,7 +169,6 @@
     "resources/_gen/images/post/peakok/cover_hue509682d9a9fbcac7480c08a12b55068_1182243_800x0_resize_q75_box.jpg",
     "resources/_gen/images/post/peakok",
     "resources/_gen/images/post/bingimg/cover_hu54210b1028b43a597726849f6a3f2f24_56827_1600x0_resize_q75_box.jpg",
-    "resources/_gen/images/post/nonprofitmaddy/cover_hu6d50f03b0922e5c7cc5036e9ea59efbd_245012_800x0_resize_q75_box.jpg",
     "resources/_gen/images/post/nonprofitmaddy",
     "resources/_gen/images/post/venturemaddy",
     "resources/_gen/images/post/bingimg",
