@@ -8,10 +8,28 @@
         "type": "tabs",
         "children": [
           {
-            "id": "e28e24d5ae92d631",
+            "id": "290243d2c17688e0",
             "type": "leaf",
             "state": {
-              "type": "empty",
+              "type": "markdown",
+              "state": {
+                "file": "content/_index.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "0de4e2747eaba411",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e4e856f12c590bc9",
+            "type": "leaf",
+            "state": {
+              "type": "hugo-preview-view",
               "state": {}
             }
           }
@@ -81,6 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "content/_index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "content/_index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +138,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "content/_index.md"
+              }
             }
           }
         ],
@@ -138,13 +160,22 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "e28e24d5ae92d631",
+  "active": "290243d2c17688e0",
   "lastOpenFiles": [
-    "content/post/starthere/index.md",
-    "content/post/starthere",
+    "content/post/covertest/index.md",
+    "content/post/covertest",
+    "static/templater/temp2.md",
+    "content/post/new23/new23.md.md",
+    "content/post/new23",
+    "content/post/new/new.md.md",
+    "content/post/new",
     "content/post/tagandcategs/index.md",
-    "content/post/tagandcategs",
+    "content/post/starthere/index.md",
+    "content/post/coverimagecode/coverimagecode.md.md",
+    "content/post/coverimagecode",
     "static/templater/temp.md",
+    "content/post/starthere",
+    "content/post/tagandcategs",
     "static/templater/createfolder+index.md",
     "content/post/fatandhappy/index.md",
     "content/post/fatandhappy",
@@ -161,29 +192,20 @@
     "content/post/stark345/index.md",
     "content/post/hello-world/cover.jpg",
     "content/_index.md",
-    "content/post/stark345",
-    "content/post/steer123",
     "static/covers/cover.jpg",
     "static/covers/cover_birdeye.jpg",
     "content/post/new1/index.md",
-    "content/post/new1",
     "content/post/check1234/index.md",
     "content/post/cover_brown/index.md",
     "content/post/123/index.md",
-    "content/post/123",
     "content/post/check1234/cover.jpg",
     "content/post/check123/index.md",
     "content/post/covercheck/index.md",
-    "content/post/newtest25/index.md",
-    "content/post/green_md/index.md",
-    "content/post/hello-world/index.md",
-    "content/post/26thfeb/index.md",
     "static/covers/cover_surreal02.jpg",
     "static/covers/cover_surreal03.jpg",
     "static/covers/cover_surreal07.jpg",
     "static/covers/cover_surreal09.jpg",
     "static/covers/cover_white.jpg",
-    "static/covers/cover_tech.jpg",
-    "content/post/markdown-syntax/index.md"
+    "static/covers/cover_tech.jpg"
   ]
 }
