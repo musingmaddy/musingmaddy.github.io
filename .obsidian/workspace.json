@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/post/peakok/index.md",
+                "file": "content/post/hello-world/index.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "25402336a260e76e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "content/post/slugadd/index.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/post/peakok/index.md",
+                "file": "content/post/slugadd/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/post/peakok/index.md",
+                "file": "content/post/slugadd/index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/post/peakok/index.md"
+                "file": "content/post/slugadd/index.md"
               }
             }
           }
@@ -146,12 +159,17 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "f7461552e95dc2e4",
+  "active": "25402336a260e76e",
   "lastOpenFiles": [
+    "content/post/slugadd",
+    "static/templater/create_folder_file.md",
+    "content/post/slugadd/index.md",
+    "static/templater/createfolder+index.md",
+    "content/post/hello-world/index.md",
+    "content/post/peakok/index.md",
     "content/post/peakok/cover.jpg",
     "content/post/peakok/cover1.jpg",
     "content/post/peakok",
-    "content/post/peakok/index.md",
     "content/post/venturemaddy/cover.jpg",
     "content/post/bingimg/cover.jpg",
     "content/post/bingimg/cover2.jpg",
@@ -160,7 +178,6 @@
     "content/post/nonprofitmaddy/cover2.jpg",
     "content/post/venturemaddy/cover1.jpg",
     "content/post/venturemaddy/cover2.jpg",
-    "static/covers/New folder/cover2.jpg",
     "static/covers/New folder",
     "static/cover",
     "static/covers",
@@ -170,8 +187,6 @@
     "content/post/venturemaddy/index.md",
     "content/post/nonprofitmaddy/index.md",
     "content/post/venturemaddy",
-    "static/templater/temp2.md",
-    "static/templater/createfolder+index.md",
     "content/post/nonprofitmaddy",
     "content/post/beau-is-afraid/index.md",
     "content/post/bingimg",
@@ -191,8 +206,6 @@
     "content/post/budapestmaddy/index.md",
     "content/post/new122/index.md",
     "static/templater/createfolder+index_1.md",
-    "content/post/silo/index.md",
-    "content/post/test123456789/index.md",
-    "content/post/steer123/index.md"
+    "content/post/silo/index.md"
   ]
 }
