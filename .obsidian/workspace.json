@@ -4,32 +4,14 @@
     "type": "split",
     "children": [
       {
-        "id": "f1807e5f477029f4",
+        "id": "45666b8151c59585",
         "type": "tabs",
         "children": [
           {
-            "id": "290243d2c17688e0",
+            "id": "4c4f7b67a893f7e2",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "content/_index.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ]
-      },
-      {
-        "id": "0de4e2747eaba411",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "e4e856f12c590bc9",
-            "type": "leaf",
-            "state": {
-              "type": "hugo-preview-view",
+              "type": "empty",
               "state": {}
             }
           }
@@ -99,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/_index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/_index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "content/_index.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -160,8 +138,15 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "290243d2c17688e0",
+  "active": "4c4f7b67a893f7e2",
   "lastOpenFiles": [
+    "content/post/covertest4/index.md",
+    "content/post/covertest4",
+    "content/post/covertest3/index.md",
+    "content/post/covertest3",
+    "content/post/covertest2/index.md",
+    "content/post/covertest2",
+    "content/_index.md",
     "content/post/covertest/index.md",
     "content/post/covertest",
     "static/templater/temp2.md",
@@ -180,27 +165,20 @@
     "content/post/fatandhappy/index.md",
     "content/post/fatandhappy",
     "content/post/budapestmaddy/index.md",
-    "content/post/budapestmaddy",
     "content/post/new122/index.md",
-    "content/post/new122",
     "static/templater/createfolder+index_1.md",
     "content/post/silo/index.md",
     "content/post/beau-is-afraid/index.md",
     "content/post/test123456789/index.md",
-    "content/post/test123456789",
     "content/post/steer123/index.md",
     "content/post/stark345/index.md",
     "content/post/hello-world/cover.jpg",
-    "content/_index.md",
     "static/covers/cover.jpg",
     "static/covers/cover_birdeye.jpg",
     "content/post/new1/index.md",
     "content/post/check1234/index.md",
     "content/post/cover_brown/index.md",
-    "content/post/123/index.md",
     "content/post/check1234/cover.jpg",
-    "content/post/check123/index.md",
-    "content/post/covercheck/index.md",
     "static/covers/cover_surreal02.jpg",
     "static/covers/cover_surreal03.jpg",
     "static/covers/cover_surreal07.jpg",
