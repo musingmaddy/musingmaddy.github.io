@@ -8,31 +8,14 @@
         "type": "tabs",
         "children": [
           {
-            "id": "4c4f7b67a893f7e2",
+            "id": "4f8a8d010909183b",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "content/post/bingimg/index.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3417a1ed53599477",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "content/post/venturemaddy/index.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/post/venturemaddy/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/post/venturemaddy/index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "content/post/venturemaddy/index.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -159,24 +138,26 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "3417a1ed53599477",
+  "active": "4f8a8d010909183b",
   "lastOpenFiles": [
+    "content/post/bingimg/index.md",
+    "content/post/venturemaddy/index.md",
+    "static/covers/cover_birdeye.jpg",
+    "content/post/nonprofitmaddy/index.md",
+    "content/post/nonprofitmaddy/cover.jpg",
+    "static/covers/cover_buddhalotus.jpg",
+    "static/covers/cover_buddha.jpg",
+    "content/post/venturemaddy/cover.jpg",
+    "static/covers/cover_brown.jpg",
     "content/post/venturemaddy",
     "static/templater/temp2.md",
-    "content/post/venturemaddy/index.md",
     "static/templater/createfolder+index.md",
     "static/favicon.png",
-    "content/post/nonprofitmaddy/index.md",
     "content/post/nonprofitmaddy",
     "content/post/bingimg/cover.jpg",
     "content/post/beau-is-afraid/cover.jpg",
     "content/post/beau-is-afraid/index.md",
-    "content/post/bingimg/index.md",
     "static/covers/cover_surreal08.jpg",
-    "static/covers/cover_surreal09.jpg",
-    "content/post/bingimg/cover.jpeg",
-    "static/covers/cover.jpg",
-    "content/post/bingimg/1024x686 wide dimension photo of a algo trading concept.jpeg",
     "content/post/bingimg",
     "static/templater/temp.md",
     "content/post/covertest3/index.md",
@@ -196,7 +177,6 @@
     "content/post/starthere/index.md",
     "content/post/coverimagecode/coverimagecode.md.md",
     "content/post/coverimagecode",
-    "content/post/starthere",
     "content/post/fatandhappy/index.md",
     "content/post/budapestmaddy/index.md",
     "content/post/new122/index.md",
@@ -204,8 +184,6 @@
     "content/post/silo/index.md",
     "content/post/test123456789/index.md",
     "content/post/steer123/index.md",
-    "content/post/stark345/index.md",
-    "content/post/hello-world/cover.jpg",
-    "static/covers/cover_birdeye.jpg"
+    "content/post/stark345/index.md"
   ]
 }
