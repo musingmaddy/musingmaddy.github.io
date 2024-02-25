@@ -144,8 +144,9 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "f7461552e95dc2e4",
+  "active": "4c4f7b67a893f7e2",
   "lastOpenFiles": [
+    "content/post/bingimg/cover.jpeg",
     "content/post/bingimg/1024x686 wide dimension photo of a algo trading concept.jpeg",
     "content/post/bingimg/index.md",
     "content/post/bingimg",
@@ -190,7 +191,6 @@
     "static/covers/cover_surreal03.jpg",
     "static/covers/cover_surreal07.jpg",
     "static/covers/cover_surreal09.jpg",
-    "static/covers/cover_white.jpg",
-    "static/covers/cover_tech.jpg"
+    "static/covers/cover_white.jpg"
   ]
 }
