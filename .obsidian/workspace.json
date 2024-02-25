@@ -11,11 +11,9 @@
             "id": "4c4f7b67a893f7e2",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "content/post/bingimg/index.md",
-                "mode": "source",
-                "source": false
+                "file": "content/post/bingimg/cover.jpeg"
               }
             }
           }
@@ -85,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/post/bingimg/index.md",
+                "file": "content/post/bingimg/cover.jpeg",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +100,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/post/bingimg/index.md",
+                "file": "content/post/bingimg/cover.jpeg",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +123,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/post/bingimg/index.md"
+                "file": "content/post/bingimg/cover.jpeg"
               }
             }
           }
@@ -148,10 +146,10 @@
   },
   "active": "4c4f7b67a893f7e2",
   "lastOpenFiles": [
+    "content/post/bingimg/index.md",
     "static/covers/cover.jpg",
     "content/post/bingimg/cover.jpeg",
     "content/post/bingimg/1024x686 wide dimension photo of a algo trading concept.jpeg",
-    "content/post/bingimg/index.md",
     "content/post/bingimg",
     "static/templater/temp2.md",
     "static/templater/temp.md",
@@ -192,7 +190,6 @@
     "static/covers/cover_surreal02.jpg",
     "static/covers/cover_surreal03.jpg",
     "static/covers/cover_surreal07.jpg",
-    "static/covers/cover_surreal09.jpg",
-    "static/covers/cover_white.jpg"
+    "static/covers/cover_surreal09.jpg"
   ]
 }
