@@ -8,7 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "27f9968b36decd63",
+            "id": "5d4de8595f10ee56",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -20,12 +20,12 @@
             }
           },
           {
-            "id": "5d4de8595f10ee56",
+            "id": "e74a285bc54579ff",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/post/check1234/index.md",
+                "file": "content/post/cover_brown/index.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/post/check1234/index.md",
+                "file": "content/post/cover_brown/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/post/check1234/index.md",
+                "file": "content/post/cover_brown/index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/post/check1234/index.md"
+                "file": "content/post/cover_brown/index.md"
               }
             }
           }
@@ -159,11 +159,14 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "5d4de8595f10ee56",
+  "active": "e74a285bc54579ff",
   "lastOpenFiles": [
-    "content/post/check1234/cover.jpg",
+    "content/post/cover_brown",
     "static/templater/createfolder+index.md",
+    "content/post/cover_brown/index.md",
+    "static/templater/createfolder+index_working_backup.md",
     "content/post/check1234/index.md",
+    "content/post/check1234/cover.jpg",
     "content/post/check1234",
     "content/post/check123/index.md",
     "content/post/check123",
@@ -203,8 +206,6 @@
     "content/post/anotherone/index.md",
     "public/templater/index.md",
     "content/post/null/index.md",
-    "content/post/test/index.md",
-    "content/post/null/index.md",
-    "content/post/maddyboy/index.md"
+    "content/post/test/index.md"
   ]
 }
