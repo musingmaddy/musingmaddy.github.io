@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "path:\"assets/\" ",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,7 +65,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -146,18 +147,18 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "0a1e4bfc1dd482da",
+  "active": "bc025b670c5549f9",
   "lastOpenFiles": [
-    "content/page/archives/index.md",
-    "content/categories/example-category/_index.md",
-    "config/_default/menu.toml",
-    "config/_default/module.toml",
     "config/_default/params.toml",
     "config/_default/related.toml",
+    "config/_default/config.toml",
+    "config/_default/menu.toml",
+    "content/page/archives/index.md",
+    "content/categories/example-category/_index.md",
+    "config/_default/module.toml",
     "config/_default/permalinks.toml",
     "config/_default/markup.toml",
     "config/_default/_languages.toml",
-    "config/_default/config.toml",
     "content/post/NewTest/index.md",
     "static/templater/Youtube Link.md",
     "static/templater/Quote.md",
@@ -192,7 +193,6 @@
     "content/post/covertest2/index.md",
     "content/post/covertest/index.md",
     "content/post/covertest4/index.md",
-    "content/_index.md",
-    "content/post/new23/new23.md.md"
+    "content/_index.md"
   ]
 }
