@@ -37,10 +37,10 @@ icon = "brand-youtube"
 
 [menu]
 [[menu.main]]
-    name = "Home"
-    url = "/"
+    name = "Tags"
+    url = "/tags"
     weight = 10
-    identifier = "home"
+    identifier = "tags"
     [menu.main.params]
-        icon = "home"
+        icon = "tags"
         newTab = true
