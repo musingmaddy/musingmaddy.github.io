@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/page/archives/index.md",
+                "file": "config/_default/menu.toml",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/page/archives/index.md",
+                "file": "config/_default/menu.toml",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/page/archives/index.md",
+                "file": "config/_default/menu.toml",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/page/archives/index.md"
+                "file": "config/_default/menu.toml"
               }
             }
           }
@@ -148,6 +148,7 @@
   },
   "active": "0a1e4bfc1dd482da",
   "lastOpenFiles": [
+    "content/page/archives/index.md",
     "content/categories/example-category/_index.md",
     "config/_default/menu.toml",
     "config/_default/module.toml",
@@ -192,7 +193,6 @@
     "content/post/covertest/index.md",
     "content/post/covertest4/index.md",
     "content/_index.md",
-    "content/post/new23/new23.md.md",
-    "content/post/new/new.md.md"
+    "content/post/new23/new23.md.md"
   ]
 }

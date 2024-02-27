@@ -34,3 +34,13 @@ name = "Youtube"
 url = "https://youtube.com/@musingmaddy"
 [social.params]
 icon = "brand-youtube"
+
+[menu]
+[[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 10
+    identifier = "home"
+    [menu.main.params]
+        icon = "home"
+        newTab = true
