@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "d1fe7ed4b498d49a",
+            "id": "0a1e4bfc1dd482da",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "config/_default/menu.toml",
+                "file": "content/page/archives/index.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "config/_default/menu.toml",
+                "file": "content/page/archives/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "config/_default/menu.toml",
+                "file": "content/page/archives/index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "config/_default/menu.toml"
+                "file": "content/page/archives/index.md"
               }
             }
           }
@@ -146,13 +146,20 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "d1fe7ed4b498d49a",
+  "active": "0a1e4bfc1dd482da",
   "lastOpenFiles": [
+    "content/categories/example-category/_index.md",
+    "config/_default/menu.toml",
     "config/_default/module.toml",
+    "config/_default/params.toml",
     "config/_default/related.toml",
     "config/_default/permalinks.toml",
-    "config/_default/params.toml",
+    "config/_default/markup.toml",
+    "config/_default/_languages.toml",
+    "config/_default/config.toml",
     "content/post/NewTest/index.md",
+    "static/templater/Youtube Link.md",
+    "static/templater/Quote.md",
     "assets/icons/brand-youtube.svg",
     "assets/icons/mail-check.svg",
     "assets/icons/brand-youtube-filled.svg",
@@ -162,14 +169,9 @@
     "resources/_gen/images/post/Comment Policy/cover_hu704e1a47ddcf15e4e085fdcf50fbf439_174084_1600x0_resize_q75_box.jpg",
     "resources/_gen/images/post/Comment Policy/cover_hu704e1a47ddcf15e4e085fdcf50fbf439_174084_800x0_resize_q75_box.jpg",
     "resources/_gen/images/post/Comment Policy/cover_hu704e1a47ddcf15e4e085fdcf50fbf439_174084_120x120_fill_q75_box_smart1.jpg",
-    "resources/_gen/images/post/Comment Policy",
-    "content/post/NewTest",
-    "config/_default/menu.toml",
     "content/post/Algo Trading via Dhan/index.md",
     "content/post/beau-is-afraid/cover.jpg",
     "content/post/Mermaid/index.md",
-    "content/post/Mermaid",
-    "config/_default/config.toml",
     "content/post/Algo Trading via Dhan/cover.jpg",
     "content/post/Comment Policy/index.md",
     "content/post/Comment Policy/cover.jpg",
@@ -191,8 +193,6 @@
     "content/post/covertest4/index.md",
     "content/_index.md",
     "content/post/new23/new23.md.md",
-    "content/post/new/new.md.md",
-    "content/post/tagandcategs/index.md",
-    "content/post/starthere/index.md"
+    "content/post/new/new.md.md"
   ]
 }
