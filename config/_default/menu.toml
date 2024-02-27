@@ -4,7 +4,7 @@ identifier = "tags"
 name = "Tags"
 url = "/tags"
 [main.params]
-icon = "home"
+icon = "tag"
 newtab = true
 
 #[[social]]
