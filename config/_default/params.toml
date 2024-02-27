@@ -6,7 +6,7 @@ favicon = "/favicon.png"
 
 [footer]
 since = 2024
-customText = "Maddy 2024"
+customText = "MusingMaddy 2024"
 
 [dateFormat]
 published = "Jan 02, 2006"
@@ -56,17 +56,17 @@ limit = 10
 type = "toc"
 
 [opengraph.twitter]
-site = ""
+site = "@musingmaddy"
 card = "summary_large_image"
 
 [defaultImage.opengraph]
-enabled = false
+enabled = true
 local = false
-src = ""
+src = "https://musingmaddy.github.io/img/avatar_hu90da647c4bf84732dd09ba7ed457fcd3_22691_300x0_resize_q75_box.jpg"
 
 [colorScheme]
 toggle = true
-default = "auto"
+default = "light"
 
 [imageProcessing.cover]
 enabled = true
