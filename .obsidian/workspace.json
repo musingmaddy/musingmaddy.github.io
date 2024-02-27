@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "config/_default/menu.toml",
+                "file": "content/categories/example-category/_index.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "config/_default/menu.toml",
+                "file": "content/categories/example-category/_index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "config/_default/menu.toml",
+                "file": "content/categories/example-category/_index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "config/_default/menu.toml"
+                "file": "content/categories/example-category/_index.md"
               }
             }
           }
@@ -148,11 +148,12 @@
   },
   "active": "0a1e4bfc1dd482da",
   "lastOpenFiles": [
+    "content/page/links/index.md",
+    "config/_default/menu.toml",
     "config/_default/related.toml",
     "config/_default/permalinks.toml",
     "config/_default/module.toml",
     "config/_default/params.toml",
-    "config/_default/menu.toml",
     "config/_default/markup.toml",
     "config/_default/_languages.toml",
     "config/_default/config.toml",
