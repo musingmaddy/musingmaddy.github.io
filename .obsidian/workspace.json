@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "a0bea224ddcb8ad4",
+        "id": "8aa13c4848a2caa3",
         "type": "tabs",
         "children": [
           {
-            "id": "3ef495b484bf9798",
+            "id": "549d48e4459ed4bc",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -146,17 +146,24 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "3ef495b484bf9798",
+  "active": "549d48e4459ed4bc",
   "lastOpenFiles": [
+    "content/post/beau-is-afraid/cover.jpg",
+    "content/post/Algo Trading via Dhan/index.md",
+    "content/post/Mermaid/index.md",
+    "content/post/Mermaid",
+    "config/_default/params.toml",
+    "config/_default/config.toml",
+    "config/_default/markup.toml",
+    "config/_default/related.toml",
+    "config/_default/permalinks.toml",
+    "config/_default/module.toml",
+    "config/_default/menu.toml",
+    "config/_default/_languages.toml",
     "content/post/Algo Trading via Dhan/cover.jpg",
     "content/post/Algo Trading via Dhan",
-    "content/post/Algo Trading via Dhan/index.md",
-    "config/_default/config.toml",
-    "config/_default/_languages.toml",
-    "config/_default/markup.toml",
     "content/post/Comment Policy/index.md",
     "content/post/Comment Policy/cover.jpg",
-    "content/post/Comment Policy",
     "static/templater/create_folder_file.md",
     "content/post/slugadd/index.md",
     "content/post/new slug in the title/index.md",
@@ -170,12 +177,6 @@
     "resources/_gen/images/post/bingimg/cover_hu54210b1028b43a597726849f6a3f2f24_56827_120x120_fill_q75_box_smart1.jpg",
     "resources/_gen/images/post/venturemaddy/cover_hu404bf7a9936fc822c1127ef84f0caa8e_419964_800x0_resize_q75_box.jpg",
     "resources/_gen/images/post/peakok/cover_hue509682d9a9fbcac7480c08a12b55068_1182243_800x0_resize_q75_box.jpg",
-    "resources/_gen/images/post/peakok",
-    "resources/_gen/images/post/bingimg/cover_hu54210b1028b43a597726849f6a3f2f24_56827_1600x0_resize_q75_box.jpg",
-    "resources/_gen/images/post/nonprofitmaddy",
-    "resources/_gen/images/post/venturemaddy",
-    "resources/_gen/images/post/bingimg",
-    "content/post/new slug in the title",
     "static/templater/createfolder+index.md",
     "content/post/hello-world/index.md",
     "content/post/bingimg/index.md",
@@ -192,7 +193,6 @@
     "content/post/new/new.md.md",
     "content/post/tagandcategs/index.md",
     "content/post/starthere/index.md",
-    "content/post/coverimagecode/coverimagecode.md.md",
-    "content/post/fatandhappy/index.md"
+    "content/post/coverimagecode/coverimagecode.md.md"
   ]
 }

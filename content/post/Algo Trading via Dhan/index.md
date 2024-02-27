@@ -18,8 +18,6 @@ categories:
 ---
 # Algorithmic Trading via Dhan API
 
-![](https://i.imgur.com/ZLbuXZy.jpeg)
-
 # Dhan API Algo Trading
 
 ## Important Points
@@ -218,3 +216,5 @@ while True:
 ### 4. Stop loss logic
 
 ### 5. Take Profit Logic
+
+![](https://i.imgur.com/ZLbuXZym.jpeg)
