@@ -1,8 +1,8 @@
 # Configure main menu and social menu
 [[main]]
-identifier = "home"
-name = "Home"
-url = "/"
+identifier = "tags"
+name = "Tags"
+url = "/tags"
 [main.params]
 icon = "home"
 newtab = true
