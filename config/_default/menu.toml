@@ -22,3 +22,19 @@ url = "https://twitter.com/musingmaddy"
 
 [social.params]
 icon = "brand-twitter"
+
+[[social]]
+identifier = "youtube"
+name = "Youtube"
+url = "https://youtube.com/@musingmaddy"
+
+[social.params]
+icon = "brand-youtube"
+
+[[social]]
+identifier = "email"
+name = "Email"
+url = "musingmaddy@gmail.com"
+
+[social.params]
+icon = "mail-check"

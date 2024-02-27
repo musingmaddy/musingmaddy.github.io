@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/post/NewTest/index.md",
+                "file": "config/_default/menu.toml",
                 "mode": "source",
                 "source": false
               }
@@ -65,8 +65,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/post/NewTest/index.md",
+                "file": "config/_default/menu.toml",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/post/NewTest/index.md",
+                "file": "config/_default/menu.toml",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/post/NewTest/index.md"
+                "file": "config/_default/menu.toml"
               }
             }
           }
@@ -147,24 +146,31 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "bc025b670c5549f9",
+  "active": "d1fe7ed4b498d49a",
   "lastOpenFiles": [
-    "content/post/NewTest",
-    "content/post/NewTest/index.md",
-    "config/_default/menu.toml",
+    "config/_default/module.toml",
     "config/_default/related.toml",
     "config/_default/permalinks.toml",
     "config/_default/params.toml",
+    "content/post/NewTest/index.md",
+    "assets/icons/brand-youtube.svg",
+    "assets/icons/mail-check.svg",
+    "assets/icons/brand-youtube-filled.svg",
+    "assets/icons",
+    "resources/_gen/images/post/Algo Trading via Dhan/cover_huce4e2e8f87c28d152b7844809131908b_67986_120x120_fill_q75_box_smart1.jpg",
+    "resources/_gen/images/post/Algo Trading via Dhan",
+    "resources/_gen/images/post/Comment Policy/cover_hu704e1a47ddcf15e4e085fdcf50fbf439_174084_1600x0_resize_q75_box.jpg",
+    "resources/_gen/images/post/Comment Policy/cover_hu704e1a47ddcf15e4e085fdcf50fbf439_174084_800x0_resize_q75_box.jpg",
+    "resources/_gen/images/post/Comment Policy/cover_hu704e1a47ddcf15e4e085fdcf50fbf439_174084_120x120_fill_q75_box_smart1.jpg",
+    "resources/_gen/images/post/Comment Policy",
+    "content/post/NewTest",
+    "config/_default/menu.toml",
     "content/post/Algo Trading via Dhan/index.md",
     "content/post/beau-is-afraid/cover.jpg",
     "content/post/Mermaid/index.md",
     "content/post/Mermaid",
     "config/_default/config.toml",
-    "config/_default/markup.toml",
-    "config/_default/module.toml",
-    "config/_default/_languages.toml",
     "content/post/Algo Trading via Dhan/cover.jpg",
-    "content/post/Algo Trading via Dhan",
     "content/post/Comment Policy/index.md",
     "content/post/Comment Policy/cover.jpg",
     "static/templater/create_folder_file.md",
@@ -172,13 +178,6 @@
     "content/post/new slug in the title/index.md",
     "content/post/peakok/index.md",
     "content/post/markdown-syntax/index.md",
-    "resources/_gen/images/post/venturemaddy/cover_hu404bf7a9936fc822c1127ef84f0caa8e_419964_1600x0_resize_q75_box.jpg",
-    "resources/_gen/images/post/peakok/cover_hue509682d9a9fbcac7480c08a12b55068_1182243_1600x0_resize_q75_box.jpg",
-    "resources/_gen/images/post/nonprofitmaddy/cover_hu6d50f03b0922e5c7cc5036e9ea59efbd_245012_120x120_fill_q75_box_smart1.jpg",
-    "resources/_gen/images/post/nonprofitmaddy/cover_hu6d50f03b0922e5c7cc5036e9ea59efbd_245012_1600x0_resize_q75_box.jpg",
-    "resources/_gen/images/post/peakok/cover_hue509682d9a9fbcac7480c08a12b55068_1182243_120x120_fill_q75_box_smart1.jpg",
-    "resources/_gen/images/post/bingimg/cover_hu54210b1028b43a597726849f6a3f2f24_56827_120x120_fill_q75_box_smart1.jpg",
-    "resources/_gen/images/post/venturemaddy/cover_hu404bf7a9936fc822c1127ef84f0caa8e_419964_800x0_resize_q75_box.jpg",
     "static/templater/createfolder+index.md",
     "content/post/hello-world/index.md",
     "content/post/bingimg/index.md",
