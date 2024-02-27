@@ -65,8 +65,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -147,18 +146,18 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "bc025b670c5549f9",
+  "active": "0a1e4bfc1dd482da",
   "lastOpenFiles": [
-    "config/_default/params.toml",
+    "config/_default/markup.toml",
     "config/_default/related.toml",
-    "config/_default/config.toml",
+    "config/_default/permalinks.toml",
+    "config/_default/params.toml",
+    "config/_default/module.toml",
     "config/_default/menu.toml",
+    "config/_default/_languages.toml",
+    "config/_default/config.toml",
     "content/page/archives/index.md",
     "content/categories/example-category/_index.md",
-    "config/_default/module.toml",
-    "config/_default/permalinks.toml",
-    "config/_default/markup.toml",
-    "config/_default/_languages.toml",
     "content/post/NewTest/index.md",
     "static/templater/Youtube Link.md",
     "static/templater/Quote.md",
