@@ -5,7 +5,7 @@ name = "Tags"
 url = "/tags"
 [main.params]
 icon = "tag"
-newtab = true
+#newtab = true
 
 #[[social]]
 #identifier = "github"
