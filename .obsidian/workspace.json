@@ -8,11 +8,15 @@
         "type": "tabs",
         "children": [
           {
-            "id": "517e28281913bb92",
+            "id": "8ddd11b0363b7c5a",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "content/post/Started Gym/index.toml",
+                "mode": "source",
+                "source": true
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "content/post/Started Gym/index.toml",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "content/post/Started Gym/index.toml",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "content/post/Started Gym/index.toml"
+              }
             }
           }
         ],
@@ -131,16 +139,22 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "omnisearch:Omnisearch": false,
       "switcher:Open quick switcher": false,
       "command-palette:Open command palette": false,
+      "omnisearch:Omnisearch": false,
       "templater-obsidian:Templater": false,
       "periodic-notes:Open today": false
     }
   },
-  "active": "517e28281913bb92",
+  "active": "8ddd11b0363b7c5a",
   "lastOpenFiles": [
     "content/post/Comment Policy/index.md",
+    "content/post/Started Gym/index.toml",
+    "content/post/Started Gym",
+    "content/post/Gym Workouts",
+    "static/templater/create_folder_file.md",
+    "static/covers/New folder/cover2.jpg",
+    "static/covers/New folder/cover1.jpg",
     "content/categories/example-category/_index.md",
     "content/page/links/index.md",
     "config/_default/menu.toml",
@@ -150,7 +164,6 @@
     "config/_default/params.toml",
     "config/_default/markup.toml",
     "config/_default/_languages.toml",
-    "config/_default/config.toml",
     "content/page/archives/index.md",
     "content/post/NewTest/index.md",
     "static/templater/Youtube Link.md",
@@ -158,18 +171,13 @@
     "assets/icons/brand-youtube.svg",
     "assets/icons/mail-check.svg",
     "assets/icons/brand-youtube-filled.svg",
-    "assets/icons",
     "resources/_gen/images/post/Algo Trading via Dhan/cover_huce4e2e8f87c28d152b7844809131908b_67986_120x120_fill_q75_box_smart1.jpg",
-    "resources/_gen/images/post/Algo Trading via Dhan",
     "resources/_gen/images/post/Comment Policy/cover_hu704e1a47ddcf15e4e085fdcf50fbf439_174084_1600x0_resize_q75_box.jpg",
     "resources/_gen/images/post/Comment Policy/cover_hu704e1a47ddcf15e4e085fdcf50fbf439_174084_800x0_resize_q75_box.jpg",
     "resources/_gen/images/post/Comment Policy/cover_hu704e1a47ddcf15e4e085fdcf50fbf439_174084_120x120_fill_q75_box_smart1.jpg",
     "content/post/Algo Trading via Dhan/index.md",
     "content/post/beau-is-afraid/cover.jpg",
     "content/post/Mermaid/index.md",
-    "content/post/Algo Trading via Dhan/cover.jpg",
-    "content/post/Comment Policy/cover.jpg",
-    "static/templater/create_folder_file.md",
     "content/post/slugadd/index.md",
     "content/post/new slug in the title/index.md",
     "content/post/peakok/index.md",
@@ -184,7 +192,6 @@
     "content/post/covertest3/index.md",
     "content/post/covertest2/index.md",
     "content/post/covertest/index.md",
-    "content/post/covertest4/index.md",
-    "content/_index.md"
+    "content/post/covertest4/index.md"
   ]
 }
