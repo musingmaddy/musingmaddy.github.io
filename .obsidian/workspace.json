@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/post/Started Gym/index.toml",
+                "file": "content/post/Started Gym/index.md",
                 "mode": "source",
                 "source": true
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/post/Started Gym/index.toml",
+                "file": "content/post/Started Gym/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/post/Started Gym/index.toml",
+                "file": "content/post/Started Gym/index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/post/Started Gym/index.toml"
+                "file": "content/post/Started Gym/index.md"
               }
             }
           }
@@ -150,6 +150,7 @@
   "lastOpenFiles": [
     "content/post/Comment Policy/index.md",
     "content/post/Started Gym/index.toml",
+    "content/post/Started Gym/index.md",
     "content/post/Started Gym",
     "content/post/Gym Workouts",
     "static/templater/create_folder_file.md",
@@ -191,7 +192,6 @@
     "static/templater/temp.md",
     "content/post/covertest3/index.md",
     "content/post/covertest2/index.md",
-    "content/post/covertest/index.md",
-    "content/post/covertest4/index.md"
+    "content/post/covertest/index.md"
   ]
 }
