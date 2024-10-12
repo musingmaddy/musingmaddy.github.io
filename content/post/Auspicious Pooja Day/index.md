@@ -8,12 +8,18 @@ share: true
 weight: 1
 tags:
   - thoughts
-  - " beginnings"
+  - beginnings
 categories:
   - Personal
 ---
 # Auspicious Pooja Day
 
+## Plan
+
 - I have decided to blog at least once a week from today onwards.
 - I will be sharing my insights and opinions.
+## Resolution
+
+> I will do this.
+
 

@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_index.md",
+                "file": "content/post/Algo Trading via Dhan/index.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "044e67b0123477d7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "content/post/Auspicious Pooja Day/index.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_index.md",
+                "file": "content/post/Auspicious Pooja Day/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_index.md",
+                "file": "content/post/Auspicious Pooja Day/index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_index.md"
+                "file": "content/post/Auspicious Pooja Day/index.md"
               }
             }
           }
@@ -139,6 +152,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "obsidian-git:Open Git source control": false,
       "switcher:Open quick switcher": false,
       "command-palette:Open command palette": false,
       "omnisearch:Omnisearch": false,
@@ -146,29 +160,29 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "f7461552e95dc2e4",
+  "active": "044e67b0123477d7",
   "lastOpenFiles": [
     "content/post/Auspicious Pooja Day/cover.jpg",
+    "static/cover/cover_flower.jpg",
+    "static/cover/cover_flowerwide.jpg",
+    "static/cover/cover_buddhalotus.jpg",
+    "static/cover/cover_buddha.jpg",
+    "static/cover/cover_brown.jpg",
+    "static/cover/cover_birdeye.jpg",
+    "static/cover/cover.jpg",
     "content/post/Auspicious Pooja Day/index.md",
+    "content/post/Algo Trading via Dhan/index.md",
+    "content/post/Comment Policy/index.md",
+    "content/post/Comment Policy/cover.jpg",
+    "_index.md",
     "content/post/Auspicious Pooja Day",
     "Quote.md",
     "Youtube Link.md",
-    "_index.md",
     "index.md",
     "static/templater/create_folder_file.md",
     "content/post/Started Gym/index.md",
     "static/templater/create_folder_file 1.md",
     "static/cover/cover_pattern.jpg",
-    "static/cover/cover_flowerwide.jpg",
-    "static/cover/cover_buddha.jpg",
-    "static/covers/cover_food.jpg",
-    "static/covers/cover_flower.jpg",
-    "static/covers/cover_buddhalotus.jpg",
-    "static/covers/cover_birdeye.jpg",
-    "static/covers/New folder/cover2.jpg",
-    "static/covers/New folder/cover1.jpg",
-    "static/covers/cover.jpg",
-    "content/post/Comment Policy/index.md",
     "content/post/Started Gym/index.toml",
     "content/post/Started Gym",
     "content/post/Gym Workouts",
@@ -184,7 +198,6 @@
     "content/post/NewTest/index.md",
     "static/templater/Youtube Link.md",
     "static/templater/Quote.md",
-    "content/post/Algo Trading via Dhan/index.md",
     "content/post/Mermaid/index.md",
     "content/post/slugadd/index.md",
     "content/post/new slug in the title/index.md",
