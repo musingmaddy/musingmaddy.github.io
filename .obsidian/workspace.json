@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/post/Auspicious Pooja Day 2/index.md",
+                "file": "content/post/Auspicious Pooja Day/index.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/post/Auspicious Pooja Day 2/index.md",
+                "file": "content/post/Auspicious Pooja Day/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/post/Auspicious Pooja Day 2/index.md",
+                "file": "content/post/Auspicious Pooja Day/index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/post/Auspicious Pooja Day 2/index.md"
+                "file": "content/post/Auspicious Pooja Day/index.md"
               }
             }
           }
@@ -162,21 +162,21 @@
   },
   "active": "044e67b0123477d7",
   "lastOpenFiles": [
-    "content/post/Auspicious Pooja Day/cover.jpg",
-    "content/post/Auspicious Pooja Day 2/cover.jpg",
     "content/post/Auspicious Pooja Day 2/index.md",
+    "content/post/Auspicious Pooja Day/index.md",
+    "content/post/Auspicious Pooja Day 2/cover.jpg",
+    "content/post/Auspicious Pooja Day/cover.jpg",
+    "content/post/Algo Trading via Dhan/cover.jpg",
     "content/post/Auspicious Pooja Day 2",
     "content/post/Auspicious Pooja Day - Copy/cover.jpg",
     "content/post/Auspicious Pooja Day - Copy/index.md",
     "content/post/Auspicious Pooja Day - Copy",
-    "content/post/Auspicious Pooja Day/index.md",
     "static/cover/cover_flower.jpg",
     "static/cover/cover_flowerwide.jpg",
     "static/cover/cover_buddhalotus.jpg",
     "static/cover/cover_buddha.jpg",
     "static/cover/cover_brown.jpg",
     "static/cover/cover_birdeye.jpg",
-    "static/cover/cover.jpg",
     "content/post/Algo Trading via Dhan/index.md",
     "content/post/Comment Policy/index.md",
     "_index.md",
