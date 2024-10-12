@@ -5,5 +5,6 @@
   "promptDelete": false,
   "showUnsupportedFiles": false,
   "alwaysUpdateLinks": true,
-  "useMarkdownLinks": true
+  "useMarkdownLinks": true,
+  "defaultViewMode": "source"
 }

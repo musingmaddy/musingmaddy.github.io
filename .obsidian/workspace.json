@@ -4,35 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "fdcacce1bec08b87",
+        "id": "99cf02c1e959b87c",
         "type": "tabs",
         "children": [
           {
-            "id": "8ddd11b0363b7c5a",
+            "id": "44164a9382d1ed4d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/post/Algo Trading via Dhan/index.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "044e67b0123477d7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "content/post/Auspicious Pooja Day/index.md",
+                "file": "content/post/Auspicious Pooja Day 3/index.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/post/Auspicious Pooja Day/index.md",
+                "file": "content/post/Auspicious Pooja Day 3/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/post/Auspicious Pooja Day/index.md",
+                "file": "content/post/Auspicious Pooja Day 3/index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/post/Auspicious Pooja Day/index.md"
+                "file": "content/post/Auspicious Pooja Day 3/index.md"
               }
             }
           }
@@ -160,23 +147,34 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "044e67b0123477d7",
+  "active": "44164a9382d1ed4d",
   "lastOpenFiles": [
-    "content/post/Auspicious Pooja Day 2/index.md",
+    "content/post/Auspicious Pooja Day 4/index.md",
+    "content/post/Auspicious Pooja Day 4/cover.webp",
+    "content/post/Auspicious Pooja Day 3/index.md",
+    "content/post/Auspicious Pooja Day 3/cover.webp",
+    "content/post/Auspicious Pooja Day 4/cover.jpg",
+    "content/post/Auspicious Pooja Day/cover.jpg",
+    "content/post/Auspicious Pooja Day 4",
+    "content/post/Auspicious Pooja Day 3/cover.jpg",
+    "content/post/Auspicious Pooja Day 3",
+    "content/post/Auspicious Pooja Day - Copy/index.md",
+    "content/post/Auspicious Pooja Day - Copy/cover.jpg",
+    "content/post/Auspicious Pooja Day - Copy",
+    "content/post/Auspicious Pooja Day 2 - Copy/cover.jpg",
+    "content/post/Auspicious Pooja Day 2 - Copy/index.md",
+    "content/post/Auspicious Pooja Day 2 - Copy",
     "content/post/Auspicious Pooja Day/index.md",
     "content/post/Auspicious Pooja Day 2/cover.jpg",
-    "content/post/Auspicious Pooja Day/cover.jpg",
+    "content/post/Auspicious Pooja Day 2/index.md",
+    "content/post/null/index.md",
+    "content/post/null",
+    "content/post/Untitled.md",
+    "content/post/New folder",
+    "content/post/Israel Palestine Issue",
     "content/post/Algo Trading via Dhan/cover.jpg",
     "content/post/Auspicious Pooja Day 2",
-    "content/post/Auspicious Pooja Day - Copy/cover.jpg",
-    "content/post/Auspicious Pooja Day - Copy/index.md",
-    "content/post/Auspicious Pooja Day - Copy",
     "static/cover/cover_flower.jpg",
-    "static/cover/cover_flowerwide.jpg",
-    "static/cover/cover_buddhalotus.jpg",
-    "static/cover/cover_buddha.jpg",
-    "static/cover/cover_brown.jpg",
-    "static/cover/cover_birdeye.jpg",
     "content/post/Algo Trading via Dhan/index.md",
     "content/post/Comment Policy/index.md",
     "_index.md",
@@ -188,24 +186,13 @@
     "content/post/Started Gym/index.md",
     "static/templater/create_folder_file 1.md",
     "content/post/Started Gym/index.toml",
-    "content/post/Started Gym",
-    "content/post/Gym Workouts",
     "content/categories/example-category/_index.md",
     "content/page/links/index.md",
-    "config/_default/menu.toml",
-    "config/_default/related.toml",
-    "config/_default/permalinks.toml",
-    "config/_default/module.toml",
     "content/page/archives/index.md",
     "content/post/NewTest/index.md",
     "static/templater/Youtube Link.md",
     "static/templater/Quote.md",
     "content/post/Mermaid/index.md",
-    "content/post/slugadd/index.md",
-    "content/post/new slug in the title/index.md",
-    "content/post/peakok/index.md",
-    "content/post/markdown-syntax/index.md",
-    "static/templater/createfolder+index.md",
-    "content/post/hello-world/index.md"
+    "content/post/slugadd/index.md"
   ]
 }

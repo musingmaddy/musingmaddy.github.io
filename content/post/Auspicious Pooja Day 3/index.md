@@ -1,9 +1,9 @@
 ---
-title: Auspicious Pooja Day 02
-slug: auspicious-pooja-day-02
+title: Auspicious Pooja Day 03
+slug: auspicious-pooja-day-03
 date: 2024-10-12
 description: Auspicious Pooja Day descriptions
-image: cover.jpg
+image: cover.webp
 share: true
 weight: 1
 tags:
