@@ -14,12 +14,11 @@ categories:
 ---
 # Auspicious Pooja Day
 
-## 01
+
 
 - I have decided to blog at least once a week from today onwards.
 - I will be sharing my insights and opinions.
 
-## 02
 
 > I will do this.
 
