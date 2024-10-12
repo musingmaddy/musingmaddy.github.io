@@ -52,6 +52,11 @@ settings:
         title.zh: 自动隐藏 标签页标题栏
         type: class-toggle
     - 
+        id: vault-profile-autohide
+        title: Auto hide vault profile
+        title.zh: 自动隐藏 vault 配置栏
+        type: class-toggle
+    - 
         id: file-explorer
         title: File explorer
         title.zh: 文件列表
@@ -2291,6 +2296,35 @@ settings:
 		default-light: '#'
 		default-dark: '#'
     - 
+        id: Editor-background-pattern
+        title: Editor background pattern
+        title.zh: 编辑器背景图案
+        type: heading
+        collapsed: true
+        level: 3
+    - 
+        id: editor-grid-background-pattren
+        title: Enable grid background pattern
+        title.zh: 启用 网格背景图案
+        type: class-toggle
+    - 
+		id: grid-background-pattern-color
+		title: Customize grid background pattern color
+        title.zh: 自定义 网格背景图案颜色
+		type: variable-themed-color
+		opacity: true
+		format: hex
+		default-light: '#'
+		default-dark: '#'
+    - 
+        id: grid-background-pattern-size
+        title: Custom grid background pattern size
+        title.zh: 自定义 网格背景图案尺寸
+        description: Accepts any CSS background-size value
+        description.zh: 接受任何 CSS background-size 值
+        type: variable-text
+        default: 36px
+    - 
         id: Headings
         title: Headings
         title.zh: 标题
@@ -2995,7 +3029,7 @@ settings:
 		title: list indent
         title.zh:  列表缩进
 		type: variable-text
-		default: 2em
+		default: 2.25em
     - 
 		id: list-spacing
 		title: list spacing
@@ -3488,6 +3522,14 @@ settings:
         type: variable-text
         default: ''
     - 
+        id: embed-max-height
+        title: embed max height
+        title.zh: 内嵌文档 最大高度
+        description: Input any CSS height value
+        description.zh: 输入任意 CSS height 值
+        type: variable-text
+        default: ''
+    - 
         id: Checkbox
         title: Checkbox
         title.zh: 复选框
@@ -3778,7 +3820,8 @@ body.file-icon-remove .setting-item[data-id=colorful-folder],
 body:not(.new-tab-image-customize) .setting-item[data-id=new-tab-image],
 body:not(.line-hover-indicator) .setting-item[data-id=hover-indicator-color],
 body:not(.codeblock-style-customize) .setting-item:is([data-id=code-background-light], [data-id=code-background-dark], [data-id=code-border-light], [data-id=code-border-dark], [data-id=code-normal], [data-id=code-comment], [data-id=code-function], [data-id=code-important], [data-id=code-keyword], [data-id=code-operator], [data-id=code-property], [data-id=code-punctuation], [data-id=code-string], [data-id=code-tag], [data-id=code-value]),
-body:not(.callout-style-customize) .setting-item:is([data-id=callout-border-width], [data-id=callout-border-opacity], [data-id=callout-padding], [data-id=callout-radius], [data-id=callout-title-color], [data-id=callout-title-padding], [data-id=callout-title-padding], [data-id=callout-title-size], [data-id=callout-content-padding], [data-id=callout-content-background], [data-id=callout-content-radius]) {
+body:not(.callout-style-customize) .setting-item:is([data-id=callout-border-width], [data-id=callout-border-opacity], [data-id=callout-padding], [data-id=callout-radius], [data-id=callout-title-color], [data-id=callout-title-padding], [data-id=callout-title-padding], [data-id=callout-title-size], [data-id=callout-content-padding], [data-id=callout-content-background], [data-id=callout-content-radius]),
+body:not(.editor-grid-background-pattren) .setting-item:is([data-id=grid-background-pattern-color], [data-id=grid-background-pattern-size]) {
     display: none;
 }
 
@@ -4119,6 +4162,20 @@ body:not(.is-phone, .extra-anim-remove) .prompt,
 body:not(.is-mobile, .extra-anim-remove) .document-search-container {
     -webkit-animation: scale-up var(--anim-duration-fast) cubic-bezier(0.175, 0.885, 0.320, 1.095) both;
     animation: scale-up var(--anim-duration-fast) cubic-bezier(0.175, 0.885, 0.320, 1.095) both;
+}
+
+@media (prefers-reduced-motion) {
+
+    /*body:not(.is-phone, .extra-anim-remove) .graph-controls:not(.is-close),
+    body:not(.is-phone, .extra-anim-remove) .popover:not(.svelte-1xg3ic1),
+    body:not(.is-phone, .extra-anim-remove) .modal:not(:has(.checkbox-container)),
+    body:not(.is-phone, .extra-anim-remove) .menu:not(.mk-style-menu, .svelte-1xg3ic1),
+    body:not(.is-phone, .extra-anim-remove) .suggestion-container:not([data-popper-placement="bottom-start"]),*/
+    body:not(.is-phone, .extra-anim-remove) .prompt,
+    body:not(.is-mobile, .extra-anim-remove) .document-search-container {
+        -webkit-animation: unset;
+        animation: unset;
+    }
 }
 
 @-webkit-keyframes scale-up {
@@ -5479,7 +5536,7 @@ body:not(.is-mobile) .view-header {
 
 body:not(.is-mobile) .view-header>* {
     padding-top: var(--size-2-3);
-    padding-bottom:  var(--size-2-1);
+    padding-bottom: var(--size-2-1);
     --icon-size: var(--icon-m);
     --icon-stroke: var(--icon-m-stroke-width);
 }
@@ -5492,6 +5549,61 @@ body:not(.is-mobile) .workspace-leaf-content[data-type="empty"]:has(.wb-bookmark
 
 body:not(.is-mobile) .workspace-leaf-content[data-type="empty"]:has(.wb-bookmark-bar) :is(.view-actions, .view-header-nav-buttons, .view-header-title-container) {
     opacity: 1;
+}
+
+
+/* vault profile */
+
+body:not(.is-mobile) .workspace-split.mod-left-split {
+    position: relative;
+}
+
+body:not(.is-mobile) .workspace-split.mod-left-split .workspace-tabs:last-of-type .workspace-tab-container {
+    padding-bottom: 44px;
+}
+
+body:not(.is-mobile) .workspace-split.mod-left-split .workspace-sidedock-vault-profile {
+    padding: 6px;
+    background-color: transparent;
+    position: absolute;
+    bottom: 0;
+    z-index: 10;
+    height: 44px;
+}
+
+body:not(.is-mobile) .workspace-split.mod-left-split .workspace-sidedock-vault-profile .workspace-drawer-vault-switcher {
+    height: 32px;
+    cursor: pointer;
+}
+
+body:not(.is-mobile) .workspace-split.mod-left-split .workspace-sidedock-vault-profile .workspace-drawer-vault-actions {
+    gap: var(--size-2-1);
+}
+
+
+/* vault profile autohide*/
+body:not(.is-mobile).vault-profile-autohide .workspace-split.mod-left-split .workspace-sidedock-vault-profile {
+    height: 16px;
+    border-top: 0 solid transparent;
+    opacity: 0;
+    transition: height var(--anim-out), border-top var(--anim-out), opacity var(--anim-out);
+}
+
+body:not(.is-mobile).vault-profile-autohide .workspace-split.mod-left-split .workspace-sidedock-vault-profile:hover {
+    height: 44px;
+    border-top: var(--tab-outline-width) solid var(--tab-outline-color);
+    opacity: 1;
+    transition: height var(--anim-in), border-top var(--anim-in), opacity var(--anim-in);
+}
+
+body:not(.is-mobile).vault-profile-autohide .workspace-split.mod-left-split .workspace-tabs:last-of-type .workspace-tab-container {
+    padding-bottom: 0px;
+    transition: padding-bottom var(--anim-out);
+}
+
+body:not(.is-mobile).vault-profile-autohide:has(.workspace-sidedock-vault-profile:hover) .workspace-split.mod-left-split .workspace-tabs:last-of-type .workspace-tab-container {
+    padding-bottom: 44px;
+    transition: padding-bottom var(--anim-in);
 }
 
 /* ====== workspace mod root====== */
@@ -5896,6 +6008,12 @@ input.wb-search-bar {
 
 /*outline pane*/
 /* from https://github.com/subframe7536/obsidian-theme-maple, author:@subframe7536 */
+
+.outline-enhanced .workspace-leaf-content[data-type=outline] .tree-item-inner {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
 
 .outline-enhanced .workspace-leaf-content[data-type=outline] .view-content .collapse-icon {
     padding-inline-end: var(--size-2-3);
@@ -6343,34 +6461,6 @@ body:not(.file-icon-remove).colorful-folder .nav-folder.mod-root>.nav-folder-tit
     background-color: currentColor;
 }
 
-
-/* vault profile */
-
-body:not(.is-mobile) .workspace-split.mod-left-split {
-    position: relative;
-}
-
-body:not(.is-mobile) .workspace-split.mod-left-split .workspace-tabs:last-of-type .workspace-tab-container {
-    padding-bottom: 44px;
-}
-
-body:not(.is-mobile) .workspace-split.mod-left-split .workspace-sidedock-vault-profile {
-    padding: 6px;
-    background-color: transparent;
-    position: absolute;
-    bottom: 0;
-    z-index: 10;
-    height: 44px;
-}
-
-body:not(.is-mobile) .workspace-split.mod-left-split .workspace-sidedock-vault-profile .workspace-drawer-vault-switcher {
-    height: 32px;
-}
-
-body:not(.is-mobile) .workspace-split.mod-left-split .workspace-sidedock-vault-profile .workspace-drawer-vault-actions {
-    gap: var(--size-2-1);
-}
-
 /*====== empty state ======*/
 
 body {
@@ -6411,6 +6501,10 @@ body {
     --modal-border-color: var(--background-modifier-border);
 }
 
+.modal-sidebar {
+    --background-modifier-form-field: transparent;
+}
+
 .settings-search-container.vertical-tab-header-group {
     padding-top: 2px;
 }
@@ -6447,6 +6541,11 @@ body:not(.setting-item-title-icon-remove):not(.is-phone) .vertical-tab-header-gr
     -webkit-mask-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='none' viewBox='0 0 16 16'%3e%3cg fill='black' clip-path='url(%23a)'%3e%3cpath d='M13.249 7.111h-.36v-.267H9.88a1.636 1.636 0 0 1-1.436-2.448l.89-1.467A2.276 2.276 0 0 0 7.337.889a2.222 2.222 0 0 0-2.45 2.147h-3.11a.889.889 0 0 0-.89.888v3.632h1.25A1.391 1.391 0 0 1 3.556 8.75a1.333 1.333 0 0 1-.347 1.027 1.334 1.334 0 0 1-.987.444H.89v3.925a.889.889 0 0 0 .889.889H12a.889.889 0 0 0 .889-.89v-2.59h.444a2.223 2.223 0 0 0 2.223-2.45 2.29 2.29 0 0 0-2.307-1.995Z'/%3e%3cpath d='M11.933.507 9.391 4.889a.569.569 0 0 0 .489.889h5.089a.569.569 0 0 0 .489-.89L12.916.508a.57.57 0 0 0-.983 0Z'/%3e%3c/g%3e%3cdefs%3e%3cclipPath id='a'%3e%3cpath fill='white' d='M0 0h16v16H0z'/%3e%3c/clipPath%3e%3c/defs%3e%3c/svg%3e");
 }
 
+body:not(.is-phone) .horizontal-tab-nav-item.is-active,
+body:not(.is-phone) .vertical-tab-nav-item.is-active {
+    color: var(--nav-item-color-active);
+    background-color: var(--nav-item-background-active);
+}
 
 /* ====== UI Components====== */
 .theme-light {
@@ -6548,6 +6647,26 @@ body:not(.is-mobile) input[type=range]:is(:focus, :focus-visible)::-webkit-slide
 }
 
 /* input */
+textarea,
+input.metadata-input-text,
+input[type='date'],
+input[type='datetime-local'],
+input[type='text'],
+input[type='search'],
+input[type='email'],
+input[type='password'],
+input[type='number'] {
+    border-color: var(--background-modifier-border-focus);
+}
+
+body:not(.is-mobile).theme-light textarea:not([class]),
+body:not(.is-mobile).theme-light input[type='text']:not([class]),
+body:not(.is-mobile).theme-light input[type='search']:not([class]),
+body:not(.is-mobile).theme-light input[type='email']:not([class]),
+body:not(.is-mobile).theme-light input[type='password']:not([class]),
+body:not(.is-mobile).theme-light input[type='number']:not([class]) {
+    box-shadow: 0 1px 2px 0px hsla(var(--accent-h), 18%, 80%, 0.2);
+}
 
 body:not(.is-mobile) textarea:not([class]):is(:focus, :focus-visible),
 body:not(.is-mobile) input[type='text']:not([class]):is(:focus, :focus-visible),
@@ -6671,6 +6790,19 @@ body {
 }
 
 /* ====== editor ====== */
+/* background pattern */
+body {
+    --grid-background-pattern-size: 36px;
+    --grid-background-pattern-color: var(--background-modifier-border);
+}
+
+.editor-grid-background-pattren .workspace-leaf-content[data-type="markdown"] {
+    background-image: linear-gradient(to right, var(--grid-background-pattern-color) 1px, transparent 1px),
+        linear-gradient(to bottom, var(--grid-background-pattern-color) 1px, transparent 1px);
+    background-size: var(--grid-background-pattern-size) var(--grid-background-pattern-size);
+}
+
+
 /* Paragraphs */
 
 body.p-spacing-br :is(.markdown-preview-view, .markdown-rendered) p>br {
@@ -6805,6 +6937,16 @@ body:not(.heading-indicator-off) .markdown-preview-sizer>div>:is(h1, h2, h3, h4,
     text-indent: 9px;
 }
 
+@media print {
+    :is(h1, h2, h3, h4, h5, h6) {
+        position: relative;
+    }
+
+    body:not(.heading-indicator-off) :is(h1, h2, h3, h4, h5, h6) {
+        text-indent: 9px;
+    }
+}
+
 /* h1 */
 h1,
 .markdown-rendered h1,
@@ -6853,6 +6995,32 @@ body.h1-divider-on :is(.markdown-preview-sizer>div>h1, .markdown-rendered>h1, .H
     opacity: 0.5;
     bottom: 0;
     background-image: linear-gradient(to left, var(--h1-accent-color) 30%, transparent 70%);
+}
+
+@media print {
+    body:not(.heading-indicator-off) h1::before {
+        margin-right: 6px;
+        content: " ";
+        display: inline-block;
+        width: 3px;
+        height: calc(1.2em - 8px);
+        border-radius: var(--radius-m);
+        background-color: var(--h1-accent-color);
+        position: absolute;
+        top: 4px;
+        left: 0px;
+    }
+
+    body.h1-divider-on h1::after {
+        content: "";
+        position: absolute;
+        height: 1px;
+        width: 100%;
+        right: 0px;
+        opacity: 0.5;
+        bottom: 0;
+        background-image: linear-gradient(to left, var(--h1-accent-color) 30%, transparent 70%);
+    }
 }
 
 body:not(.collapse-icon-restore) .is-live-preview .HyperMD-header-1 .collapse-indicator.collapse-icon svg,
@@ -6917,6 +7085,31 @@ body.h2-divider-on :is(.markdown-preview-sizer>div>h2, .markdown-rendered>h2, .H
     background-image: linear-gradient(to left, var(--h2-accent-color) 30%, transparent 70%);
 }
 
+@media print {
+    body:not(.heading-indicator-off) h2::before {
+        margin-right: 6px;
+        content: " ";
+        display: inline-block;
+        width: 3px;
+        height: calc(1.2em - 8px);
+        border-radius: var(--radius-m);
+        background-color: var(--h2-accent-color);
+        position: absolute;
+        top: 4px;
+        left: 0px;
+    }
+
+    body.h2-divider-on h2::after {
+        content: "";
+        position: absolute;
+        height: 1px;
+        width: 100%;
+        right: 0px;
+        opacity: 0.5;
+        bottom: 0;
+        background-image: linear-gradient(to left, var(--h2-accent-color) 30%, transparent 70%);
+    }
+}
 
 body:not(.collapse-icon-restore) .is-live-preview .HyperMD-header-2 .collapse-indicator.collapse-icon svg,
 body:not(.collapse-icon-restore) :is(.markdown-rendered, .markdown-preview-view) h2 .collapse-indicator.collapse-icon svg {
@@ -6977,6 +7170,32 @@ body.h3-divider-on :is(.markdown-preview-sizer>div>h3, .markdown-rendered>h3, .H
     opacity: 0.5;
     bottom: 0;
     background-image: linear-gradient(to left, var(--h3-accent-color) 30%, transparent 70%);
+}
+
+@media print {
+    body:not(.heading-indicator-off) h3::before {
+        margin-right: 6px;
+        content: " ";
+        display: inline-block;
+        width: 3px;
+        height: calc(1.2em - 8px);
+        border-radius: var(--radius-m);
+        background-color: var(--h3-accent-color);
+        position: absolute;
+        top: 4px;
+        left: 0px;
+    }
+
+    body.h3-divider-on h3::after {
+        content: "";
+        position: absolute;
+        height: 1px;
+        width: 100%;
+        right: 0px;
+        opacity: 0.5;
+        bottom: 0;
+        background-image: linear-gradient(to left, var(--h3-accent-color) 30%, transparent 70%);
+    }
 }
 
 body:not(.collapse-icon-restore) .is-live-preview .HyperMD-header-3 .collapse-indicator.collapse-icon svg,
@@ -7041,6 +7260,32 @@ body.h4-divider-on :is(.markdown-rendered>h4, .markdown-preview-sizer>div>h4, .H
     background-image: linear-gradient(to left, var(--h4-accent-color) 30%, transparent 70%);
 }
 
+@media print {
+    body:not(.heading-indicator-off) h4::before {
+        margin-right: 6px;
+        content: " ";
+        display: inline-block;
+        width: 3px;
+        height: calc(1.2em - 8px);
+        border-radius: var(--radius-m);
+        background-color: var(--h4-accent-color);
+        position: absolute;
+        top: 4px;
+        left: 0px;
+    }
+
+    body.h4-divider-on h4::after {
+        content: "";
+        position: absolute;
+        height: 1px;
+        width: 100%;
+        right: 0px;
+        opacity: 0.5;
+        bottom: 0;
+        background-image: linear-gradient(to left, var(--h4-accent-color) 30%, transparent 70%);
+    }
+}
+
 body:not(.collapse-icon-restore) .is-live-preview .HyperMD-header-4 .collapse-indicator.collapse-icon svg,
 body:not(.collapse-icon-restore) :is(.markdown-rendered, .markdown-preview-view) h4 .collapse-indicator.collapse-icon svg {
     transform: translateX(0px);
@@ -7101,6 +7346,32 @@ body.h5-divider-on :is(.markdown-rendered>h5, .markdown-preview-sizer>div>h5, .H
     opacity: 0.5;
     bottom: 0;
     background-image: linear-gradient(to left, var(--h5-accent-color) 30%, transparent 70%);
+}
+
+@media print {
+    body:not(.heading-indicator-off) h5::before {
+        margin-right: 6px;
+        content: " ";
+        display: inline-block;
+        width: 3px;
+        height: calc(1.2em - 8px);
+        border-radius: var(--radius-m);
+        background-color: var(--h5-accent-color);
+        position: absolute;
+        top: 4px;
+        left: 0px;
+    }
+
+    body.h5-divider-on h5::after {
+        content: "";
+        position: absolute;
+        height: 1px;
+        width: 100%;
+        right: 0px;
+        opacity: 0.5;
+        bottom: 0;
+        background-image: linear-gradient(to left, var(--h5-accent-color) 30%, transparent 70%);
+    }
 }
 
 body:not(.collapse-icon-restore) .is-live-preview .HyperMD-header-5 .collapse-indicator.collapse-icon svg,
@@ -7165,7 +7436,31 @@ body.h6-divider-on :is(.markdown-rendered>h6, .markdown-preview-sizer>div>h6, .H
     background-image: linear-gradient(to left, var(--h6-accent-color) 30%, transparent 70%);
 }
 
+@media print {
+    body:not(.heading-indicator-off) h6::before {
+        margin-right: 6px;
+        content: " ";
+        display: inline-block;
+        width: 3px;
+        height: calc(1.2em - 8px);
+        border-radius: var(--radius-m);
+        background-color: var(--h6-accent-color);
+        position: absolute;
+        top: 4px;
+        left: 0px;
+    }
 
+    body.h6-divider-on h6::after {
+        content: "";
+        position: absolute;
+        height: 1px;
+        width: 100%;
+        right: 0px;
+        opacity: 0.5;
+        bottom: 0;
+        background-image: linear-gradient(to left, var(--h6-accent-color) 30%, transparent 70%);
+    }
+}
 
 body:not(.collapse-icon-restore) .is-live-preview .HyperMD-header-6 .collapse-indicator.collapse-icon svg,
 body:not(.collapse-icon-restore) :is(.markdown-rendered, .markdown-preview-view) h6 .collapse-indicator.collapse-icon svg {
@@ -8217,8 +8512,12 @@ body {
     --embed-border-radius: 0px;
 }
 
-body.seamless-embeds {
+.seamless-embeds {
     --embed-border-left: none;
+}
+
+.seamless-embeds .markdown-embed {
+    --embed-border-start: none;
 }
 
 .markdown-embed {
@@ -8463,12 +8762,15 @@ svg.sidebar-left {
     --interactive-hover: var(--background-modifier-border-hover);
 }
 
+.is-mobile .workspace-drawer.mod-right {
+    --mobile-sidebar-background: var(--background-primary);
+}
+
 .is-tablet.theme-dark .vertical-tab-content,
 .is-tablet .workspace-tab-header-container,
 .is-mobile .workspace-split.mod-root .view-header,
 .is-mobile .workspace-split.mod-root .view-content,
 .workspace-drawer.mod-right .workspace-drawer-header,
-.workspace-drawer.mod-right .workspace-drawer-active-tab-header,
 .workspace-drawer.mod-right .view-header,
 .workspace-drawer.mod-right .view-content,
 .workspace-drawer.mod-right,

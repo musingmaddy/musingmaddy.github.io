@@ -13,9 +13,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/post/Started Gym/index.md",
+                "file": "_index.md",
                 "mode": "source",
-                "source": true
+                "source": false
               }
             }
           }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/post/Started Gym/index.md",
+                "file": "_index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/post/Started Gym/index.md",
+                "file": "_index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/post/Started Gym/index.md"
+                "file": "_index.md"
               }
             }
           }
@@ -146,16 +146,32 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "8ddd11b0363b7c5a",
+  "active": "f7461552e95dc2e4",
   "lastOpenFiles": [
-    "content/post/Comment Policy/index.md",
-    "content/post/Started Gym/index.toml",
-    "content/post/Started Gym/index.md",
-    "content/post/Started Gym",
-    "content/post/Gym Workouts",
+    "content/post/Auspicious Pooja Day/cover.jpg",
+    "content/post/Auspicious Pooja Day/index.md",
+    "content/post/Auspicious Pooja Day",
+    "Quote.md",
+    "Youtube Link.md",
+    "_index.md",
+    "index.md",
     "static/templater/create_folder_file.md",
+    "content/post/Started Gym/index.md",
+    "static/templater/create_folder_file 1.md",
+    "static/cover/cover_pattern.jpg",
+    "static/cover/cover_flowerwide.jpg",
+    "static/cover/cover_buddha.jpg",
+    "static/covers/cover_food.jpg",
+    "static/covers/cover_flower.jpg",
+    "static/covers/cover_buddhalotus.jpg",
+    "static/covers/cover_birdeye.jpg",
     "static/covers/New folder/cover2.jpg",
     "static/covers/New folder/cover1.jpg",
+    "static/covers/cover.jpg",
+    "content/post/Comment Policy/index.md",
+    "content/post/Started Gym/index.toml",
+    "content/post/Started Gym",
+    "content/post/Gym Workouts",
     "content/categories/example-category/_index.md",
     "content/page/links/index.md",
     "config/_default/menu.toml",
@@ -164,20 +180,11 @@
     "config/_default/module.toml",
     "config/_default/params.toml",
     "config/_default/markup.toml",
-    "config/_default/_languages.toml",
     "content/page/archives/index.md",
     "content/post/NewTest/index.md",
     "static/templater/Youtube Link.md",
     "static/templater/Quote.md",
-    "assets/icons/brand-youtube.svg",
-    "assets/icons/mail-check.svg",
-    "assets/icons/brand-youtube-filled.svg",
-    "resources/_gen/images/post/Algo Trading via Dhan/cover_huce4e2e8f87c28d152b7844809131908b_67986_120x120_fill_q75_box_smart1.jpg",
-    "resources/_gen/images/post/Comment Policy/cover_hu704e1a47ddcf15e4e085fdcf50fbf439_174084_1600x0_resize_q75_box.jpg",
-    "resources/_gen/images/post/Comment Policy/cover_hu704e1a47ddcf15e4e085fdcf50fbf439_174084_800x0_resize_q75_box.jpg",
-    "resources/_gen/images/post/Comment Policy/cover_hu704e1a47ddcf15e4e085fdcf50fbf439_174084_120x120_fill_q75_box_smart1.jpg",
     "content/post/Algo Trading via Dhan/index.md",
-    "content/post/beau-is-afraid/cover.jpg",
     "content/post/Mermaid/index.md",
     "content/post/slugadd/index.md",
     "content/post/new slug in the title/index.md",
@@ -186,12 +193,6 @@
     "static/templater/createfolder+index.md",
     "content/post/hello-world/index.md",
     "content/post/bingimg/index.md",
-    "content/post/venturemaddy/index.md",
-    "content/post/nonprofitmaddy/index.md",
-    "content/post/beau-is-afraid/index.md",
-    "static/templater/temp.md",
-    "content/post/covertest3/index.md",
-    "content/post/covertest2/index.md",
-    "content/post/covertest/index.md"
+    "content/post/venturemaddy/index.md"
   ]
 }
