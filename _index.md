@@ -1,8 +1,8 @@
 ---
-title: Example Category
-description: A description of this category
-image: 
-style:
-  background: "#2a9d8f"
-  color: "#fff"
+menu:
+  main:
+    name: Home
+    weight: 1
+    params:
+      icon: home
 ---
