@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/post/Auspicious Pooja Day/index.md",
+                "file": "content/post/Auspicious Pooja Day 2/index.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/post/Auspicious Pooja Day/index.md",
+                "file": "content/post/Auspicious Pooja Day 2/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/post/Auspicious Pooja Day/index.md",
+                "file": "content/post/Auspicious Pooja Day 2/index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/post/Auspicious Pooja Day/index.md"
+                "file": "content/post/Auspicious Pooja Day 2/index.md"
               }
             }
           }
@@ -163,6 +163,12 @@
   "active": "044e67b0123477d7",
   "lastOpenFiles": [
     "content/post/Auspicious Pooja Day/cover.jpg",
+    "content/post/Auspicious Pooja Day 2/cover.jpg",
+    "content/post/Auspicious Pooja Day 2/index.md",
+    "content/post/Auspicious Pooja Day 2",
+    "content/post/Auspicious Pooja Day - Copy/cover.jpg",
+    "content/post/Auspicious Pooja Day - Copy/index.md",
+    "content/post/Auspicious Pooja Day - Copy",
     "content/post/Auspicious Pooja Day/index.md",
     "static/cover/cover_flower.jpg",
     "static/cover/cover_flowerwide.jpg",
@@ -173,7 +179,6 @@
     "static/cover/cover.jpg",
     "content/post/Algo Trading via Dhan/index.md",
     "content/post/Comment Policy/index.md",
-    "content/post/Comment Policy/cover.jpg",
     "_index.md",
     "content/post/Auspicious Pooja Day",
     "Quote.md",
@@ -182,7 +187,6 @@
     "static/templater/create_folder_file.md",
     "content/post/Started Gym/index.md",
     "static/templater/create_folder_file 1.md",
-    "static/cover/cover_pattern.jpg",
     "content/post/Started Gym/index.toml",
     "content/post/Started Gym",
     "content/post/Gym Workouts",
@@ -192,8 +196,6 @@
     "config/_default/related.toml",
     "config/_default/permalinks.toml",
     "config/_default/module.toml",
-    "config/_default/params.toml",
-    "config/_default/markup.toml",
     "content/page/archives/index.md",
     "content/post/NewTest/index.md",
     "static/templater/Youtube Link.md",
@@ -204,8 +206,6 @@
     "content/post/peakok/index.md",
     "content/post/markdown-syntax/index.md",
     "static/templater/createfolder+index.md",
-    "content/post/hello-world/index.md",
-    "content/post/bingimg/index.md",
-    "content/post/venturemaddy/index.md"
+    "content/post/hello-world/index.md"
   ]
 }
