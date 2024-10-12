@@ -1,25 +1,19 @@
-<%*
-let qcFileName = await tp.system.prompt("Note Title")
-let titleName = qcFileName
-await tp.file.rename('index')
-let baseFolder = "/content/post/"
-let newFolder = `${baseFolder}/${titleName}/` 
-await tp.file.move(newFolder + `index`);
-let title = titleName
-let description = ""
-let slug = ""
-let date = ""
-let image = ""
-let categories = ""
-let tags = ""
-let weight = ""
-setTimeout(() => { app.fileManager.processFrontMatter(tp.config.target_file, frontmatter =>{ frontmatter["title"] = title; 
-frontmatter["description"] = description; 
-frontmatter["slug"] = slug; 
-frontmatter["date"] = date; 
-frontmatter["image"] = image; 
-frontmatter["categories"] = categories; 
-frontmatter["tags"] = tags; 
-frontmatter["weight"] = 1; 
-}) }, 200)
--%>
+---
+title: Auspicious Pooja Day
+slug: auspicious-pooja-day
+date: 2024-10-12
+description: Auspicious Pooja Day descriptions
+image: cover.jpg
+share: true
+weight: 1
+tags:
+  - thoughts
+  - " beginnings"
+categories:
+  - Personal
+---
+# Auspicious Pooja Day
+
+- I have decided to blog at least once a week from today onwards.
+- I will be sharing my insights and opinions.
+
