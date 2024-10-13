@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "config/_default/module.toml",
+                "file": "config/_default/params.toml",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "89f2ec239cad0fec",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "content/post/Comment Policy/index.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -86,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "config/_default/module.toml",
+                "file": "content/post/Comment Policy/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "config/_default/module.toml",
+                "file": "content/post/Comment Policy/index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "config/_default/module.toml"
+                "file": "content/post/Comment Policy/index.md"
               }
             }
           }
@@ -148,8 +161,10 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "58456faf55d0acf5",
+  "active": "89f2ec239cad0fec",
   "lastOpenFiles": [
+    "content/post/Comment Policy/cover.jpg",
+    "content/post/Algo Trading via Dhan/index.md",
     "config/_default/params.toml",
     "config/_default/module.toml",
     "config/_default/menu.toml",
@@ -158,7 +173,6 @@
     "content/post/Comment Policy/index.md",
     "content/post/Creating Interactive Fiction_2/index.md",
     "content/post/Creating Interactive Fiction/index.md",
-    "content/post/Algo Trading via Dhan/index.md",
     "content/post/Algo Trading via Dhan/cover.jpg",
     "content/post/Comment Policy/Comment Policy.md",
     "content/post/Creating Interactive Fiction_2/cover.webp",
@@ -171,7 +185,6 @@
     "content/post/null/index.md",
     "content/post/Creating Interactive Fiction/cover.webp",
     "content/post/Creating Interactive Fiction/cover.jpg",
-    "content/post/Comment Policy/cover.jpg",
     "content/post/null",
     "public/p/creating-interactive-fiction/index.html",
     "public/p/creating-interactive-fiction/cover_hu4593743575521675420.jpg",
@@ -179,7 +192,6 @@
     "public/p/algo-trading-via-dhan-api/index.html",
     "public/templater/Youtube Link.md",
     "public/templater/Quote.md",
-    "public/templater",
     "static/templater/New Blog (with folder).md",
     "static/templater/create_folder_file 1.md",
     "content/_index.md",
