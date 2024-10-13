@@ -9,6 +9,7 @@ tags:
   - musingmaddy
 categories:
   - Website
+comments: true
 ---
 # Disqus Comment Policy 💬
 

@@ -31,8 +31,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -99,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/post/Comment Policy/index.md",
+                "file": "config/_default/params.toml",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/post/Comment Policy/index.md",
+                "file": "config/_default/params.toml",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/post/Comment Policy/index.md"
+                "file": "config/_default/params.toml"
               }
             }
           }
@@ -161,8 +160,9 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "89f2ec239cad0fec",
+  "active": "58456faf55d0acf5",
   "lastOpenFiles": [
+    "content/post/Comment Policy/index.md",
     "content/post/Comment Policy/cover.jpg",
     "content/post/Algo Trading via Dhan/index.md",
     "config/_default/params.toml",
@@ -170,7 +170,6 @@
     "config/_default/menu.toml",
     "config/_default/markup.toml",
     "config/_default/_languages.toml",
-    "content/post/Comment Policy/index.md",
     "content/post/Creating Interactive Fiction_2/index.md",
     "content/post/Creating Interactive Fiction/index.md",
     "content/post/Algo Trading via Dhan/cover.jpg",
