@@ -77,7 +77,7 @@ enabled = true
 ## Comments
 [comments]
 enabled = true
-provider = "disqus"
+provider = "cusdis"
 
 [comments.disqusjs]
 shortname = ""
