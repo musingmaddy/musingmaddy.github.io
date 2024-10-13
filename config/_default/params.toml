@@ -146,5 +146,5 @@ clientID = ""
 clientSecret = ""
 
 [comments.cusdis]
-host = ""
-id = ""
+host = "https://cusdis.com"
+id = "8a54b26a-9663-4988-8a36-ac2e70148c51"

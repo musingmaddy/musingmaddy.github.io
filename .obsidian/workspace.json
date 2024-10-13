@@ -11,8 +11,12 @@
             "id": "58456faf55d0acf5",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "config/_default/module.toml",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -82,6 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "config/_default/module.toml",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,6 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "config/_default/module.toml",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -119,7 +125,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "config/_default/module.toml"
+              }
             }
           }
         ],
@@ -142,6 +150,11 @@
   },
   "active": "58456faf55d0acf5",
   "lastOpenFiles": [
+    "config/_default/params.toml",
+    "config/_default/module.toml",
+    "config/_default/menu.toml",
+    "config/_default/markup.toml",
+    "config/_default/_languages.toml",
     "content/post/Comment Policy/index.md",
     "content/post/Creating Interactive Fiction_2/index.md",
     "content/post/Creating Interactive Fiction/index.md",
@@ -167,10 +180,6 @@
     "public/templater/Youtube Link.md",
     "public/templater/Quote.md",
     "public/templater",
-    "public/tags/python/page/1/index.html",
-    "public/tags/python/page/1",
-    "public/tags/python/page",
-    "public/tags/python/index.html",
     "static/templater/New Blog (with folder).md",
     "static/templater/create_folder_file 1.md",
     "content/_index.md",
@@ -186,7 +195,6 @@
     "Youtube Link.md",
     "index.md",
     "content/post/Started Gym/index.md",
-    "content/categories/example-category/_index.md",
-    "content/page/links/index.md"
+    "content/categories/example-category/_index.md"
   ]
 }
