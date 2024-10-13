@@ -18,4 +18,27 @@ categories:
 ---
 # Creating Interactive Fiction
 
-There are many way to create interactive fiction. RenPy is one of the m,ore popular tools.
+## 1
+
+There are many way to create interactive fiction. RenPy is one of the more popular tools.
+
+## 2
+
+> Another one is twine.
+
+## 3
+
+![Twine Game](1.webp) ![Renpy Game](2.webp)
+
+
+### Tutorial
+
+{{< C3Ldd-5PKCw>}}
+
+#### Specifically This part
+
+{{< C3Ldd-5PKCw&t=56s>}}
+
+🏁
+
+---
