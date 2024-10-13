@@ -4,35 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "128bd03d8ea6b561",
+        "id": "5312e9ee9b6b34f6",
         "type": "tabs",
         "children": [
           {
-            "id": "6a60a052eecdd003",
+            "id": "58456faf55d0acf5",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "content/post/Creating Interactive Fiction/index.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4a8ed002b5fa0b85",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "content/post/Creating Interactive Fiction_2/index.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -83,7 +66,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 341.5
+    "width": 200
   },
   "right": {
     "id": "27f1a9b62bf2aec5",
@@ -99,7 +82,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/post/Creating Interactive Fiction_2/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +98,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/post/Creating Interactive Fiction_2/index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,9 +119,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "content/post/Creating Interactive Fiction_2/index.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -161,11 +140,12 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "f7461552e95dc2e4",
+  "active": "58456faf55d0acf5",
   "lastOpenFiles": [
+    "content/post/Comment Policy/index.md",
+    "content/post/Creating Interactive Fiction_2/index.md",
     "content/post/Creating Interactive Fiction/index.md",
     "content/post/Algo Trading via Dhan/index.md",
-    "content/post/Creating Interactive Fiction_2/index.md",
     "content/post/Algo Trading via Dhan/cover.jpg",
     "content/post/Comment Policy/Comment Policy.md",
     "content/post/Creating Interactive Fiction_2/cover.webp",
