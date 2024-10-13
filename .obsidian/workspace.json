@@ -11,8 +11,12 @@
             "id": "3ad61abd69263c8d",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "content/post/Creating Interactive Fiction/index.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -28,6 +32,14 @@
         "id": "d5b6c2715d433677",
         "type": "tabs",
         "children": [
+          {
+            "id": "d28b56bbb33262c8",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          },
           {
             "id": "f7461552e95dc2e4",
             "type": "leaf",
@@ -52,16 +64,9 @@
                 "sortOrder": "alphabetical"
               }
             }
-          },
-          {
-            "id": "d28b56bbb33262c8",
-            "type": "leaf",
-            "state": {
-              "type": "bookmarks",
-              "state": {}
-            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -81,6 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "content/post/Creating Interactive Fiction/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "content/post/Creating Interactive Fiction/index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +125,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "content/post/Creating Interactive Fiction/index.md"
+              }
             }
           }
         ],
@@ -139,13 +148,17 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "3ad61abd69263c8d",
+  "active": "f7461552e95dc2e4",
   "lastOpenFiles": [
+    "content/post/Creating Interactive Fiction/cover.jpg",
+    "content/post/Comment Policy/cover.jpg",
+    "content/post/Comment Policy/Comment Policy.md",
+    "content/post/Creating Interactive Fiction/index.md",
+    "content/post/Creating Interactive Fiction",
     "static/templater/New Blog (with folder).md",
     "static/templater/create_folder_file 1.md",
     "content/_index.md",
     "_index.md",
-    "content/post/Comment Policy/index.md",
     "content/post/null/index.md",
     "content/post/Auspicious Pooja Day/cover.jpg",
     "content/post/Auspicious Pooja Day 2/cover.jpg",
@@ -171,21 +184,17 @@
     "content/post/Israel Palestine Issue",
     "content/post/Algo Trading via Dhan/cover.jpg",
     "content/post/Auspicious Pooja Day 2",
-    "static/cover/cover_flower.jpg",
     "content/post/Algo Trading via Dhan/index.md",
     "content/post/Auspicious Pooja Day",
     "Quote.md",
     "Youtube Link.md",
     "index.md",
     "content/post/Started Gym/index.md",
-    "content/post/Started Gym/index.toml",
     "content/categories/example-category/_index.md",
     "content/page/links/index.md",
     "content/page/archives/index.md",
     "content/post/NewTest/index.md",
     "static/templater/Youtube Link.md",
-    "static/templater/Quote.md",
-    "content/post/Mermaid/index.md",
-    "content/post/slugadd/index.md"
+    "static/templater/Quote.md"
   ]
 }

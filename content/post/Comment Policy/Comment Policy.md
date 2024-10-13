@@ -1,14 +1,14 @@
 ---
 title: Comment Policy
 slug: comment-policy
-date: 2024-02-25
-description: Comment Policy descriptions
+date: 2024-10-13
+description: Comment Policy
 image: cover.jpg
 weight: 1
 tags:
-  - musingmaddy
+  - about
 categories:
-  - Website
+  - This Website
 ---
 # Disqus Comment Policy 💬
 
