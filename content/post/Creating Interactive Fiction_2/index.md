@@ -1,6 +1,6 @@
 ---
-title: Creating Interactive Fiction
-slug: creating-interactive-fiction
+title: Creating Interactive Fiction 02
+slug: creating-interactive-fiction-02
 date: 2024-10-13
 description: Creating Interactive Fiction descriptions
 image: cover.webp
@@ -16,7 +16,7 @@ tags:
 categories:
   - Game Dev
 ---
-# Creating Interactive Fiction
+# Creating Interactive Fiction 02
 
 ## 1
 

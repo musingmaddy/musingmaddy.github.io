@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "content/post/Creating Interactive Fiction/index.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4a8ed002b5fa0b85",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "content/post/Creating Interactive Fiction_2/index.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -70,7 +83,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 227.5
+    "width": 341.5
   },
   "right": {
     "id": "27f1a9b62bf2aec5",
@@ -148,14 +161,16 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "6a60a052eecdd003",
+  "active": "f7461552e95dc2e4",
   "lastOpenFiles": [
-    "content/post/Creating Interactive Fiction_2/cover.webp",
-    "content/post/Creating Interactive Fiction_2/index.md",
-    "content/post/Creating Interactive Fiction_2/1.webp",
-    "content/post/Comment Policy/Comment Policy.md",
-    "content/post/Creating Interactive Fiction_2/2.webp",
     "content/post/Creating Interactive Fiction/index.md",
+    "content/post/Algo Trading via Dhan/index.md",
+    "content/post/Creating Interactive Fiction_2/index.md",
+    "content/post/Algo Trading via Dhan/cover.jpg",
+    "content/post/Comment Policy/Comment Policy.md",
+    "content/post/Creating Interactive Fiction_2/cover.webp",
+    "content/post/Creating Interactive Fiction_2/1.webp",
+    "content/post/Creating Interactive Fiction_2/2.webp",
     "content/post/Creating Interactive Fiction_2",
     "content/post/Creating Interactive Fiction - Copy/cover.webp",
     "content/post/Creating Interactive Fiction - Copy/index.md",
@@ -169,7 +184,6 @@
     "public/p/creating-interactive-fiction/cover_hu4593743575521675420.jpg",
     "public/p/creating-interactive-fiction/cover_hu14167007730639164067.jpg",
     "public/p/algo-trading-via-dhan-api/index.html",
-    "public/p/algo-trading-via-dhan-api/cover_hu16757142849287825110.jpg",
     "public/templater/Youtube Link.md",
     "public/templater/Quote.md",
     "public/templater",
@@ -188,7 +202,6 @@
     "content/post/Auspicious Pooja Day - Copy/index.md",
     "content/post/Auspicious Pooja Day 2 - Copy/index.md",
     "content/post/Untitled.md",
-    "content/post/Algo Trading via Dhan/index.md",
     "Quote.md",
     "Youtube Link.md",
     "index.md",
