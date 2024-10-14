@@ -77,14 +77,14 @@ enabled = true
 ## Comments
 [comments]
 enabled = true
-provider = "disqus"
+provider = "disqusjs"
 
 [comments.disqusjs]
 shortname = "maddymusing"
 apiUrl = ""
-apiKey = ""
-admin = ""
-adminLabel = ""
+apiKey = "V4WMPIgb9rLcrpPT4vwsSYmP13ewnZwfy47GbhJPdXzOjaYyY9WlBHKF7f0lxB7n"
+admin = "maddymusing"
+adminLabel = "maddymusing"
 
 [comments.utterances]
 repo = ""
