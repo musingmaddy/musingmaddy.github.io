@@ -20,4 +20,4 @@ categories:
 ---
 # hello
 
-I have written a novel called "The Pilgrimage Of Jeev Atman". I am in the process of delivering it
+I have written a novel called "The Pilgrimage Of Jeev Atman". I am in the process of delivering it. In the age of Generative AI technology, I was wondering if novel is the right way to deliver my art. 
