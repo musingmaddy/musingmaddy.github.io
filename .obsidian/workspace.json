@@ -8,24 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "58456faf55d0acf5",
+            "id": "b003d44bf56d3370",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "config/_default/params.toml",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "89f2ec239cad0fec",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "content/post/Comment Policy/index.md",
+                "file": "content/_index.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "config/_default/params.toml",
+                "file": "content/_index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "config/_default/params.toml",
+                "file": "content/_index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "config/_default/params.toml"
+                "file": "content/_index.md"
               }
             }
           }
@@ -157,44 +145,46 @@
       "command-palette:Open command palette": false,
       "omnisearch:Omnisearch": false,
       "templater-obsidian:Templater": false,
-      "periodic-notes:Open today": false
+      "periodic-notes:Open today": false,
+      "hugo-publish:hugo sync": false
     }
   },
-  "active": "58456faf55d0acf5",
+  "active": "b003d44bf56d3370",
   "lastOpenFiles": [
-    "config/_default/permalinks.toml",
-    "config/_default/related.toml",
     "config/_default/params.toml",
-    "content/post/Comment Policy/index.md",
-    "content/post/Comment Policy/cover.jpg",
-    "content/post/Algo Trading via Dhan/index.md",
     "config/_default/module.toml",
     "config/_default/menu.toml",
-    "config/_default/markup.toml",
     "config/_default/_languages.toml",
-    "content/post/Creating Interactive Fiction_2/index.md",
+    "config/_default/markup.toml",
+    "config/_default/permalinks.toml",
+    "config/_default/related.toml",
+    "content/post/Comment Policy/index.md",
     "content/post/Creating Interactive Fiction/index.md",
     "content/post/Algo Trading via Dhan/cover.jpg",
-    "content/post/Comment Policy/Comment Policy.md",
-    "content/post/Creating Interactive Fiction_2/cover.webp",
-    "content/post/Creating Interactive Fiction_2/1.webp",
-    "content/post/Creating Interactive Fiction_2/2.webp",
-    "content/post/Creating Interactive Fiction_2",
-    "content/post/Creating Interactive Fiction - Copy/cover.webp",
-    "content/post/Creating Interactive Fiction - Copy/index.md",
-    "content/post/Creating Interactive Fiction - Copy",
-    "content/post/null/index.md",
-    "content/post/Creating Interactive Fiction/cover.webp",
-    "content/post/Creating Interactive Fiction/cover.jpg",
+    "content/post/Algo Trading via Dhan/index.md",
+    "public/p/index.html",
     "content/post/null",
-    "public/p/creating-interactive-fiction/index.html",
-    "public/p/creating-interactive-fiction/cover_hu4593743575521675420.jpg",
-    "public/p/creating-interactive-fiction/cover_hu14167007730639164067.jpg",
+    "content/post/null/index.md",
+    "public/tags/python/index.xml",
+    "public/tags/options/index.xml",
+    "public/p/comment-policy/cover_hu6375987159581765217.jpg",
+    "public/p/comment-policy/cover_hu5542230372435623181.jpg",
+    "resources/_gen/images/p/comment-policy/cover_hu6375987159581765217.jpg",
+    "public/p/comment-policy/cover_hu8037905617567222193.jpg",
+    "public/p/creating-interactive-fiction/cover.webp",
+    "public/p/comment-policy/cover.jpg",
+    "resources/_gen/images/p/comment-policy/cover_hu5542230372435623181.jpg",
+    "resources/_gen/images/p/comment-policy/cover_hu8037905617567222193.jpg",
+    "content/post/Creating Interactive Fiction/cover.webp",
+    "content/post/Creating Interactive Fiction_2/index.md",
+    "content/_index.md",
+    "content/post/Comment Policy/Comment Policy.md",
+    "content/post/Creating Interactive Fiction - Copy/index.md",
+    "content/post/null/index.md",
     "public/templater/Youtube Link.md",
     "public/templater/Quote.md",
     "static/templater/New Blog (with folder).md",
     "static/templater/create_folder_file 1.md",
-    "content/_index.md",
     "_index.md",
     "content/post/Auspicious Pooja Day 3/index.md",
     "content/post/Auspicious Pooja Day 4/index.md",
@@ -202,11 +192,9 @@
     "content/post/Auspicious Pooja Day 2/index.md",
     "content/post/Auspicious Pooja Day - Copy/index.md",
     "content/post/Auspicious Pooja Day 2 - Copy/index.md",
-    "content/post/Untitled.md",
     "Quote.md",
     "Youtube Link.md",
     "index.md",
-    "content/post/Started Gym/index.md",
-    "content/categories/example-category/_index.md"
+    "content/post/Started Gym/index.md"
   ]
 }

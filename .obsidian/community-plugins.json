@@ -1,5 +1,4 @@
 [
-  "hugo-preview-obsidian",
   "omnisearch",
   "obsidian-git",
   "obsidian-style-settings",
@@ -8,5 +7,6 @@
   "obsidian-custom-file-extensions-plugin",
   "templater-obsidian",
   "periodic-notes",
-  "obsidian-imgur-plugin"
+  "obsidian-imgur-plugin",
+  "hugo-preview-obsidian"
 ]
