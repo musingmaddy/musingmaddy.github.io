@@ -1,3 +1,6 @@
 {
-  "cssTheme": "Border"
+  "cssTheme": "Border",
+  "textFontFamily": "Readex Pro",
+  "interfaceFontFamily": "Readex Pro",
+  "monospaceFontFamily": "Cascadia Code PL"
 }

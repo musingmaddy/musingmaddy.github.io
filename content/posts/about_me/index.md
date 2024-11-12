@@ -1,11 +1,11 @@
 ---
-title: 
+title: About Me
 date: 2024-09-27T12:00:48+05:30
 lastmod: 2024-09-27T12:00:48+05:30
 author: Musing Maddy
 avatar: /img/musingmaddy.webp
 cover: about_me.webp
-categories: 
+categories: Personal
 tags: 
 nolastmod: false
 draft: false
@@ -17,7 +17,7 @@ comments: true
 
 Welcome to **MusingMaddy**, a creative space where art, technology, and imagination converge.
 
-Read more...
+*Read more...*
 
 <!--more-->
 
