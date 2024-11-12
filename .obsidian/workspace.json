@@ -11,10 +11,14 @@
             "id": "7763ab4dcfb8e223",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "hugo.toml",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "hugo"
             }
           }
         ]
@@ -164,7 +168,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "1e63d1007f2c155e",
+  "active": "7763ab4dcfb8e223",
   "lastOpenFiles": [
     "public/index.xml",
     "public/search/index.xml",

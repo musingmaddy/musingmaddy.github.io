@@ -3,15 +3,13 @@ defaultContentLanguage = "en"
 languageCode = "en"
 title = "Musing Maddy"
 theme = "dream"
-
-
 [services]
     [services.disqus]
         shortname = "musingmaddy"
         disqusShortname = "musingmaddy"
 
 [services.googleAnalytics]
-ID = ""
+ID = "G-NV1GRD4KN5"
 
 [params]
  zenMode = false
