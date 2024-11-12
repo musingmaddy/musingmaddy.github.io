@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "b9126c834908759a",
+        "id": "69ec606ad0c0860f",
         "type": "tabs",
         "children": [
           {
-            "id": "68ee58b290e5a153",
+            "id": "c375f833699e417a",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "content/posts/about_me/index.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "index"
             }
           }
         ]
@@ -164,8 +168,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "1e63d1007f2c155e",
+  "active": "c375f833699e417a",
   "lastOpenFiles": [
+    "content/about/about_me.md",
     "content/posts/about_me/index.md",
     "hugo.toml",
     "public/index.xml",
@@ -195,7 +200,6 @@
     "content/about/license.md",
     "content/about/interests.md",
     "content/about/index.md",
-    "content/about/about_me.md",
     "content/about/contact_me.md",
     "public/posts/about_me/index.md",
     "content/about/layna likes to pray.md",

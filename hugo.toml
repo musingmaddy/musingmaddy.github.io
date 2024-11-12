@@ -6,14 +6,12 @@ theme = "dream"
 [services]
     [services.disqus]
         shortname = "musingmaddy"
-        disqusShortname = "musingmaddy"
 
 [services.googleAnalytics]
 ID = "G-NV1GRD4KN5"
 
 [params]
  zenMode = false
-disqusShortname = "musingmaddy"
 lightTheme = "emerald"
 darkTheme = "forest"
 
@@ -24,13 +22,13 @@ author = "Musing Maddy"
 description = "Maddy's Arts, Crafts & Perspectives"
 avatar = "img/musingmaddy.webp"
 headerTitle = "Musing Maddy"
-motto = "Inspiring New Perspectives Through Creativity & AI."
+motto = "💖 Inspiring New Perspectives Through Creativity & AI."
 
-footerBottomText = "Inspiring New Perspectives Through Creativity & AI."
+footerBottomText = "💖 Inspiring New Perspectives Through Creativity & AI."
 
-# rss = true
+rss = true
 
-# utterancesRepo = "musingmaddy/musingmaddy.github.io"
+utterancesRepo = "musingmaddy/musingmaddy.github.io"
 
 # valine = true
 # LEANCLOUD_APP_ID = ""
@@ -49,7 +47,7 @@ favicon = "img/favicon.png"
 # customSyntaxHighlighting = true
 
 # options
-stickyNav = true
+stickyNav = false
 reorderNavItems = ["search", "rss", "posts", "categories", "tags"]
 collapseNavItems = ["posts", "categories", "tags"]
 noDefaultSummaryCover = true
