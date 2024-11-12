@@ -1,0 +1,207 @@
+{
+  "main": {
+    "id": "8f46ab25b1a747cd",
+    "type": "split",
+    "children": [
+      {
+        "id": "bc292e529c944805",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7763ab4dcfb8e223",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "9dcf5a59175f2dd1",
+    "type": "split",
+    "children": [
+      {
+        "id": "55d28cb9aee9a0a9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "26b9ea1c29a88e61",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "5a5e830923cb6800",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:Photo",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "1b96d0048247c73a",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "5838c7864aeaa259",
+    "type": "split",
+    "children": [
+      {
+        "id": "e705d88534ab26cd",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4aedf50e7cc23fd5",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "fd52159e47b82504",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "d03841a80168cf62",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "84cecf851f0a9ed9",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {},
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          },
+          {
+            "id": "1e63d1007f2c155e",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "daily-notes:Open today's daily note": false,
+      "command-palette:Open command palette": false,
+      "templater-obsidian:Templater": false,
+      "obsidian-git:Open Git source control": false
+    }
+  },
+  "active": "1e63d1007f2c155e",
+  "lastOpenFiles": [
+    "public/index.xml",
+    "public/search/index.xml",
+    "public/posts/index.xml",
+    "public/categories/index.xml",
+    "public/tags/index.xml",
+    "public/page/1/index.html",
+    "public/tags/page/1/index.html",
+    "public/tags/page/1",
+    "public/tags/page",
+    "public/categories/page/1/index.html",
+    "public/categories/page/1",
+    "public/posts/about_me/about_me_hu13874458301257185912.webp",
+    "public/posts/about_me/about_me_full.webp",
+    "public/posts/about_me/about_me.webp",
+    "layouts/_default/single.html.md",
+    "layouts/partials/disqus.html.md",
+    "content/posts/about_me/index.md",
+    "content/posts/about_me/about_me_full.webp",
+    "public/posts/about_me/sd3.5 large prompt.webp",
+    "content/posts/about_me/sd3.5 large prompt.webp",
+    "resources/_gen/images/posts/about_me/about_me_hu13874458301257185912.webp",
+    "public/img/about_me_full.webp",
+    "static/img/about_me_full.webp",
+    "public/img/about_me.webp",
+    "content/posts/My Artworks/index.md",
+    "content/posts/my-first-post.md",
+    "content/about/projects.md",
+    "content/about/license.md",
+    "content/about/interests.md",
+    "content/about/index.md",
+    "content/about/about_me.md",
+    "content/about/contact_me.md",
+    "public/posts/about_me/index.md",
+    "content/about/layna likes to pray.md",
+    "content/about/layna likes family.md",
+    "content/about/layna likes to art.md",
+    "content/search/_index.md"
+  ]
+}

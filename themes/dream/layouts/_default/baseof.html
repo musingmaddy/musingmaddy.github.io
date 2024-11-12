@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="{{ site.LanguageCode }}"
+  x-data
+  :class="$store.darkMode.class()"
+  :data-theme="$store.darkMode.theme()">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ block "title" . -}} {{ T "home" }} {{- end }} | {{ site.Title }}</title>
+
+    {{ partial "head.html" . }}
+
+    {{ block "css" . }} {{ end }}
+
+    {{ range site.Params.Advanced.customCSS }}
+    <link rel="stylesheet" href="{{ . | relURL }}" />
+    {{ end }}
+
+    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+  </head>
+
+  <body x-data="{
+    flip: false,
+  }">
+    <!-- If backgroundImage defined -->
+    <div id="dream-global-bg"></div>
+
+    {{ partial "nav.html" . }}
+
+    <div class="flip-container" :class="{ 'flip-it': flip }">
+      <div class="flipper">
+        <div class="front">
+          <div class="container">
+            {{ block "main" . }} {{ end }}
+
+            {{ if site.Params.zenMode }}
+            <footer class="flex justify-between items-center gap-2 max-w-[65ch] mx-auto px-4 md:px-0 py-12">
+            {{ else }}
+            <footer class="flex justify-between items-center gap-2 px-4 py-12">
+            {{ end }}
+              {{ partial "footerLeft.html" . }}
+              {{ partial "footerRight.html" . }}
+            </footer>
+          </div>
+        </div>
+        <div class="back">
+          <div class="container">
+            {{ if site.Params.zenMode }}
+            {{ partial "zen-back.html" . }}
+            {{ else }}
+            {{ partial "back.html" . }}
+            {{ end }}
+          </div>
+        </div>
+      </div>
+    </div>
+
+    {{ partial "scripts.html" . }}
+    {{ block "js" . }} {{ end }}
+
+    {{ if .Store.Get "hasMermaid" }}
+      <script type="module">
+        import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@11.1.0/dist/mermaid.esm.min.mjs';
+        mermaid.initialize({ startOnLoad: true });
+      </script>
+    {{ end }}
+
+    {{ range site.Params.Advanced.customJS }}
+    <script src="{{ . | relURL }}"></script>
+    {{ end }}
+
+    {{ if site.Config.Services.GoogleAnalytics.ID }}
+    {{ template "_internal/google_analytics.html" . }}
+    {{ end }}
+
+    <script type="module" src="https://unpkg.com/ionicons@7.4.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.4.0/dist/ionicons/ionicons.js"></script>
+  </body>
+</html>

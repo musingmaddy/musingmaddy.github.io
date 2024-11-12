@@ -1,0 +1,667 @@
+<!DOCTYPE html>
+<html lang="en"
+  x-data
+  :class="$store.darkMode.class()"
+  :data-theme="$store.darkMode.theme()">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> | Musing Maddy</title>
+
+    
+<link href="/img/favicon.png" rel="icon" type="image/x-icon" />
+
+
+<link rel="canonical" href="https://musingmaddy.github.io/posts/about_me/" />
+
+
+
+<meta name="author" content="Musing Maddy" />
+<meta name="description" content="About Me Hi there! 👋🏻,
+Welcome to MusingMaddy, a creative space where art, technology, and imagination converge.
+Read more&hellip;
+" />
+
+
+<meta name="keywords" content="">
+
+
+
+<meta name="generator" content="Hugo 0.135.0">
+
+
+<meta property="og:url" content="https://musingmaddy.github.io/posts/about_me/">
+  <meta property="og:site_name" content="Musing Maddy">
+  <meta property="og:title" content="Musing Maddy">
+  <meta property="og:description" content="About Me Hi there! 👋🏻,
+Welcome to MusingMaddy, a creative space where art, technology, and imagination converge.
+Read more…">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2024-09-27T12:00:48+05:30">
+    <meta property="article:modified_time" content="2024-09-27T12:00:48+05:30">
+
+
+
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Musing Maddy">
+  <meta name="twitter:description" content="About Me Hi there! 👋🏻,
+Welcome to MusingMaddy, a creative space where art, technology, and imagination converge.
+Read more…">
+
+
+
+
+  
+
+<link rel="stylesheet" href="/css/output.min.css" />
+
+
+
+
+    
+
+
+<style>
+  pre {
+    padding: 1em;
+    overflow: auto;
+  }
+</style>
+
+
+
+
+
+
+
+
+
+    
+
+    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+  </head>
+
+  <body x-data="{
+    flip: false,
+  }">
+    
+    <div id="dream-global-bg"></div>
+
+    
+<nav x-data="{ isSticky: false }"
+  x-init="window.addEventListener('scroll', () => { isSticky = window.scrollY > 30 })"
+  class="sticky top-0 z-30 mt-4 lg:mt-8 py-4"
+  :class="{ 'bg-base-100 shadow-lg dark:border-b dark:border-base-content/30': isSticky }">
+
+  
+  <div class="container flex justify-between px-4">
+  
+    <section class="flex items-center gap-4">
+      <div class="avatar cursor-pointer hover:online" @click="flip = !flip" title="Flip it!">
+        <div class="h-10 rounded-full">
+          <img src="/img/musingmaddy.webp" alt="Musing Maddy" />
+        </div>
+      </div>
+
+      
+      <div>
+        
+        <a href="https://musingmaddy.github.io/" class="text-lg font-semibold cursor-pointer">
+          Musing Maddy
+        </a>
+        
+        
+        <div class="text-base-content/60 text-sm">Inspiring New Perspectives Through Creativity &amp; AI.</div>
+        
+      </div>
+      
+    </section>
+
+    <div class="dropdown dropdown-end sm:hidden">
+      <div tabindex="0" role="button" class="btn btn-ghost btn-square" aria-label="Select an option">
+        <ion-icon name="menu" class="text-2xl"></ion-icon>
+      </div>
+      <ul class="dropdown-content menu w-36 bg-base-100 rounded-box z-[1] shadow-md">
+        
+
+
+<li>
+  <div role="link" tabindex="0" class="inline-flex items-center p-2 cursor-pointer" @click="flip = !flip" title="About">
+    <ion-icon name="information-circle"></ion-icon>About</div>
+</li>
+
+
+
+
+
+
+
+
+
+<li>
+  <a class="group inline-flex items-center p-2 cursor-pointer" href="/search" title="Search">
+    <ion-icon name="search"></ion-icon>
+    Search
+  </a>
+</li>
+
+
+
+
+
+
+
+
+
+
+
+<li>
+  <a class="inline-flex items-center p-2 cursor-pointer" href="/posts" title="Archives">
+    <ion-icon name="archive"></ion-icon>
+    Archives
+  </a>
+</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </ul>
+    </div>
+    <section class="hidden sm:flex sm:items-center sm:gap-2 md:gap-4">
+      
+      
+      
+      <div role="link" tabindex="0" class="text-sm font-semibold cursor-pointer hover:underline" @click="flip = !flip" title="About">About</div>
+      
+      
+
+      
+      
+        
+      
+
+      
+
+      
+      
+      
+      
+<a class="group inline-flex items-center p-2 rounded-full cursor-pointer hover:bg-primary" href="/search" title="Search">
+  <ion-icon class="group-hover:text-primary-content" name="search"></ion-icon>
+</a>
+
+
+      
+      
+
+
+
+
+
+      
+
+      <div class="dropdown dropdown-end dropdown-hover">
+        <div tabindex="0" role="button" class="group inline-flex items-center p-2 rounded-full cursor-pointer hover:bg-primary" aria-label="Select an option">
+          <ion-icon class="group-hover:text-primary-content text-xl" name="menu"></ion-icon>
+        </div>
+        <ul class="dropdown-content menu w-36 bg-base-100 rounded-box z-[1] shadow-xl">
+          
+          
+<li>
+  <a class="inline-flex items-center p-2 cursor-pointer" href="/posts" title="Archives">
+    <ion-icon name="archive"></ion-icon>
+    Archives
+  </a>
+</li>
+
+
+          
+          
+
+
+
+
+
+          
+          
+
+
+
+
+
+          
+
+          
+        </ul>
+      </div>
+      
+    </section>
+  </div>
+</nav>
+
+
+    <div class="flip-container" :class="{ 'flip-it': flip }">
+      <div class="flipper">
+        <div class="front">
+          <div class="container">
+            
+<div class="mt-4 px-4">
+  
+  <div class="relative" x-data="{ height: '' }" x-init="height = $el.scrollHeight + 'px'">
+  
+    
+    <div class="absolute right-0 lg:w-36 xl:w-48 hidden lg:block" :style="{ height }">
+      <nav id="TableOfContents">
+  <ul>
+    <li><a href="#about-me"><strong>About Me</strong></a></li>
+  </ul>
+</nav>
+
+      <div class="dream-adsense px-5">
+      
+      </div>
+    </div>
+    
+    <article class="mx-auto prose prose-quoteless dark:prose-invert" id="dream-single-post-main" itemscope itemtype="http://schema.org/Article">
+      
+  <meta itemprop="name" content="Musing Maddy">
+  <meta itemprop="description" content="About Me Hi there! 👋🏻,
+Welcome to MusingMaddy, a creative space where art, technology, and imagination converge.
+Read more…">
+  <meta itemprop="datePublished" content="2024-09-27T12:00:48+05:30">
+  <meta itemprop="dateModified" content="2024-09-27T12:00:48+05:30">
+  <meta itemprop="wordCount" content="91">
+
+      <header>
+        <h1 itemprop="headline"></h1>
+        <p class="text-sm">
+          
+            Friday, Sep 27, 2024
+          
+
+          | <span>1 minute read</span>
+
+          
+          | <span>Updated at
+            
+              Friday, Sep 27, 2024
+            </span>
+          
+        </p>
+        <div class="flex justify-between">
+          <div class="flex items-center">
+  
+  <div class="avatar mr-1">
+    <div class="w-8 rounded-full">
+      <img class="my-0" src="/img/musingmaddy.webp" alt="Musing Maddy" />
+    </div>
+  </div>
+  
+
+  <span itemprop="author" itemscope itemtype="https://schema.org/Person">
+  
+    
+      <span itemprop="name">Musing Maddy</span>
+    
+  
+  </span>
+</div>
+
+
+          <div class="flex items-center gap-2">
+  
+  
+
+  
+  
+  
+  
+    
+  
+  
+    <a class="group inline-flex items-center p-2 rounded-full cursor-pointer hover:bg-primary"
+      href="https://x.com/intent/post?text=&amp;url=https://musingmaddy.github.io/posts/about_me/" target="_blank" rel="noopener noreferrer"
+      title="Share on X">
+      <ion-icon class="group-hover:text-primary-content" name="logo-x"></ion-icon>
+    </a>
+  
+    <a class="group inline-flex items-center p-2 rounded-full cursor-pointer hover:bg-primary"
+      href="" target="_blank" rel="noopener noreferrer"
+      title="Share on ">
+      <ion-icon class="group-hover:text-primary-content" name="logo-youtube"></ion-icon>
+    </a>
+  
+    <a class="group inline-flex items-center p-2 rounded-full cursor-pointer hover:bg-primary"
+      href="https://wa.me/?text=%20https://musingmaddy.github.io/posts/about_me/" target="_blank" rel="noopener noreferrer"
+      title="Share on WhatsApp">
+      <ion-icon class="group-hover:text-primary-content" name="logo-whatsapp"></ion-icon>
+    </a>
+  
+
+  
+  
+</div>
+
+        </div>
+      </header>
+
+      
+      <img src="about_me.webp" alt="" />
+      
+
+      <h2 id="about-me"><strong>About Me</strong></h2>
+<p><strong>Hi there! 👋🏻</strong>,</p>
+<p>Welcome to <strong>MusingMaddy</strong>, a creative space where art, technology, and imagination converge.</p>
+<p>Read more&hellip;</p>
+<p>I&rsquo;m Maddy, an artist, storyteller, and tech enthusiast. I&rsquo;m passionate about harnessing the power of technology to bring creative visions to life. Here, you&rsquo;ll find a curated collection of my digital art, creative projects, and crafty innovations.</p>
+<p>I&rsquo;m always exploring new ways to blend art and technology. My work explores the intersection of art and technology, inspiring new ways of thinking and creating.</p>
+
+
+
+  <blockquote>
+    <p><strong>MusingMaddy : “Inspiring New Perspectives Through Creativity &amp; AI”</strong></p>
+
+  </blockquote>
+
+<p><img src="about_me_full.webp" alt="about_me" title="Imagika"></p>
+
+      
+      <div class="divider"></div>
+      <div class="flex flex-col md:flex-row justify-between gap-4 py-4">
+        
+        <div></div>
+        
+
+        
+        <div></div>
+        
+      </div>
+      
+    </article>
+  </div>
+
+  
+  <div class="divider max-w-[65ch] mx-auto"></div>
+
+  <section class="max-w-[65ch] mx-auto space-y-4">
+    
+<article>
+  <div id="disqus_thread"></div>
+<script>
+    window.disqus_config = function () {
+        this.page.identifier = '\/posts\/about_me\/';
+        this.page.title = '';
+        this.page.url = 'https:\/\/musingmaddy.github.io\/posts\/about_me\/';
+    };
+    function initDisqus() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "musingmaddy" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    };
+    setTimeout(() => {
+        initDisqus();
+    }, 3000);
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</article>
+
+
+
+
+
+
+
+
+  </section>
+  
+</div>
+
+
+            
+            <footer class="flex justify-between items-center gap-2 px-4 py-12">
+            
+              <div>
+  
+  <p>
+    © 2024 Musing Maddy
+  </p>
+  
+
+  
+  <p>Inspiring New Perspectives Through Creativity & AI.</p>
+  
+</div>
+
+              <div
+  x-data="{ icons: [
+    { name: 'moon', status: 'y' },
+    { name: 'sunny', status: 'n' },
+    { name: 'desktop', status: 'auto' }
+  ] }"
+  class="flex items-center h-[32px] px-2 gap-2 border border-base-content/30 rounded-full"
+>
+  <template x-for="icon in icons">
+    <div
+      role="button"
+      tabindex="0"
+      :aria-label="'Select ' + icon.name + ' mode'"
+      class="group inline-flex justify-center items-center p-1 rounded-full cursor-pointer hover:bg-primary"
+      :class="$store.darkMode.icon() === icon.name && 'bg-primary'"
+      @click="$store.darkMode.toggle(icon.status)"
+    >
+      <ion-icon
+        :name="`${icon.name}-outline`"
+        class="group-hover:text-primary-content"
+        :class="$store.darkMode.icon() === icon.name && 'text-primary-content'"
+      >
+      </ion-icon>
+    </div>
+  </template>
+</div>
+
+            </footer>
+          </div>
+        </div>
+        <div class="back">
+          <div class="container">
+            
+            <div class="dream-grid">
+  
+  
+  
+  <div class="w-full md:w-1/2 lg:w-1/3 xl:w-1/4 p-4 dream-column">
+    <article
+      class="card card-compact bg-base-100 hover:bg-base-content/10 shadow-xl dark:border dark:border-base-content/30"
+    >
+      <div class="card-body">
+        <div class="card-title"></div>
+
+        <div class="prose dark:prose-invert">
+          <h2 id="about-me"><strong>About Me</strong></h2>
+<p><strong>Hi there! 👋🏻</strong>,</p>
+<p>Welcome to <strong>MusingMaddy</strong>, a creative space where art, technology, and imagination converge.</p>
+<p>I&rsquo;m Maddy, an artist, storyteller, and tech enthusiast. I&rsquo;m passionate about harnessing the power of technology to bring creative visions to life. Here, you&rsquo;ll find a curated collection of my digital art, creative projects, and crafty innovations.</p>
+<p>I&rsquo;m always exploring new ways to blend art and technology. My work explores the intersection of art and technology, inspiring new ways of thinking and creating.</p>
+
+
+
+  <blockquote>
+    <p><strong>MusingMaddy : “Inspiring New Perspectives Through Creativity &amp; AI”</strong></p>
+
+  </blockquote>
+
+<p><img src="content/posts/about_me/about_me.webp" alt="about_me"></p>
+
+        </div>
+      </div>
+    </article>
+  </div>
+  
+  <div class="w-full md:w-1/2 lg:w-1/3 xl:w-1/4 p-4 dream-column">
+    <article
+      class="card card-compact bg-base-100 hover:bg-base-content/10 shadow-xl dark:border dark:border-base-content/30"
+    >
+      <div class="card-body">
+        <div class="card-title"></div>
+
+        <div class="prose dark:prose-invert">
+          <h2 id="my-projects"><strong>My Projects</strong></h2>
+<ol>
+<li>
+<p><strong>AI Art Collection</strong><br>
+My AI Art Project is a vibrant collection of digital artworks. I update this gallery regularly, showcasing the unexpected beauty and uniqueness of thematic art.</p>
+</li>
+<li>
+<p><strong>Fiction Novel: <em>Jeev Atman</em></strong><br>
+<em>Jeev Atman</em> is an upcoming adventure novel in progress that weaves elements of mystery, philosophy, and spiritual growth. Through its characters and storyline, I aim to explore questions about life, self-discovery, and the intersection of humanity and technology. Writing this novel is an ongoing journey, blending my love for storytelling with themes that resonate deeply with my creative vision.</p>
+</li>
+<li>
+<p><strong>Indie Game Development</strong><br>
+Alongside <em>Jeev Atman</em>, I’m developing an indie game in Unity as a digital adaptation of the novel. This project allows me to bring the world of <em>Jeev Atman</em> to life interactively, inviting players to experience its story and universe in a completely new way. It’s an immersive blend of art, storytelling, and gameplay, all grounded in the philosophy of “Inspiring New Perspectives Through Creativity &amp; AI.”</p>
+</li>
+</ol>
+
+        </div>
+      </div>
+    </article>
+  </div>
+  
+  <div class="w-full md:w-1/2 lg:w-1/3 xl:w-1/4 p-4 dream-column">
+    <article
+      class="card card-compact bg-base-100 hover:bg-base-content/10 shadow-xl dark:border dark:border-base-content/30"
+    >
+      <div class="card-body">
+        <div class="card-title"></div>
+
+        <div class="prose dark:prose-invert">
+          <h2 id="interests"><strong>Interests</strong></h2>
+<p><strong>What I&rsquo;m Into</strong></p>
+<p>I&rsquo;m always curious about the world around me, especially:</p>
+<ul>
+<li><strong>Mind and Soul:</strong> Philosophy, psychology, and spirituality.</li>
+<li><strong>The Weird and Wonderful:</strong> Surrealism, mystery, and all things strange.</li>
+<li><strong>Tech and Art:</strong> How technology can enhance creativity.</li>
+</ul>
+<p>I use these interests as a starting point for my projects. Whether I&rsquo;m creating digital art or writing a blog post, I aim to spark curiosity and inspire others.</p>
+
+        </div>
+      </div>
+    </article>
+  </div>
+  
+  <div class="w-full md:w-1/2 lg:w-1/3 xl:w-1/4 p-4 dream-column">
+    <article
+      class="card card-compact bg-base-100 hover:bg-base-content/10 shadow-xl dark:border dark:border-base-content/30"
+    >
+      <div class="card-body">
+        <div class="card-title"></div>
+
+        <div class="prose dark:prose-invert">
+          <h2 id="license"><strong>License</strong></h2>
+<p>All images, artworks, and written content on <em>Musing Maddy</em> are created to inspire and are protected under a Creative Commons license. I invite you to view and share them responsibly, always crediting the work where due.<br>
+<em>Note: Some artworks may include surreal or intense imagery that could evoke strong emotions. Viewer discretion is advised.</em></p>
+
+        </div>
+      </div>
+    </article>
+  </div>
+  
+  <div class="w-full md:w-1/2 lg:w-1/3 xl:w-1/4 p-4 dream-column">
+    <article
+      class="card card-compact bg-base-100 hover:bg-base-content/10 shadow-xl dark:border dark:border-base-content/30"
+    >
+      <div class="card-body">
+        <div class="card-title"></div>
+
+        <div class="prose dark:prose-invert">
+          <h2 id="connect-with-me"><strong>Connect With Me</strong></h2>
+<p><strong>Let’s Connect!</strong></p>
+<p>Want to chat about art, tech, or my projects?</p>
+<ul>
+<li><strong>Personal Email:</strong> <a href="mailto:musingmaddy@gmail.com">musingmaddy@gmail.com</a></li>
+<li><strong>Instagram:</strong> <a href="https://instagram.com/musingmaddy">https://instagram.com/musingmaddy</a></li>
+</ul>
+
+        </div>
+      </div>
+    </article>
+  </div>
+  
+  
+
+  
+
+  
+</div>
+
+            
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+  window.lightTheme = "emerald"
+  window.darkTheme = "forest"
+</script>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/imagesloaded@5.0.0/imagesloaded.pkgd.min.js" integrity="sha256-htrLFfZJ6v5udOG+3kNLINIKh2gvoKqwEhHYfTTMICc=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha256-Nn1q/fx0H7SNLZMQ5Hw5JLaTRZp0yILA/FRexe19VdI=" crossorigin="anonymous"></script>
+
+  
+  
+    
+  
+  <script src="/js/grid.min.js"></script>
+
+
+
+
+  
+
+<script src="/js/main.min.js"></script>
+
+    
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    <script type="module" src="https://unpkg.com/ionicons@7.4.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.4.0/dist/ionicons/ionicons.js"></script>
+  </body>
+</html>

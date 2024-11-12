@@ -1,0 +1,71 @@
+baseurl = "https://musingmaddy.github.io"
+defaultContentLanguage = "en"
+languageCode = "en"
+title = "Musing Maddy"
+theme = "dream"
+
+
+[services]
+    [services.disqus]
+        shortname = "musingmaddy"
+        disqusShortname = "musingmaddy"
+
+[services.googleAnalytics]
+ID = ""
+
+[params]
+ zenMode = false
+disqusShortname = "musingmaddy"
+lightTheme = "emerald"
+darkTheme = "forest"
+
+# backgroundImage = ""
+# backgroundImageDark = ""
+
+author = "Musing Maddy"
+description = "Maddy's Arts, Crafts & Perspectives"
+avatar = "img/musingmaddy.webp"
+headerTitle = "Musing Maddy"
+motto = "Inspiring New Perspectives Through Creativity & AI."
+
+footerBottomText = "Inspiring New Perspectives Through Creativity & AI."
+
+# rss = true
+
+# utterancesRepo = "musingmaddy/musingmaddy.github.io"
+
+# valine = true
+# LEANCLOUD_APP_ID = ""
+# LEANCLOUD_APP_KEY = ""
+
+# waline = true
+# walineServer = ""
+
+email = "musingmaddy@gmail.com"
+
+siteStartYear = 2024
+
+favicon = "img/favicon.png"
+
+# Syntax highlighting
+# customSyntaxHighlighting = true
+
+# options
+stickyNav = true
+reorderNavItems = ["search", "rss", "posts", "categories", "tags"]
+collapseNavItems = ["posts", "categories", "tags"]
+noDefaultSummaryCover = true
+showTableOfContents = true
+showSummaryCoverInPost = true
+showPrevNextPost = true
+reorderShares = ["x", "youtube", "whatsapp"]
+
+# [[params.navItems]]
+
+# [params.advanced]
+#customCSS = ["css/custom.css"]
+#customJS = []
+
+# [params.experimental]
+# jsDate = true
+# jsDateFormat = "yyyy-MM-dd"
