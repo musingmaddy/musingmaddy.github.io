@@ -6,7 +6,8 @@ author: Musing Maddy
 avatar: /img/musingmaddy.webp
 cover: about_me.webp
 categories: Personal
-tags: 
+tags:
+  - musingmaddy
 nolastmod: false
 draft: false
 comments: true
@@ -16,8 +17,6 @@ comments: true
 **Hi there! 👋🏻**,  
 
 Welcome to **MusingMaddy**, a creative space where art, technology, and imagination converge.
-
-*Read more...*
 
 <!--more-->
 

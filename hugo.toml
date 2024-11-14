@@ -1,17 +1,18 @@
 baseurl = "https://musingmaddy.github.io"
 defaultContentLanguage = "en"
 languageCode = "en"
-title = "Musing Maddy"
+title = "MusingMaddy"
 theme = "dream"
-[services]
-    [services.disqus]
-        shortname = "musingmaddy"
+enableRobotsTXT = "true"
+# [services]
+#    [services.disqus]
+#        shortname = "musingmaddy"
 
 [services.googleAnalytics]
-ID = "G-NV1GRD4KN5"
+	ID = "G-NV1GRD4KN5"
 
 [params]
- zenMode = false
+zenMode = false
 lightTheme = "emerald"
 darkTheme = "forest"
 
@@ -22,9 +23,9 @@ author = "Musing Maddy"
 description = "Maddy's Arts, Crafts & Perspectives"
 avatar = "img/musingmaddy.webp"
 headerTitle = "Musing Maddy"
-motto = "💖 Inspiring New Perspectives Through Creativity & AI."
+motto = "💖 Inspiring New Perspectives."
 
-footerBottomText = "💖 Inspiring New Perspectives Through Creativity & AI."
+footerBottomText = "💖 Inspiring New Perspectives."
 
 rss = true
 
@@ -47,20 +48,20 @@ favicon = "img/favicon.png"
 # customSyntaxHighlighting = true
 
 # options
-stickyNav = false
-reorderNavItems = ["search", "rss", "posts", "categories", "tags"]
-collapseNavItems = ["posts", "categories", "tags"]
-noDefaultSummaryCover = true
+stickyNav = true
+# reorderNavItems = ["search", "rss", "posts", "categories", "tags"]
+# collapseNavItems = ["posts", "categories", "tags"]
+# noDefaultSummaryCover = true
 showTableOfContents = true
 showSummaryCoverInPost = true
 showPrevNextPost = true
-reorderShares = ["x", "youtube", "whatsapp"]
+# reorderShares = ["x", "youtube", "whatsapp"]
 
 # [[params.navItems]]
 
 # [params.advanced]
-#customCSS = ["css/custom.css"]
-#customJS = []
+# customCSS = ["css/custom.css"]
+# customJS = []
 
 # [params.experimental]
 # jsDate = true

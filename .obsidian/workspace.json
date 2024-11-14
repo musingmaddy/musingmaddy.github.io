@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/posts/about_me/index.md",
+                "file": "hugo.toml",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "hugo"
             }
           }
         ]
@@ -170,9 +170,9 @@
   },
   "active": "c375f833699e417a",
   "lastOpenFiles": [
-    "content/about/about_me.md",
     "content/posts/about_me/index.md",
     "hugo.toml",
+    "content/about/about_me.md",
     "public/index.xml",
     "public/search/index.xml",
     "public/posts/index.xml",
