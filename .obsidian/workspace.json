@@ -8,17 +8,17 @@
         "type": "tabs",
         "children": [
           {
-            "id": "c375f833699e417a",
+            "id": "2f86282cc07bdf57",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/about/projects.md",
+                "file": "content/about/contact_me.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "projects"
+              "title": "contact_me"
             }
           }
         ]
@@ -77,7 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 310.50499725341797
   },
   "right": {
     "id": "5838c7864aeaa259",
@@ -168,14 +168,20 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "c375f833699e417a",
+  "active": "2f86282cc07bdf57",
   "lastOpenFiles": [
+    "content/about/about_me_small.webp",
+    "content/posts/about_me/about_me.webp",
+    "content/about/about_me 1.webp",
+    "static/img/about_me_small.webp",
+    "content/posts/about_me/about_me_full.webp",
+    "content/about/about_me.md",
+    "content/about/contact_me.md",
     "content/about/license.md",
+    "content/about/projects.md",
+    "hugo.toml",
     "content/about/interests.md",
     "content/about/index.md",
-    "content/about/contact_me.md",
-    "content/about/about_me.md",
-    "hugo.toml",
     "content/posts/about_me/index.md",
     "public/index.xml",
     "public/search/index.xml",
@@ -191,16 +197,11 @@
     "public/posts/about_me/about_me.webp",
     "layouts/_default/single.html.md",
     "layouts/partials/disqus.html.md",
-    "content/posts/about_me/about_me_full.webp",
     "public/posts/about_me/sd3.5 large prompt.webp",
     "content/posts/about_me/sd3.5 large prompt.webp",
     "resources/_gen/images/posts/about_me/about_me_hu13874458301257185912.webp",
-    "public/img/about_me_full.webp",
-    "static/img/about_me_full.webp",
-    "public/img/about_me.webp",
     "content/posts/My Artworks/index.md",
     "content/posts/my-first-post.md",
-    "content/about/projects.md",
     "public/posts/about_me/index.md",
     "content/about/layna likes to pray.md",
     "content/about/layna likes family.md",

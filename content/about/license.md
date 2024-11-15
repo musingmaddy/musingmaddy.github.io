@@ -16,7 +16,7 @@ All images, artworks, and written content on *Musing Maddy* are crafted to inspi
 
 *Note: Some artworks on this site may feature surreal or intense imagery that could evoke strong emotional responses. Viewer discretion is advised.*
 
-<center>
+
 ![CC BY-NC-SA](https://mirrors.creativecommons.org/presskit/buttons/88x31/png/by-nc-sa.png)
-</center>
+
 

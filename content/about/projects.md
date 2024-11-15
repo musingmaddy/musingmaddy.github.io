@@ -12,11 +12,18 @@ draft: false
 ---
 ## **My Projects**
 
-1. **AI Art Collection**  
-   My AI Art Project is a vibrant collection of digital artworks. I update this gallery regularly, showcasing the unexpected beauty and uniqueness of thematic art. 
+1. **AI Art Collection**
+
+   My AI Art Project is a vibrant collection of thematic digital artworks. I update this gallery regularly, showcasing the unexpected beauty and uniqueness of thematic art that challenge and inspire viewers to see the world differently.
 
 2. **Fiction Novel: *Jeev Atman***  
-   *Jeev Atman* is an upcoming adventure novel in progress that weaves elements of mystery, philosophy, and spiritual growth. Through its characters and storyline, I aim to explore questions about life, self-discovery, and the intersection of humanity and technology. Writing this novel is an ongoing journey, blending my love for storytelling with themes that resonate deeply with my creative vision.
+
+   *Jeev Atman* is an upcoming adventure novel in progress that weaves elements of mystery, philosophy, and spiritual growth. Through its characters and storyline, this work explores the questions about life, identity, self discovery and human transcendence. Writing this fiction novel is an ongoing journey, blending storytelling with themes that resonate deeply with my creative vision.
 
 3. **Indie Game Development**  
-   Alongside *Jeev Atman*, I’m developing an indie game in Unity as a digital adaptation of the novel. This project allows me to bring the world of *Jeev Atman* to life interactively, inviting players to experience its story and universe in a completely new way. It’s an immersive blend of art, storytelling, and gameplay, all grounded in the philosophy of “Inspiring New Perspectives Through Creativity & AI.”
+
+	Extending the world of _Jeev Atman_ into an interactive experience, this indie game project is designed to immerse players in the novel’s universe through artful gameplay and storytelling. Developed in Unity, the game reflects my vision of blending art, narrative, and interaction, offering a fresh, experiential journey where players actively engage with philosophical and creative themes.
+
+4. **Non-Fiction Exploration: Truth, Suffering, and Existence**  
+
+	This ongoing non-fiction project examines profound questions surrounding truth, the nature of suffering, and the essence of existence. Here, I explore complex ideas and insights, aiming to inspire contemplation and a greater understanding of life’s universal challenges.
