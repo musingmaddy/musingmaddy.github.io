@@ -12,13 +12,12 @@ draft: false
 ---
 ## **Interests**
 
-**What I'm Into**
+### **What My Work Explores**
 
-I'm always curious about the world around me, especially:
+- **Mind & Soul:** Delving into philosophy, psychology, and transcendence to understand the deeper facets of human experience.
+- **The Unusual & Enigmatic:** Embracing magical realism, mystery, and concepts that challenge conventional viewpoints.
+- **Art, Tech & Music:** Inspired by surreal art, immersive trance music, and the creativity of indie gaming.
 
-- **Mind and Soul:** Philosophy, psychology, and spirituality.
-- **The Weird and Wonderful:** Surrealism, mystery, and all things strange.
-- **Tech and Art:** How technology can enhance creativity.
+My projects are infused with these themes, guiding my approach to digital art, writing, and more. My goal is to create work that sparks insight and invites fresh perspectives. 
 
-I use these interests as a starting point for my projects. Whether I'm creating digital art or writing a blog post, I aim to spark curiosity and inspire others.
 

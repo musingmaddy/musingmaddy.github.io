@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "hugo.toml",
+                "file": "content/about/projects.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "hugo"
+              "title": "projects"
             }
           }
         ]
@@ -170,9 +170,13 @@
   },
   "active": "c375f833699e417a",
   "lastOpenFiles": [
-    "content/posts/about_me/index.md",
-    "hugo.toml",
+    "content/about/license.md",
+    "content/about/interests.md",
+    "content/about/index.md",
+    "content/about/contact_me.md",
     "content/about/about_me.md",
+    "hugo.toml",
+    "content/posts/about_me/index.md",
     "public/index.xml",
     "public/search/index.xml",
     "public/posts/index.xml",
@@ -197,10 +201,6 @@
     "content/posts/My Artworks/index.md",
     "content/posts/my-first-post.md",
     "content/about/projects.md",
-    "content/about/license.md",
-    "content/about/interests.md",
-    "content/about/index.md",
-    "content/about/contact_me.md",
     "public/posts/about_me/index.md",
     "content/about/layna likes to pray.md",
     "content/about/layna likes family.md",

@@ -10,7 +10,13 @@ tags:
 nolastmod: true
 draft: false
 ---
-## **License**
+## **License**  ![CC BY-NC-SA License](https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png)
 
-All images, artworks, and written content on *Musing Maddy* are created to inspire and are protected under a Creative Commons license. I invite you to view and share them responsibly, always crediting the work where due.  
-*Note: Some artworks may include surreal or intense imagery that could evoke strong emotions. Viewer discretion is advised.*
+All images, artworks, and written content on *Musing Maddy* are crafted to inspire and are protected under a Creative Commons **CC BY-NC-SA** license. You are welcome to view, share, and use this content for non-commercial purposes, provided that you credit *Musing Maddy* and link back to the website. This license ensures that your adaptations or remixes of the content must also carry the same terms. For anything else, you can contact me on musingmaddy@gmail.com .
+
+*Note: Some artworks on this site may feature surreal or intense imagery that could evoke strong emotional responses. Viewer discretion is advised.*
+
+<center>
+![CC BY-NC-SA](https://mirrors.creativecommons.org/presskit/buttons/88x31/png/by-nc-sa.png)
+</center>
+
