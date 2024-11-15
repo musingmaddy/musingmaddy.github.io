@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/about/contact_me.md",
+                "file": "content/about/about_me.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "contact_me"
+              "title": "about_me"
             }
           }
         ]
@@ -170,18 +170,18 @@
   },
   "active": "2f86282cc07bdf57",
   "lastOpenFiles": [
+    "content/about/index.md",
+    "content/about/contact_me.md",
     "content/about/about_me_small.webp",
     "content/posts/about_me/about_me.webp",
     "content/about/about_me 1.webp",
     "static/img/about_me_small.webp",
     "content/posts/about_me/about_me_full.webp",
     "content/about/about_me.md",
-    "content/about/contact_me.md",
     "content/about/license.md",
     "content/about/projects.md",
     "hugo.toml",
     "content/about/interests.md",
-    "content/about/index.md",
     "content/posts/about_me/index.md",
     "public/index.xml",
     "public/search/index.xml",
@@ -199,7 +199,6 @@
     "layouts/partials/disqus.html.md",
     "public/posts/about_me/sd3.5 large prompt.webp",
     "content/posts/about_me/sd3.5 large prompt.webp",
-    "resources/_gen/images/posts/about_me/about_me_hu13874458301257185912.webp",
     "content/posts/My Artworks/index.md",
     "content/posts/my-first-post.md",
     "public/posts/about_me/index.md",
