@@ -3,20 +3,20 @@
   x-data
   :class="$store.darkMode.class()"
   :data-theme="$store.darkMode.theme()">
-  <head>
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>404 Not Found | Musing Maddy</title>
+    <title>404 Not Found | MusingMaddy</title>
 
     
 <link href="/img/favicon.png" rel="icon" type="image/x-icon" />
 
 
-<link rel="canonical" href="https://musingmaddy.github.io/404.html" />
+<link rel="canonical" href="http://localhost:1313/404.html" />
 
 
 
-<meta name="author" content="Musing Maddy" />
+<meta name="author" content="Maddy Meraki" />
 <meta name="description" content="Maddy&#39;s Arts, Crafts & Perspectives" />
 
 
@@ -24,8 +24,8 @@
 <meta name="generator" content="Hugo 0.135.0">
 
 
-<meta property="og:url" content="https://musingmaddy.github.io/404.html">
-  <meta property="og:site_name" content="Musing Maddy">
+<meta property="og:url" content="http://localhost:1313/404.html">
+  <meta property="og:site_name" content="MusingMaddy">
   <meta property="og:title" content="404 Page not found">
   <meta property="og:description" content="Maddy&#39;s Arts, Crafts &amp; Perspectives">
   <meta property="og:locale" content="en">
@@ -41,9 +41,7 @@
 
 
 
-  
-
-<link rel="stylesheet" href="/css/output.min.css" />
+<link rel="stylesheet" href="/css/output.css" />
 
 
 
@@ -80,12 +78,12 @@
       
       <div>
         
-        <a href="https://musingmaddy.github.io/" class="text-lg font-semibold cursor-pointer">
+        <a href="http://localhost:1313/" class="text-lg font-semibold cursor-pointer">
           Musing Maddy
         </a>
         
         
-        <div class="text-base-content/60 text-sm">Inspiring New Perspectives Through Creativity &amp; AI.</div>
+        <div class="text-base-content/60 text-sm">🌄 Inspiring New Perspectives</div>
         
       </div>
       
@@ -103,8 +101,6 @@
   <div role="link" tabindex="0" class="inline-flex items-center p-2 cursor-pointer" @click="flip = !flip" title="About">
     <ion-icon name="information-circle"></ion-icon>About</div>
 </li>
-
-
 
 
 
@@ -139,16 +135,22 @@
 
 
 
+<li>
+  <a class="inline-flex items-center p-2 cursor-pointer" href="/categories" title="All Categories">
+    <ion-icon name="grid"></ion-icon>
+    All Categories
+  </a>
+</li>
 
 
 
 
-
-
-
-
-
-
+<li>
+  <a class="inline-flex items-center p-2 cursor-pointer" href="/tags" title="All Tags">
+    <ion-icon name="pricetags"></ion-icon>
+    All Tags
+  </a>
+</li>
 
 
 
@@ -167,13 +169,9 @@
 
       
       
-        
-      
 
       
 
-      
-      
       
       
 <a class="group inline-flex items-center p-2 rounded-full cursor-pointer hover:bg-primary" href="/search" title="Search">
@@ -189,41 +187,30 @@
 
 
       
-
-      <div class="dropdown dropdown-end dropdown-hover">
-        <div tabindex="0" role="button" class="group inline-flex items-center p-2 rounded-full cursor-pointer hover:bg-primary" aria-label="Select an option">
-          <ion-icon class="group-hover:text-primary-content text-xl" name="menu"></ion-icon>
-        </div>
-        <ul class="dropdown-content menu w-36 bg-base-100 rounded-box z-[1] shadow-xl">
-          
-          
-<li>
-  <a class="inline-flex items-center p-2 cursor-pointer" href="/posts" title="Archives">
-    <ion-icon name="archive"></ion-icon>
-    Archives
-  </a>
-</li>
+      
+<a class="group inline-flex items-center p-2 rounded-full cursor-pointer hover:bg-primary" href="/posts" title="Archives">
+  <ion-icon class="group-hover:text-primary-content" name="archive"></ion-icon>
+</a>
 
 
-          
-          
+      
+      
+<a class="group inline-flex items-center p-2 rounded-full cursor-pointer hover:bg-primary" href="/categories" title="All Categories">
+  <ion-icon class="group-hover:text-primary-content" name="grid"></ion-icon>
+</a>
 
 
+      
+      
+<a class="group inline-flex items-center p-2 rounded-full cursor-pointer hover:bg-primary" href="/tags" title="All Tags">
+  <ion-icon class="group-hover:text-primary-content" name="pricetags"></ion-icon>
+</a>
 
 
+      
 
-          
-          
+      
 
-
-
-
-
-          
-
-          
-        </ul>
-      </div>
       
     </section>
   </div>
@@ -238,7 +225,7 @@
 <div class="h-[60vh] mx-auto px-4 flex flex-col justify-center items-center prose dark:prose-invert">
   <h1>Oops...You are lost in dream.</h1>
   <p>Don't worry though, click the button below to wake up.</p>
-  <button class="btn my-5" @click="window.location.href = 'https://musingmaddy.github.io/'">Back to home</button>
+  <button class="btn my-5" @click="window.location.href = 'http://localhost:1313/'">Back to home</button>
 </div>
 
 
@@ -248,12 +235,12 @@
               <div>
   
   <p>
-    © 2024 Musing Maddy
+    © 2024 MusingMaddy
   </p>
   
 
   
-  <p>Inspiring New Perspectives Through Creativity & AI.</p>
+  <p>🌄 Inspiring Better Perspectives - 💖 Maddy Meraki</p>
   
 </div>
 
@@ -305,8 +292,8 @@
           <h2 id="about-me"><strong>About Me</strong></h2>
 <p><strong>Hi there! 👋🏻</strong>,</p>
 <p>Welcome to <strong>MusingMaddy</strong>, a creative space where art, technology, and imagination converge.</p>
-<p>I&rsquo;m Maddy, an artist, storyteller, and tech enthusiast. I&rsquo;m passionate about harnessing the power of technology to bring creative visions to life. Here, you&rsquo;ll find a curated collection of my digital art, creative projects, and crafty innovations.</p>
-<p>I&rsquo;m always exploring new ways to blend art and technology. My work explores the intersection of art and technology, inspiring new ways of thinking and creating.</p>
+<p>I&rsquo;m Maddy Meraki, an artist, storyteller, and techy. I&rsquo;m passionate about harnessing the power of technology to bring creative visions to life. Here, you&rsquo;ll find a curated collection of my digital art, creative projects, and crafty innovations.</p>
+<p>I&rsquo;m always exploring new ways to inspire new perspectives. My work explores the intersection of art and technology, inspiring new ways of thinking and creating.</p>
 
 
 
@@ -315,7 +302,7 @@
 
   </blockquote>
 
-<p><img src="content/posts/about_me/about_me.webp" alt="about_me"></p>
+<p><img src="static/img/about_me_small.webp" alt="about_me"></p>
 
         </div>
       </div>
@@ -333,16 +320,20 @@
           <h2 id="my-projects"><strong>My Projects</strong></h2>
 <ol>
 <li>
-<p><strong>AI Art Collection</strong><br>
-My AI Art Project is a vibrant collection of digital artworks. I update this gallery regularly, showcasing the unexpected beauty and uniqueness of thematic art.</p>
+<p><strong>AI Art Collection</strong></p>
+<p>My AI Art Project is a vibrant collection of thematic digital artworks. I update this gallery regularly, showcasing the unexpected beauty and uniqueness of thematic art that challenge and inspire viewers to see the world differently.</p>
 </li>
 <li>
-<p><strong>Fiction Novel: <em>Jeev Atman</em></strong><br>
-<em>Jeev Atman</em> is an upcoming adventure novel in progress that weaves elements of mystery, philosophy, and spiritual growth. Through its characters and storyline, I aim to explore questions about life, self-discovery, and the intersection of humanity and technology. Writing this novel is an ongoing journey, blending my love for storytelling with themes that resonate deeply with my creative vision.</p>
+<p><strong>Fiction Novel: <em>Jeev Atman</em></strong></p>
+<p><em>Jeev Atman</em> is an upcoming adventure novel in progress that weaves elements of mystery, philosophy, and spiritual growth. Through its characters and storyline, this work explores the questions about life, identity, self discovery and human transcendence. Writing this fiction novel is an ongoing journey, blending storytelling with themes that resonate deeply with my creative vision.</p>
 </li>
 <li>
-<p><strong>Indie Game Development</strong><br>
-Alongside <em>Jeev Atman</em>, I’m developing an indie game in Unity as a digital adaptation of the novel. This project allows me to bring the world of <em>Jeev Atman</em> to life interactively, inviting players to experience its story and universe in a completely new way. It’s an immersive blend of art, storytelling, and gameplay, all grounded in the philosophy of “Inspiring New Perspectives Through Creativity &amp; AI.”</p>
+<p><strong>Indie Game Development</strong></p>
+<p>Extending the world of <em>Jeev Atman</em> into an interactive experience, this indie game project is designed to immerse players in the novel’s universe through artful gameplay and storytelling. Developed in Unity, the game reflects my vision of blending art, narrative, and interaction, offering a fresh, experiential journey where players actively engage with philosophical and creative themes.</p>
+</li>
+<li>
+<p><strong>Non-Fiction Exploration: Truth, Suffering, and Existence</strong></p>
+<p>This ongoing non-fiction project examines profound questions surrounding truth, the nature of suffering, and the essence of existence. Here, I explore complex ideas and insights, aiming to inspire contemplation and a greater understanding of life’s universal challenges.</p>
 </li>
 </ol>
 
@@ -360,14 +351,13 @@ Alongside <em>Jeev Atman</em>, I’m developing an indie game in Unity as a digi
 
         <div class="prose dark:prose-invert">
           <h2 id="interests"><strong>Interests</strong></h2>
-<p><strong>What I&rsquo;m Into</strong></p>
-<p>I&rsquo;m always curious about the world around me, especially:</p>
+<h3 id="what-my-work-explores"><strong>What My Work Explores</strong></h3>
 <ul>
-<li><strong>Mind and Soul:</strong> Philosophy, psychology, and spirituality.</li>
-<li><strong>The Weird and Wonderful:</strong> Surrealism, mystery, and all things strange.</li>
-<li><strong>Tech and Art:</strong> How technology can enhance creativity.</li>
+<li><strong>Mind &amp; Soul:</strong> Delving into philosophy, psychology, and transcendence to understand the deeper facets of human experience.</li>
+<li><strong>The Unusual &amp; Enigmatic:</strong> Embracing magical realism, mystery, and concepts that challenge conventional viewpoints.</li>
+<li><strong>Art, Tech &amp; Music:</strong> Inspired by surreal art, immersive trance music, and the creativity of indie gaming.</li>
 </ul>
-<p>I use these interests as a starting point for my projects. Whether I&rsquo;m creating digital art or writing a blog post, I aim to spark curiosity and inspire others.</p>
+<p>My projects are infused with these themes, guiding my approach to digital art, writing, and more. My goal is to create work that sparks insight and invites fresh perspectives.</p>
 
         </div>
       </div>
@@ -383,8 +373,10 @@ Alongside <em>Jeev Atman</em>, I’m developing an indie game in Unity as a digi
 
         <div class="prose dark:prose-invert">
           <h2 id="license"><strong>License</strong></h2>
-<p>All images, artworks, and written content on <em>Musing Maddy</em> are created to inspire and are protected under a Creative Commons license. I invite you to view and share them responsibly, always crediting the work where due.<br>
-<em>Note: Some artworks may include surreal or intense imagery that could evoke strong emotions. Viewer discretion is advised.</em></p>
+<p><img src="https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png" alt="CC BY-NC-SA License"></p>
+<p>All images, artworks, and written content on <em>Musing Maddy</em> are crafted to inspire and are protected under a Creative Commons <strong>CC BY-NC-SA</strong> license. You are welcome to view, share, and use this content for non-commercial purposes, provided that you credit <em>Musing Maddy</em> and link back to the website. This license ensures that your adaptations or remixes of the content must also carry the same terms. For anything else, you can contact me on <a href="mailto:musingmaddy@gmail.com">musingmaddy@gmail.com</a> .</p>
+<p><em>Note: Some artworks on this site may feature surreal or intense imagery that could evoke strong emotional responses. Viewer discretion is advised.</em></p>
+<p><img src="https://mirrors.creativecommons.org/presskit/buttons/88x31/png/by-nc-sa.png" alt="CC BY-NC-SA"></p>
 
         </div>
       </div>
@@ -436,16 +428,12 @@ Alongside <em>Jeev Atman</em>, I’m developing an indie game in Unity as a digi
 
   
   
-    
-  
-  <script src="/js/grid.min.js"></script>
+  <script src="/js/grid.js"></script>
 
 
 
 
-  
-
-<script src="/js/main.min.js"></script>
+<script src="/js/main.js"></script>
 
      
 
@@ -453,6 +441,22 @@ Alongside <em>Jeev Atman</em>, I’m developing an indie game in Unity as a digi
 
     
 
+    
+    
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-NV1GRD4KN5"></script>
+      <script>
+        var doNotTrack = false;
+        if ( false ) {
+          var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+          var doNotTrack = (dnt == "1" || dnt == "yes");
+        }
+        if (!doNotTrack) {
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-NV1GRD4KN5');
+        }
+      </script>
     
 
     <script type="module" src="https://unpkg.com/ionicons@7.4.0/dist/ionicons/ionicons.esm.js"></script>
