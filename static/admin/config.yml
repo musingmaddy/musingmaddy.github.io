@@ -1,7 +1,6 @@
 backend:
-  name: github
-  repo: musingmaddy/musingmaddy.github.io # Replace with your GitHub username and repository name
-  branch: master # Or your main branch name if it's not master
+  name: git-gateway
+  branch: master
 publish_mode: editorial_workflow
 media_folder: static/img
 public_folder: /img
