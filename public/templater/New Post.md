@@ -13,10 +13,11 @@ let lastmod = date;
 let description = titleName + ' descriptions';
 let cover = '/img/cover.webp'; // Set cover image path
 
-// Static fields as per your new theme
-let author = "Layna Lingam";
-let avatar = "/img/laynalingam.webp";
-let authorlink = "https://laynalingamgithub.io";
+
+// Static fields updated to "Musing Maddy"
+let author = "Musing Maddy";
+let avatar = "/img/musingmaddy.webp"; // Updated avatar path
+let authorlink = "https://musingmaddy.github.io"; // Assuming you have a similar GitHub page for Musing Maddy
 let nolastmod = true;
 let draft = false;
 let showComments = true;
@@ -35,7 +36,7 @@ setTimeout(() => {
     frontmatter["author"] = author;
     frontmatter["avatar"] = avatar;
     frontmatter["authorlink"] = authorlink;
-    frontmatter["cover"] = cover;
+    frontmatter["cover"] = cover; // Cover is now disabled by default
     frontmatter["nolastmod"] = nolastmod;
     frontmatter["draft"] = draft;
     frontmatter["showComments"] = showComments;

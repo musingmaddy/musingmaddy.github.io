@@ -3,13 +3,14 @@ defaultContentLanguage = "en"
 languageCode = "en"
 title = "MusingMaddy"
 theme = "dream"
-enableRobotsTXT = "true"
+enableRobotsTXT = true
 # [services]
 #    [services.disqus]
 #        shortname = "musingmaddy"
 
 [services.googleAnalytics]
 	ID = "G-NV1GRD4KN5"
+
 
 [params]
 zenMode = false
@@ -48,21 +49,21 @@ favicon = "img/favicon.png"
 # customSyntaxHighlighting = true
 
 # options
-stickyNav = true
+	stickyNav = true
 # reorderNavItems = ["search", "rss", "posts", "categories", "tags"]
 # collapseNavItems = ["posts", "categories", "tags"]
 # noDefaultSummaryCover = true
-showTableOfContents = true
-showSummaryCoverInPost = true
-showPrevNextPost = true
+	showTableOfContents = true
+	showSummaryCoverInPost = true
+	showPrevNextPost = true
 # reorderShares = ["x", "youtube", "whatsapp"]
 
 # [[params.navItems]]
 
 # [params.advanced]
-# customCSS = ["css/custom.css"]
+# 	customCSS = ["css/custom.css"]
 # customJS = []
 
-# [params.experimental]
-# jsDate = true
-# jsDateFormat = "yyyy-MM-dd"
+ # [params.experimental]
+ # jsDate = true
+ # jsDateFormat = "yyyy-MM-dd"

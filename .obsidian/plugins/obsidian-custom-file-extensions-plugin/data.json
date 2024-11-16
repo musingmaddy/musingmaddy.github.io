@@ -16,11 +16,14 @@
       "tex",
       "json",
       "toml",
-      "html"
+      "html",
+      "woff2"
     ]
   },
   "configIsValid": true,
-  "errors": {},
+  "errors": {
+    "": "Could not register extension: '' to view type: markdown.  is already registered to markdown."
+  },
   "allowMdOverride": false,
   "mobileSettings": {
     "enabled": false,

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mindset🧠 on MusingMaddy</title>
+    <link>http://localhost:1313/tags/mindset/</link>
+    <description>Recent content in Mindset🧠 on MusingMaddy</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 16 Nov 2024 12:41:18 +0530</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/mindset/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>No How To&#39;s for large problems in Life</title>
+      <link>http://localhost:1313/posts/no-how-tos-for-large-problems-in-life/</link>
+      <pubDate>Sat, 16 Nov 2024 12:41:18 +0530</pubDate>
+      <guid>http://localhost:1313/posts/no-how-tos-for-large-problems-in-life/</guid>
+      <description>&lt;h1 id=&#34;testing&#34;&gt;Testing&lt;/h1&gt;&#xA;&lt;p&gt;I am testing this website.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
