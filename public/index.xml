@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>MusingMaddy</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on MusingMaddy</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 16 Nov 2024 13:51:19 +0530</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ask What not How</title>
+      <link>http://localhost:1313/posts/ask-what-not-how/</link>
+      <pubDate>Sat, 16 Nov 2024 13:51:19 +0530</pubDate>
+      <guid>http://localhost:1313/posts/ask-what-not-how/</guid>
+      <description>&lt;blockquote class=&#34;dream-alert important&#34;&gt;&#xD;&#xA;    &lt;p class=&#34;heading&#34;&gt;&#xD;&#xA;      &lt;ion-icon name=&#34;sparkles-outline&#34;&gt;&lt;/ion-icon&gt;Important&lt;/p&gt;&#xD;&#xA;    &lt;p&gt;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;  &lt;blockquote&gt;&#xD;&#xA;    &lt;p&gt;Ask &lt;strong&gt;What&lt;/strong&gt; not &lt;strong&gt;How&lt;/strong&gt; !&lt;/p&gt;&#xA;&#xD;&#xA;  &lt;/blockquote&gt;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;  &lt;/blockquote&gt;</description>
+    </item>
+    <item>
+      <title>About Me</title>
+      <link>http://localhost:1313/posts/about_me/</link>
+      <pubDate>Fri, 27 Sep 2024 12:00:48 +0530</pubDate>
+      <guid>http://localhost:1313/posts/about_me/</guid>
+      <description>&lt;h2 id=&#34;about-me&#34;&gt;&lt;strong&gt;About Me&lt;/strong&gt;&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;Hi there! 👋🏻&lt;/strong&gt;,&lt;/p&gt;&#xA;&lt;p&gt;Welcome to &lt;strong&gt;MusingMaddy&lt;/strong&gt;, a creative space where art, technology, and imagination converge.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

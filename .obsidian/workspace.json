@@ -11,10 +11,14 @@
             "id": "9d5169285c2d10cb",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "content/posts/Ask What not How/index.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "index"
             }
           }
         ]
@@ -164,19 +168,20 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "9d5169285c2d10cb",
+  "active": "26b9ea1c29a88e61",
   "lastOpenFiles": [
+    "public/admin/index.html",
+    "public/admin/config.yml",
+    "public/tags/self-reflection/index.xml",
+    "public/tags/musingmaddy/index.xml",
+    "public/tags/mindset/index.xml",
+    "public/posts/index.xml",
+    "public/categories/wisdom/index.xml",
+    "public/index.xml",
+    "public/categories/personal/index.xml",
+    "public/tags/index.xml",
+    "public/categories/index.xml",
     "static/templater/_New Post.md",
-    "public/tags/page/1/index.html",
-    "public/categories/page/1/index.html",
-    "public/tags/self-reflection/page/1/index.html",
-    "public/tags/self-reflection/page/1",
-    "public/tags/self-reflection/page",
-    "public/tags/musingmaddy/page/1/index.html",
-    "public/tags/musingmaddy/page/1",
-    "public/tags/musingmaddy/page",
-    "public/tags/mindset/page/1/index.html",
-    "public/tags/mindset/page/1",
     "public/posts/about_me/about_me_small_hu17105717759347723623.webp",
     "public/posts/about_me/about_me_small.webp",
     "public/posts/about_me/about_me_full.webp",
