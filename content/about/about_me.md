@@ -22,4 +22,4 @@ I'm always exploring new ways to inspire new perspectives. My work explores the 
 
 > **MusingMaddy : “Inspiring New Perspectives Through Creativity & AI”** 
 
-![about_me](http://localhost:1313/posts/about_me/about_me.webp)
+![about_me](http://musingmaddy.github.io/posts/about_me/about_me_small.webp)
