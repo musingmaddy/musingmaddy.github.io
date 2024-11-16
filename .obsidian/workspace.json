@@ -164,8 +164,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "1e63d1007f2c155e",
+  "active": "26b9ea1c29a88e61",
   "lastOpenFiles": [
+    "public/admin/config.yml",
     "static/admin/index.html",
     "public/categories/page/1/index.html",
     "public/categories/page/1",
@@ -176,7 +177,6 @@
     "public/js/grid.min.js",
     "public/js",
     "public/css/output.min.css",
-    "public/posts/about_me/index.html",
     "public/posts/about_me/about_me_small_hu17105717759347723623.webp",
     "public/posts/about_me/about_me_small.webp",
     "public/posts/about_me/about_me.webp",
