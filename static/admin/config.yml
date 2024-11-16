@@ -1,8 +1,7 @@
 backend:
   name: github
   repo: musingmaddy/musingmaddy.github.io # Replace with your GitHub username and repository name
-  branch: main # Or your main branch name if it's not master
-  base_url: https://musingmaddy.github.io/ # Add your site's base URL
+  branch: master # Or your main branch name if it's not master
 publish_mode: editorial_workflow
 media_folder: static/img
 public_folder: /img

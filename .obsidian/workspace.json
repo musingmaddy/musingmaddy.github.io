@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "eae0376dcc570365",
+        "id": "5b1be2ac031af47f",
         "type": "tabs",
         "children": [
           {
-            "id": "61e843be3e1a2de2",
+            "id": "6f85e61cb92ead1f",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -164,23 +164,23 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "26b9ea1c29a88e61",
+  "active": "6f85e61cb92ead1f",
   "lastOpenFiles": [
-    "public/tags/musingmaddy/page/1/index.html",
-    "public/tags/musingmaddy/page/1",
-    "public/tags/mindset/page/1/index.html",
-    "public/tags/mindset/page/1",
-    "public/tags/page/1/index.html",
-    "public/tags/self-reflection/page/1/index.html",
-    "public/tags/self-reflection/page/1",
-    "public/tags/self-reflection/page",
     "public/categories/page/1/index.html",
-    "public/page/1/index.html",
-    "public/page/1",
+    "public/categories/page/1",
+    "public/categories/page",
+    "public/404.html",
+    "public/index.html",
+    "public/js/main.min.js",
+    "public/js/grid.min.js",
+    "public/js",
+    "public/css/output.min.css",
+    "public/posts/about_me/index.html",
     "public/posts/about_me/about_me_small_hu17105717759347723623.webp",
     "public/posts/about_me/about_me_small.webp",
-    "public/posts/about_me/about_me_full.webp",
     "public/posts/about_me/about_me.webp",
+    "public/posts/about_me/about_me_full.webp",
+    "public/posts/ask-what-not-how/index.html",
     "content/posts/Ask What not How/index.md",
     "static/templater/_New Post.md",
     "public/images/default2.jpg",
