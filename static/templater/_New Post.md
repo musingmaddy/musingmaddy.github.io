@@ -15,7 +15,7 @@ let cover = '/img/cover.webp'; // Set cover image path
 
 
 // Static fields updated to "Musing Maddy"
-let author = "Musing Maddy";
+let author = "Maddy Meraki";
 let avatar = "/img/musingmaddy.webp"; // Updated avatar path
 let authorlink = "https://musingmaddy.github.io"; // Assuming you have a similar GitHub page for Musing Maddy
 let nolastmod = true;
