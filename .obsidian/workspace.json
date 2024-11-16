@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "static/admin/index.html",
+                "file": "themes/dream/config.toml",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "config"
             }
           }
         ]
@@ -168,31 +168,31 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "1e63d1007f2c155e",
+  "active": "8b591b64cc696da3",
   "lastOpenFiles": [
-    "public/js/main.js",
-    "public/js/grid.js",
-    "public/css/output.css",
     "public/admin/index.html",
     "public/admin/config.yml",
     "public/admin",
-    "public/tags/self-reflection/index.xml",
-    "public/tags/musingmaddy/index.xml",
-    "public/index.xml",
-    "public/posts/index.xml",
-    "public/tags/index.xml",
+    "public/css/custom.css",
+    "public/fonts/ReadexPro-Regular.woff2",
+    "public/fonts/ReadexPro-Bold.woff2",
+    "public/fonts",
     "public/img/about_me_small.webp",
     "public/img/about_me_full.webp",
-    "public/img/dreamy_meanderings.jpeg",
     "public/img/about_me.webp",
-    "public/img/dreamy_meanderings.webp",
-    "public/img/cover.webp",
-    "public/img/musingmaddy.webp",
+    "public/page/1/index.html",
+    "public/page/1",
+    "public/page",
+    "public/tags/musingmaddy/page/1/index.html",
+    "public/img/dreamy_meanderings.jpeg",
     "public/img/favicon.png",
-    "public/templater/Alerts - Warning.md",
+    "public/img/dreamy_meanderings.webp",
+    "public/img/musingmaddy.webp",
+    "public/img/cover.webp",
     "public/posts/about_me/about_me_small_hu17105717759347723623.webp",
-    "public/templater/Alerts - Important.md",
+    "public/templater/Alerts - Warning.md",
     "public/posts/about_me/about_me_small.webp",
+    "public/templater/Alerts - Important.md",
     "public/templater/Alerts - Tip.md",
     "public/templater/_New Post.md",
     "public/templater/Alerts - Note.md",

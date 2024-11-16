@@ -3,31 +3,28 @@
   x-data
   :class="$store.darkMode.class()"
   :data-theme="$store.darkMode.theme()">
-  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Search | MusingMaddy</title>
 
     
-<link href="/img/favicon.png" rel="icon" type="image/x-icon" />
 
-
-<link rel="canonical" href="http://localhost:1313/search/" />
+<link rel="canonical" href="https://musingmaddy.github.io/search/" />
 
 
 
-<meta name="author" content="Maddy Meraki" />
-<meta name="description" content="Maddy&#39;s Arts, Crafts & Perspectives" />
+<meta name="author" content="" />
+<meta name="description" content="" />
 
 
 
 <meta name="generator" content="Hugo 0.135.0">
 
 
-<meta property="og:url" content="http://localhost:1313/search/">
+<meta property="og:url" content="https://musingmaddy.github.io/search/">
   <meta property="og:site_name" content="MusingMaddy">
   <meta property="og:title" content="MusingMaddy">
-  <meta property="og:description" content="Maddy&#39;s Arts, Crafts &amp; Perspectives">
   <meta property="og:locale" content="en">
   <meta property="og:type" content="website">
 
@@ -36,12 +33,13 @@
 
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="MusingMaddy">
-  <meta name="twitter:description" content="Maddy&#39;s Arts, Crafts &amp; Perspectives">
 
 
 
 
-<link rel="stylesheet" href="/css/output.css" />
+  
+
+<link rel="stylesheet" href="/css/output.min.css" />
 
 
 
@@ -60,10 +58,7 @@
     <div id="dream-global-bg"></div>
 
     
-<nav x-data="{ isSticky: false }"
-  x-init="window.addEventListener('scroll', () => { isSticky = window.scrollY > 30 })"
-  class="sticky top-0 z-30 mt-4 lg:mt-8 py-4"
-  :class="{ 'bg-base-100 shadow-lg dark:border-b dark:border-base-content/30': isSticky }">
+<nav class="mt-4 lg:mt-8 py-4">
 
   
   <div class="container flex justify-between px-4">
@@ -71,21 +66,10 @@
     <section class="flex items-center gap-4">
       <div class="avatar cursor-pointer hover:online" @click="flip = !flip" title="Flip it!">
         <div class="h-10 rounded-full">
-          <img src="/img/musingmaddy.webp" alt="Musing Maddy" />
+          <img src="/" alt="" />
         </div>
       </div>
 
-      
-      <div>
-        
-        <a href="http://localhost:1313/" class="text-lg font-semibold cursor-pointer">
-          Musing Maddy
-        </a>
-        
-        
-        <div class="text-base-content/60 text-sm">🌄 Inspiring New Perspectives</div>
-        
-      </div>
       
     </section>
 
@@ -260,7 +244,7 @@ x-data="{
             <span x-text="post.item.author"></span>
             </template>
             <template x-if="!post.item.author">
-            <span>Maddy Meraki</span>
+            <span></span>
             </template>
             </span>
           </div>
@@ -283,13 +267,17 @@ x-data="{
             
               <div>
   
-  <p>
-    © 2024 MusingMaddy
-  </p>
+  <p>© 2024 MusingMaddy</p>
   
 
   
-  <p>🌄 Inspiring Better Perspectives - 💖 Maddy Meraki</p>
+  <p class="text-sm">
+    🌱
+    <span class="text-base-content/60">
+      Powered by <a class="hover:underline" href="https://gohugo.io/" target="_blank">Hugo</a> with theme
+      <a class="hover:underline" href="https://github.com/g1eny0ung/hugo-theme-dream" target="_blank">Dream</a>.</span
+    >
+  </p>
   
 </div>
 
@@ -477,12 +465,16 @@ x-data="{
 
   
   
-  <script src="/js/grid.js"></script>
+    
+  
+  <script src="/js/grid.min.js"></script>
 
 
 
 
-<script src="/js/main.js"></script>
+  
+
+<script src="/js/main.min.js"></script>
 
     
 

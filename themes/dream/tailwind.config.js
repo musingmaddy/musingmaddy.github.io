@@ -38,7 +38,7 @@ module.exports = {
   plugins: [require('@tailwindcss/typography'), require('daisyui')],
   darkMode: ['selector'],
   daisyui: {
-    themes: ['emerald', 'forest'],
+    themes: ["forest", "emerald", "cupcake", "halloween"],
     darkTheme: 'forest',
   },
 }

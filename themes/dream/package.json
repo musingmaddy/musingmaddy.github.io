@@ -7,8 +7,8 @@
   "license": "MIT",
   "private": true,
   "scripts": {
-    "css": "tailwindcss -i ./src/input.css -o ./assets/css/output.css",
-    "js": "babel src --out-dir assets --presets=@babel/preset-env",
+    "css": "npx tailwindcss -i ./src/input.css -o ./assets/css/output.css",
+    "js": "babel src --out-dir assets --presets=@babel/preset-env --no-comments",
     "build": "npm run css && npm run js",
     "watch": "conc \"npm:css -- -w\" \"npm:js -- -w\""
   },
