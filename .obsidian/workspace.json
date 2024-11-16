@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/posts/Ask What not How/index.md",
+                "file": "static/admin/config.yml",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "config"
             }
           }
         ]
@@ -168,8 +168,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "26b9ea1c29a88e61",
+  "active": "9d5169285c2d10cb",
   "lastOpenFiles": [
+    "public/admin/config copy.yml",
+    "static/admin/config copy.yml",
+    "static/admin/index.html",
+    "static/admin/config.yml",
+    "content/posts/Ask What not How/index.md",
     "public/admin/index.html",
     "public/admin/config.yml",
     "public/tags/self-reflection/index.xml",
@@ -177,16 +182,11 @@
     "public/tags/mindset/index.xml",
     "public/posts/index.xml",
     "public/categories/wisdom/index.xml",
-    "public/index.xml",
-    "public/categories/personal/index.xml",
-    "public/tags/index.xml",
-    "public/categories/index.xml",
     "static/templater/_New Post.md",
     "public/posts/about_me/about_me_small_hu17105717759347723623.webp",
     "public/posts/about_me/about_me_small.webp",
     "public/posts/about_me/about_me_full.webp",
     "public/posts/about_me/about_me.webp",
-    "content/posts/Ask What not How/index.md",
     "public/images/default2.jpg",
     "public/images/default2_hu4245215999118357849.webp",
     "public/images/default3.jpg",
