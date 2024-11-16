@@ -2,5 +2,6 @@
   "cssTheme": "Border",
   "textFontFamily": "Readex Pro",
   "interfaceFontFamily": "Readex Pro",
-  "monospaceFontFamily": "Cascadia Code PL"
+  "monospaceFontFamily": "Cascadia Code PL",
+  "theme": "moonstone"
 }
