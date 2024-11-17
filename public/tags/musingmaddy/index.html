@@ -331,9 +331,9 @@
 
 
             
-            <footer class="flex justify-between items-center gap-2 px-4 py-12">
-            
-              <div>
+<footer class="flex justify-between items-center gap-2 px-4 py-12">
+
+  <div>
   
   <p>
     © 2024 MusingMaddy
@@ -345,7 +345,7 @@
   
 </div>
 
-              <div
+  <div
   x-data="{ icons: [
     { name: 'moon', status: 'y' },
     { name: 'sunny', status: 'n' },
@@ -372,13 +372,14 @@
   </template>
 </div>
 
-            </footer>
+</footer>
+
           </div>
         </div>
         <div class="back">
           <div class="container">
             
-            <div class="dream-grid">
+            <div class="dream-grid dream-grid-about">
   
   
   
@@ -513,6 +514,51 @@
 </div>
 
             
+
+            
+<footer class="flex justify-between items-center gap-2 px-4 py-12">
+
+  <div>
+  
+  <p>
+    © 2024 MusingMaddy
+  </p>
+  
+
+  
+  <p>🌄 Inspiring Better Perspectives - 💖 Maddy Meraki</p>
+  
+</div>
+
+  <div
+  x-data="{ icons: [
+    { name: 'moon', status: 'y' },
+    { name: 'sunny', status: 'n' },
+    { name: 'desktop', status: 'auto' }
+  ] }"
+  class="flex items-center h-[32px] px-2 gap-2 border border-base-content/30 rounded-full"
+>
+  <template x-for="icon in icons">
+    <div
+      role="button"
+      tabindex="0"
+      :aria-label="'Select ' + icon.name + ' mode'"
+      class="group inline-flex justify-center items-center p-1 rounded-full cursor-pointer hover:bg-primary"
+      :class="$store.darkMode.icon() === icon.name && 'bg-primary'"
+      @click="$store.darkMode.toggle(icon.status)"
+    >
+      <ion-icon
+        :name="`${icon.name}-outline`"
+        class="group-hover:text-primary-content"
+        :class="$store.darkMode.icon() === icon.name && 'text-primary-content'"
+      >
+      </ion-icon>
+    </div>
+  </template>
+</div>
+
+</footer>
+
           </div>
         </div>
       </div>
