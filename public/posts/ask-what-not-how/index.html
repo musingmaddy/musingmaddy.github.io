@@ -3,14 +3,16 @@
   x-data
   :class="$store.darkMode.class()"
   :data-theme="$store.darkMode.theme()">
-  <head>
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ask What not How | MusingMaddy</title>
 
     
+<link href="/img/favicon.png" rel="icon" type="image/x-icon" />
 
-<link rel="canonical" href="https://musingmaddy.github.io/posts/ask-what-not-how/" />
+
+<link rel="canonical" href="http://localhost:1313/posts/ask-what-not-how/" />
 
 
 
@@ -27,7 +29,7 @@ Ask What not How !
 <meta name="generator" content="Hugo 0.135.0">
 
 
-<meta property="og:url" content="https://musingmaddy.github.io/posts/ask-what-not-how/">
+<meta property="og:url" content="http://localhost:1313/posts/ask-what-not-how/">
   <meta property="og:site_name" content="MusingMaddy">
   <meta property="og:title" content="Ask What not How">
   <meta property="og:description" content="Ask What not How descriptions">
@@ -49,9 +51,7 @@ Ask What not How !
 
 
 
-  
-
-<link rel="stylesheet" href="/css/output.min.css" />
+<link rel="stylesheet" href="/css/output.css" />
 
 
 
@@ -86,7 +86,10 @@ Ask What not How !
     <div id="dream-global-bg"></div>
 
     
-<nav class="mt-4 lg:mt-8 py-4">
+<nav x-data="{ isSticky: false }"
+  x-init="window.addEventListener('scroll', () => { isSticky = window.scrollY > 30 })"
+  class="sticky top-0 z-30 mt-4 lg:mt-8 py-4"
+  :class="{ 'bg-base-100 shadow-lg dark:border-b dark:border-base-content/30': isSticky }">
 
   
   <div class="container flex justify-between px-4">
@@ -94,10 +97,21 @@ Ask What not How !
     <section class="flex items-center gap-4">
       <div class="avatar cursor-pointer hover:online" @click="flip = !flip" title="Flip it!">
         <div class="h-10 rounded-full">
-          <img src="/" alt="" />
+          <img src="/img/musingmaddy.webp" alt="Musing Maddy" />
         </div>
       </div>
 
+      
+      <div>
+        
+        <a href="http://localhost:1313/" class="text-lg font-semibold cursor-pointer">
+          Musing Maddy
+        </a>
+        
+        
+        <div class="text-base-content/60 text-sm">🌄 Inspiring New Perspectives</div>
+        
+      </div>
       
     </section>
 
@@ -236,8 +250,16 @@ Ask What not How !
             
 <div class="mt-4 px-4">
   
-  <div>
+  <div class="relative" x-data="{ height: '' }" x-init="height = $el.scrollHeight + 'px'">
   
+    
+    <div class="absolute right-0 lg:w-36 xl:w-48 hidden lg:block" :style="{ height }">
+      <nav id="TableOfContents"></nav>
+
+      <div class="dream-adsense px-5">
+      
+      </div>
+    </div>
     
     <article class="mx-auto prose prose-quoteless dark:prose-invert" id="dream-single-post-main" itemscope itemtype="http://schema.org/Article">
       
@@ -291,19 +313,19 @@ Ask What not How !
   
   
     <a class="group inline-flex items-center p-2 rounded-full cursor-pointer hover:bg-primary"
-      href="https://x.com/intent/post?text=Ask%20What%20not%20How&amp;url=https://musingmaddy.github.io/posts/ask-what-not-how/" target="_blank" rel="noopener noreferrer"
+      href="https://x.com/intent/post?text=Ask%20What%20not%20How&amp;url=http://localhost:1313/posts/ask-what-not-how/" target="_blank" rel="noopener noreferrer"
       title="Share on X">
       <ion-icon class="group-hover:text-primary-content" name="logo-x"></ion-icon>
     </a>
   
     <a class="group inline-flex items-center p-2 rounded-full cursor-pointer hover:bg-primary"
-      href="https://facebook.com/sharer/sharer.php?u=https://musingmaddy.github.io/posts/ask-what-not-how/" target="_blank" rel="noopener noreferrer"
+      href="https://facebook.com/sharer/sharer.php?u=http://localhost:1313/posts/ask-what-not-how/" target="_blank" rel="noopener noreferrer"
       title="Share on Facebook">
       <ion-icon class="group-hover:text-primary-content" name="logo-facebook"></ion-icon>
     </a>
   
     <a class="group inline-flex items-center p-2 rounded-full cursor-pointer hover:bg-primary"
-      href="https://wa.me/?text=Ask%20What%20not%20How%20https://musingmaddy.github.io/posts/ask-what-not-how/" target="_blank" rel="noopener noreferrer"
+      href="https://wa.me/?text=Ask%20What%20not%20How%20http://localhost:1313/posts/ask-what-not-how/" target="_blank" rel="noopener noreferrer"
       title="Share on WhatsApp">
       <ion-icon class="group-hover:text-primary-content" name="logo-whatsapp"></ion-icon>
     </a>
@@ -316,6 +338,8 @@ Ask What not How !
         </div>
       </header>
 
+      
+      <img src="/img/cover.webp" alt="Ask What not How" />
       
 
       
@@ -338,9 +362,52 @@ Ask What not How !
 
 
       
+      <div class="divider"></div>
+      <div class="flex flex-col md:flex-row justify-between gap-4 py-4">
+        
+        <div></div>
+        
+
+        
+        <a class="group btn btn-outline" href="/posts/about_me/" title="About Me">
+          <div class="inline-flex flex-col items-end">
+            <span class="text-base-content/60 group-hover:text-neutral-content/60 text-xs font-normal">Next page</span>
+            <span class="max-w-48 truncate">About Me</span>
+          </div>
+          <ion-icon name="chevron-forward"></ion-icon>
+        </a>
+        
+      </div>
+      
     </article>
   </div>
 
+  
+  <div class="divider max-w-[65ch] mx-auto"></div>
+
+  <section class="max-w-[65ch] mx-auto space-y-4">
+    
+
+
+<template x-if="['localhost', '127.0.0.1'].indexOf(window.location.hostname) == -1">
+  <article>
+    <script
+      src="https://utteranc.es/client.js"
+      repo="musingmaddy/musingmaddy.github.io"
+      issue-term="og:title"
+      theme="github-light"
+      crossorigin="anonymous"
+      async>
+    </script>
+  </article>
+</template>
+
+
+
+
+
+
+  </section>
   
 </div>
 
@@ -350,17 +417,13 @@ Ask What not How !
             
               <div>
   
-  <p>© 2024 MusingMaddy</p>
+  <p>
+    © 2024 MusingMaddy
+  </p>
   
 
   
-  <p class="text-sm">
-    🌱
-    <span class="text-base-content/60">
-      Powered by <a class="hover:underline" href="https://gohugo.io/" target="_blank">Hugo</a> with theme
-      <a class="hover:underline" href="https://github.com/g1eny0ung/hugo-theme-dream" target="_blank">Dream</a>.</span
-    >
-  </p>
+  <p>🌄 Inspiring Better Perspectives - 💖 Maddy Meraki</p>
   
 </div>
 
@@ -548,16 +611,12 @@ Ask What not How !
 
   
   
-    
-  
-  <script src="/js/grid.min.js"></script>
+  <script src="/js/grid.js"></script>
 
 
 
 
-  
-
-<script src="/js/main.min.js"></script>
+<script src="/js/main.js"></script>
 
     
 

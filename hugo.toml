@@ -17,9 +17,6 @@ zenMode = false
 lightTheme = "emerald"
 darkTheme = "forest"
 
-[params.daisyui]
-  themes = ["forest", "emerald", "cupcake", "halloween"]
-
 # backgroundImage = ""
 # backgroundImageDark = ""
 

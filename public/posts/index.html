@@ -3,18 +3,20 @@
   x-data
   :class="$store.darkMode.class()"
   :data-theme="$store.darkMode.theme()">
-  <head>
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Posts | MusingMaddy</title>
 
     
-
-<link rel="canonical" href="https://musingmaddy.github.io/posts/" />
-
+<link href="/img/favicon.png" rel="icon" type="image/x-icon" />
 
 
-<meta name="author" content="" />
+<link rel="canonical" href="http://localhost:1313/posts/" />
+
+
+
+<meta name="author" content="Maddy Meraki" />
 <meta name="description" content="" />
 
 
@@ -25,9 +27,10 @@
 <meta name="generator" content="Hugo 0.135.0">
 
 
-<meta property="og:url" content="https://musingmaddy.github.io/posts/">
+<meta property="og:url" content="http://localhost:1313/posts/">
   <meta property="og:site_name" content="MusingMaddy">
   <meta property="og:title" content="Posts">
+  <meta property="og:description" content="Maddy&#39;s Arts, Crafts &amp; Perspectives">
   <meta property="og:locale" content="en">
   <meta property="og:type" content="website">
 
@@ -36,13 +39,12 @@
 
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Posts">
+  <meta name="twitter:description" content="Maddy&#39;s Arts, Crafts &amp; Perspectives">
 
 
 
 
-  
-
-<link rel="stylesheet" href="/css/output.min.css" />
+<link rel="stylesheet" href="/css/output.css" />
 
 
 
@@ -61,7 +63,10 @@
     <div id="dream-global-bg"></div>
 
     
-<nav class="mt-4 lg:mt-8 py-4">
+<nav x-data="{ isSticky: false }"
+  x-init="window.addEventListener('scroll', () => { isSticky = window.scrollY > 30 })"
+  class="sticky top-0 z-30 mt-4 lg:mt-8 py-4"
+  :class="{ 'bg-base-100 shadow-lg dark:border-b dark:border-base-content/30': isSticky }">
 
   
   <div class="container flex justify-between px-4">
@@ -69,10 +74,21 @@
     <section class="flex items-center gap-4">
       <div class="avatar cursor-pointer hover:online" @click="flip = !flip" title="Flip it!">
         <div class="h-10 rounded-full">
-          <img src="/" alt="" />
+          <img src="/img/musingmaddy.webp" alt="Musing Maddy" />
         </div>
       </div>
 
+      
+      <div>
+        
+        <a href="http://localhost:1313/" class="text-lg font-semibold cursor-pointer">
+          Musing Maddy
+        </a>
+        
+        
+        <div class="text-base-content/60 text-sm">🌄 Inspiring New Perspectives</div>
+        
+      </div>
       
     </section>
 
@@ -256,17 +272,13 @@
             
               <div>
   
-  <p>© 2024 MusingMaddy</p>
+  <p>
+    © 2024 MusingMaddy
+  </p>
   
 
   
-  <p class="text-sm">
-    🌱
-    <span class="text-base-content/60">
-      Powered by <a class="hover:underline" href="https://gohugo.io/" target="_blank">Hugo</a> with theme
-      <a class="hover:underline" href="https://github.com/g1eny0ung/hugo-theme-dream" target="_blank">Dream</a>.</span
-    >
-  </p>
+  <p>🌄 Inspiring Better Perspectives - 💖 Maddy Meraki</p>
   
 </div>
 
@@ -454,16 +466,12 @@
 
   
   
-    
-  
-  <script src="/js/grid.min.js"></script>
+  <script src="/js/grid.js"></script>
 
 
 
 
-  
-
-<script src="/js/main.min.js"></script>
+<script src="/js/main.js"></script>
 
      
 

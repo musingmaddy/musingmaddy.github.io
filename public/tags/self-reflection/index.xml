@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Self-Reflection💭 on MusingMaddy</title>
+    <link>http://localhost:1313/tags/self-reflection/</link>
+    <description>Recent content in Self-Reflection💭 on MusingMaddy</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 16 Nov 2024 13:51:19 +0530</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/self-reflection/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ask What not How</title>
+      <link>http://localhost:1313/posts/ask-what-not-how/</link>
+      <pubDate>Sat, 16 Nov 2024 13:51:19 +0530</pubDate>
+      <guid>http://localhost:1313/posts/ask-what-not-how/</guid>
+      <description>&lt;blockquote class=&#34;dream-alert important&#34;&gt;&#xD;&#xA;    &lt;p class=&#34;heading&#34;&gt;&#xD;&#xA;      &lt;ion-icon name=&#34;sparkles-outline&#34;&gt;&lt;/ion-icon&gt;Important&lt;/p&gt;&#xD;&#xA;    &lt;p&gt;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;  &lt;blockquote&gt;&#xD;&#xA;    &lt;p&gt;Ask &lt;strong&gt;What&lt;/strong&gt; not &lt;strong&gt;How&lt;/strong&gt; !&lt;/p&gt;&#xA;&#xD;&#xA;  &lt;/blockquote&gt;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;  &lt;/blockquote&gt;</description>
+    </item>
+  </channel>
+</rss>
