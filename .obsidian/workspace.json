@@ -11,14 +11,12 @@
             "id": "4d46a61defc338ef",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "content/posts/Christmas Magic/index.md",
-                "mode": "source",
-                "source": false
+                "file": "content/posts/Christmas Magic/cover.webp"
               },
-              "icon": "lucide-file",
-              "title": "index"
+              "icon": "lucide-image",
+              "title": "cover"
             }
           }
         ]
@@ -93,7 +91,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/posts/Christmas Magic/index.md",
+                "file": "content/posts/Christmas Magic/cover.webp",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +101,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for index"
+              "title": "Backlinks for cover"
             }
           },
           {
@@ -169,8 +167,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "26b9ea1c29a88e61",
+  "active": "4d46a61defc338ef",
   "lastOpenFiles": [
+    "content/posts/Christmas Magic/index.md",
+    "content/posts/about_me/index.md",
+    "content/posts/Christmas Magic/cover.webp",
     "content/posts/Christmas Magic/piclumen-1734457674437.png",
     "content/posts/Christmas Magic/piclumen-1734457663282.png",
     "content/posts/Christmas Magic/piclumen-1734457647643.png",
@@ -178,7 +179,6 @@
     "content/posts/Christmas Magic/piclumen-1734457624656.png",
     "content/posts/Christmas Magic/piclumen-1734457617741.png",
     "content/posts/Christmas Magic",
-    "content/posts/Christmas Magic/index.md",
     "content/posts/Ask What not How/index.md",
     "themes/dream/config.toml",
     "themes/dream/theme.toml",
@@ -199,8 +199,6 @@
     "themes/dream/docs/pages/about-page.md",
     "themes/dream/docs/pages/CHANGELOG.md",
     "themes/dream/docs/NOTE.md",
-    "themes/dream/assets/images/default4.jpg",
-    "themes/dream/assets/images/default3.jpg",
     "themes/dream/archetypes/posts.md",
     "themes/dream/archetypes/about.md",
     "themes/dream/README.md",

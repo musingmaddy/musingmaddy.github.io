@@ -7,7 +7,7 @@ description: Christmas Magic descriptions
 author: Maddy Meraki
 avatar: /img/musingmaddy.webp
 authorlink: https://musingmaddy.github.io
-cover: /img/cover.webp
+cover: cover.webp
 nolastmod: true
 draft: false
 showComments: true
@@ -19,6 +19,14 @@ categories:
   - Surreal Artworks
 ---
 # Christmas Artwork
+
+Santa's Magical Sack: Butterflies and Wonder Fill the Air This Christmas ! 
+
+6 Art Works.
+
+<!--more-->
+
+
 ## Santa's Magical Sack: Butterflies and Wonder Fill the Air This Christmas 01
 
 ![Santa's Magical Sack: Butterflies and Wonder Fill the Air This Christmas 06](piclumen-1734457617741.png)
