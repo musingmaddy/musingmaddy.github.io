@@ -4,19 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "276d3b1d288d3786",
+        "id": "7e6bdc1df43b5b85",
         "type": "tabs",
         "children": [
           {
-            "id": "4d46a61defc338ef",
+            "id": "4dd459eab20baf59",
             "type": "leaf",
             "state": {
-              "type": "image",
-              "state": {
-                "file": "content/posts/Christmas Magic/cover.webp"
-              },
-              "icon": "lucide-image",
-              "title": "cover"
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           }
         ]
@@ -91,7 +89,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/posts/Christmas Magic/cover.webp",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -101,7 +98,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for cover"
+              "title": "Backlinks"
             }
           },
           {
@@ -167,11 +164,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "4d46a61defc338ef",
+  "active": "26b9ea1c29a88e61",
   "lastOpenFiles": [
+    "content/posts/Christmas Magic/cover.webp",
+    "content/posts/Christmas Magic/cover2.webp",
     "content/posts/Christmas Magic/index.md",
     "content/posts/about_me/index.md",
-    "content/posts/Christmas Magic/cover.webp",
     "content/posts/Christmas Magic/piclumen-1734457674437.png",
     "content/posts/Christmas Magic/piclumen-1734457663282.png",
     "content/posts/Christmas Magic/piclumen-1734457647643.png",
@@ -213,7 +211,6 @@
     "content/posts/null/index.md",
     "content/posts/No How To's for large problems in Life/index.md",
     "content/posts/Musing Maddy Test 01/index.md",
-    "static/templater/Alerts - Important.md",
-    "static/templater/Alerts - Note.md"
+    "static/templater/Alerts - Important.md"
   ]
 }
