@@ -8,13 +8,17 @@
         "type": "tabs",
         "children": [
           {
-            "id": "8b591b64cc696da3",
+            "id": "4d46a61defc338ef",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "content/posts/Christmas Magic/index.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "index"
             }
           }
         ]
@@ -89,6 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "content/posts/Christmas Magic/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,7 +103,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for index"
             }
           },
           {
@@ -164,8 +169,17 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "8b591b64cc696da3",
+  "active": "26b9ea1c29a88e61",
   "lastOpenFiles": [
+    "content/posts/Christmas Magic/piclumen-1734457674437.png",
+    "content/posts/Christmas Magic/piclumen-1734457663282.png",
+    "content/posts/Christmas Magic/piclumen-1734457647643.png",
+    "content/posts/Christmas Magic/piclumen-1734457637156.png",
+    "content/posts/Christmas Magic/piclumen-1734457624656.png",
+    "content/posts/Christmas Magic/piclumen-1734457617741.png",
+    "content/posts/Christmas Magic",
+    "content/posts/Christmas Magic/index.md",
+    "content/posts/Ask What not How/index.md",
     "themes/dream/config.toml",
     "themes/dream/theme.toml",
     "themes/dream/tailwind.config.js",
@@ -175,8 +189,6 @@
     "themes/dream/src/input.css",
     "themes/dream/src",
     "themes/dream/pnpm-lock.yaml",
-    "themes/dream/package.json",
-    "themes/dream/layouts/section/search.html",
     "themes/dream/images/tn.png",
     "themes/dream/images/screenshot.png",
     "themes/dream/docs/public/images/zen-mode.png",
@@ -189,28 +201,21 @@
     "themes/dream/docs/NOTE.md",
     "themes/dream/assets/images/default4.jpg",
     "themes/dream/assets/images/default3.jpg",
-    "themes/dream/assets/images/default2.jpg",
-    "themes/dream/assets/images/default1.jpg",
     "themes/dream/archetypes/posts.md",
     "themes/dream/archetypes/about.md",
     "themes/dream/README.md",
-    "public/posts/about_me/about_me_small_hu17105717759347723623.webp",
-    "public/posts/about_me/about_me_small.webp",
-    "public/posts/about_me/about_me_full.webp",
     "public/templater/Alerts - Warning.md",
     "public/templater/Alerts - Important.md",
     "public/templater/Alerts - Tip.md",
     "public/templater/_New Post.md",
     "public/templater/Alerts - Note.md",
     "public/templater/Youtube Link.md",
-    "content/posts/Ask What not How/index.md",
     "static/templater/_New Post.md",
     "content/posts/Ask What than How/index.md",
     "content/posts/null/index.md",
     "content/posts/No How To's for large problems in Life/index.md",
     "content/posts/Musing Maddy Test 01/index.md",
     "static/templater/Alerts - Important.md",
-    "static/templater/Alerts - Note.md",
-    "static/templater/Alerts - Warning.md"
+    "static/templater/Alerts - Note.md"
   ]
 }
