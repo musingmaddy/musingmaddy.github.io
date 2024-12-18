@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "7e6bdc1df43b5b85",
+        "id": "76f2a900a334bb14",
         "type": "tabs",
         "children": [
           {
-            "id": "4dd459eab20baf59",
+            "id": "f1cfa877ce5e1336",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -164,11 +164,14 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "26b9ea1c29a88e61",
+  "active": "1e63d1007f2c155e",
   "lastOpenFiles": [
+    "content/posts/My Collections on CivitAI and PicLumen/index.md",
+    "content/posts/My Collections on CivitAI and PicLumen/cover.webp",
+    "content/posts/Christmas Magic/index.md",
+    "content/posts/My Collections on CivitAI and PicLumen",
     "content/posts/Christmas Magic/cover.webp",
     "content/posts/Christmas Magic/cover2.webp",
-    "content/posts/Christmas Magic/index.md",
     "content/posts/about_me/index.md",
     "content/posts/Christmas Magic/piclumen-1734457674437.png",
     "content/posts/Christmas Magic/piclumen-1734457663282.png",
@@ -186,10 +189,7 @@
     "themes/dream/src/js",
     "themes/dream/src/input.css",
     "themes/dream/src",
-    "themes/dream/pnpm-lock.yaml",
     "themes/dream/images/tn.png",
-    "themes/dream/images/screenshot.png",
-    "themes/dream/docs/public/images/zen-mode.png",
     "themes/dream/docs/pages/search.md",
     "themes/dream/docs/pages/i18n.md",
     "themes/dream/docs/pages/decap-cms.md",
@@ -210,7 +210,6 @@
     "content/posts/Ask What than How/index.md",
     "content/posts/null/index.md",
     "content/posts/No How To's for large problems in Life/index.md",
-    "content/posts/Musing Maddy Test 01/index.md",
-    "static/templater/Alerts - Important.md"
+    "content/posts/Musing Maddy Test 01/index.md"
   ]
 }
