@@ -11,10 +11,14 @@
             "id": "f1cfa877ce5e1336",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "content/posts/Santa Noir/index.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "index"
             }
           }
         ]
@@ -164,8 +168,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "1e63d1007f2c155e",
+  "active": "f1cfa877ce5e1336",
   "lastOpenFiles": [
+    "content/posts/Santa Noir/cover.webp",
+    "content/posts/Santa Noir",
+    "content/posts/Santa Noir/index.md",
     "content/posts/My Collections on CivitAI and PicLumen/index.md",
     "content/posts/My Collections on CivitAI and PicLumen/cover.webp",
     "content/posts/Christmas Magic/index.md",
@@ -188,7 +195,6 @@
     "themes/dream/src/js/grid.js",
     "themes/dream/src/js",
     "themes/dream/src/input.css",
-    "themes/dream/src",
     "themes/dream/images/tn.png",
     "themes/dream/docs/pages/search.md",
     "themes/dream/docs/pages/i18n.md",
@@ -209,7 +215,6 @@
     "static/templater/_New Post.md",
     "content/posts/Ask What than How/index.md",
     "content/posts/null/index.md",
-    "content/posts/No How To's for large problems in Life/index.md",
-    "content/posts/Musing Maddy Test 01/index.md"
+    "content/posts/No How To's for large problems in Life/index.md"
   ]
 }
