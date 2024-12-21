@@ -5,9 +5,9 @@ date: 2024-12-21T12:56:02+05:30
 lastmod: 2024-12-21T12:56:02+05:30
 description: Cosmic Necronomicon descriptions
 author: Maddy Meraki
-avatar: cover.webp
+avatar: /img/musingmaddy.webp
 authorlink: https://musingmaddy.github.io
-cover: /img/cover.webp
+cover: cover.webp
 nolastmod: true
 draft: false
 showComments: true
