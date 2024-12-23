@@ -4,20 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "a53275d731779b98",
+        "id": "ba4bb558c667b926",
         "type": "tabs",
         "children": [
           {
-            "id": "7479d605e22810c6",
+            "id": "25c9aad61fe20581",
             "type": "leaf",
             "state": {
-              "type": "diff-view",
+              "type": "markdown",
               "state": {
-                "file": "themes/dream",
-                "staged": false
+                "file": "content/posts/Tags and Categories/index.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "git-pull-request",
-              "title": "Diff View (dream)"
+              "icon": "lucide-file",
+              "title": "index"
             }
           }
         ]
@@ -51,7 +52,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:Photo",
+                "query": "tag:#abstract",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -167,33 +168,42 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "26b9ea1c29a88e61",
+  "active": "1e63d1007f2c155e",
   "lastOpenFiles": [
-    "themes/dream/layouts/_default/single.html",
+    "content/posts/Tags and Categories/cover.webp",
     "content/posts/My Collections on CivitAI and PicLumen/index.md",
-    "themes/dream/layouts/_default/single backup todel.html",
-    "hugo.toml",
+    "content/posts/about_me/index.md",
+    "content/posts/Tags and Categories/index.md",
+    "content/posts/Santa Noir/index.md",
+    "content/posts/Santa Noir/cover.webp",
     "content/posts/Cosmic Necronomicon/index.md",
-    "content/posts/Cosmic Necronomicon/cosmic-necronomicon-01.webp",
-    "content/posts/Cosmic Necronomicon/cosmic-necronomicon-02.png",
+    "content/posts/Christmas Magic/index.md",
+    "themes/dream/archetypes/posts.md",
+    "content/posts/Cosmic Necronomicon/cover.webp",
+    "content/posts/Christmas Magic/piclumen-1734457624656.png",
+    "content/posts/Christmas Magic/cover.webp",
+    "content/posts/Christmas Magic/cover2.webp",
+    "content/posts/about_me/about_me.webp",
+    "content/posts/Tags and Categories",
+    "content/about/projects.md",
+    "content/about/license.md",
+    "content/about/interests.md",
+    "content/about/index.md",
+    "content/about/contact_me.md",
+    "content/about/about_me.md",
+    "hugo.toml",
+    "layouts/_default/single-backup-working.html",
+    "content/posts/about_me/about_me_small.webp",
+    "content/posts/about_me/about_me_full.webp",
+    "content/posts/Cosmic Necronomicon/cosmic-necronomicon-04.png",
+    "content/posts/Cosmic Necronomicon/cosmic-necronomicon-03.png",
+    "themes/dream/layouts/_default/single.html",
+    "themes/dream/layouts/_default/single backup todel.html",
     "themes/dream/public/tags/index.xml",
     "themes/dream/public/categories/index.xml",
     "themes/dream/public/index.xml",
     "themes/dream/public/page/1/index.html",
     "themes/dream/public/tags/page/1/index.html",
-    "themes/dream/public/tags/page/1",
-    "themes/dream/public/tags/page",
-    "public/posts/christmas-magic/piclumen-1734457674437.png",
-    "public/posts/christmas-magic/piclumen-1734457663282.png",
-    "public/posts/cosmic-necronomicon/cover.webp",
-    "public/posts/christmas-magic/piclumen-1734457647643.png",
-    "public/posts/cosmic-necronomicon/cosmic-necronomicon-04.png",
-    "public/posts/christmas-magic/piclumen-1734457637156.png",
-    "public/posts/cosmic-necronomicon/cosmic-necronomicon-03.png",
-    "public/posts/christmas-magic/piclumen-1734457624656.png",
-    "content/posts/Christmas Magic/index.md",
-    "content/posts/Santa Noir/index.md",
-    "content/posts/about_me/index.md",
     "content/posts/Ask What not How/index.md",
     "themes/dream/docs/pages/search.md",
     "themes/dream/docs/pages/i18n.md",
@@ -202,17 +212,9 @@
     "themes/dream/docs/pages/about-page.md",
     "themes/dream/docs/pages/CHANGELOG.md",
     "themes/dream/docs/NOTE.md",
-    "themes/dream/archetypes/posts.md",
     "themes/dream/archetypes/about.md",
     "themes/dream/README.md",
     "public/templater/Alerts - Warning.md",
-    "public/templater/Alerts - Important.md",
-    "public/templater/Alerts - Tip.md",
-    "public/templater/_New Post.md",
-    "public/templater/Alerts - Note.md",
-    "public/templater/Youtube Link.md",
-    "static/templater/_New Post.md",
-    "content/posts/Ask What than How/index.md",
-    "content/posts/null/index.md"
+    "public/templater/Alerts - Important.md"
   ]
 }

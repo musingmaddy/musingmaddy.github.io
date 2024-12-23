@@ -12,11 +12,10 @@ nolastmod: true
 draft: false
 showComments: true
 tags:
-  - horror
   - cosmic-horror
-  - dark
-  - surreal
-categories: Horror
+  - eldritch
+  - art-dark
+categories: Artwork
 ---
 # Cosmic Necronomicon
 
@@ -29,9 +28,3 @@ categories: Horror
 ![cosmic-necronomicon-03](cosmic-necronomicon-03.png)
 
 ![cosmic-necronomicon-04](cosmic-necronomicon-04.png)
-
-![cosmic-necronomicon-01](cosmic-necronomicon-01.webp)
-
----
-
-![cover](cover.webp)

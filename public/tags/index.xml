@@ -65,17 +65,24 @@
       <description></description>
     </item>
     <item>
-      <title>Collections</title>
-      <link>http://localhost:1313/tags/collections/</link>
-      <pubDate>Wed, 18 Dec 2024 12:26:21 +0530</pubDate>
-      <guid>http://localhost:1313/tags/collections/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Links</title>
       <link>http://localhost:1313/tags/links/</link>
       <pubDate>Wed, 18 Dec 2024 12:26:21 +0530</pubDate>
       <guid>http://localhost:1313/tags/links/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Musingmaddy</title>
+      <link>http://localhost:1313/tags/musingmaddy/</link>
+      <pubDate>Wed, 18 Dec 2024 12:26:21 +0530</pubDate>
+      <guid>http://localhost:1313/tags/musingmaddy/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Websites</title>
+      <link>http://localhost:1313/tags/websites/</link>
+      <pubDate>Wed, 18 Dec 2024 12:26:21 +0530</pubDate>
+      <guid>http://localhost:1313/tags/websites/</guid>
       <description></description>
     </item>
     <item>
@@ -86,10 +93,17 @@
       <description></description>
     </item>
     <item>
-      <title>Santa</title>
-      <link>http://localhost:1313/tags/santa/</link>
+      <title>Colorful</title>
+      <link>http://localhost:1313/tags/colorful/</link>
       <pubDate>Tue, 17 Dec 2024 23:13:49 +0530</pubDate>
-      <guid>http://localhost:1313/tags/santa/</guid>
+      <guid>http://localhost:1313/tags/colorful/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Happy</title>
+      <link>http://localhost:1313/tags/happy/</link>
+      <pubDate>Tue, 17 Dec 2024 23:13:49 +0530</pubDate>
+      <guid>http://localhost:1313/tags/happy/</guid>
       <description></description>
     </item>
     <item>
@@ -97,13 +111,6 @@
       <link>http://localhost:1313/tags/santaclaus/</link>
       <pubDate>Tue, 17 Dec 2024 23:13:49 +0530</pubDate>
       <guid>http://localhost:1313/tags/santaclaus/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Musingmaddy</title>
-      <link>http://localhost:1313/tags/musingmaddy/</link>
-      <pubDate>Fri, 27 Sep 2024 12:00:48 +0530</pubDate>
-      <guid>http://localhost:1313/tags/musingmaddy/</guid>
       <description></description>
     </item>
   </channel>

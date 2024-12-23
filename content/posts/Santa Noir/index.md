@@ -12,11 +12,9 @@ nolastmod: true
 draft: false
 showComments: true
 tags:
-  - piclumen
   - noir
-  - stylized
-  - gritty
-categories: creative-image
+  - grayscale
+categories: Artwork
 ---
 # Santa 
 

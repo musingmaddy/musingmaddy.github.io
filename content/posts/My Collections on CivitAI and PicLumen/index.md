@@ -12,10 +12,9 @@ nolastmod: true
 draft: false
 showComments: true
 tags:
-  - collections
-  - links
+  - musingmaddy
 categories:
-  - External-Links
+  - Maddy Meraki
 ---
 # My Collections
 

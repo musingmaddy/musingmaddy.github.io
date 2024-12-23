@@ -7,16 +7,13 @@ description: Christmas Magic descriptions
 author: Maddy Meraki
 avatar: /img/musingmaddy.webp
 authorlink: https://musingmaddy.github.io
-cover: cover.webp
+cover: cover2.webp
 nolastmod: true
 draft: false
 showComments: true
 tags:
-  - santaclaus
-  - christmas
-  - santa
-categories:
-  - Surreal Artworks
+  - art-light-hearted
+categories: Artwork
 ---
 # Christmas Artwork
 

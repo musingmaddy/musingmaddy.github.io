@@ -14,10 +14,10 @@
     <loc>http://localhost:1313/tags/dark/</loc>
     <lastmod>2024-12-21T12:56:02+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/horror/</loc>
+    <loc>http://localhost:1313/categories/dark-artworks/</loc>
     <lastmod>2024-12-21T12:56:02+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/horror/</loc>
+    <loc>http://localhost:1313/tags/horror/</loc>
     <lastmod>2024-12-21T12:56:02+05:30</lastmod>
   </url><url>
     <loc>http://localhost:1313/</loc>
@@ -32,7 +32,7 @@
     <loc>http://localhost:1313/tags/</loc>
     <lastmod>2024-12-21T12:56:02+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/creative-image/</loc>
+    <loc>http://localhost:1313/categories/-image/</loc>
     <lastmod>2024-12-20T14:03:44+05:30</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/gritty/</loc>
@@ -50,16 +50,19 @@
     <loc>http://localhost:1313/tags/stylized/</loc>
     <lastmod>2024-12-20T14:03:44+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/collections/</loc>
-    <lastmod>2024-12-18T12:26:21+05:30</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/external-links/</loc>
+    <loc>http://localhost:1313/categories/about-us/</loc>
     <lastmod>2024-12-18T12:26:21+05:30</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/links/</loc>
     <lastmod>2024-12-18T12:26:21+05:30</lastmod>
   </url><url>
+    <loc>http://localhost:1313/tags/musingmaddy/</loc>
+    <lastmod>2024-12-18T12:26:21+05:30</lastmod>
+  </url><url>
     <loc>http://localhost:1313/posts/my-collections-on-civitai-and-piclumen/</loc>
+    <lastmod>2024-12-18T12:26:21+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/websites/</loc>
     <lastmod>2024-12-18T12:26:21+05:30</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/christmas/</loc>
@@ -68,22 +71,19 @@
     <loc>http://localhost:1313/posts/christmas-magic/</loc>
     <lastmod>2024-12-17T23:13:49+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/santa/</loc>
+    <loc>http://localhost:1313/tags/colorful/</loc>
+    <lastmod>2024-12-17T23:13:49+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/festive-artworks/</loc>
+    <lastmod>2024-12-17T23:13:49+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/happy/</loc>
     <lastmod>2024-12-17T23:13:49+05:30</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/santaclaus/</loc>
     <lastmod>2024-12-17T23:13:49+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/surreal-artworks/</loc>
-    <lastmod>2024-12-17T23:13:49+05:30</lastmod>
-  </url><url>
     <loc>http://localhost:1313/posts/about_me/</loc>
-    <lastmod>2024-09-27T12:00:48+05:30</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/musingmaddy/</loc>
-    <lastmod>2024-09-27T12:00:48+05:30</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/personal/</loc>
     <lastmod>2024-09-27T12:00:48+05:30</lastmod>
   </url><url>
     <loc>http://localhost:1313/search/</loc>
