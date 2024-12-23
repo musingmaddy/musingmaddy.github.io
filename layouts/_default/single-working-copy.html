@@ -1,7 +1,6 @@
 {{ define "title" }}{{ .Title }}{{ end }}
 
 {{ define "css" }}
-
 {{ if site.Params.customSyntaxHighlighting }}
 <link rel="stylesheet" data-custom-syntax-highlighting />
 <style>
@@ -24,9 +23,7 @@
   }
 </style>
 {{ end }}
-
 {{ partialCached "commentSystemHeads.html" . }}
-
 {{ end }}
 
 {{ define "main" }}
@@ -68,7 +65,9 @@
       <img src="{{ .Params.Cover }}" alt="{{ .Title }}" />
       {{ end }}
 
-      {{ .Content | emojify }}
+      <div id="dream-single-post-content" class="markdown-body">
+         {{ .Content | emojify }}
+      </div>
 
       {{ if site.Params.showPrevNextPost }}
       <div class="divider"></div>
@@ -108,7 +107,6 @@
       {{ end }}
     </article>
   </div>
-
   <div class="hidden lg:flex lg:flex-col lg:items-end">
     {{ if fileExists "layouts/partials/adsense.html" }}
     <div class="dream-adsense">
@@ -121,33 +119,6 @@
     {{ end }}
   </div>
 </div>
-{{ end }}
-
-{{ define "js" }}
-
-{{ if site.Params.Experimental.jsDate }}
-{{ partial "luxon.html" . }}
-{{ end }}
-
-{{ if site.Params.customSyntaxHighlighting }}
-{{- $syntaxLightCSS := resources.Get "css/syntax-light.css" | minify -}}
-{{- $syntaxDarkCSS := resources.Get "css/syntax-dark.css" | minify -}}
-<script>
-  window.customSyntaxHighlighting = {
-    light: {{ $syntaxLightCSS.RelPermalink }},
-    dark: {{ $syntaxDarkCSS.RelPermalink }}
-  }
-
-  document.addEventListener('alpine:initialized', () => {
-    var isDark = Alpine.store('darkMode').isDark()
-    var customSyntaxHighlightingUrl = isDark ? window.customSyntaxHighlighting.dark : window.customSyntaxHighlighting.light
-
-    document
-      .querySelector('link[data-custom-syntax-highlighting]')
-      .setAttribute('href', customSyntaxHighlightingUrl)
-  })
-</script>
-{{ end }}
 {{ if site.Params.imageZoomableInPost }}
 <script type="module">
   import mediumZoom from 'https://cdn.jsdelivr.net/npm/medium-zoom@1.1.0/+esm';
@@ -180,6 +151,31 @@
     childList: true,
     subtree: true
   });
+</script>
+{{ end }}
+{{ end }}
+
+{{ define "js" }}
+{{ if site.Params.Experimental.jsDate }}
+{{ partial "luxon.html" . }}
+{{ end }}
+{{ if site.Params.customSyntaxHighlighting }}
+{{- $syntaxLightCSS := resources.Get "css/syntax-light.css" | minify -}}
+{{- $syntaxDarkCSS := resources.Get "css/syntax-dark.css" | minify -}}
+<script>
+  window.customSyntaxHighlighting = {
+    light: {{ $syntaxLightCSS.RelPermalink }},
+    dark: {{ $syntaxDarkCSS.RelPermalink }}
+  }
+
+  document.addEventListener('alpine:initialized', () => {
+    var isDark = Alpine.store('darkMode').isDark()
+    var customSyntaxHighlightingUrl = isDark ? window.customSyntaxHighlighting.dark : window.customSyntaxHighlighting.light
+
+    document
+      .querySelector('link[data-custom-syntax-highlighting]')
+      .setAttribute('href', customSyntaxHighlightingUrl)
+  })
 </script>
 {{ end }}
 {{ end }}
