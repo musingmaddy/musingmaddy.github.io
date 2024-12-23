@@ -11,14 +11,13 @@
             "id": "7479d605e22810c6",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "diff-view",
               "state": {
-                "file": "content/posts/My Collections on CivitAI and PicLumen/index.md",
-                "mode": "source",
-                "source": false
+                "file": "themes/dream",
+                "staged": false
               },
-              "icon": "lucide-file",
-              "title": "index"
+              "icon": "git-pull-request",
+              "title": "Diff View (dream)"
             }
           }
         ]
@@ -168,9 +167,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "7479d605e22810c6",
+  "active": "26b9ea1c29a88e61",
   "lastOpenFiles": [
     "themes/dream/layouts/_default/single.html",
+    "content/posts/My Collections on CivitAI and PicLumen/index.md",
     "themes/dream/layouts/_default/single backup todel.html",
     "hugo.toml",
     "content/posts/Cosmic Necronomicon/index.md",
@@ -183,7 +183,6 @@
     "themes/dream/public/tags/page/1/index.html",
     "themes/dream/public/tags/page/1",
     "themes/dream/public/tags/page",
-    "themes/dream/public/categories/page/1/index.html",
     "public/posts/christmas-magic/piclumen-1734457674437.png",
     "public/posts/christmas-magic/piclumen-1734457663282.png",
     "public/posts/cosmic-necronomicon/cover.webp",
@@ -194,7 +193,6 @@
     "public/posts/christmas-magic/piclumen-1734457624656.png",
     "content/posts/Christmas Magic/index.md",
     "content/posts/Santa Noir/index.md",
-    "content/posts/My Collections on CivitAI and PicLumen/index.md",
     "content/posts/about_me/index.md",
     "content/posts/Ask What not How/index.md",
     "themes/dream/docs/pages/search.md",

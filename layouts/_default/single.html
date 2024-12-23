@@ -1,0 +1,190 @@
+{{ define "title" }}{{ .Title }}{{ end }}
+
+{{ define "css" }}
+{{ if site.Params.customSyntaxHighlighting }}
+
+<link rel="stylesheet" data-custom-syntax-highlighting />
+<style>
+  .chroma {
+    padding: 1em;
+    background-color: var(--dream-pre-bg, #f5f5f5);
+    border-radius: .5em;
+    overflow: auto;
+  }
+
+html.dark .chroma {
+background-color: var(--dream-pre-bg-dark, #262626);
+}
+</style>
+{{ else }}
+
+<style>
+  pre {
+    padding: 1em;
+    overflow: auto;
+  }
+</style>
+
+{{ end }}
+{{ partialCached "commentSystemHeads.html" . }}
+{{ end }}
+
+{{ define "main" }}
+
+<div class="lg:grid lg:grid-cols-4 gap-4 mt-4 px-4">
+  <div class="hidden lg:block"></div>
+
+  <div class="lg:col-span-2">
+    <article class="mx-auto prose prose-quoteless dark:prose-invert" id="dream-single-post-main" itemscope itemtype="http://schema.org/Article">
+      {{ template "_internal/schema.html" . }}
+
+      <header>
+        <h1 itemprop="headline">{{ .Title }}</h1>
+        <p class="text-sm">
+          {{ if site.Params.Experimental.jsDate }}
+            <span data-format="luxon">{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}</span>
+          {{ else }}
+            {{ .Date | time.Format "Monday, Jan 2, 2006" }}
+          {{ end }}
+
+          | <span>{{ .ReadingTime }}{{ T "minuteRead" .ReadingTime }}</span>
+
+          {{ if ne .Params.nolastmod true }}
+          | <span>{{ T "updatedAt" }}
+            {{ if site.Params.Experimental.jsDate }}
+              <span data-format="luxon">{{ .Lastmod.Format "2006-01-02T15:04:05Z07:00" }}</span>
+            {{ else }}
+              {{ .Lastmod | time.Format "Monday, Jan 2, 2006" }}
+            {{ end }}</span>
+          {{ end }}
+        </p>
+        <div class="flex justify-between">
+          {{ partial "author.html" (dict "Params" .Params "template" "single") }}
+
+          {{ partial "share.html" . }}
+        </div>
+      </header>
+
+      {{ if and .Params.Cover site.Params.showSummaryCoverInPost }}
+      <img src="{{ .Params.Cover }}" alt="{{ .Title }}" />
+      {{ end }}
+
+      {{ .Content | emojify }}
+
+      {{ if site.Params.showPrevNextPost }}
+      <div class="divider"></div>
+      <div class="flex flex-col md:flex-row justify-between gap-4 py-4">
+        {{ with .NextInSection }}
+        <a class="group btn btn-outline" href="{{ .RelPermalink }}" title="{{ .Title }}">
+          <ion-icon name="chevron-back"></ion-icon>
+          <div class="inline-flex flex-col items-start">
+            <span class="text-base-content/60 group-hover:text-neutral-content/60 text-xs font-normal">{{ T "prevPage" }}</span>
+            <span class="max-w-48 truncate">{{ .LinkTitle }}</span>
+          </div>
+        </a>
+        {{ else }}
+        <div></div>
+        {{ end }}
+
+        {{ with .PrevInSection }}
+        <a class="group btn btn-outline" href="{{ .RelPermalink }}" title="{{ .Title }}">
+          <div class="inline-flex flex-col items-end">
+            <span class="text-base-content/60 group-hover:text-neutral-content/60 text-xs font-normal">{{ T "nextPage" }}</span>
+            <span class="max-w-48 truncate">{{ .LinkTitle }}</span>
+          </div>
+          <ion-icon name="chevron-forward"></ion-icon>
+        </a>
+        {{ else }}
+        <div></div>
+        {{ end }}
+      </div>
+      {{ end }}
+
+      {{ if or site.Config.Services.Disqus.Shortname site.Params.utterancesRepo site.Params.valine site.Params.waline }}
+      <div class="divider"></div>
+
+      <section class="space-y-4">
+        {{ partialCached "commentSystems.html" . .RelPermalink }}
+      </section>
+      {{ end }}
+    </article>
+
+  </div>
+  <div class="hidden lg:flex lg:flex-col lg:items-end">
+    {{ if fileExists "layouts/partials/adsense.html" }}
+    <div class="dream-adsense">
+      {{ partialCached "adsense.html" . }}
+    </div>
+    {{ end }}
+
+    {{ if site.Params.showTableOfContents }}
+      {{ .TableOfContents }}
+    {{ end }}
+
+  </div>
+</div>
+<div id="dream-single-post-content" class="markdown-body">
+    {{ .Content }}
+</div>
+{{ if site.Params.imageZoomableInPost }}
+<script type="module">
+  import mediumZoom from 'https://cdn.jsdelivr.net/npm/medium-zoom@1.1.0/+esm';
+
+function initializeZoom() {
+const images = document.querySelectorAll('#dream-single-post-content img'); // Select all images within the content container
+mediumZoom(images, {
+margin: 24,
+background: '#fff',
+// ... other options
+});
+}
+
+if (document.readyState === 'loading') {
+document.addEventListener('DOMContentLoaded', initializeZoom);
+} else {
+initializeZoom();
+}
+
+// Optional: Handle dynamically loaded content (if applicable)
+const observer = new MutationObserver(mutations => {
+mutations.forEach(mutation => {
+if (mutation.addedNodes.length) {
+initializeZoom();
+}
+});
+});
+
+observer.observe(document.getElementById('dream-single-post-content'), {
+childList: true,
+subtree: true
+});
+</script>
+{{ end }}
+{{ end }}
+
+{{ define "js" }}
+{{ if site.Params.Experimental.jsDate }}
+{{ partial "luxon.html" . }}
+{{ end }}
+{{ if site.Params.customSyntaxHighlighting }}
+{{- $syntaxLightCSS := resources.Get "css/syntax-light.css" | minify -}}
+{{- $syntaxDarkCSS := resources.Get "css/syntax-dark.css" | minify -}}
+
+<script>
+  window.customSyntaxHighlighting = {
+    light: {{ $syntaxLightCSS.RelPermalink }},
+    dark: {{ $syntaxDarkCSS.RelPermalink }}
+  }
+
+  document.addEventListener('alpine:initialized', () => {
+    var isDark = Alpine.store('darkMode').isDark()
+    var customSyntaxHighlightingUrl = isDark ? window.customSyntaxHighlighting.dark : window.customSyntaxHighlighting.light
+
+    document
+      .querySelector('link[data-custom-syntax-highlighting]')
+      .setAttribute('href', customSyntaxHighlightingUrl)
+  })
+</script>
+
+{{ end }}
+{{ end }}
