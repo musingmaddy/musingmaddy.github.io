@@ -2,7 +2,6 @@
 
 {{ define "css" }}
 {{ if site.Params.customSyntaxHighlighting }}
-
 <link rel="stylesheet" data-custom-syntax-highlighting />
 <style>
   .chroma {
@@ -12,25 +11,22 @@
     overflow: auto;
   }
 
-html.dark .chroma {
-background-color: var(--dream-pre-bg-dark, #262626);
-}
+  html.dark .chroma {
+    background-color: var(--dream-pre-bg-dark, #262626);
+  }
 </style>
 {{ else }}
-
 <style>
   pre {
     padding: 1em;
     overflow: auto;
   }
 </style>
-
 {{ end }}
 {{ partialCached "commentSystemHeads.html" . }}
 {{ end }}
 
 {{ define "main" }}
-
 <div class="lg:grid lg:grid-cols-4 gap-4 mt-4 px-4">
   <div class="hidden lg:block"></div>
 
@@ -69,7 +65,9 @@ background-color: var(--dream-pre-bg-dark, #262626);
       <img src="{{ .Params.Cover }}" alt="{{ .Title }}" />
       {{ end }}
 
-      {{ .Content | emojify }}
+      <div id="dream-single-post-content" class="markdown-body">
+         {{ .Content | emojify }}
+      </div>
 
       {{ if site.Params.showPrevNextPost }}
       <div class="divider"></div>
@@ -108,7 +106,6 @@ background-color: var(--dream-pre-bg-dark, #262626);
       </section>
       {{ end }}
     </article>
-
   </div>
   <div class="hidden lg:flex lg:flex-col lg:items-end">
     {{ if fileExists "layouts/partials/adsense.html" }}
@@ -120,44 +117,40 @@ background-color: var(--dream-pre-bg-dark, #262626);
     {{ if site.Params.showTableOfContents }}
       {{ .TableOfContents }}
     {{ end }}
-
   </div>
-</div>
-<div id="dream-single-post-content" class="markdown-body">
-    {{ .Content }}
 </div>
 {{ if site.Params.imageZoomableInPost }}
 <script type="module">
   import mediumZoom from 'https://cdn.jsdelivr.net/npm/medium-zoom@1.1.0/+esm';
 
-function initializeZoom() {
-const images = document.querySelectorAll('#dream-single-post-content img'); // Select all images within the content container
-mediumZoom(images, {
-margin: 24,
-background: '#fff',
-// ... other options
-});
-}
+  function initializeZoom() {
+    const images = document.querySelectorAll('#dream-single-post-content img'); // Select all images within the content container
+    mediumZoom(images, {
+      margin: 24,
+      background: '#fff',
+      // ... other options
+    });
+  }
 
-if (document.readyState === 'loading') {
-document.addEventListener('DOMContentLoaded', initializeZoom);
-} else {
-initializeZoom();
-}
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', initializeZoom);
+  } else {
+    initializeZoom();
+  }
 
-// Optional: Handle dynamically loaded content (if applicable)
-const observer = new MutationObserver(mutations => {
-mutations.forEach(mutation => {
-if (mutation.addedNodes.length) {
-initializeZoom();
-}
-});
-});
+  // Optional: Handle dynamically loaded content (if applicable)
+  const observer = new MutationObserver(mutations => {
+    mutations.forEach(mutation => {
+      if (mutation.addedNodes.length) {
+        initializeZoom();
+      }
+    });
+  });
 
-observer.observe(document.getElementById('dream-single-post-content'), {
-childList: true,
-subtree: true
-});
+  observer.observe(document.getElementById('dream-single-post-content'), {
+    childList: true,
+    subtree: true
+  });
 </script>
 {{ end }}
 {{ end }}
@@ -169,7 +162,6 @@ subtree: true
 {{ if site.Params.customSyntaxHighlighting }}
 {{- $syntaxLightCSS := resources.Get "css/syntax-light.css" | minify -}}
 {{- $syntaxDarkCSS := resources.Get "css/syntax-dark.css" | minify -}}
-
 <script>
   window.customSyntaxHighlighting = {
     light: {{ $syntaxLightCSS.RelPermalink }},
@@ -185,6 +177,5 @@ subtree: true
       .setAttribute('href', customSyntaxHighlightingUrl)
   })
 </script>
-
 {{ end }}
 {{ end }}
