@@ -49,13 +49,15 @@ favicon = "img/favicon.png"
 # customSyntaxHighlighting = true
 
 # options
-	stickyNav = true
+stickyNav = true
 # reorderNavItems = ["search", "rss", "posts", "categories", "tags"]
 # collapseNavItems = ["posts", "categories", "tags"]
 # noDefaultSummaryCover = true
-	showTableOfContents = true
-	showSummaryCoverInPost = true
-	showPrevNextPost = true
+
+showTableOfContents = true
+showSummaryCoverInPost = true
+showPrevNextPost = true
+imageZoomableInPost = true
 # reorderShares = ["x", "youtube", "whatsapp"]
 
 # [[params.navItems]]
