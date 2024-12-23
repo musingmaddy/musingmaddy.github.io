@@ -30,3 +30,4 @@ categories: Horror
 
 ![cosmic-necronomicon-04](cosmic-necronomicon-04.png)
 
+![cosmic-necronomicon-01](cosmic-necronomicon-01.webp)
