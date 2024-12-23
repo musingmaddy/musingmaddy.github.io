@@ -11,12 +11,14 @@
             "id": "b2dc1ba5dfb75351",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "content/posts/Cosmic Necronomicon/cosmic-necronomicon-02.png"
+                "file": "hugo.toml",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "cosmic-necronomicon-02"
+              "icon": "lucide-file",
+              "title": "hugo"
             }
           }
         ]
@@ -75,7 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 355.5
   },
   "right": {
     "id": "5838c7864aeaa259",
@@ -169,8 +171,9 @@
   "active": "b2dc1ba5dfb75351",
   "lastOpenFiles": [
     "content/posts/Cosmic Necronomicon/index.md",
-    "hugo.toml",
     "content/posts/Cosmic Necronomicon/cosmic-necronomicon-01.webp",
+    "content/posts/Cosmic Necronomicon/cosmic-necronomicon-02.png",
+    "hugo.toml",
     "themes/dream/public/tags/index.xml",
     "themes/dream/public/categories/index.xml",
     "themes/dream/public/index.xml",
@@ -188,7 +191,6 @@
     "public/posts/christmas-magic/piclumen-1734457637156.png",
     "public/posts/cosmic-necronomicon/cosmic-necronomicon-03.png",
     "public/posts/christmas-magic/piclumen-1734457624656.png",
-    "public/posts/santa-noir/santa-on-raindeer-noir.png",
     "content/posts/Christmas Magic/index.md",
     "content/posts/Santa Noir/index.md",
     "content/posts/My Collections on CivitAI and PicLumen/index.md",
