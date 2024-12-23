@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "4385d9025f5070e4",
+        "id": "a53275d731779b98",
         "type": "tabs",
         "children": [
           {
-            "id": "b2dc1ba5dfb75351",
+            "id": "7479d605e22810c6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "hugo.toml",
+                "file": "content/posts/My Collections on CivitAI and PicLumen/index.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "hugo"
+              "title": "index"
             }
           }
         ]
@@ -168,12 +168,14 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "b2dc1ba5dfb75351",
+  "active": "7479d605e22810c6",
   "lastOpenFiles": [
+    "themes/dream/layouts/_default/single.html",
+    "themes/dream/layouts/_default/single backup todel.html",
+    "hugo.toml",
     "content/posts/Cosmic Necronomicon/index.md",
     "content/posts/Cosmic Necronomicon/cosmic-necronomicon-01.webp",
     "content/posts/Cosmic Necronomicon/cosmic-necronomicon-02.png",
-    "hugo.toml",
     "themes/dream/public/tags/index.xml",
     "themes/dream/public/categories/index.xml",
     "themes/dream/public/index.xml",
@@ -182,7 +184,6 @@
     "themes/dream/public/tags/page/1",
     "themes/dream/public/tags/page",
     "themes/dream/public/categories/page/1/index.html",
-    "themes/dream/public/categories/page/1",
     "public/posts/christmas-magic/piclumen-1734457674437.png",
     "public/posts/christmas-magic/piclumen-1734457663282.png",
     "public/posts/cosmic-necronomicon/cover.webp",
