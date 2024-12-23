@@ -6,13 +6,34 @@
     <description>Recent content in Categories on MusingMaddy</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 16 Nov 2024 13:51:19 +0530</lastBuildDate>
+    <lastBuildDate>Sat, 21 Dec 2024 12:56:02 +0530</lastBuildDate>
     <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>🌳Wisdom</title>
-      <link>http://localhost:1313/categories/wisdom/</link>
-      <pubDate>Sat, 16 Nov 2024 13:51:19 +0530</pubDate>
-      <guid>http://localhost:1313/categories/wisdom/</guid>
+      <title>Horror</title>
+      <link>http://localhost:1313/categories/horror/</link>
+      <pubDate>Sat, 21 Dec 2024 12:56:02 +0530</pubDate>
+      <guid>http://localhost:1313/categories/horror/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Creative-Image</title>
+      <link>http://localhost:1313/categories/creative-image/</link>
+      <pubDate>Fri, 20 Dec 2024 14:03:44 +0530</pubDate>
+      <guid>http://localhost:1313/categories/creative-image/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>External-Links</title>
+      <link>http://localhost:1313/categories/external-links/</link>
+      <pubDate>Wed, 18 Dec 2024 12:26:21 +0530</pubDate>
+      <guid>http://localhost:1313/categories/external-links/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Surreal Artworks</title>
+      <link>http://localhost:1313/categories/surreal-artworks/</link>
+      <pubDate>Tue, 17 Dec 2024 23:13:49 +0530</pubDate>
+      <guid>http://localhost:1313/categories/surreal-artworks/</guid>
       <description></description>
     </item>
     <item>

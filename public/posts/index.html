@@ -96,7 +96,7 @@
       <div tabindex="0" role="button" class="btn btn-ghost btn-square" aria-label="Select an option">
         <ion-icon name="menu" class="text-2xl"></ion-icon>
       </div>
-      <ul class="dropdown-content menu w-36 bg-base-100 rounded-box z-[1] shadow-md">
+      <ul tabindex="0" class="dropdown-content menu w-36 bg-base-100 rounded-box z-[1] shadow-md">
         
 
 
@@ -166,7 +166,11 @@
       
       
       
-      <div role="link" tabindex="0" class="text-sm font-semibold cursor-pointer hover:underline" @click="flip = !flip" title="About">About</div>
+      <div role="link" tabindex="0"
+        class="text-sm font-semibold cursor-pointer hover:underline"
+        @click="flip = !flip"
+        title="About"
+      >About</div>
       
       
 
@@ -250,7 +254,19 @@
           <ul>
             
             <li>
-              <a href="/posts/ask-what-not-how/">Ask What not How</a>
+              <a href="/posts/cosmic-necronomicon/">Cosmic Necronomicon</a>
+            </li>
+            
+            <li>
+              <a href="/posts/santa-noir/">Santa Noir</a>
+            </li>
+            
+            <li>
+              <a href="/posts/my-collections-on-civitai-and-piclumen/">My Collections on CivitAI and PicLumen</a>
+            </li>
+            
+            <li>
+              <a href="/posts/christmas-magic/">Christmas Magic</a>
             </li>
             
             <li>

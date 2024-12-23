@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "76f2a900a334bb14",
+        "id": "4385d9025f5070e4",
         "type": "tabs",
         "children": [
           {
-            "id": "f1cfa877ce5e1336",
+            "id": "b2dc1ba5dfb75351",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "content/posts/Cosmic Necronomicon/index.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "index"
+              "title": "New tab"
             }
           }
         ]
@@ -168,34 +164,35 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "f1cfa877ce5e1336",
+  "active": "1e63d1007f2c155e",
   "lastOpenFiles": [
-    "content/posts/Cosmic Necronomicon/cover.webp",
-    "content/posts/Christmas Magic/index.md",
+    "themes/dream/public/tags/index.xml",
+    "themes/dream/public/categories/index.xml",
+    "themes/dream/public/index.xml",
+    "themes/dream/public/page/1/index.html",
+    "themes/dream/public/tags/page/1/index.html",
+    "themes/dream/public/tags/page/1",
+    "themes/dream/public/tags/page",
+    "themes/dream/public/categories/page/1/index.html",
+    "themes/dream/public/categories/page/1",
+    "themes/dream/public/categories/page",
+    "themes/dream/public/page/1",
+    "public/posts/christmas-magic/piclumen-1734457674437.png",
+    "public/posts/christmas-magic/piclumen-1734457663282.png",
+    "public/posts/cosmic-necronomicon/cover.webp",
+    "public/posts/christmas-magic/piclumen-1734457647643.png",
+    "public/posts/cosmic-necronomicon/cosmic-necronomicon-04.png",
+    "public/posts/christmas-magic/piclumen-1734457637156.png",
+    "public/posts/cosmic-necronomicon/cosmic-necronomicon-03.png",
+    "public/posts/christmas-magic/piclumen-1734457624656.png",
+    "public/posts/santa-noir/santa-on-raindeer-noir.png",
+    "public/posts/cosmic-necronomicon/cosmic-necronomicon-02.png",
     "content/posts/Cosmic Necronomicon/index.md",
-    "content/posts/Cosmic Necronomicon/cosmic-necronomicon-01.png",
+    "content/posts/Christmas Magic/index.md",
     "content/posts/Santa Noir/index.md",
-    "content/posts/Cosmic Necronomicon/cosmic-necronomicon-04.png",
-    "content/posts/Cosmic Necronomicon/cosmic-necronomicon-03.png",
-    "content/posts/Cosmic Necronomicon/cosmic-necronomicon-02.png",
-    "cosmic-necronomicon-03.png",
-    "cosmic-necronomicon-02.png",
-    "cosmic-necronomicon-01.png",
-    "cosmic-necronomicon-04.png",
-    "piclumen-1734765828082.png",
-    "content/posts/Cosmic Necronomicon",
-    "content/posts/Santa Noir",
     "content/posts/My Collections on CivitAI and PicLumen/index.md",
-    "content/posts/My Collections on CivitAI and PicLumen",
     "content/posts/about_me/index.md",
-    "content/posts/Christmas Magic",
     "content/posts/Ask What not How/index.md",
-    "themes/dream/config.toml",
-    "themes/dream/theme.toml",
-    "themes/dream/tailwind.config.js",
-    "themes/dream/src/js/main.js",
-    "themes/dream/src/js/grid.js",
-    "themes/dream/src/js",
     "themes/dream/docs/pages/search.md",
     "themes/dream/docs/pages/i18n.md",
     "themes/dream/docs/pages/decap-cms.md",

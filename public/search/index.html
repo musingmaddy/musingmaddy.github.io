@@ -93,7 +93,7 @@
       <div tabindex="0" role="button" class="btn btn-ghost btn-square" aria-label="Select an option">
         <ion-icon name="menu" class="text-2xl"></ion-icon>
       </div>
-      <ul class="dropdown-content menu w-36 bg-base-100 rounded-box z-[1] shadow-md">
+      <ul tabindex="0" class="dropdown-content menu w-36 bg-base-100 rounded-box z-[1] shadow-md">
         
 
 
@@ -163,7 +163,11 @@
       
       
       
-      <div role="link" tabindex="0" class="text-sm font-semibold cursor-pointer hover:underline" @click="flip = !flip" title="About">About</div>
+      <div role="link" tabindex="0"
+        class="text-sm font-semibold cursor-pointer hover:underline"
+        @click="flip = !flip"
+        title="About"
+      >About</div>
       
       
 
@@ -539,9 +543,15 @@ x-data="{
 
 
 
+
+
+
+
+
+
 <script src="https://cdn.jsdelivr.net/npm/fuse.js@7.0.0/dist/fuse.min.js" integrity="sha256-42IbU8t3tOwwbexB7ZVRHm3YDRf65aBPPjRtIUufj5I=" crossorigin="anonymous"></script>
 <script>
-  var fuseData = [{"author":"Maddy Meraki","avatar":"/img/musingmaddy.webp","categories":["🌳Wisdom"],"description":"\u003cblockquote class=\"dream-alert important\"\u003e\r\n    \u003cp class=\"heading\"\u003e\r\n      \u003cion-icon name=\"sparkles-outline\"\u003e\u003c/ion-icon\u003eImportant\u003c/p\u003e\r\n    \u003cp\u003e\r\n\r\n\r\n  \u003cblockquote\u003e\r\n    \u003cp\u003eAsk \u003cstrong\u003eWhat\u003c/strong\u003e not \u003cstrong\u003eHow\u003c/strong\u003e !\u003c/p\u003e\n\r\n  \u003c/blockquote\u003e\r\n\r\n\r\n  \u003c/blockquote\u003e","readingTime":1,"tags":["mindset🧠","self-reflection💭"],"title":"Ask What not How","url":"/posts/ask-what-not-how/"},{"author":"Musing Maddy","avatar":"/img/musingmaddy.webp","categories":"Personal","description":"\u003ch2 id=\"about-me\"\u003e\u003cstrong\u003eAbout Me\u003c/strong\u003e\u003c/h2\u003e\n\u003cp\u003e\u003cstrong\u003eHi there! 👋🏻\u003c/strong\u003e,\u003c/p\u003e\n\u003cp\u003eWelcome to \u003cstrong\u003eMusingMaddy\u003c/strong\u003e, a creative space where art, technology, and imagination converge.\u003c/p\u003e","readingTime":1,"tags":["musingmaddy"],"title":"About Me","url":"/posts/about_me/"}];
+  var fuseData = [{"author":"Maddy Meraki","avatar":"/img/musingmaddy.webp","categories":"Horror","description":"\u003ch1 id=\"cosmic-necronomicon\"\u003eCosmic Necronomicon\u003c/h1\u003e\n\r\n\r\n\r\n  \u003cblockquote\u003e\r\n    \u003cp\u003eEmanating from the event horizon of a collapsing crimson nebula, a siren of the void, sculpted from solidified whispers of forgotten desires. Her form, a fractal tapestry of obsidian lace and molten ruby sinews, pulses with the rhythm of a dying star. A single, cyclopean eye, a swirling vortex of anti-matter, gazes into the observer\u0026rsquo;s soul, reflecting the infinite expanse of their own hidden longings. This is not a portrait, but a ritual. A summoning. The background is not mere darkness, but the absence of all light, a canvas woven from the threads of un-being, punctuated by the ghost-echoes of shattered realities. Render this in a style that is simultaneously hyper-realistic and utterly impossible, a fusion of Baroque chiaroscuro, cosmic horror, and the hallucinogenic fluidity of a sentient oil slick. Imagine if Zdzisław Beksiński collaborated with H.R. Giger on a fever dream induced by the Necronomicon, viewed through a kaleidoscope crafted from the shards of a black hole. Perspective is warped, distorted, a non-Euclidean nightmare where up is down, inside is out, and the observer is both the subject and the artist. The composition should evoke a visceral reaction, a primal shudder of both terror and irresistible attraction.\u003c/p\u003e","readingTime":1,"tags":["horror","cosmic-horror","dark","surreal"],"title":"Cosmic Necronomicon","url":"/posts/cosmic-necronomicon/"},{"author":"Maddy Meraki","avatar":"/img/musingmaddy.webp","categories":"creative-image","description":"\u003ch1 id=\"santa\"\u003eSanta\u003c/h1\u003e\n\u003cp\u003e\u003cimg src=\"santa-close-up-gritty.png\" alt=\"Santa Noir\"\u003e\u003c/p\u003e\n\r\n\r\n\r\n  \u003cblockquote\u003e\r\n    \u003cp\u003e\u003cem\u003eA high-contrast black-and-white close-up photo of Santa Claus, showcasing intricate details and a neutral expression as he stares directly into the camera. Half of his face is dramatically shrouded in deep, dark shadows, creating an intense noir aesthetic. His eyes are slightly glowing, adding a hint of surrealism to the hyper-realistic portrayal. Santa\u0026rsquo;s iconic cap is perched on his head, but strands of his hair cascade out, framing his weathered, aged face. Subtle bruises and marks of age add character and depth to his visage. The ultra-close-up composition emphasizes every wrinkle and texture, while the high-contrast lighting enhances the dramatic and mysterious atmosphere. The artists\u0026rsquo; initials \u0026ldquo;MD\u0026rdquo; are signed at the bottom left in small cursive comic-sans font.\u003c/em\u003e\u003c/p\u003e","readingTime":2,"tags":["piclumen","noir","stylized","gritty"],"title":"Santa Noir","url":"/posts/santa-noir/"},{"author":"Maddy Meraki","avatar":"/img/musingmaddy.webp","categories":["External-Links"],"description":"\u003ch1 id=\"my-collections\"\u003eMy Collections\u003c/h1\u003e\n\u003ch2 id=\"follow-me-on\"\u003eFollow me on\u003c/h2\u003e\n\u003cp\u003eCitvitAI \u0026amp; Piclumen.\u003c/p\u003e","readingTime":1,"tags":["collections","links"],"title":"My Collections on CivitAI and PicLumen","url":"/posts/my-collections-on-civitai-and-piclumen/"},{"author":"Maddy Meraki","avatar":"/img/musingmaddy.webp","categories":["Surreal Artworks"],"description":"\u003ch1 id=\"christmas-artwork\"\u003eChristmas Artwork\u003c/h1\u003e\n\u003cp\u003eSanta\u0026rsquo;s Magical Sack: Butterflies and Wonder Fill the Air This Christmas !\u003c/p\u003e\n\u003cp\u003e6 Art Works.\u003c/p\u003e","readingTime":1,"tags":["santaclaus","christmas","santa"],"title":"Christmas Magic","url":"/posts/christmas-magic/"},{"author":"Musing Maddy","avatar":"/img/musingmaddy.webp","categories":"Personal","description":"\u003ch2 id=\"about-me\"\u003e\u003cstrong\u003eAbout Me\u003c/strong\u003e\u003c/h2\u003e\n\u003cp\u003e\u003cstrong\u003eHi there! 👋🏻\u003c/strong\u003e,\u003c/p\u003e\n\u003cp\u003eWelcome to \u003cstrong\u003eMusingMaddy\u003c/strong\u003e, a creative space where art, technology, and imagination converge.\u003c/p\u003e","readingTime":1,"tags":["musingmaddy"],"title":"About Me","url":"/posts/about_me/"}];
   var fuseOptions = {
     keys: [
       "title",

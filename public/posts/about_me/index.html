@@ -120,7 +120,7 @@ Welcome to MusingMaddy, a creative space where art, technology, and imagination 
       <div tabindex="0" role="button" class="btn btn-ghost btn-square" aria-label="Select an option">
         <ion-icon name="menu" class="text-2xl"></ion-icon>
       </div>
-      <ul class="dropdown-content menu w-36 bg-base-100 rounded-box z-[1] shadow-md">
+      <ul tabindex="0" class="dropdown-content menu w-36 bg-base-100 rounded-box z-[1] shadow-md">
         
 
 
@@ -190,7 +190,11 @@ Welcome to MusingMaddy, a creative space where art, technology, and imagination 
       
       
       
-      <div role="link" tabindex="0" class="text-sm font-semibold cursor-pointer hover:underline" @click="flip = !flip" title="About">About</div>
+      <div role="link" tabindex="0"
+        class="text-sm font-semibold cursor-pointer hover:underline"
+        @click="flip = !flip"
+        title="About"
+      >About</div>
       
       
 
@@ -249,23 +253,10 @@ Welcome to MusingMaddy, a creative space where art, technology, and imagination 
         <div class="front">
           <div class="container">
             
-<div class="mt-4 px-4">
-  
-  <div class="relative" x-data="{ height: '' }" x-init="height = $el.scrollHeight + 'px'">
-  
-    
-    <div class="absolute right-0 lg:w-36 xl:w-48 hidden lg:block" :style="{ height }">
-      <nav id="TableOfContents">
-  <ul>
-    <li><a href="#about-me"><strong>About Me</strong></a></li>
-  </ul>
-</nav>
+<div class="lg:grid lg:grid-cols-4 gap-4 mt-4 px-4">
+  <div class="hidden lg:block"></div>
 
-      <div class="dream-adsense px-5">
-      
-      </div>
-    </div>
-    
+  <div class="lg:col-span-2">
     <article class="mx-auto prose prose-quoteless dark:prose-invert" id="dream-single-post-main" itemscope itemtype="http://schema.org/Article">
       
   <meta itemprop="name" content="About Me">
@@ -370,11 +361,11 @@ Welcome to MusingMaddy, a creative space where art, technology, and imagination 
       <div class="divider"></div>
       <div class="flex flex-col md:flex-row justify-between gap-4 py-4">
         
-        <a class="group btn btn-outline" href="/posts/ask-what-not-how/" title="Ask What not How">
+        <a class="group btn btn-outline" href="/posts/christmas-magic/" title="Christmas Magic">
           <ion-icon name="chevron-back"></ion-icon>
           <div class="inline-flex flex-col items-start">
             <span class="text-base-content/60 group-hover:text-neutral-content/60 text-xs font-normal">Previous page</span>
-            <span class="max-w-48 truncate">Ask What not How</span>
+            <span class="max-w-48 truncate">Christmas Magic</span>
           </div>
         </a>
         
@@ -384,14 +375,12 @@ Welcome to MusingMaddy, a creative space where art, technology, and imagination 
         
       </div>
       
-    </article>
-  </div>
 
-  
-  <div class="divider max-w-[65ch] mx-auto"></div>
+      
+      <div class="divider"></div>
 
-  <section class="max-w-[65ch] mx-auto space-y-4">
-    
+      <section class="space-y-4">
+        
 
 
 <template x-if="['localhost', '127.0.0.1'].indexOf(window.location.hostname) == -1">
@@ -412,8 +401,22 @@ Welcome to MusingMaddy, a creative space where art, technology, and imagination 
 
 
 
-  </section>
-  
+      </section>
+      
+    </article>
+  </div>
+
+  <div class="hidden lg:flex lg:flex-col lg:items-end">
+    
+
+    
+      <nav id="TableOfContents">
+  <ul>
+    <li><a href="#about-me"><strong>About Me</strong></a></li>
+  </ul>
+</nav>
+    
+  </div>
 </div>
 
 
@@ -670,6 +673,8 @@ Welcome to MusingMaddy, a creative space where art, technology, and imagination 
 <script src="/js/main.js"></script>
 
     
+
+
 
 
 
