@@ -7,7 +7,7 @@ description: Christmas Magic descriptions
 author: Maddy Meraki
 avatar: /img/musingmaddy.webp
 authorlink: https://musingmaddy.github.io
-cover: cover2.webp
+cover: cover.webp
 nolastmod: true
 draft: false
 showComments: true

@@ -6,8 +6,22 @@
     <description>Recent content in Tags on MusingMaddy</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 21 Dec 2024 12:56:02 +0530</lastBuildDate>
+    <lastBuildDate>Mon, 23 Dec 2024 22:49:58 +0530</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Musingmaddy</title>
+      <link>http://localhost:1313/tags/musingmaddy/</link>
+      <pubDate>Mon, 23 Dec 2024 22:49:58 +0530</pubDate>
+      <guid>http://localhost:1313/tags/musingmaddy/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Art-Dark</title>
+      <link>http://localhost:1313/tags/art-dark/</link>
+      <pubDate>Sat, 21 Dec 2024 12:56:02 +0530</pubDate>
+      <guid>http://localhost:1313/tags/art-dark/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Cosmic-Horror</title>
       <link>http://localhost:1313/tags/cosmic-horror/</link>
@@ -16,31 +30,17 @@
       <description></description>
     </item>
     <item>
-      <title>Dark</title>
-      <link>http://localhost:1313/tags/dark/</link>
+      <title>Eldritch</title>
+      <link>http://localhost:1313/tags/eldritch/</link>
       <pubDate>Sat, 21 Dec 2024 12:56:02 +0530</pubDate>
-      <guid>http://localhost:1313/tags/dark/</guid>
+      <guid>http://localhost:1313/tags/eldritch/</guid>
       <description></description>
     </item>
     <item>
-      <title>Horror</title>
-      <link>http://localhost:1313/tags/horror/</link>
-      <pubDate>Sat, 21 Dec 2024 12:56:02 +0530</pubDate>
-      <guid>http://localhost:1313/tags/horror/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Surreal</title>
-      <link>http://localhost:1313/tags/surreal/</link>
-      <pubDate>Sat, 21 Dec 2024 12:56:02 +0530</pubDate>
-      <guid>http://localhost:1313/tags/surreal/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Gritty</title>
-      <link>http://localhost:1313/tags/gritty/</link>
+      <title>Grayscale</title>
+      <link>http://localhost:1313/tags/grayscale/</link>
       <pubDate>Fri, 20 Dec 2024 14:03:44 +0530</pubDate>
-      <guid>http://localhost:1313/tags/gritty/</guid>
+      <guid>http://localhost:1313/tags/grayscale/</guid>
       <description></description>
     </item>
     <item>
@@ -51,66 +51,10 @@
       <description></description>
     </item>
     <item>
-      <title>Piclumen</title>
-      <link>http://localhost:1313/tags/piclumen/</link>
-      <pubDate>Fri, 20 Dec 2024 14:03:44 +0530</pubDate>
-      <guid>http://localhost:1313/tags/piclumen/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Stylized</title>
-      <link>http://localhost:1313/tags/stylized/</link>
-      <pubDate>Fri, 20 Dec 2024 14:03:44 +0530</pubDate>
-      <guid>http://localhost:1313/tags/stylized/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Links</title>
-      <link>http://localhost:1313/tags/links/</link>
-      <pubDate>Wed, 18 Dec 2024 12:26:21 +0530</pubDate>
-      <guid>http://localhost:1313/tags/links/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Musingmaddy</title>
-      <link>http://localhost:1313/tags/musingmaddy/</link>
-      <pubDate>Wed, 18 Dec 2024 12:26:21 +0530</pubDate>
-      <guid>http://localhost:1313/tags/musingmaddy/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Websites</title>
-      <link>http://localhost:1313/tags/websites/</link>
-      <pubDate>Wed, 18 Dec 2024 12:26:21 +0530</pubDate>
-      <guid>http://localhost:1313/tags/websites/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Christmas</title>
-      <link>http://localhost:1313/tags/christmas/</link>
+      <title>Art-Light-Hearted</title>
+      <link>http://localhost:1313/tags/art-light-hearted/</link>
       <pubDate>Tue, 17 Dec 2024 23:13:49 +0530</pubDate>
-      <guid>http://localhost:1313/tags/christmas/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Colorful</title>
-      <link>http://localhost:1313/tags/colorful/</link>
-      <pubDate>Tue, 17 Dec 2024 23:13:49 +0530</pubDate>
-      <guid>http://localhost:1313/tags/colorful/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Happy</title>
-      <link>http://localhost:1313/tags/happy/</link>
-      <pubDate>Tue, 17 Dec 2024 23:13:49 +0530</pubDate>
-      <guid>http://localhost:1313/tags/happy/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Santaclaus</title>
-      <link>http://localhost:1313/tags/santaclaus/</link>
-      <pubDate>Tue, 17 Dec 2024 23:13:49 +0530</pubDate>
-      <guid>http://localhost:1313/tags/santaclaus/</guid>
+      <guid>http://localhost:1313/tags/art-light-hearted/</guid>
       <description></description>
     </item>
   </channel>

@@ -6,8 +6,15 @@
     <description>Recent content in Posts on MusingMaddy</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 21 Dec 2024 12:56:02 +0530</lastBuildDate>
+    <lastBuildDate>Mon, 23 Dec 2024 22:49:58 +0530</lastBuildDate>
     <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Tags and Categories</title>
+      <link>http://localhost:1313/posts/tags-and-categories/</link>
+      <pubDate>Mon, 23 Dec 2024 22:49:58 +0530</pubDate>
+      <guid>http://localhost:1313/posts/tags-and-categories/</guid>
+      <description>&lt;h1 id=&#34;categories--tags&#34;&gt;Categories &amp;amp; Tags&lt;/h1&gt;&#xA;&lt;p&gt;Apart from &lt;code&gt;Search&lt;/code&gt; Categories and Tags can be used in this website for finetuning search.&lt;/p&gt;&#xA;&lt;h2 id=&#34;categories&#34;&gt;Categories&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;Categories (Broad)&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Artwork&lt;/strong&gt; (My Art creations)&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Writing-Project&lt;/strong&gt; (My Ongoing Writing project)&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Game-Dev&lt;/strong&gt; (For updates, behind-the-scenes, concept art, etc., related to my indie game and other Game-Dev)&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Musings&lt;/strong&gt; (My perspectives, thoughts, creative process)&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Inspirations&lt;/strong&gt; (Others creative process, influences, or things that inspires me)&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Step-by-Step&lt;/strong&gt; (Tutorials and easy step by step guides)&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Announcements&lt;/strong&gt; (For major updates, new project launches, etc.)&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Worldly&lt;/strong&gt; (Business, Trading, Markets, Career and other worldly affairs)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;tags&#34;&gt;Tags&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;Tags (Specific)&lt;/strong&gt;&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Cosmic Necronomicon</title>
       <link>http://localhost:1313/posts/cosmic-necronomicon/</link>

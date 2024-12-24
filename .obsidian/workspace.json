@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "ba4bb558c667b926",
+        "id": "929588e72a8224c5",
         "type": "tabs",
         "children": [
           {
-            "id": "25c9aad61fe20581",
+            "id": "52ab0f66123776e5",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "content/posts/Tags and Categories/index.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "index"
+              "title": "New tab"
             }
           }
         ]
@@ -77,7 +73,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 355.5
+    "width": 200
   },
   "right": {
     "id": "5838c7864aeaa259",
@@ -168,21 +164,21 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "1e63d1007f2c155e",
+  "active": "26b9ea1c29a88e61",
   "lastOpenFiles": [
+    "content/posts/Christmas Magic/index.md",
+    "content/posts/Christmas Magic/cover2.webp",
+    "content/posts/Christmas Magic/cover.webp",
+    "content/posts/Tags and Categories/index.md",
     "content/posts/Tags and Categories/cover.webp",
     "content/posts/My Collections on CivitAI and PicLumen/index.md",
     "content/posts/about_me/index.md",
-    "content/posts/Tags and Categories/index.md",
     "content/posts/Santa Noir/index.md",
     "content/posts/Santa Noir/cover.webp",
     "content/posts/Cosmic Necronomicon/index.md",
-    "content/posts/Christmas Magic/index.md",
     "themes/dream/archetypes/posts.md",
     "content/posts/Cosmic Necronomicon/cover.webp",
     "content/posts/Christmas Magic/piclumen-1734457624656.png",
-    "content/posts/Christmas Magic/cover.webp",
-    "content/posts/Christmas Magic/cover2.webp",
     "content/posts/about_me/about_me.webp",
     "content/posts/Tags and Categories",
     "content/about/projects.md",
@@ -196,7 +192,6 @@
     "content/posts/about_me/about_me_small.webp",
     "content/posts/about_me/about_me_full.webp",
     "content/posts/Cosmic Necronomicon/cosmic-necronomicon-04.png",
-    "content/posts/Cosmic Necronomicon/cosmic-necronomicon-03.png",
     "themes/dream/layouts/_default/single.html",
     "themes/dream/layouts/_default/single backup todel.html",
     "themes/dream/public/tags/index.xml",

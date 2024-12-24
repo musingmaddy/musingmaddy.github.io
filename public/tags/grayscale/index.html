@@ -1,0 +1,648 @@
+<!DOCTYPE html>
+<html lang="en"
+  x-data
+  :class="$store.darkMode.class()"
+  :data-theme="$store.darkMode.theme()">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grayscale | MusingMaddy</title>
+
+    
+<link href="/img/favicon.png" rel="icon" type="image/x-icon" />
+
+
+<link rel="canonical" href="http://localhost:1313/tags/grayscale/" />
+
+
+
+<meta name="author" content="Maddy Meraki" />
+<meta name="description" content="Maddy&#39;s Arts, Crafts & Perspectives" />
+
+
+
+<meta name="generator" content="Hugo 0.140.1">
+
+
+<meta property="og:url" content="http://localhost:1313/tags/grayscale/">
+  <meta property="og:site_name" content="MusingMaddy">
+  <meta property="og:title" content="Grayscale">
+  <meta property="og:description" content="Maddy&#39;s Arts, Crafts &amp; Perspectives">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="website">
+
+
+
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Grayscale">
+  <meta name="twitter:description" content="Maddy&#39;s Arts, Crafts &amp; Perspectives">
+
+
+
+
+<link rel="stylesheet" href="/css/output.css" />
+
+
+
+
+     
+
+    
+
+    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+  </head>
+
+  <body x-data="{
+    flip: false,
+  }">
+    
+    <div id="dream-global-bg"></div>
+
+    
+<nav x-data="{ isSticky: false }"
+  x-init="window.addEventListener('scroll', () => { isSticky = window.scrollY > 30 })"
+  class="sticky top-0 z-30 mt-4 lg:mt-8 py-4"
+  :class="{ 'bg-base-100 shadow-lg dark:border-b dark:border-base-content/30': isSticky }">
+
+  
+  <div class="container flex justify-between px-4">
+  
+    <section class="flex items-center gap-4">
+      <div class="avatar cursor-pointer hover:online" @click="flip = !flip" title="Flip it!">
+        <div class="h-10 rounded-full">
+          <img src="/img/musingmaddy.webp" alt="Musing Maddy" />
+        </div>
+      </div>
+
+      
+      <div>
+        
+        <a href="http://localhost:1313/" class="text-lg font-semibold cursor-pointer">
+          Musing Maddy
+        </a>
+        
+        
+        <div class="text-base-content/60 text-sm">🌄 Inspiring New Perspectives</div>
+        
+      </div>
+      
+    </section>
+
+    <div class="dropdown dropdown-end sm:hidden">
+      <div tabindex="0" role="button" class="btn btn-ghost btn-square" aria-label="Select an option">
+        <ion-icon name="menu" class="text-2xl"></ion-icon>
+      </div>
+      <ul tabindex="0" class="dropdown-content menu w-36 bg-base-100 rounded-box z-[1] shadow-md">
+        
+
+
+<li>
+  <div role="link" tabindex="0" class="inline-flex items-center p-2 cursor-pointer" @click="flip = !flip" title="About">
+    <ion-icon name="information-circle"></ion-icon>About</div>
+</li>
+
+
+
+
+
+
+
+<li>
+  <a class="group inline-flex items-center p-2 cursor-pointer" href="/search" title="Search">
+    <ion-icon name="search"></ion-icon>
+    Search
+  </a>
+</li>
+
+
+
+
+
+
+
+
+
+
+
+<li>
+  <a class="inline-flex items-center p-2 cursor-pointer" href="/posts" title="Archives">
+    <ion-icon name="archive"></ion-icon>
+    Archives
+  </a>
+</li>
+
+
+
+
+<li>
+  <a class="inline-flex items-center p-2 cursor-pointer" href="/categories" title="All Categories">
+    <ion-icon name="grid"></ion-icon>
+    All Categories
+  </a>
+</li>
+
+
+
+
+<li>
+  <a class="inline-flex items-center p-2 cursor-pointer" href="/tags" title="All Tags">
+    <ion-icon name="pricetags"></ion-icon>
+    All Tags
+  </a>
+</li>
+
+
+
+
+
+
+      </ul>
+    </div>
+    <section class="hidden sm:flex sm:items-center sm:gap-2 md:gap-4">
+      
+      
+      
+      <div role="link" tabindex="0"
+        class="text-sm font-semibold cursor-pointer hover:underline"
+        @click="flip = !flip"
+        title="About"
+      >About</div>
+      
+      
+
+      
+      
+
+      
+
+      
+      
+<a class="group inline-flex items-center p-2 rounded-full cursor-pointer hover:bg-primary" href="/search" title="Search">
+  <ion-icon class="group-hover:text-primary-content" name="search"></ion-icon>
+</a>
+
+
+      
+      
+
+
+
+
+
+      
+      
+<a class="group inline-flex items-center p-2 rounded-full cursor-pointer hover:bg-primary" href="/posts" title="Archives">
+  <ion-icon class="group-hover:text-primary-content" name="archive"></ion-icon>
+</a>
+
+
+      
+      
+<a class="group inline-flex items-center p-2 rounded-full cursor-pointer hover:bg-primary" href="/categories" title="All Categories">
+  <ion-icon class="group-hover:text-primary-content" name="grid"></ion-icon>
+</a>
+
+
+      
+      
+<a class="group inline-flex items-center p-2 rounded-full cursor-pointer hover:bg-primary" href="/tags" title="All Tags">
+  <ion-icon class="group-hover:text-primary-content" name="pricetags"></ion-icon>
+</a>
+
+
+      
+
+      
+
+      
+    </section>
+  </div>
+</nav>
+
+
+    <div class="flip-container" :class="{ 'flip-it': flip }">
+      <div class="flipper">
+        <div class="front">
+          <div class="container">
+            
+
+
+<div class="flex flex-col md:flex-row mt-4">
+
+  <div class="md:basis-[200px] lg:basis-[300px] p-4 prose dark:prose-invert">
+    <h1 class="text-2xl">Grayscale</h1>
+    <p class="text-sm">1 article</p>
+    <div class="flex flex-wrap gap-4 mt-6">
+      
+
+      
+      
+      <a href="/tags/art-dark/" class="badge h-6 no-underline hover:badge-primary">
+        Art-Dark
+      </a>
+      
+      
+      
+      <a href="/tags/art-light-hearted/" class="badge h-6 no-underline hover:badge-primary">
+        Art-Light-Hearted
+      </a>
+      
+      
+      
+      <a href="/tags/cosmic-horror/" class="badge h-6 no-underline hover:badge-primary">
+        Cosmic-Horror
+      </a>
+      
+      
+      
+      <a href="/tags/eldritch/" class="badge h-6 no-underline hover:badge-primary">
+        Eldritch
+      </a>
+      
+      
+      
+      <span class="badge h-6 badge-primary">
+        Grayscale
+      </span>
+      
+      
+      
+      <a href="/tags/musingmaddy/" class="badge h-6 no-underline hover:badge-primary">
+        Musingmaddy
+      </a>
+      
+      
+      
+      <a href="/tags/noir/" class="badge h-6 no-underline hover:badge-primary">
+        Noir
+      </a>
+      
+      
+    </div>
+  </div>
+  
+  <div class="divider divider-vertical md:divider-horizontal px-4 md:px-0"></div>
+  
+  <div class="flex-1">
+    
+
+    
+    <div class="dream-grid">
+    
+      <div class="w-full md:w-1/2 lg:w-1/3 p-4 dream-column">
+        <a class="card card-compact bg-base-100 hover:bg-base-content/10 shadow-xl cursor-pointer dark:border dark:border-base-content/30" href="/posts/santa-noir/">
+  
+  <figure>
+    
+    
+      
+      <picture>
+        <source srcset="/posts/santa-noir/cover_hu9372119595547693383.webp" type="image/webp" />
+        <img src="/posts/santa-noir/cover.webp" alt="cover.webp" />
+      </picture>
+    
+    
+  </figure>
+  
+
+  <div class="card-body">
+    <h2 class="card-title">Santa Noir</h2>
+
+    <p class="date text-base-content/60">
+    
+      Friday, Dec 20, 2024
+    
+    </p>
+
+    <h1 id="santa">Santa</h1>
+<p><img src="santa-close-up-gritty.png" alt="Santa Noir"></p>
+
+
+
+  <blockquote>
+    <p><em>A high-contrast black-and-white close-up photo of Santa Claus, showcasing intricate details and a neutral expression as he stares directly into the camera. Half of his face is dramatically shrouded in deep, dark shadows, creating an intense noir aesthetic. His eyes are slightly glowing, adding a hint of surrealism to the hyper-realistic portrayal. Santa&rsquo;s iconic cap is perched on his head, but strands of his hair cascade out, framing his weathered, aged face. Subtle bruises and marks of age add character and depth to his visage. The ultra-close-up composition emphasizes every wrinkle and texture, while the high-contrast lighting enhances the dramatic and mysterious atmosphere. The artists&rsquo; initials &ldquo;MD&rdquo; are signed at the bottom left in small cursive comic-sans font.</em></p>
+
+    <div class="card-actions justify-between items-center mt-4">
+      <div class="flex items-center">
+  
+  <div class="avatar mr-1">
+    <div class="w-8 rounded-full">
+      <img class="my-0" src="/img/musingmaddy.webp" alt="Maddy Meraki" />
+    </div>
+  </div>
+  
+
+  <span itemprop="author" itemscope itemtype="https://schema.org/Person">
+  
+    
+      <span itemprop="name">Maddy Meraki</span>
+    
+  
+  </span>
+</div>
+
+
+      <div class="flex items-center">
+        <ion-icon name="time" class="mr-1"></ion-icon>
+        <span>2 minute read</span>
+      </div>
+    </div>
+  </div>
+</a>
+
+      </div>
+    
+    </div>
+    
+
+    
+  </div>
+</div>
+
+
+
+            
+<footer class="flex justify-between items-center gap-2 px-4 py-12">
+
+  <div>
+  
+  <p>
+    © 2024 MusingMaddy
+  </p>
+  
+
+  
+  <p>🌄 Inspiring Better Perspectives - 💖 Maddy Meraki</p>
+  
+</div>
+
+  <div
+  x-data="{ icons: [
+    { name: 'moon', status: 'y' },
+    { name: 'sunny', status: 'n' },
+    { name: 'desktop', status: 'auto' }
+  ] }"
+  class="flex items-center h-[32px] px-2 gap-2 border border-base-content/30 rounded-full"
+>
+  <template x-for="icon in icons">
+    <div
+      role="button"
+      tabindex="0"
+      :aria-label="'Select ' + icon.name + ' mode'"
+      class="group inline-flex justify-center items-center p-1 rounded-full cursor-pointer hover:bg-primary"
+      :class="$store.darkMode.icon() === icon.name && 'bg-primary'"
+      @click="$store.darkMode.toggle(icon.status)"
+    >
+      <ion-icon
+        :name="`${icon.name}-outline`"
+        class="group-hover:text-primary-content"
+        :class="$store.darkMode.icon() === icon.name && 'text-primary-content'"
+      >
+      </ion-icon>
+    </div>
+  </template>
+</div>
+
+</footer>
+
+          </div>
+        </div>
+        <div class="back">
+          <div class="container">
+            
+            <div class="dream-grid dream-grid-about">
+  
+  
+  
+  <div class="w-full md:w-1/2 lg:w-1/3 xl:w-1/4 p-4 dream-column">
+    <article
+      class="card card-compact bg-base-100 hover:bg-base-content/10 shadow-xl dark:border dark:border-base-content/30"
+    >
+      <div class="card-body">
+        <div class="card-title"></div>
+
+        <div class="prose dark:prose-invert">
+          <h2 id="about-me"><strong>About Me</strong></h2>
+<p><strong>Hi there! 👋🏻</strong>,</p>
+<p>Welcome to <strong>MusingMaddy</strong>, a creative space where art, technology, and imagination converge.</p>
+<p>I&rsquo;m Maddy Meraki, an artist, storyteller, and techy. I&rsquo;m passionate about harnessing the power of technology to bring creative visions to life. Here, you&rsquo;ll find a curated collection of my digital art, creative projects, and crafty innovations.</p>
+<p>I&rsquo;m always exploring new ways to inspire new perspectives. My work explores the intersection of art and technology, inspiring new ways of thinking and creating.</p>
+
+
+
+  <blockquote>
+    <p><strong>MusingMaddy : “Inspiring New Perspectives Through Creativity &amp; AI”</strong></p>
+
+  </blockquote>
+
+<p><img src="http://musingmaddy.github.io/posts/about_me/about_me_small.webp" alt="about_me"></p>
+
+        </div>
+      </div>
+    </article>
+  </div>
+  
+  <div class="w-full md:w-1/2 lg:w-1/3 xl:w-1/4 p-4 dream-column">
+    <article
+      class="card card-compact bg-base-100 hover:bg-base-content/10 shadow-xl dark:border dark:border-base-content/30"
+    >
+      <div class="card-body">
+        <div class="card-title"></div>
+
+        <div class="prose dark:prose-invert">
+          <h2 id="my-projects"><strong>My Projects</strong></h2>
+<ol>
+<li>
+<p><strong>AI Art Collection</strong></p>
+<p>My AI Art Project is a vibrant collection of thematic digital artworks. I update this gallery regularly, showcasing the unexpected beauty and uniqueness of thematic art that challenge and inspire viewers to see the world differently.</p>
+</li>
+<li>
+<p><strong>Fiction Novel: <em>Jeev Atman</em></strong></p>
+<p><em>Jeev Atman</em> is an upcoming adventure novel in progress that weaves elements of mystery, philosophy, and spiritual growth. Through its characters and storyline, this work explores the questions about life, identity, self discovery and human transcendence. Writing this fiction novel is an ongoing journey, blending storytelling with themes that resonate deeply with my creative vision.</p>
+</li>
+<li>
+<p><strong>Indie Game Development</strong></p>
+<p>Extending the world of <em>Jeev Atman</em> into an interactive experience, this indie game project is designed to immerse players in the novel’s universe through artful gameplay and storytelling. Developed in Unity, the game reflects my vision of blending art, narrative, and interaction, offering a fresh, experiential journey where players actively engage with philosophical and creative themes.</p>
+</li>
+<li>
+<p><strong>Non-Fiction Exploration: Truth, Suffering, and Existence</strong></p>
+<p>This ongoing non-fiction project examines profound questions surrounding truth, the nature of suffering, and the essence of existence. Here, I explore complex ideas and insights, aiming to inspire contemplation and a greater understanding of life’s universal challenges.</p>
+</li>
+</ol>
+
+        </div>
+      </div>
+    </article>
+  </div>
+  
+  <div class="w-full md:w-1/2 lg:w-1/3 xl:w-1/4 p-4 dream-column">
+    <article
+      class="card card-compact bg-base-100 hover:bg-base-content/10 shadow-xl dark:border dark:border-base-content/30"
+    >
+      <div class="card-body">
+        <div class="card-title"></div>
+
+        <div class="prose dark:prose-invert">
+          <h2 id="interests"><strong>Interests</strong></h2>
+<h3 id="what-my-work-explores"><strong>What My Work Explores</strong></h3>
+<ul>
+<li><strong>Mind &amp; Soul:</strong> Delving into philosophy, psychology, and transcendence to understand the deeper facets of human experience.</li>
+<li><strong>The Unusual &amp; Enigmatic:</strong> Embracing magical realism, mystery, and concepts that challenge conventional viewpoints.</li>
+<li><strong>Art, Tech &amp; Music:</strong> Inspired by surreal art, immersive trance music, and the creativity of indie gaming.</li>
+</ul>
+<p>My projects are infused with these themes, guiding my approach to digital art, writing, and more. My goal is to create work that sparks insight and invites fresh perspectives.</p>
+
+        </div>
+      </div>
+    </article>
+  </div>
+  
+  <div class="w-full md:w-1/2 lg:w-1/3 xl:w-1/4 p-4 dream-column">
+    <article
+      class="card card-compact bg-base-100 hover:bg-base-content/10 shadow-xl dark:border dark:border-base-content/30"
+    >
+      <div class="card-body">
+        <div class="card-title"></div>
+
+        <div class="prose dark:prose-invert">
+          <h2 id="license"><strong>License</strong></h2>
+<p><img src="https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png" alt="CC BY-NC-SA License"></p>
+<p>All images, artworks, and written content on <em>Musing Maddy</em> are crafted to inspire and are protected under a Creative Commons <strong>CC BY-NC-SA</strong> license. You are welcome to view, share, and use this content for non-commercial purposes, provided that you credit <em>Musing Maddy</em> and link back to the website. This license ensures that your adaptations or remixes of the content must also carry the same terms. For anything else, you can contact me on <a href="mailto:musingmaddy@gmail.com">musingmaddy@gmail.com</a> .</p>
+<p><em>Note: Some artworks on this site may feature surreal or intense imagery that could evoke strong emotional responses. Viewer discretion is advised.</em></p>
+<p><img src="https://mirrors.creativecommons.org/presskit/buttons/88x31/png/by-nc-sa.png" alt="CC BY-NC-SA"></p>
+
+        </div>
+      </div>
+    </article>
+  </div>
+  
+  <div class="w-full md:w-1/2 lg:w-1/3 xl:w-1/4 p-4 dream-column">
+    <article
+      class="card card-compact bg-base-100 hover:bg-base-content/10 shadow-xl dark:border dark:border-base-content/30"
+    >
+      <div class="card-body">
+        <div class="card-title"></div>
+
+        <div class="prose dark:prose-invert">
+          <h2 id="connect-with-me"><strong>Connect With Me</strong></h2>
+<p><strong>Let’s Connect!</strong></p>
+<p>Want to chat about art, tech, or my projects?</p>
+<ul>
+<li><strong>Personal Email:</strong> <a href="mailto:musingmaddy@gmail.com">musingmaddy@gmail.com</a></li>
+<li><strong>Instagram:</strong> <a href="https://instagram.com/musingmaddy">https://instagram.com/musingmaddy</a></li>
+</ul>
+
+        </div>
+      </div>
+    </article>
+  </div>
+  
+  
+
+  
+
+  
+</div>
+
+            
+
+            
+<footer class="flex justify-between items-center gap-2 px-4 py-12">
+
+  <div>
+  
+  <p>
+    © 2024 MusingMaddy
+  </p>
+  
+
+  
+  <p>🌄 Inspiring Better Perspectives - 💖 Maddy Meraki</p>
+  
+</div>
+
+  <div
+  x-data="{ icons: [
+    { name: 'moon', status: 'y' },
+    { name: 'sunny', status: 'n' },
+    { name: 'desktop', status: 'auto' }
+  ] }"
+  class="flex items-center h-[32px] px-2 gap-2 border border-base-content/30 rounded-full"
+>
+  <template x-for="icon in icons">
+    <div
+      role="button"
+      tabindex="0"
+      :aria-label="'Select ' + icon.name + ' mode'"
+      class="group inline-flex justify-center items-center p-1 rounded-full cursor-pointer hover:bg-primary"
+      :class="$store.darkMode.icon() === icon.name && 'bg-primary'"
+      @click="$store.darkMode.toggle(icon.status)"
+    >
+      <ion-icon
+        :name="`${icon.name}-outline`"
+        class="group-hover:text-primary-content"
+        :class="$store.darkMode.icon() === icon.name && 'text-primary-content'"
+      >
+      </ion-icon>
+    </div>
+  </template>
+</div>
+
+</footer>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+  window.lightTheme = "emerald"
+  window.darkTheme = "forest"
+</script>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/imagesloaded@5.0.0/imagesloaded.pkgd.min.js" integrity="sha256-htrLFfZJ6v5udOG+3kNLINIKh2gvoKqwEhHYfTTMICc=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha256-Nn1q/fx0H7SNLZMQ5Hw5JLaTRZp0yILA/FRexe19VdI=" crossorigin="anonymous"></script>
+
+  
+  
+  <script src="/js/grid.js"></script>
+
+
+
+
+<script src="/js/main.js"></script>
+
+    
+
+
+
+
+
+    
+
+    
+
+    
+    
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-NV1GRD4KN5"></script>
+      <script>
+        var doNotTrack = false;
+        if ( false ) {
+          var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+          var doNotTrack = (dnt == "1" || dnt == "yes");
+        }
+        if (!doNotTrack) {
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-NV1GRD4KN5');
+        }
+      </script>
+    
+
+    <script type="module" src="https://unpkg.com/ionicons@7.4.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.4.0/dist/ionicons/ionicons.js"></script>
+  </body>
+</html>
