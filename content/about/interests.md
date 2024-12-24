@@ -14,10 +14,10 @@ draft: false
 
 ### **What My Work Explores**
 
-- **Mind & Soul:** Delving into philosophy, psychology, and transcendence to understand the deeper facets of human experience.
-- **The Unusual & Enigmatic:** Embracing magical realism, mystery, and concepts that challenge conventional viewpoints.
-- **Art, Tech & Music:** Inspired by surreal art, immersive trance music, and the creativity of indie gaming.
+- **Mind & Soul:** philosophy, psychology, and human transcendence to understand the deeper facets of human experience.
+- **The Unusual & Enigmatic:** magical realism, mystery, and ideas that challenge conventional viewpoints.
+- **Art, Tech & Music:** surreal art, immersive trance music, and the creativity of indie gaming.
 
-My projects are infused with these themes, guiding my approach to digital art, writing, and more. My goal is to create work that sparks insight and invites fresh perspectives. 
+My projects are infused with these themes, guiding my approach to my digital art, writing, and more. My goal is to create work that sparks insight and invites fresh perspectives. 
 
 

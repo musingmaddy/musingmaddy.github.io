@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "929588e72a8224c5",
+        "id": "ff41322e8bcf9583",
         "type": "tabs",
         "children": [
           {
-            "id": "52ab0f66123776e5",
+            "id": "dc2d39cfd65691ab",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -73,7 +73,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 261.5
   },
   "right": {
     "id": "5838c7864aeaa259",
@@ -164,41 +164,46 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "26b9ea1c29a88e61",
+  "active": "1e63d1007f2c155e",
   "lastOpenFiles": [
-    "content/posts/Christmas Magic/index.md",
-    "content/posts/Christmas Magic/cover2.webp",
-    "content/posts/Christmas Magic/cover.webp",
-    "content/posts/Tags and Categories/index.md",
-    "content/posts/Tags and Categories/cover.webp",
-    "content/posts/My Collections on CivitAI and PicLumen/index.md",
-    "content/posts/about_me/index.md",
-    "content/posts/Santa Noir/index.md",
-    "content/posts/Santa Noir/cover.webp",
-    "content/posts/Cosmic Necronomicon/index.md",
-    "themes/dream/archetypes/posts.md",
-    "content/posts/Cosmic Necronomicon/cover.webp",
-    "content/posts/Christmas Magic/piclumen-1734457624656.png",
+    "content/posts/about_me/about_me_small.webp",
+    "content/posts/about_me/about_me_full.webp",
     "content/posts/about_me/about_me.webp",
-    "content/posts/Tags and Categories",
+    "content/posts/Tags and Categories/index.md",
+    "content/posts/Santa Neo-Noir/index.md",
+    "content/posts/Cosmic Necronomicon/index.md",
+    "content/posts/My Collections on CivitAI and PicLumen/index.md",
+    "public/posts/santa-neo-noir/cover_hu9372119595547693383.webp",
+    "public/posts/santa-neo-noir/index.html",
+    "public/posts/santa-neo-noir/santa-on-raindeer-noir.png",
+    "resources/_gen/images/posts/santa-neo-noir/cover_hu9372119595547693383.webp",
+    "resources/_gen/images/posts/santa-neo-noir",
+    "public/posts/santa-neo-noir/santa-close-up-gritty.png",
+    "public/posts/santa-neo-noir/cover.webp",
+    "public/posts/santa-neo-noir",
+    "content/posts/Cosmic Necronomicon/cover.webp",
+    "content/posts/about_me/index.md",
+    "content/posts/Christmas Magic/index.md",
+    "content/posts/Christmas Magic/cover.webp",
+    "content/posts/Christmas Magic/piclumen-1734457617741.png",
+    "public/templater/_Page Summary Place Holder.md",
+    "static/templater/_Page Summary Place Holder.md",
+    "public/templater/Page Summary Place Holder.md",
+    "public/templater/Untitled.md",
     "content/about/projects.md",
     "content/about/license.md",
     "content/about/interests.md",
     "content/about/index.md",
     "content/about/contact_me.md",
     "content/about/about_me.md",
+    "themes/dream/archetypes/posts.md",
+    "content/posts/Tags and Categories",
     "hugo.toml",
     "layouts/_default/single-backup-working.html",
-    "content/posts/about_me/about_me_small.webp",
-    "content/posts/about_me/about_me_full.webp",
-    "content/posts/Cosmic Necronomicon/cosmic-necronomicon-04.png",
     "themes/dream/layouts/_default/single.html",
     "themes/dream/layouts/_default/single backup todel.html",
     "themes/dream/public/tags/index.xml",
     "themes/dream/public/categories/index.xml",
-    "themes/dream/public/index.xml",
-    "themes/dream/public/page/1/index.html",
-    "themes/dream/public/tags/page/1/index.html",
     "content/posts/Ask What not How/index.md",
     "themes/dream/docs/pages/search.md",
     "themes/dream/docs/pages/i18n.md",
@@ -206,10 +211,6 @@
     "themes/dream/docs/pages/archives-page.md",
     "themes/dream/docs/pages/about-page.md",
     "themes/dream/docs/pages/CHANGELOG.md",
-    "themes/dream/docs/NOTE.md",
-    "themes/dream/archetypes/about.md",
-    "themes/dream/README.md",
-    "public/templater/Alerts - Warning.md",
-    "public/templater/Alerts - Important.md"
+    "themes/dream/docs/NOTE.md"
   ]
 }

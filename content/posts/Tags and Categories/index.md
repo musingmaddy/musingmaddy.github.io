@@ -17,8 +17,8 @@ categories: Maddy Meraki
 ---
 # Categories & Tags
 
-Apart from `Search` Categories and Tags can be used in this website for finetuning search.
-
+Apart from `Search`; `Categories` and `Tags` can also be used in this website for finetuning search.
+<!--more-->
 ## Categories
 
 **Categories (Broad)**

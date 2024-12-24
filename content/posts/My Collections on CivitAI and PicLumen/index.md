@@ -16,11 +16,9 @@ tags:
 categories:
   - Maddy Meraki
 ---
-# My Collections
+# My Collections Links
 
-## Follow me on 
-
-CitvitAI & Piclumen.
+- Follow me on CitvitAI & Piclumen.
 
 <!--more-->
 
