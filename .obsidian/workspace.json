@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "ff41322e8bcf9583",
+        "id": "3f2bff4ef00f677f",
         "type": "tabs",
         "children": [
           {
-            "id": "dc2d39cfd65691ab",
+            "id": "a7842f56936dc165",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -164,8 +164,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "1e63d1007f2c155e",
+  "active": "a7842f56936dc165",
   "lastOpenFiles": [
+    "hugo.toml",
     "content/posts/about_me/about_me_small.webp",
     "content/posts/about_me/about_me_full.webp",
     "content/posts/about_me/about_me.webp",
@@ -185,7 +186,6 @@
     "content/posts/about_me/index.md",
     "content/posts/Christmas Magic/index.md",
     "content/posts/Christmas Magic/cover.webp",
-    "content/posts/Christmas Magic/piclumen-1734457617741.png",
     "public/templater/_Page Summary Place Holder.md",
     "static/templater/_Page Summary Place Holder.md",
     "public/templater/Page Summary Place Holder.md",
@@ -198,7 +198,6 @@
     "content/about/about_me.md",
     "themes/dream/archetypes/posts.md",
     "content/posts/Tags and Categories",
-    "hugo.toml",
     "layouts/_default/single-backup-working.html",
     "themes/dream/layouts/_default/single.html",
     "themes/dream/layouts/_default/single backup todel.html",
