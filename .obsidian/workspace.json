@@ -11,10 +11,14 @@
             "id": "a7842f56936dc165",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "content/posts/Gothic Streets/index.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "index"
             }
           }
         ]
@@ -166,6 +170,8 @@
   },
   "active": "a7842f56936dc165",
   "lastOpenFiles": [
+    "content/posts/Gothic Streets",
+    "content/posts/Gothic Streets/index.md",
     "hugo.toml",
     "content/posts/about_me/about_me_small.webp",
     "content/posts/about_me/about_me_full.webp",
@@ -209,7 +215,6 @@
     "themes/dream/docs/pages/decap-cms.md",
     "themes/dream/docs/pages/archives-page.md",
     "themes/dream/docs/pages/about-page.md",
-    "themes/dream/docs/pages/CHANGELOG.md",
-    "themes/dream/docs/NOTE.md"
+    "themes/dream/docs/pages/CHANGELOG.md"
   ]
 }
