@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "3f2bff4ef00f677f",
+        "id": "2a47edb79e195330",
         "type": "tabs",
         "children": [
           {
-            "id": "a7842f56936dc165",
+            "id": "ac12d348cc850ea3",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "content/posts/Gothic Streets/index.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "index"
+              "title": "New tab"
             }
           }
         ]
@@ -77,7 +73,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 261.5
+    "width": 261.5,
+    "collapsed": true
   },
   "right": {
     "id": "5838c7864aeaa259",
@@ -168,11 +165,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "26b9ea1c29a88e61",
+  "active": "ac12d348cc850ea3",
   "lastOpenFiles": [
+    "content/posts/Gothic Streets/index.md",
     "content/posts/Gothic Streets/cover.webp",
     "content/posts/Gothic Streets/5.png",
-    "content/posts/Gothic Streets/index.md",
     "content/posts/Gothic Streets/2.png",
     "hugo.toml",
     "content/posts/Gothic Streets/1.png",
@@ -182,7 +179,6 @@
     "content/posts/Gothic Streets/13.png",
     "content/posts/Gothic Streets/12.png",
     "content/posts/Gothic Streets/11.png",
-    "content/posts/Gothic Streets/10.png",
     "content/posts/Gothic Streets",
     "content/posts/Tags and Categories/index.md",
     "content/posts/Santa Neo-Noir/index.md",

@@ -1,11 +1,11 @@
 ---
-title: Gothic Streets
-slug: gothic-streets
+title: Gothic streets at dusk
+slug: gothic-streets-at-dusk
 date: 2024-12-25T12:26:28+05:30
 lastmod: 2024-12-25T12:26:28+05:30
 description: Gothic Streets descriptions
 author: Maddy Meraki
-avatar: /img/musingmaddy.webp
+avatar: cover.webp
 authorlink: https://musingmaddy.github.io
 cover: /img/cover.webp
 nolastmod: true
@@ -13,11 +13,11 @@ draft: false
 showComments: true
 tags:
   - medeival
-  - " streets"
-  - " gothic"
-  - " ancient"
-  - " blacksmith"
-  - " village"
+  - streets
+  - gothic
+  - ancient
+  - blacksmith
+  - village
 categories:
   - Artwork
 ---
@@ -39,19 +39,15 @@ categories:
 
 > *Guards on horses patrolling the streets, This is a scene steeped in a profound, ancient atmosphere—a hyper-detailed, cinematic portrait of a medieval village poised between light and shadow. Every surface, from the rugged, time-scarred timber of the homes to the glistening mud of the road, is rendered in exquisite detail. Lighting deepens the interplay of illumination and shadow, capturing the raw, untamed essence of a bygone era.*
 
-![](1.png)
-
-![](5.png)
-
 ![](6.png)
 
 ![](7.png)
 
+![](10.png)
+
 ![](8.png)
 
 ![](9.png)
-
-![](10.png)
 
 ![](11.png)
 
@@ -61,7 +57,6 @@ categories:
 
 ![](15.png)
 
-![](16.png)
-
 ![](3.png)
 
+![](1.png)
