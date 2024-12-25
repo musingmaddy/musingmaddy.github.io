@@ -24,7 +24,7 @@ categories: Artwork
 
 <!--more-->
 
-![Santa Noir](content/posts/Santa%20Neo-Noir/santa-close-up-gritty.png)
+![Santa Noir](santa-close-up-gritty.png)
 
 ---
 
@@ -32,4 +32,4 @@ categories: Artwork
 
 >*A high-contrast black-and-white medium-long shot of Santa Claus, sitting atop a majestic reindeer, exuding a serious neutral expression as he gazes directly into the camera. The scene is steeped in a dramatic, noir-inspired atmosphere. Santa's iconic cap is firmly in place, with strands of his hair gently falling out, adding to his rugged, weathered appearance. The beastly reindeer, with its powerful full antlers and muscular form, stands proudly. The background is a stark, snow-covered landscape, with towering evergreens and a distant, moody overcast sky. The high-contrast lighting casts deep, dark shadows, emphasizing the textures and details of the scene. Santa's expression add a touch of mystique, while the overall composition captures the essence of a timeless, enchanting moment. Cinematic shot, dramatic lighting, sharp image, *
 
-![Santa On Raindeer Noir](content/posts/Santa%20Neo-Noir/santa-on-raindeer-noir.png)
+![Santa On Raindeer Noir](santa-on-raindeer-noir.png)

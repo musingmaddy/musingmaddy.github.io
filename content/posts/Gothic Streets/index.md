@@ -27,10 +27,6 @@ categories:
 
 <!--more-->
 
-# gothic streets on an overcast dusk
-
-> *An Ancient medieval village caught in the fleeting moments as twilight succumbs to night. Above, a brooding, overcast sky, heavy with dark, roiling clouds, presses down on the scene, diffusing an eerie, ethereal light that bathes the landscape in somber hues. The narrow, serpentine road, its worn cobblestones half-buried in slick mud, snakes sharply through the village, creating a dynamic, almost disorienting perspective. Scattered puddles mirror the fading remnants of daylight and the flickering amber glow of oil lamps, shimmering like fractured pieces of a forgotten dream.*
-
 > *Timeworn, single-story houses, their timber frames weathered and their thatched roofs bearing the scars of centuries, huddle along the roadside like stoic sentinels of history. The structures lean slightly, as if weary under the weight of time, their crooked chimneys puffing faint traces of smoke into the misty air. Sputtering oil street lamps cast fragile islands of warm, golden light, creating stark contrasts against the encroaching darkness. Within these luminous sanctuaries, life clings to its final moments of daily routine.*
 
 > *Amidst the gloom, blacksmiths, their faces glowing with the fiery radiance of their forges, hammer tirelessly on molten metal. Each strike sends sparks scattering into the dense air, ephemeral embers that dance briefly before vanishing. The rhythmic clang of metal on metal reverberates through the village, a resolute echo of human perseverance. Nearby, a few disheveled hens peck at the muddy ground, their simple presence adding a touch of rustic vitality.*
