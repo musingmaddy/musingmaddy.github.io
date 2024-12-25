@@ -5,9 +5,9 @@ date: 2024-12-25T12:26:28+05:30
 lastmod: 2024-12-25T12:26:28+05:30
 description: Gothic Streets descriptions
 author: Maddy Meraki
-avatar: cover.webp
+avatar: /img/musingmaddy.webp
 authorlink: https://musingmaddy.github.io
-cover: /img/cover.webp
+cover: cover.webp
 nolastmod: true
 draft: false
 showComments: true

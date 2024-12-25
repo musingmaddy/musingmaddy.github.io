@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "2a47edb79e195330",
+        "id": "f2ff8791cda6fdf2",
         "type": "tabs",
         "children": [
           {
-            "id": "ac12d348cc850ea3",
+            "id": "5bde060a045bc114",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -73,8 +73,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 261.5,
-    "collapsed": true
+    "width": 261.5
   },
   "right": {
     "id": "5838c7864aeaa259",
@@ -165,8 +164,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "ac12d348cc850ea3",
+  "active": "5bde060a045bc114",
   "lastOpenFiles": [
+    "content/posts/Santa Neo-Noir/index.md",
     "content/posts/Gothic Streets/index.md",
     "content/posts/Gothic Streets/cover.webp",
     "content/posts/Gothic Streets/5.png",
@@ -181,7 +181,6 @@
     "content/posts/Gothic Streets/11.png",
     "content/posts/Gothic Streets",
     "content/posts/Tags and Categories/index.md",
-    "content/posts/Santa Neo-Noir/index.md",
     "content/posts/Cosmic Necronomicon/index.md",
     "content/posts/My Collections on CivitAI and PicLumen/index.md",
     "public/posts/santa-neo-noir/index.html",
