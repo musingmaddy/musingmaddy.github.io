@@ -11,6 +11,18 @@
             "id": "a7842f56936dc165",
             "type": "leaf",
             "state": {
+              "type": "image",
+              "state": {
+                "file": "content/posts/Gothic Streets/2.png"
+              },
+              "icon": "lucide-image",
+              "title": "2"
+            }
+          },
+          {
+            "id": "32f699dba00168cc",
+            "type": "leaf",
+            "state": {
               "type": "markdown",
               "state": {
                 "file": "content/posts/Gothic Streets/index.md",
@@ -21,7 +33,8 @@
               "title": "index"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -168,30 +181,30 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "a7842f56936dc165",
+  "active": "32f699dba00168cc",
   "lastOpenFiles": [
-    "content/posts/Gothic Streets",
+    "content/posts/Gothic Streets/2.png",
     "content/posts/Gothic Streets/index.md",
+    "content/posts/Gothic Streets/1.png",
+    "content/posts/Gothic Streets/16.png",
+    "content/posts/Gothic Streets/15.png",
+    "content/posts/Gothic Streets/14.png",
+    "content/posts/Gothic Streets/13.png",
+    "content/posts/Gothic Streets/12.png",
+    "content/posts/Gothic Streets/11.png",
+    "content/posts/Gothic Streets/10.png",
+    "content/posts/Gothic Streets/9.png",
+    "content/posts/Gothic Streets",
     "hugo.toml",
-    "content/posts/about_me/about_me_small.webp",
-    "content/posts/about_me/about_me_full.webp",
-    "content/posts/about_me/about_me.webp",
     "content/posts/Tags and Categories/index.md",
     "content/posts/Santa Neo-Noir/index.md",
     "content/posts/Cosmic Necronomicon/index.md",
     "content/posts/My Collections on CivitAI and PicLumen/index.md",
-    "public/posts/santa-neo-noir/cover_hu9372119595547693383.webp",
     "public/posts/santa-neo-noir/index.html",
-    "public/posts/santa-neo-noir/santa-on-raindeer-noir.png",
-    "resources/_gen/images/posts/santa-neo-noir/cover_hu9372119595547693383.webp",
     "resources/_gen/images/posts/santa-neo-noir",
-    "public/posts/santa-neo-noir/santa-close-up-gritty.png",
-    "public/posts/santa-neo-noir/cover.webp",
     "public/posts/santa-neo-noir",
-    "content/posts/Cosmic Necronomicon/cover.webp",
     "content/posts/about_me/index.md",
     "content/posts/Christmas Magic/index.md",
-    "content/posts/Christmas Magic/cover.webp",
     "public/templater/_Page Summary Place Holder.md",
     "static/templater/_Page Summary Place Holder.md",
     "public/templater/Page Summary Place Holder.md",
@@ -208,7 +221,6 @@
     "themes/dream/layouts/_default/single.html",
     "themes/dream/layouts/_default/single backup todel.html",
     "themes/dream/public/tags/index.xml",
-    "themes/dream/public/categories/index.xml",
     "content/posts/Ask What not How/index.md",
     "themes/dream/docs/pages/search.md",
     "themes/dream/docs/pages/i18n.md",
