@@ -3,7 +3,79 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:1313/categories/</loc>
-    <lastmod>2024-12-23T22:49:58+05:30</lastmod>
+    <lastmod>2024-12-28T10:11:44+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/diagram/</loc>
+    <lastmod>2024-12-28T10:11:44+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/mermaid-diagram/</loc>
+    <lastmod>2024-12-28T10:11:44+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2024-12-28T10:11:44+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/</loc>
+    <lastmod>2024-12-28T10:11:44+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2024-12-28T10:11:44+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/testing/</loc>
+    <lastmod>2024-12-28T10:11:44+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/books/</loc>
+    <lastmod>2024-12-25T19:08:06+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/fiction/</loc>
+    <lastmod>2024-12-25T19:08:06+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/inspirations/</loc>
+    <lastmod>2024-12-25T19:08:06+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/magical/</loc>
+    <lastmod>2024-12-25T19:08:06+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/novel/</loc>
+    <lastmod>2024-12-25T19:08:06+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/reading-list---books-to-read-in-2025---fiction/</loc>
+    <lastmod>2024-12-25T19:08:06+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/realism/</loc>
+    <lastmod>2024-12-25T19:08:06+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/sci-fi/</loc>
+    <lastmod>2024-12-25T19:08:06+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/surreal/</loc>
+    <lastmod>2024-12-25T19:08:06+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/to-read/</loc>
+    <lastmod>2024-12-25T19:08:06+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/ancient/</loc>
+    <lastmod>2024-12-25T12:26:28+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/artwork/</loc>
+    <lastmod>2024-12-25T12:26:28+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/blacksmith/</loc>
+    <lastmod>2024-12-25T12:26:28+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/gothic/</loc>
+    <lastmod>2024-12-25T12:26:28+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/gothic-streets-at-dusk/</loc>
+    <lastmod>2024-12-25T12:26:28+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/medeival/</loc>
+    <lastmod>2024-12-25T12:26:28+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/streets/</loc>
+    <lastmod>2024-12-25T12:26:28+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/village/</loc>
+    <lastmod>2024-12-25T12:26:28+05:30</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/maddy-meraki/</loc>
     <lastmod>2024-12-23T22:49:58+05:30</lastmod>
@@ -11,22 +83,10 @@
     <loc>http://localhost:1313/tags/musingmaddy/</loc>
     <lastmod>2024-12-23T22:49:58+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/</loc>
-    <lastmod>2024-12-23T22:49:58+05:30</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/posts/</loc>
-    <lastmod>2024-12-23T22:49:58+05:30</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/</loc>
-    <lastmod>2024-12-23T22:49:58+05:30</lastmod>
-  </url><url>
     <loc>http://localhost:1313/posts/tags-and-categories/</loc>
     <lastmod>2024-12-23T22:49:58+05:30</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/art-dark/</loc>
-    <lastmod>2024-12-21T12:56:02+05:30</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/artwork/</loc>
     <lastmod>2024-12-21T12:56:02+05:30</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/cosmic-necronomicon/</loc>

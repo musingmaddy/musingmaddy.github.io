@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Diagram on MusingMaddy</title>
+    <link>http://localhost:1313/tags/diagram/</link>
+    <description>Recent content in Diagram on MusingMaddy</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 28 Dec 2024 10:11:44 +0530</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/diagram/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Mermaid-Diagram</title>
+      <link>http://localhost:1313/posts/mermaid-diagram/</link>
+      <pubDate>Sat, 28 Dec 2024 10:11:44 +0530</pubDate>
+      <guid>http://localhost:1313/posts/mermaid-diagram/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "f2ff8791cda6fdf2",
+        "id": "bd69337c29caff2d",
         "type": "tabs",
         "children": [
           {
-            "id": "046bb41585491c70",
+            "id": "68e52180cd252983",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/posts/Reading List - Books to Read in 2025 - Fiction/index.md",
+                "file": "content/posts/Abandoned Spaceship/index.md",
                 "mode": "source",
                 "source": false
               },
@@ -77,7 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 261.5
+    "width": 359.5
   },
   "right": {
     "id": "5838c7864aeaa259",
@@ -168,30 +168,37 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "046bb41585491c70",
+  "active": "26b9ea1c29a88e61",
   "lastOpenFiles": [
+    "content/posts/Abandoned Spaceship/Abandoned Spaceship 01.png",
+    "content/posts/Abandoned Spaceship/Abandoned Spaceship 02.png",
+    "content/posts/Abandoned Spaceship/cover.webp",
+    "content/posts/Abandoned Spaceship/Abandoned Spaceship 04.png",
+    "content/posts/Abandoned Spaceship/Abandoned Spaceship 03.png",
+    "content/posts/Abandoned Spaceship",
+    "content/posts/Abandoned Spaceship/index.md",
+    "content/posts/Mermaid-Diagram/index.md",
+    "public/tags/village/index.xml",
+    "public/tags/to-read/index.xml",
+    "public/tags/streets/index.xml",
+    "public/tags/sci-fi/index.xml",
+    "public/tags/realism/index.xml",
+    "public/tags/novel/index.xml",
+    "public/tags/medeival/index.xml",
+    "public/tags/magical/index.xml",
+    "public/tags/gothic/index.xml",
+    "public/posts/gothic-streets-at-dusk/cover.webp",
+    "public/posts/gothic-streets-at-dusk/9.png",
+    "public/posts/gothic-streets-at-dusk/8.png",
+    "public/posts/gothic-streets-at-dusk/7.png",
+    "public/posts/gothic-streets-at-dusk/6.png",
+    "public/posts/gothic-streets-at-dusk/5.png",
+    "content/posts/Reading List - Books to Read in 2025 - Fiction/index.md",
     "content/posts/Santa Neo-Noir/index.md",
     "content/posts/Gothic Streets/index.md",
     "content/posts/Cosmic Necronomicon/index.md",
-    "content/posts/Reading List - Books to Read in 2025 - Fiction/index.md",
-    "content/posts/Reading List - Books to Read in 2025 - Fiction/cover.webp",
-    "content/posts/Reading List - Books to Read in 2025 - Fiction",
-    "content/posts/Gothic Streets/cover.webp",
-    "content/posts/Gothic Streets/5.png",
-    "content/posts/Gothic Streets/2.png",
-    "hugo.toml",
-    "content/posts/Gothic Streets/1.png",
-    "content/posts/Gothic Streets/16.png",
-    "content/posts/Gothic Streets/15.png",
-    "content/posts/Gothic Streets/14.png",
-    "content/posts/Gothic Streets/13.png",
-    "content/posts/Gothic Streets/12.png",
-    "content/posts/Gothic Streets",
     "content/posts/Tags and Categories/index.md",
     "content/posts/My Collections on CivitAI and PicLumen/index.md",
-    "public/posts/santa-neo-noir/index.html",
-    "resources/_gen/images/posts/santa-neo-noir",
-    "public/posts/santa-neo-noir",
     "content/posts/about_me/index.md",
     "content/posts/Christmas Magic/index.md",
     "public/templater/_Page Summary Place Holder.md",
@@ -205,15 +212,9 @@
     "content/about/contact_me.md",
     "content/about/about_me.md",
     "themes/dream/archetypes/posts.md",
-    "content/posts/Tags and Categories",
-    "layouts/_default/single-backup-working.html",
-    "themes/dream/layouts/_default/single.html",
-    "themes/dream/layouts/_default/single backup todel.html",
     "content/posts/Ask What not How/index.md",
     "themes/dream/docs/pages/search.md",
     "themes/dream/docs/pages/i18n.md",
-    "themes/dream/docs/pages/decap-cms.md",
-    "themes/dream/docs/pages/archives-page.md",
-    "themes/dream/docs/pages/about-page.md"
+    "themes/dream/docs/pages/decap-cms.md"
   ]
 }

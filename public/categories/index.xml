@@ -6,20 +6,34 @@
     <description>Recent content in Categories on MusingMaddy</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 23 Dec 2024 22:49:58 +0530</lastBuildDate>
+    <lastBuildDate>Sat, 28 Dec 2024 10:11:44 +0530</lastBuildDate>
     <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Maddy Meraki</title>
-      <link>http://localhost:1313/categories/maddy-meraki/</link>
-      <pubDate>Mon, 23 Dec 2024 22:49:58 +0530</pubDate>
-      <guid>http://localhost:1313/categories/maddy-meraki/</guid>
+      <title>Testing</title>
+      <link>http://localhost:1313/categories/testing/</link>
+      <pubDate>Sat, 28 Dec 2024 10:11:44 +0530</pubDate>
+      <guid>http://localhost:1313/categories/testing/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Inspirations</title>
+      <link>http://localhost:1313/categories/inspirations/</link>
+      <pubDate>Wed, 25 Dec 2024 19:08:06 +0530</pubDate>
+      <guid>http://localhost:1313/categories/inspirations/</guid>
       <description></description>
     </item>
     <item>
       <title>Artwork</title>
       <link>http://localhost:1313/categories/artwork/</link>
-      <pubDate>Sat, 21 Dec 2024 12:56:02 +0530</pubDate>
+      <pubDate>Wed, 25 Dec 2024 12:26:28 +0530</pubDate>
       <guid>http://localhost:1313/categories/artwork/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Maddy Meraki</title>
+      <link>http://localhost:1313/categories/maddy-meraki/</link>
+      <pubDate>Mon, 23 Dec 2024 22:49:58 +0530</pubDate>
+      <guid>http://localhost:1313/categories/maddy-meraki/</guid>
       <description></description>
     </item>
   </channel>
