@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "bd69337c29caff2d",
+        "id": "a1c5423ee85eee4f",
         "type": "tabs",
         "children": [
           {
-            "id": "68e52180cd252983",
+            "id": "98093edb33b42148",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/posts/Abandoned Spaceship/index.md",
+                "file": "content/posts/Daily Schedule/index.md",
                 "mode": "source",
                 "source": false
               },
@@ -52,7 +52,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#abstract",
+                "query": "tag:Productivity",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -77,7 +77,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 359.5
+    "width": 359.5,
+    "collapsed": true
   },
   "right": {
     "id": "5838c7864aeaa259",
@@ -168,15 +169,19 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "26b9ea1c29a88e61",
+  "active": "98093edb33b42148",
   "lastOpenFiles": [
+    "content/posts/Daily Schedule",
+    "hugo.toml",
+    "content/posts/Daily Schedule/index.md",
+    "content/posts/Reading List - Books to Read in 2025 - Fiction/index.md",
+    "content/posts/Abandoned Spaceship/index.md",
     "content/posts/Abandoned Spaceship/Abandoned Spaceship 01.png",
     "content/posts/Abandoned Spaceship/Abandoned Spaceship 02.png",
     "content/posts/Abandoned Spaceship/cover.webp",
     "content/posts/Abandoned Spaceship/Abandoned Spaceship 04.png",
     "content/posts/Abandoned Spaceship/Abandoned Spaceship 03.png",
     "content/posts/Abandoned Spaceship",
-    "content/posts/Abandoned Spaceship/index.md",
     "content/posts/Mermaid-Diagram/index.md",
     "public/tags/village/index.xml",
     "public/tags/to-read/index.xml",
@@ -186,14 +191,11 @@
     "public/tags/novel/index.xml",
     "public/tags/medeival/index.xml",
     "public/tags/magical/index.xml",
-    "public/tags/gothic/index.xml",
     "public/posts/gothic-streets-at-dusk/cover.webp",
     "public/posts/gothic-streets-at-dusk/9.png",
     "public/posts/gothic-streets-at-dusk/8.png",
     "public/posts/gothic-streets-at-dusk/7.png",
     "public/posts/gothic-streets-at-dusk/6.png",
-    "public/posts/gothic-streets-at-dusk/5.png",
-    "content/posts/Reading List - Books to Read in 2025 - Fiction/index.md",
     "content/posts/Santa Neo-Noir/index.md",
     "content/posts/Gothic Streets/index.md",
     "content/posts/Cosmic Necronomicon/index.md",
@@ -214,7 +216,6 @@
     "themes/dream/archetypes/posts.md",
     "content/posts/Ask What not How/index.md",
     "themes/dream/docs/pages/search.md",
-    "themes/dream/docs/pages/i18n.md",
-    "themes/dream/docs/pages/decap-cms.md"
+    "themes/dream/docs/pages/i18n.md"
   ]
 }
