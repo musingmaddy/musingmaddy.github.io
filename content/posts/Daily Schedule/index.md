@@ -7,7 +7,7 @@ description: Daily Schedule descriptions
 author: Maddy Meraki
 avatar: /img/musingmaddy.webp
 authorlink: https://musingmaddy.github.io
-cover: /img/cover.webp
+cover: cover.webp
 nolastmod: true
 draft: false
 showComments: true
@@ -17,34 +17,40 @@ tags:
 categories:
   - Announcement
 ---
+# Mermaid Diagrams
+
+I was testing mermaid diagrams. Mermaid diagrams are awesome. I have created daily schedule using it. In Realtime it will mark current time with it.
+
+From now, I will be using Mermaid diagrams to do my graphical explanations.
+
 ```mermaid
 gantt
-    dateFormat  HH:mm
+    dateFormat  HH:mm:ss
     axisFormat %I:%M %p
     title       Daily Schedule (Monday - Saturday)
 
     section Morning
-    Wake Up             :wake, 04:45, 1h15m
-    Travel to Gym       :travelGym, 06:00, 15m
-    Gym                 :gym, 06:15, 1h30m
-    Travel to Home      :travelHome, 07:45, 15m
-    Home (Rest+Protein) :homeRest, 08:00, 30m
-    Breakfast           :breakfast, 08:30, 30m
+    Wake Up             :wake, 04:45:00, 75m
+    Travel to Gym       :travelGym, 06:00:00, 15m
+    Workout             :gym, 06:15:00, 90m
+    Travel to Home      :travelHome, 07:45:00, 15m
+    Rest Home           :homeRest, 08:00:00, 30m
+    Breakfast           :breakfast, 08:30:00, 30m
 
     section Afternoon
-    Work 1              :work1, 09:00, 1h30m
-    Break               :break, 10:30, 30m
-    Work 2              :work2, 11:00, 2h
-    Lunch               :lunch, 13:00, 1h
-    Rest                :rest, 14:00, 1h
-    Work 3              :work3, 15:00, 1h30m
-    Tea                 :tea, 16:30, 30m
+    Work 1              :work1, 09:00:00, 90m
+    Break               :break, 10:30:00, 30m
+    Work 2              :work2, 11:00:00, 2h
+    Lunch               :lunch, 13:00:00, 1h
+    Rest                :rest, 14:00:00, 1h
+    Work 3              :work3, 15:00:00, 90m
+    Tea                 :tea, 16:30:00, 30m
 
     section Evening
-    Work 4              :work4, 17:00, 1h
-    Bath, Prayer        :bathPrayer, 18:00, 1h
-    Work 5              :work5, 19:00, 1h30m
-    Dinner              :dinner, 20:30, 30m
-    Reading, Planning   :readingPlanning, 21:00, 45m
-    Sleep               :sleep, 21:45, 7h
+    Work 4              :work4, 17:00:00, 1h
+    Bath, Prayer        :bathPrayer, 18:00:00, 1h
+    Work 5              :work5, 19:00:00, 90m
+    Dinner              :dinner, 20:30:00, 30m
+    Reading, Planning   :readingPlanning, 21:00:00, 45m
+    Sleep               :sleep, 21:45:00, 7h
 ```
