@@ -19,7 +19,7 @@ categories:
 ---
 # Mermaid Diagrams
 
-I was testing mermaid diagrams. Mermaid diagrams are awesome. I have created daily schedule using it. In Realtime it will mark current time with it.
+I was testing mermaid diagrams. Mermaid diagrams are awesome tool to create diagrams. I have created daily schedule using it. In Realtime it will mark current time with it.
 
 <!--more-->
 
