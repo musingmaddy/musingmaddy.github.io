@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "b6cb23b40e0635eb",
+            "id": "85777591a06aede1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/posts/Daily Schedule/index.md",
+                "file": "content/posts/Abandoned Spaceship/index.md",
                 "mode": "source",
                 "source": false
               },
@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "5838c7864aeaa259",
@@ -139,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/posts/Daily Schedule/index.md",
+                "file": "content/posts/Abandoned Spaceship/index.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -149,7 +148,7 @@
             }
           },
           {
-            "id": "b40662ed8736b319",
+            "id": "e181644caaae5c89",
             "type": "leaf",
             "state": {
               "type": "git-view",
@@ -175,7 +174,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "b40662ed8736b319",
+  "active": "85777591a06aede1",
   "lastOpenFiles": [
     "content/posts/Daily Schedule/index.md",
     "content/posts/Christmas Magic/index.md",

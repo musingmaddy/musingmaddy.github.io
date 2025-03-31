@@ -14,8 +14,7 @@ showComments: true
 tags:
   - productivity
   - discipline
-categories:
-  - Announcement
+categories: Announcement
 ---
 # Mermaid Diagrams
 

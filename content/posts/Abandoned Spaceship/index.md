@@ -17,7 +17,7 @@ tags:
 categories:
   - Artwork
 ---
->From the abyssal depths of the cosmos, a scene of profound desolation and cosmic horror unfolds. The derelict spaceship "Vanguard," a monument to a forgotten age, hangs in the void like a spectral sentinel. Its once-proud hull is now a canvas of decay, marked by rusted scars and gaping wounds that narrate a saga of abandonment and despair. The ship's name, "Vanguard," and the number "21" are etched in long-faded paint, remnants of a time when the vessel was a beacon of hope, now a ghostly whisper in the cosmic wind.
+>From the abyssal depths of the cosmos, a scene of profound desolation and cosmic horror unfolds. The derelict spaceship "Vanguard," a monument to a forgotten age, hangs in the void like a spectral sentinel. Its once-proud hull is now a canvas of decay, marked by rusted scars and gaping wounds that narrate a dreadful saga of abandonment and despair. The ship's name, "Vanguard," and the number "21" are etched in long-fa ded paint, remnants of a time when the vessel was a beacon of hope, now a ghostly whisper in the cosmic wind. 
 
 <!--more-->
 

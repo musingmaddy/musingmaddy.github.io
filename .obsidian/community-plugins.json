@@ -1,7 +1,7 @@
 [
   "templater-obsidian",
   "obsidian-style-settings",
-  "obsidian-git",
   "obsidian-custom-file-extensions-plugin",
-  "tag-wrangler"
+  "tag-wrangler",
+  "obsidian-git"
 ]
