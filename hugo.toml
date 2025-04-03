@@ -15,13 +15,13 @@ enableRobotsTXT = true
 [params]
 zenMode = false
 lightTheme = "emerald"
-darkTheme = "forest"
+# darkTheme = "forest"
 
 # backgroundImage = ""
 # backgroundImageDark = ""
 
 author = "Maddy Meraki"
-description = "🍥 Maddy's Arts, Crafts & Perspectives."
+description = "🦢 Maddy's Arts, Crafts & Perspectives."
 avatar = "img/musingmaddy.webp"
 headerTitle = "Musing Maddy"
 motto = "🌺 Inspiring New Perspectives"
