@@ -15,8 +15,7 @@ tags:
   - Mac
   - Technology
   - Productivity
-categories:
-  - Productivity
+categories: Productivity
 ---
 # Macbook Setup
 
