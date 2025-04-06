@@ -9,7 +9,7 @@ avatar: /img/musingmaddy.webp
 authorlink: https://musingmaddy.github.io
 cover: /img/cover.webp
 nolastmod: true
-draft: false
+draft: true
 showComments: true
 tags:
   - Mac

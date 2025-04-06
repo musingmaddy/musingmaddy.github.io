@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/posts/Developing AI Apps Through Cursor/index.md",
+                "file": "content/posts/Tags and Categories/index.md",
                 "mode": "source",
                 "source": false
               },
@@ -176,11 +176,13 @@
   },
   "active": "fcd145183041e569",
   "lastOpenFiles": [
+    "content/posts/My Macbook Setup/index.md",
+    "content/posts/My Collections on CivitAI and PicLumen/index.md",
+    "content/posts/Daily Schedule/index.md",
+    "content/posts/Developing AI Apps Through Cursor/index.md",
     "content/posts/Developing AI Apps Through Cursor/cover.webp",
     "content/posts/about_me/about_me.webp",
-    "content/posts/Developing AI Apps Through Cursor/index.md",
     "content/posts/Developing AI Apps Through Cursor",
-    "content/posts/My Macbook Setup/index.md",
     "content/posts/My Macbook Setup",
     "hugo.toml",
     "themes/dream/theme.toml",
@@ -209,17 +211,14 @@
     "themes/dream/archetypes/about.md",
     "themes/dream/README.md",
     "content/posts/Abandoned Spaceship/index.md",
-    "content/posts/Daily Schedule/index.md",
     "content/posts/Christmas Magic/index.md",
     "content/posts/Cosmic Necronomicon/index.md",
     "content/posts/Santa Neo-Noir/index.md",
     "content/posts/Reading List - Books to Read in 2025 - Fiction/index.md",
     "content/posts/Gothic Streets/index.md",
     "content/posts/Daily Schedule/cover.webp",
-    "content/posts/Abandoned Spaceship/Abandoned Spaceship 01.png",
     "content/posts/Mermaid-Diagram/index.md",
     "content/posts/Tags and Categories/index.md",
-    "content/posts/My Collections on CivitAI and PicLumen/index.md",
     "content/posts/about_me/index.md",
     "public/templater/_Page Summary Place Holder.md"
   ]

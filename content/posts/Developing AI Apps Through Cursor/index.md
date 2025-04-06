@@ -7,7 +7,7 @@ description: Developing AI Apps Through Cursor descriptions
 author: Maddy Meraki
 avatar: /img/musingmaddy.webp
 authorlink: https://musingmaddy.github.io
-cover: /img/cover.webp
+cover: cover.webp
 nolastmod: true
 draft: false
 showComments: true
@@ -17,7 +17,7 @@ tags:
   - Cursor
   - App
 categories:
-  - Coding
+  - Daily-Logs
 ---
 Yesterday I created a project using AI.
   
