@@ -11,10 +11,14 @@
             "id": "fcd145183041e569",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "content/posts/Developing AI Apps Through Cursor/index.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "index"
             }
           }
         ]
@@ -170,8 +174,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "e181644caaae5c89",
+  "active": "fcd145183041e569",
   "lastOpenFiles": [
+    "content/posts/Developing AI Apps Through Cursor/cover.webp",
     "content/posts/about_me/about_me.webp",
     "content/posts/Developing AI Apps Through Cursor/index.md",
     "content/posts/Developing AI Apps Through Cursor",
@@ -212,7 +217,6 @@
     "content/posts/Gothic Streets/index.md",
     "content/posts/Daily Schedule/cover.webp",
     "content/posts/Abandoned Spaceship/Abandoned Spaceship 01.png",
-    "content/posts/Abandoned Spaceship/Abandoned Spaceship 02.png",
     "content/posts/Mermaid-Diagram/index.md",
     "content/posts/Tags and Categories/index.md",
     "content/posts/My Collections on CivitAI and PicLumen/index.md",
