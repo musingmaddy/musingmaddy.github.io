@@ -170,8 +170,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "26b9ea1c29a88e61",
+  "active": "e181644caaae5c89",
   "lastOpenFiles": [
+    "content/posts/Developing AI Apps Through Cursor/cover.webp",
     "themes/dream/src/js/toc.js",
     "themes/dream/assets/js/toc.js",
     "content/posts/Developing AI Apps Through Cursor/index.md",
@@ -179,7 +180,6 @@
     "content/posts/My Macbook Setup/index.md",
     "content/posts/My Collections on CivitAI and PicLumen/index.md",
     "content/posts/Daily Schedule/index.md",
-    "content/posts/Developing AI Apps Through Cursor/cover.webp",
     "content/posts/about_me/about_me.webp",
     "content/posts/Developing AI Apps Through Cursor",
     "content/posts/My Macbook Setup",
@@ -189,7 +189,6 @@
     "themes/dream/src/js/main.js",
     "themes/dream/src/js/grid.js",
     "themes/dream/src/js",
-    "themes/dream/src/input.css",
     "themes/dream/images/tn.png",
     "themes/dream/images/screenshot.png",
     "themes/dream/docs/public/images/zen-mode.png",
