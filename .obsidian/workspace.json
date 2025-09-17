@@ -11,14 +11,12 @@
             "id": "d8d64594aea3d9c9",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "content/posts/Project Mayaverse/index.md",
-                "mode": "source",
-                "source": false
+                "file": "static/img/disco_style.webp"
               },
-              "icon": "lucide-file",
-              "title": "index"
+              "icon": "lucide-image",
+              "title": "disco_style"
             }
           }
         ]
@@ -94,7 +92,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/posts/Project Mayaverse/index.md",
+                "file": "static/img/disco_style.webp",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +102,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for index"
+              "title": "Backlinks for disco_style"
             }
           },
           {
@@ -139,13 +137,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/posts/Project Mayaverse/index.md",
+                "file": "static/img/disco_style.webp",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of index"
+              "title": "Outline of disco_style"
             }
           },
           {
@@ -177,16 +175,21 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "c351770a15c0fd44",
+  "active": "d8d64594aea3d9c9",
   "lastOpenFiles": [
-    "content/posts/Project Mayaverse/Generated Image September 14, 2025 - 8_14PM.png",
     "content/posts/Project Mayaverse/index.md",
+    "static/img/disco_style.webp",
+    "static/img/blog.webp",
+    "content/posts/Project Mayaverse/Generated Image September 14, 2025 - 8_14PM.png",
+    "static/img/dreamy_meanderings.jpeg",
+    "static/img/cover2.webp",
+    "static/img/cover.webp",
+    "static/img/about_me_small.webp",
     "content/posts/Project Mayaverse",
     "content/posts/Abandoned Spaceship/index.md",
     "hugo.toml",
     "themes/dream/decapCMS/config.yml",
     "content/posts/game as an artform/index.md",
-    "static/img/blog.webp",
     "content/posts/game as an artform",
     "content/posts/Developing AI Apps Through Cursor/cover.webp",
     "themes/dream/src/js/toc.js",
@@ -202,8 +205,6 @@
     "themes/dream/theme.toml",
     "themes/dream/tailwind.config.js",
     "themes/dream/images/tn.png",
-    "themes/dream/images/screenshot.png",
-    "themes/dream/docs/public/images/zen-mode.png",
     "themes/dream/docs/pages/search.md",
     "themes/dream/docs/pages/i18n.md",
     "themes/dream/docs/pages/decap-cms.md",
@@ -211,10 +212,6 @@
     "themes/dream/docs/pages/about-page.md",
     "themes/dream/docs/pages/CHANGELOG.md",
     "themes/dream/docs/NOTE.md",
-    "themes/dream/assets/images/default4.jpg",
-    "themes/dream/assets/images/default3.jpg",
-    "themes/dream/assets/images/default2.jpg",
-    "themes/dream/assets/images/default1.jpg",
     "themes/dream/archetypes/posts/index.md",
     "themes/dream/archetypes/posts.md",
     "themes/dream/archetypes/about.md",

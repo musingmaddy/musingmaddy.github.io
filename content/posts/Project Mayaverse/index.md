@@ -3,7 +3,7 @@ title: Project Mayaverse
 date: 2025-09-17T08:51:03+05:30
 lastmod: 2025-09-17T08:51:03+05:30
 author: Maddy Meraki
-cover: /img/cover.jpg
+cover: /img/disco_style.webp
 categories:
   - Announcement
 tags:
