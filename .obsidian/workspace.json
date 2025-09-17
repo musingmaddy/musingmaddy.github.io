@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "5733ff03ce6d7886",
+        "id": "761fd22bc928cd8e",
         "type": "tabs",
         "children": [
           {
-            "id": "b4c143089de2e761",
+            "id": "d8d64594aea3d9c9",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "content/posts/Project Mayaverse/index.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "index"
             }
           }
         ]
@@ -134,16 +138,27 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "content/posts/Project Mayaverse/index.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of index"
+            }
+          },
+          {
+            "id": "c351770a15c0fd44",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -151,15 +166,24 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:Create new base": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "daily-notes:Open today's daily note": false,
       "command-palette:Open command palette": false,
-      "templater-obsidian:Templater": false
+      "templater-obsidian:Templater": false,
+      "obsidian-git:Open Git source control": false,
+      "terminal:Open terminal": false
     }
   },
-  "active": "b4c143089de2e761",
+  "active": "26b9ea1c29a88e61",
   "lastOpenFiles": [
+    "content/posts/Project Mayaverse/Generated Image September 14, 2025 - 8_14PM.png",
+    "content/posts/Project Mayaverse/index.md",
+    "content/posts/Project Mayaverse",
+    "content/posts/Abandoned Spaceship/index.md",
+    "hugo.toml",
+    "themes/dream/decapCMS/config.yml",
     "content/posts/game as an artform/index.md",
     "static/img/blog.webp",
     "content/posts/game as an artform",
@@ -174,11 +198,8 @@
     "content/posts/about_me/about_me.webp",
     "content/posts/Developing AI Apps Through Cursor",
     "content/posts/My Macbook Setup",
-    "hugo.toml",
     "themes/dream/theme.toml",
     "themes/dream/tailwind.config.js",
-    "themes/dream/src/js/main.js",
-    "themes/dream/src/js/grid.js",
     "themes/dream/images/tn.png",
     "themes/dream/images/screenshot.png",
     "themes/dream/docs/public/images/zen-mode.png",
@@ -197,13 +218,11 @@
     "themes/dream/archetypes/posts.md",
     "themes/dream/archetypes/about.md",
     "themes/dream/README.md",
-    "content/posts/Abandoned Spaceship/index.md",
     "content/posts/Christmas Magic/index.md",
     "content/posts/Cosmic Necronomicon/index.md",
     "content/posts/Santa Neo-Noir/index.md",
     "content/posts/Reading List - Books to Read in 2025 - Fiction/index.md",
     "content/posts/Gothic Streets/index.md",
-    "content/posts/Mermaid-Diagram/index.md",
-    "content/posts/about_me/index.md"
+    "content/posts/Mermaid-Diagram/index.md"
   ]
 }

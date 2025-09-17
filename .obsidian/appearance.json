@@ -1,7 +1,7 @@
 {
   "cssTheme": "Border",
-  "textFontFamily": "Readex Pro",
-  "interfaceFontFamily": "Readex Pro",
-  "monospaceFontFamily": "Cascadia Code PL",
+  "textFontFamily": "Atkinson Hyperlegible Next",
+  "interfaceFontFamily": "SN Pro",
+  "monospaceFontFamily": "0xProto",
   "theme": "moonstone"
 }

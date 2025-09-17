@@ -15,7 +15,7 @@ enableRobotsTXT = true
 [params]
 zenMode = false
 lightTheme = "emerald"
-# darkTheme = "forest"
+darkTheme = "forest"
 
 # backgroundImage = ""
 # backgroundImageDark = ""
