@@ -94,6 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "content/posts/Project Mayaverse/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for index"
             }
           },
           {
@@ -176,7 +177,7 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "26b9ea1c29a88e61",
+  "active": "c351770a15c0fd44",
   "lastOpenFiles": [
     "content/posts/Project Mayaverse/Generated Image September 14, 2025 - 8_14PM.png",
     "content/posts/Project Mayaverse/index.md",

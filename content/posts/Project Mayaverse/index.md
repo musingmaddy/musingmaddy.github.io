@@ -13,7 +13,7 @@ tags:
   - eldritch
   - books
   - noir
-draft: true
+draft: false
 ---
 
 New Project Mayaverse. 
