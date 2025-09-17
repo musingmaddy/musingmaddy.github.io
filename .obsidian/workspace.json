@@ -11,12 +11,14 @@
             "id": "d8d64594aea3d9c9",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "static/img/disco_style.webp"
+                "file": "content/posts/Project Mayaverse/index.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "disco_style"
+              "icon": "lucide-file",
+              "title": "index"
             }
           }
         ]
@@ -92,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "static/img/disco_style.webp",
+                "file": "content/posts/Project Mayaverse/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for disco_style"
+              "title": "Backlinks for index"
             }
           },
           {
@@ -137,13 +139,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "static/img/disco_style.webp",
+                "file": "content/posts/Project Mayaverse/index.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of disco_style"
+              "title": "Outline of index"
             }
           },
           {
@@ -177,8 +179,12 @@
   },
   "active": "d8d64594aea3d9c9",
   "lastOpenFiles": [
+    "content/posts/Project Mayaverse/poster_mayaverse.webp",
     "content/posts/Project Mayaverse/index.md",
+    "content/posts/My Collections on CivitAI and PicLumen/index.md",
     "static/img/disco_style.webp",
+    "static/img/poster_mayaverse.webp",
+    "static/img/Generated Image September 17, 2025 - 10_25AM.png",
     "static/img/blog.webp",
     "content/posts/Project Mayaverse/Generated Image September 14, 2025 - 8_14PM.png",
     "static/img/dreamy_meanderings.jpeg",
@@ -191,20 +197,16 @@
     "themes/dream/decapCMS/config.yml",
     "content/posts/game as an artform/index.md",
     "content/posts/game as an artform",
-    "content/posts/Developing AI Apps Through Cursor/cover.webp",
     "themes/dream/src/js/toc.js",
     "themes/dream/assets/js/toc.js",
     "content/posts/Developing AI Apps Through Cursor/index.md",
     "content/posts/Tags and Categories/index.md",
     "content/posts/My Macbook Setup/index.md",
-    "content/posts/My Collections on CivitAI and PicLumen/index.md",
     "content/posts/Daily Schedule/index.md",
-    "content/posts/about_me/about_me.webp",
     "content/posts/Developing AI Apps Through Cursor",
     "content/posts/My Macbook Setup",
     "themes/dream/theme.toml",
     "themes/dream/tailwind.config.js",
-    "themes/dream/images/tn.png",
     "themes/dream/docs/pages/search.md",
     "themes/dream/docs/pages/i18n.md",
     "themes/dream/docs/pages/decap-cms.md",
