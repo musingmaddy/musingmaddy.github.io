@@ -1,5 +1,3 @@
-
-
 ## Hard Rules
 
 1.  **Theme is READ-ONLY.** `themes/hugo-theme-dream/` is a Git submodule — never create, edit, or delete anything inside it. To customize, copy the file to the identical path under project root and edit the copy.

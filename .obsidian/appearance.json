@@ -1,7 +1,7 @@
 {
-  "cssTheme": "Poimandres Extended",
-  "textFontFamily": "Atkinson Hyperlegible Next",
+  "cssTheme": "Night Owl",
+  "textFontFamily": "SN Pro",
   "interfaceFontFamily": "",
-  "monospaceFontFamily": "0xProto",
+  "monospaceFontFamily": "Cascadia Code",
   "theme": "obsidian"
 }

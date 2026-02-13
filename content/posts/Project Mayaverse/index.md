@@ -22,6 +22,6 @@ New Project Mayaverse.
 
 # Project Mayaverse
 
-> Mayaverse is a project creating a narrative universe which is expanded through novel series, graphic novels and interactive game. Upcoming in 2026.
+> Mayaverse is a project creating a narrative universe which is expanded through novel series, graphic novels and interactive game. Upcoming in 2027.
 
 ![](poster_mayaverse.webp)
