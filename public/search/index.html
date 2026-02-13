@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en"
   x-data
-  :class="$store.darkMode.class()"
+  :class="$store.darkMode.isDark() ? 'dark' : 'light'"
   :data-theme="$store.darkMode.theme()">
   <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
     <meta charset="UTF-8">
@@ -9,7 +9,9 @@
     <title>Search | MusingMaddy</title>
 
     
-<link href="/img/favicon.png" rel="icon" type="image/x-icon" />
+  
+    <link href="/img/favicon.png" rel="icon" type="image/x-icon" />
+  
 
 
 <link rel="canonical" href="http://localhost:1313/search/" />
@@ -17,17 +19,17 @@
 
 
 <meta name="author" content="Maddy Meraki" />
-<meta name="description" content="🍥 Maddy&#39;s Arts, Crafts & Perspectives." />
+<meta name="description" content="🦢 Maddy&#39;s Arts, Crafts & Perspectives." />
 
 
 
-<meta name="generator" content="Hugo 0.140.1">
+<meta name="generator" content="Hugo 0.155.3">
 
 
 <meta property="og:url" content="http://localhost:1313/search/">
   <meta property="og:site_name" content="MusingMaddy">
   <meta property="og:title" content="MusingMaddy">
-  <meta property="og:description" content="🍥 Maddy&#39;s Arts, Crafts &amp; Perspectives.">
+  <meta property="og:description" content="🦢 Maddy&#39;s Arts, Crafts &amp; Perspectives.">
   <meta property="og:locale" content="en">
   <meta property="og:type" content="website">
 
@@ -36,7 +38,7 @@
 
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="MusingMaddy">
-  <meta name="twitter:description" content="🍥 Maddy&#39;s Arts, Crafts &amp; Perspectives.">
+  <meta name="twitter:description" content="🦢 Maddy&#39;s Arts, Crafts &amp; Perspectives.">
 
 
 
@@ -50,7 +52,20 @@
 
     
 
-    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+    <script>
+      window.lightTheme = 'emerald'
+      window.darkTheme = 'forest'
+
+      ;(function() {
+        const isDark = ('hugo-theme-dream-is-dark' in localStorage)
+          ? window.localStorage.getItem('hugo-theme-dream-is-dark') === 'y'
+          : window.matchMedia('(prefers-color-scheme: dark)').matches
+        const theme = isDark ? window.darkTheme : window.lightTheme
+
+        document.documentElement.setAttribute('data-theme', theme)
+      })()
+    </script>
+    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.15.1/dist/cdn.min.js" integrity="sha256-Rmqrc5SKeSLTSnQ9shSKWmJco1ks8c1hLI8UG2Np03M=" crossorigin="anonymous"></script>
   </head>
 
   <body x-data="{
@@ -69,7 +84,7 @@
   <div class="container flex justify-between px-4">
   
     <section class="flex items-center gap-4">
-      <div class="avatar cursor-pointer hover:online" @click="flip = !flip" title="Flip it!">
+      <div class="avatar cursor-pointer hover:avatar-online" @click="flip = !flip" title="Flip it!">
         <div class="h-10 rounded-full">
           <img src="/img/musingmaddy.webp" alt="Musing Maddy" />
         </div>
@@ -89,12 +104,20 @@
       
     </section>
 
+    
+    
+
     <div class="dropdown dropdown-end sm:hidden">
       <div tabindex="0" role="button" class="btn btn-ghost btn-square" aria-label="Select an option">
         <ion-icon name="menu" class="text-2xl"></ion-icon>
       </div>
-      <ul tabindex="0" class="dropdown-content menu w-36 bg-base-100 rounded-box z-[1] shadow-md">
+      <ul tabindex="0" class="dropdown-content menu w-36 bg-base-100 rounded-box z-1 shadow-md">
         
+
+
+
+
+
 
 
 <li>
@@ -161,20 +184,18 @@
     </div>
     <section class="hidden sm:flex sm:items-center sm:gap-2 md:gap-4">
       
-      
-      
-      <div role="link" tabindex="0"
-        class="text-sm font-semibold cursor-pointer hover:underline"
-        @click="flip = !flip"
-        title="About"
-      >About</div>
-      
-      
 
       
       
 
-      
+
+
+
+<div role="link" tabindex="0" class="text-sm font-semibold cursor-pointer hover:underline" @click="flip = !flip" title="About">About</div>
+
+
+
+
 
       
       
@@ -234,14 +255,14 @@ x-data="{
   search: '',
   get posts() { return this.search !== '' ? window.fuse.search(this.search) : [] },
 }">
-  <label for="search" class="input input-bordered flex items-center gap-2">
+  <label for="search" class="input w-full">
     <input id="search" name="search" type="text" class="grow" placeholder="Search" x-model.debounce="search" />
     <ion-icon name="search"></ion-icon>
   </label>
 
   <div class="mt-8 space-y-4">
   <template x-for="post in posts">
-    <a class="card card-compact bg-base-100 hover:bg-base-content/10 cursor-pointer border border-base-content/30" :href="post.item.url">
+    <a class="card bg-base-100 hover:bg-base-content/10 cursor-pointer border border-base-content/30" :href="post.item.url">
       <div class="card-body">
         <h2 class="card-title" x-text="post.item.title"></h2>
 
@@ -288,22 +309,22 @@ x-data="{
   <div>
   
   <p>
-    © 2024 MusingMaddy
+    © 2024 - 2026 MusingMaddy
   </p>
   
 
   
-  <p>🦢 Inspiring Better Perspectives - 💖 Maddy Meraki</p>
+  <p>🌺 Inspiring Better Perspectives - 🦢 Maddy Meraki</p>
   
 </div>
 
   <div
   x-data="{ icons: [
-    { name: 'moon', status: 'y' },
     { name: 'sunny', status: 'n' },
+    { name: 'moon', status: 'y' },
     { name: 'desktop', status: 'auto' }
   ] }"
-  class="flex items-center h-[32px] px-2 gap-2 border border-base-content/30 rounded-full"
+  class="flex items-center gap-2 h-8 px-2 bg-base-100 border border-base-content/30 rounded-full"
 >
   <template x-for="icon in icons">
     <div
@@ -337,7 +358,7 @@ x-data="{
   
   <div class="w-full md:w-1/2 lg:w-1/3 xl:w-1/4 p-4 dream-column">
     <article
-      class="card card-compact bg-base-100 hover:bg-base-content/10 shadow-xl dark:border dark:border-base-content/30"
+      class="card bg-base-100 hover:bg-base-content/10 shadow-xl dark:border dark:border-base-content/30"
     >
       <div class="card-body">
         <div class="card-title"></div>
@@ -365,7 +386,7 @@ x-data="{
   
   <div class="w-full md:w-1/2 lg:w-1/3 xl:w-1/4 p-4 dream-column">
     <article
-      class="card card-compact bg-base-100 hover:bg-base-content/10 shadow-xl dark:border dark:border-base-content/30"
+      class="card bg-base-100 hover:bg-base-content/10 shadow-xl dark:border dark:border-base-content/30"
     >
       <div class="card-body">
         <div class="card-title"></div>
@@ -387,7 +408,8 @@ x-data="{
 </li>
 <li>
 <p><strong>My Articles and Logs</strong></p>
-<p>In <a href="https://musingmaddy.github.io/">MusingMaddy</a> website, I casually muse on the questions surrounding the Truth and the essence of existence. Here, I explore my ideas and insights, aiming to inspire contemplation and a greater understanding of life and beyond.</p>
+<p>In <a href="https://musingmaddy.github.io/" target="_blank">MusingMaddy</a>
+ website, I casually muse on the questions surrounding the Truth and the essence of existence. Here, I explore my ideas and insights, aiming to inspire contemplation and a greater understanding of life and beyond.</p>
 </li>
 </ol>
 
@@ -398,7 +420,7 @@ x-data="{
   
   <div class="w-full md:w-1/2 lg:w-1/3 xl:w-1/4 p-4 dream-column">
     <article
-      class="card card-compact bg-base-100 hover:bg-base-content/10 shadow-xl dark:border dark:border-base-content/30"
+      class="card bg-base-100 hover:bg-base-content/10 shadow-xl dark:border dark:border-base-content/30"
     >
       <div class="card-body">
         <div class="card-title"></div>
@@ -420,7 +442,7 @@ x-data="{
   
   <div class="w-full md:w-1/2 lg:w-1/3 xl:w-1/4 p-4 dream-column">
     <article
-      class="card card-compact bg-base-100 hover:bg-base-content/10 shadow-xl dark:border dark:border-base-content/30"
+      class="card bg-base-100 hover:bg-base-content/10 shadow-xl dark:border dark:border-base-content/30"
     >
       <div class="card-body">
         <div class="card-title"></div>
@@ -428,7 +450,8 @@ x-data="{
         <div class="prose dark:prose-invert">
           <h2 id="license"><strong>License</strong></h2>
 <p><img src="https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png" alt="CC BY-NC-SA License"></p>
-<p>All images, artworks, and written content on <em>Musing Maddy</em> are crafted to inspire and are protected under a Creative Commons <strong>CC BY-NC-SA</strong> license. You are welcome to view, share, and use this content for non-commercial purposes, provided that you credit <em>Musing Maddy®</em> and link back to this website. This license ensures that your adaptations or remixes of the content must also carry the same terms. For anything else, you can contact me on <a href="mailto:musingmaddy@gmail.com">musingmaddy@gmail.com</a> .</p>
+<p>All images, artworks, and written content on <em>Musing Maddy</em> are crafted to inspire and are protected under a Creative Commons <strong>CC BY-NC-SA</strong> license. You are welcome to view, share, and use this content for non-commercial purposes, provided that you credit <em>Musing Maddy®</em> and link back to this website. This license ensures that your adaptations or remixes of the content must also carry the same terms. For anything else, you can contact me on <a href="mailto:musingmaddy@gmail.com" target="_blank">musingmaddy@gmail.com</a>
+ .</p>
 <p><em>Note: Some artworks on this site may feature disturbing, surreal or intense imagery that could evoke strong emotional responses. Viewer discretion is advised.</em></p>
 <p><img src="https://mirrors.creativecommons.org/presskit/buttons/88x31/png/by-nc-sa.png" alt="CC BY-NC-SA"></p>
 
@@ -439,7 +462,7 @@ x-data="{
   
   <div class="w-full md:w-1/2 lg:w-1/3 xl:w-1/4 p-4 dream-column">
     <article
-      class="card card-compact bg-base-100 hover:bg-base-content/10 shadow-xl dark:border dark:border-base-content/30"
+      class="card bg-base-100 hover:bg-base-content/10 shadow-xl dark:border dark:border-base-content/30"
     >
       <div class="card-body">
         <div class="card-title"></div>
@@ -449,8 +472,10 @@ x-data="{
 <p><strong>Let’s Connect!</strong></p>
 <p>Want to chat about art, tech, or my projects?</p>
 <ul>
-<li><strong>Personal Email:</strong> <a href="mailto:musingmaddy@gmail.com">musingmaddy@gmail.com</a></li>
-<li><strong>Instagram:</strong> <a href="https://instagram.com/musingmaddy">https://instagram.com/musingmaddy</a></li>
+<li><strong>Personal Email:</strong> <a href="mailto:musingmaddy@gmail.com" target="_blank">musingmaddy@gmail.com</a>
+</li>
+<li><strong>Instagram:</strong> <a href="https://instagram.com/musingmaddy" target="_blank">https://instagram.com/musingmaddy</a>
+</li>
 </ul>
 
         </div>
@@ -473,22 +498,22 @@ x-data="{
   <div>
   
   <p>
-    © 2024 MusingMaddy
+    © 2024 - 2026 MusingMaddy
   </p>
   
 
   
-  <p>🦢 Inspiring Better Perspectives - 💖 Maddy Meraki</p>
+  <p>🌺 Inspiring Better Perspectives - 🦢 Maddy Meraki</p>
   
 </div>
 
   <div
   x-data="{ icons: [
-    { name: 'moon', status: 'y' },
     { name: 'sunny', status: 'n' },
+    { name: 'moon', status: 'y' },
     { name: 'desktop', status: 'auto' }
   ] }"
-  class="flex items-center h-[32px] px-2 gap-2 border border-base-content/30 rounded-full"
+  class="flex items-center gap-2 h-8 px-2 bg-base-100 border border-base-content/30 rounded-full"
 >
   <template x-for="icon in icons">
     <div
@@ -516,12 +541,7 @@ x-data="{
       </div>
     </div>
 
-    <script>
-  window.lightTheme = "emerald"
-  window.darkTheme = "forest"
-</script>
-
-
+    
   <script src="https://cdn.jsdelivr.net/npm/imagesloaded@5.0.0/imagesloaded.pkgd.min.js" integrity="sha256-htrLFfZJ6v5udOG+3kNLINIKh2gvoKqwEhHYfTTMICc=" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha256-Nn1q/fx0H7SNLZMQ5Hw5JLaTRZp0yILA/FRexe19VdI=" crossorigin="anonymous"></script>
 
@@ -557,9 +577,11 @@ x-data="{
 
 
 
+
+
 <script src="https://cdn.jsdelivr.net/npm/fuse.js@7.0.0/dist/fuse.min.js" integrity="sha256-42IbU8t3tOwwbexB7ZVRHm3YDRf65aBPPjRtIUufj5I=" crossorigin="anonymous"></script>
 <script>
-  var fuseData = [{"author":"Maddy Meraki","avatar":"/img/musingmaddy.webp","categories":["testing"],"description":"","readingTime":1,"tags":["diagram"],"title":"Mermaid-Diagram","url":"/posts/mermaid-diagram/"},{"author":"Maddy Meraki","avatar":"/img/musingmaddy.webp","categories":["Inspirations"],"description":"\u003ch1 id=\"books-to-read-on-2025\"\u003eBooks to read on 2025\u003c/h1\u003e\n\u003ctable\u003e\n  \u003cthead\u003e\n      \u003ctr\u003e\n          \u003cth\u003eTitle\u003c/th\u003e\n          \u003cth\u003eAuthor\u003c/th\u003e\n          \u003cth\u003eGoodreads Rating\u003c/th\u003e\n          \u003cth\u003eYear\u003c/th\u003e\n          \u003cth\u003ePages\u003c/th\u003e\n          \u003cth\u003eBook Cover\u003c/th\u003e\n      \u003c/tr\u003e\n  \u003c/thead\u003e\n  \u003ctbody\u003e\n      \u003ctr\u003e\n          \u003ctd\u003e\u003cem\u003eAtmamun: The Path To Achieving The Bliss Of The Himalayan Swamis\u003c/em\u003e\u003c/td\u003e\n          \u003ctd\u003eKapil Gupta\u003c/td\u003e\n          \u003ctd\u003e4.47\u003c/td\u003e\n          \u003ctd\u003e2020\u003c/td\u003e\n          \u003ctd\u003e227\u003c/td\u003e\n          \u003ctd\u003e\u003cimg src=\"https://m.media-amazon.com/images/I/71oXrm5o24L._SL1500_.jpg\" alt=\"25\"\u003e\u003c/td\u003e\n      \u003c/tr\u003e\n      \u003ctr\u003e\n          \u003ctd\u003e\u003cem\u003eExhalation\u003c/em\u003e\u003c/td\u003e\n          \u003ctd\u003eTed Chiang\u003c/td\u003e\n          \u003ctd\u003e4.45\u003c/td\u003e\n          \u003ctd\u003e2019\u003c/td\u003e\n          \u003ctd\u003e368\u003c/td\u003e\n          \u003ctd\u003e\u003cimg src=\"https://m.media-amazon.com/images/I/81sJzSu9NUL._SL1500_.jpg\" alt=\"23\"\u003e\u003c/td\u003e\n      \u003c/tr\u003e\n      \u003ctr\u003e\n          \u003ctd\u003e\u003cem\u003eThe Fifth Science\u003c/em\u003e\u003c/td\u003e\n          \u003ctd\u003eExurb1a\u003c/td\u003e\n          \u003ctd\u003e4.25\u003c/td\u003e\n          \u003ctd\u003e2018\u003c/td\u003e\n          \u003ctd\u003e257\u003c/td\u003e\n          \u003ctd\u003e\u003cimg src=\"https://m.media-amazon.com/images/I/71nLyty-siL._SL1500_.jpg\" alt=\"24\"\u003e\u003c/td\u003e\n      \u003c/tr\u003e\n      \u003ctr\u003e\n          \u003ctd\u003e\u003cem\u003eSteal Like an Artist: 10 Things Nobody Told You About Being Creative\u003c/em\u003e\u003c/td\u003e\n          \u003ctd\u003eAustin Kleon\u003c/td\u003e\n          \u003ctd\u003e4.12\u003c/td\u003e\n          \u003ctd\u003e2012\u003c/td\u003e\n          \u003ctd\u003e160\u003c/td\u003e\n          \u003ctd\u003e\u003cimg src=\"https://m.media-amazon.com/images/I/61sQHzONWBL._SL1400_.jpg\" alt=\"9\"\u003e\u003c/td\u003e\n      \u003c/tr\u003e\n      \u003ctr\u003e\n          \u003ctd\u003e\u003cem\u003eThe City \u0026amp; the City\u003c/em\u003e\u003c/td\u003e\n          \u003ctd\u003eChina Miéville\u003c/td\u003e\n          \u003ctd\u003e3.88\u003c/td\u003e\n          \u003ctd\u003e2009\u003c/td\u003e\n          \u003ctd\u003e312\u003c/td\u003e\n          \u003ctd\u003e\u003cimg src=\"https://m.media-amazon.com/images/I/81pjXcrKI3L._AC_UY327_FMwebp_QL65_.jpg\" alt=\"5\"\u003e\u003c/td\u003e\n      \u003c/tr\u003e\n      \u003ctr\u003e\n          \u003ctd\u003e\u003cem\u003eCourage: The Joy of Living Dangerously\u003c/em\u003e\u003c/td\u003e\n          \u003ctd\u003eOsho\u003c/td\u003e\n          \u003ctd\u003e4.12\u003c/td\u003e\n          \u003ctd\u003e1999\u003c/td\u003e\n          \u003ctd\u003e208\u003c/td\u003e\n          \u003ctd\u003e\u003cimg src=\"https://m.media-amazon.com/images/I/91V4hG5qhqL._SL1500_.jpg\" alt=\"22\"\u003e\u003c/td\u003e\n      \u003c/tr\u003e\n      \u003ctr\u003e\n          \u003ctd\u003e\u003cem\u003eSeven Views of Olduvai Gorge\u003c/em\u003e\u003c/td\u003e\n          \u003ctd\u003eMike Resnick\u003c/td\u003e\n          \u003ctd\u003e3.88\u003c/td\u003e\n          \u003ctd\u003e1994\u003c/td\u003e\n          \u003ctd\u003e64\u003c/td\u003e\n          \u003ctd\u003e\u003cimg src=\"https://m.media-amazon.com/images/I/61+OtHqrwIL.jpg\" alt=\"15\"\u003e\u003c/td\u003e\n      \u003c/tr\u003e\n      \u003ctr\u003e\n          \u003ctd\u003e\u003cem\u003eHam on Rye\u003c/em\u003e\u003c/td\u003e\n          \u003ctd\u003eCharles Bukowski\u003c/td\u003e\n          \u003ctd\u003e4.14\u003c/td\u003e\n          \u003ctd\u003e1982\u003c/td\u003e\n          \u003ctd\u003e283\u003c/td\u003e\n          \u003ctd\u003e\u003cimg src=\"https://m.media-amazon.com/images/I/51y6UbuZe9L.jpg\" alt=\"21\"\u003e\u003c/td\u003e\n      \u003c/tr\u003e\n      \u003ctr\u003e\n          \u003ctd\u003e\u003cem\u003eSide Effects\u003c/em\u003e\u003c/td\u003e\n          \u003ctd\u003eWoody Allen\u003c/td\u003e\n          \u003ctd\u003e4.12\u003c/td\u003e\n          \u003ctd\u003e1980\u003c/td\u003e\n          \u003ctd\u003e149\u003c/td\u003e\n          \u003ctd\u003e\u003cimg src=\"https://m.media-amazon.com/images/I/518rTWaVDaL._SL1015_.jpg\" alt=\"6\"\u003e\u003c/td\u003e\n      \u003c/tr\u003e\n      \u003ctr\u003e\n          \u003ctd\u003e\u003cem\u003eTurtle Island\u003c/em\u003e\u003c/td\u003e\n          \u003ctd\u003eGary Snyder\u003c/td\u003e\n          \u003ctd\u003e4.16\u003c/td\u003e\n          \u003ctd\u003e1974\u003c/td\u003e\n          \u003ctd\u003e114\u003c/td\u003e\n          \u003ctd\u003e\u003cimg src=\"https://m.media-amazon.com/images/I/71rOw7AfmqL._SL1360_.jpg\" alt=\"14\"\u003e\u003c/td\u003e\n      \u003c/tr\u003e\n      \u003ctr\u003e\n          \u003ctd\u003e\u003cem\u003eRoadside Picnic\u003c/em\u003e\u003c/td\u003e\n          \u003ctd\u003eArkady \u0026amp; Boris Strugatsky\u003c/td\u003e\n          \u003ctd\u003e4.19\u003c/td\u003e\n          \u003ctd\u003e1972\u003c/td\u003e\n          \u003ctd\u003e224\u003c/td\u003e\n          \u003ctd\u003e\u003cimg src=\"https://m.media-amazon.com/images/I/91hwMz5alkL._SL1500_.jpg\" alt=\"20\"\u003e\u003c/td\u003e\n      \u003c/tr\u003e\n      \u003ctr\u003e\n          \u003ctd\u003e\u003cem\u003eInvisible Cities\u003c/em\u003e\u003c/td\u003e\n          \u003ctd\u003eItalo Calvino\u003c/td\u003e\n          \u003ctd\u003e4.14\u003c/td\u003e\n          \u003ctd\u003e1972\u003c/td\u003e\n          \u003ctd\u003e165\u003c/td\u003e\n          \u003ctd\u003e\u003cimg src=\"https://m.media-amazon.com/images/I/711KxI8YDTL._SL1500_.jpg\" alt=\"17\"\u003e\u003c/td\u003e\n      \u003c/tr\u003e\n      \u003ctr\u003e\n          \u003ctd\u003e\u003cem\u003eThe Lathe of Heaven\u003c/em\u003e\u003c/td\u003e\n          \u003ctd\u003eUrsula K. Le Guin\u003c/td\u003e\n          \u003ctd\u003e4.09\u003c/td\u003e\n          \u003ctd\u003e1971\u003c/td\u003e\n          \u003ctd\u003e184\u003c/td\u003e\n          \u003ctd\u003e\u003cimg src=\"https://m.media-amazon.com/images/I/8110Z66vMrL._SL1500_.jpg\" alt=\"18\"\u003e\u003c/td\u003e\n      \u003c/tr\u003e\n      \u003ctr\u003e\n          \u003ctd\u003e\u003cem\u003eSlaughterhouse-Five\u003c/em\u003e\u003c/td\u003e\n          \u003ctd\u003eKurt Vonnegut\u003c/td\u003e\n          \u003ctd\u003e4.09\u003c/td\u003e\n          \u003ctd\u003e1969\u003c/td\u003e\n          \u003ctd\u003e275\u003c/td\u003e\n          \u003ctd\u003e\u003cimg src=\"https://m.media-amazon.com/images/I/81VuxYiOouL._SL1500_.jpg\" alt=\"16\"\u003e\u003c/td\u003e\n      \u003c/tr\u003e\n      \u003ctr\u003e\n          \u003ctd\u003e\u003cem\u003eWelcome to the Monkey House\u003c/em\u003e\u003c/td\u003e\n          \u003ctd\u003eKurt Vonnegut\u003c/td\u003e\n          \u003ctd\u003e4.07\u003c/td\u003e\n          \u003ctd\u003e1968\u003c/td\u003e\n          \u003ctd\u003e352\u003c/td\u003e\n          \u003ctd\u003e\u003cimg src=\"https://m.media-amazon.com/images/I/61Dj77wOdsL._SL1200_.jpg\" alt=\"19\"\u003e\u003c/td\u003e\n      \u003c/tr\u003e\n      \u003ctr\u003e\n          \u003ctd\u003e\u003cem\u003eThe Third Policeman\u003c/em\u003e\u003c/td\u003e\n          \u003ctd\u003eFlann O\u0026rsquo;Brien\u003c/td\u003e\n          \u003ctd\u003e4.12\u003c/td\u003e\n          \u003ctd\u003e1967\u003c/td\u003e\n          \u003ctd\u003e200\u003c/td\u003e\n          \u003ctd\u003e\u003cimg src=\"https://m.media-amazon.com/images/I/81xt3+PEdWL._SL1500_.jpg\" alt=\"11\"\u003e\u003c/td\u003e\n      \u003c/tr\u003e\n      \u003ctr\u003e\n          \u003ctd\u003e\u003cem\u003eThe Crying of Lot 49\u003c/em\u003e\u003c/td\u003e\n          \u003ctd\u003eThomas Pynchon\u003c/td\u003e\n          \u003ctd\u003e3.63\u003c/td\u003e\n          \u003ctd\u003e1965\u003c/td\u003e\n          \u003ctd\u003e152\u003c/td\u003e\n          \u003ctd\u003e\u003cimg src=\"https://thomaspynchon.com/wp-content/uploads/2014/08/cl49-1stPB-bantam.jpg\" alt=\"1\"\u003e\u003c/td\u003e\n      \u003c/tr\u003e\n      \u003ctr\u003e\n          \u003ctd\u003e\u003cem\u003eFactotum\u003c/em\u003e\u003c/td\u003e\n          \u003ctd\u003eCharles Bukowski\u003c/td\u003e\n          \u003ctd\u003e4.05\u003c/td\u003e\n          \u003ctd\u003e1975\u003c/td\u003e\n          \u003ctd\u003e208\u003c/td\u003e\n          \u003ctd\u003e\u003cimg src=\"https://m.media-amazon.com/images/I/91p80-VVaWL._SL1500_.jpg\" alt=\"7\"\u003e\u003c/td\u003e\n      \u003c/tr\u003e\n      \u003ctr\u003e\n          \u003ctd\u003e\u003cem\u003eThe Dharma Bums\u003c/em\u003e\u003c/td\u003e\n          \u003ctd\u003eJack Kerouac\u003c/td\u003e\n          \u003ctd\u003e3.91\u003c/td\u003e\n          \u003ctd\u003e1958\u003c/td\u003e\n          \u003ctd\u003e244\u003c/td\u003e\n          \u003ctd\u003e\u003cimg src=\"https://m.media-amazon.com/images/I/61cyvx0gjLL._SL1500_.jpg\" alt=\"8\"\u003e\u003c/td\u003e\n      \u003c/tr\u003e\n      \u003ctr\u003e\n          \u003ctd\u003e\u003cem\u003eFahrenheit 451\u003c/em\u003e\u003c/td\u003e\n          \u003ctd\u003eRay Bradbury\u003c/td\u003e\n          \u003ctd\u003e3.99\u003c/td\u003e\n          \u003ctd\u003e1953\u003c/td\u003e\n          \u003ctd\u003e194\u003c/td\u003e\n          \u003ctd\u003e\u003cimg src=\"https://m.media-amazon.com/images/I/71OT5NIqGaL._SL1500_.jpg\" alt=\"10\"\u003e\u003c/td\u003e\n      \u003c/tr\u003e\n      \u003ctr\u003e\n          \u003ctd\u003e\u003cem\u003eThe Body in the Library (Miss Marple, #2)\u003c/em\u003e\u003c/td\u003e\n          \u003ctd\u003eAgatha Christie\u003c/td\u003e\n          \u003ctd\u003e3.92\u003c/td\u003e\n          \u003ctd\u003e1942\u003c/td\u003e\n          \u003ctd\u003e199\u003c/td\u003e\n          \u003ctd\u003e\u003cimg src=\"https://m.media-amazon.com/images/I/51oxByVBBML._SY445_SX342_.jpg\" alt=\"3\"\u003e\u003c/td\u003e\n      \u003c/tr\u003e\n      \u003ctr\u003e\n          \u003ctd\u003e\u003cem\u003eThe Murder on the Links (Hercule Poirot, #2)\u003c/em\u003e\u003c/td\u003e\n          \u003ctd\u003eAgatha Christie\u003c/td\u003e\n          \u003ctd\u003e3.85\u003c/td\u003e\n          \u003ctd\u003e1923\u003c/td\u003e\n          \u003ctd\u003e272\u003c/td\u003e\n          \u003ctd\u003e\u003cimg src=\"https://m.media-amazon.com/images/I/41PmMW-gLlL._SY445_SX342_.jpg\" alt=\"4\"\u003e\u003c/td\u003e\n      \u003c/tr\u003e\n      \u003ctr\u003e\n          \u003ctd\u003e\u003cem\u003eThe Mysterious Affair at Styles (Hercule Poirot, #1)\u003c/em\u003e\u003c/td\u003e\n          \u003ctd\u003eAgatha Christie\u003c/td\u003e\n          \u003ctd\u003e3.98\u003c/td\u003e\n          \u003ctd\u003e1920\u003c/td\u003e\n          \u003ctd\u003e224\u003c/td\u003e\n          \u003ctd\u003e\u003cimg src=\"https://m.media-amazon.com/images/I/51BvywIcHjL.jpg\" alt=\"12\"\u003e\u003c/td\u003e\n      \u003c/tr\u003e\n      \u003ctr\u003e\n          \u003ctd\u003e\u003cem\u003eMy Man Jeeves (Jeeves, #1)\u003c/em\u003e\u003c/td\u003e\n          \u003ctd\u003eP.G. Wodehouse\u003c/td\u003e\n          \u003ctd\u003e4.15\u003c/td\u003e\n          \u003ctd\u003e1919\u003c/td\u003e\n          \u003ctd\u003e224\u003c/td\u003e\n          \u003ctd\u003e\u003cimg src=\"https://m.media-amazon.com/images/I/71o0yVhIiLL._SL1360_.jpg\" alt=\"13\"\u003e\u003c/td\u003e\n      \u003c/tr\u003e\n      \u003ctr\u003e\n          \u003ctd\u003e\u003cem\u003eAn Occurrence at Owl Creek Bridge\u003c/em\u003e\u003c/td\u003e\n          \u003ctd\u003eAmbrose Bierce\u003c/td\u003e\n          \u003ctd\u003e4.11\u003c/td\u003e\n          \u003ctd\u003e1890\u003c/td\u003e\n          \u003ctd\u003e32\u003c/td\u003e\n          \u003ctd\u003e\u003cimg src=\"https://m.media-amazon.com/images/I/41KW8zZZ2tL._SY445_SX342_.jpg\" alt=\"2\"\u003e\u003c/td\u003e\n      \u003c/tr\u003e\n  \u003c/tbody\u003e\n\u003c/table\u003e","readingTime":2,"tags":["novel","books","fiction","sci-fi","magical","realism","surreal","to-read"],"title":"Reading List - Books to Read in 2025 - Fiction","url":"/posts/reading-list---books-to-read-in-2025---fiction/"},{"author":"Maddy Meraki","avatar":"/img/musingmaddy.webp","categories":["Artwork"],"description":"\u003ch1 id=\"gothic-streets-on-an-overcast-dusk\"\u003egothic streets on an overcast dusk\u003c/h1\u003e\n\r\n\r\n\r\n  \u003cblockquote\u003e\r\n    \u003cp\u003e\u003cem\u003eAn Ancient medieval village caught in the fleeting moments as twilight succumbs to night. Above, a brooding, overcast sky, heavy with dark, roiling clouds, presses down on the scene, diffusing an eerie, ethereal light that bathes the landscape in somber hues. The narrow, serpentine road, its worn cobblestones half-buried in slick mud, snakes sharply through the village, creating a dynamic, almost disorienting perspective. Scattered puddles mirror the fading remnants of daylight and the flickering amber glow of oil lamps, shimmering like fractured pieces of a forgotten dream.\u003c/em\u003e\u003c/p\u003e\n\r\n  \u003c/blockquote\u003e","readingTime":2,"tags":["medeival","streets","gothic","ancient","blacksmith","village"],"title":"Gothic streets at dusk","url":"/posts/gothic-streets-at-dusk/"},{"author":"Maddy Meraki","avatar":"/img/musingmaddy.webp","categories":"Maddy Meraki","description":"\u003ch1 id=\"categories--tags\"\u003eCategories \u0026amp; Tags\u003c/h1\u003e\n\u003cp\u003eApart from \u003ccode\u003eSearch\u003c/code\u003e; \u003ccode\u003eCategories\u003c/code\u003e and \u003ccode\u003eTags\u003c/code\u003e can also be used in this website for finetuning search.\u003c/p\u003e","readingTime":1,"tags":["musingmaddy"],"title":"Tags and Categories","url":"/posts/tags-and-categories/"},{"author":"Maddy Meraki","avatar":"/img/musingmaddy.webp","categories":"Artwork","description":"\u003ch1 id=\"cosmic-necronomicon\"\u003eCosmic Necronomicon\u003c/h1\u003e\n\r\n\r\n\r\n  \u003cblockquote\u003e\r\n    \u003cp\u003e\u003cem\u003eEmanating from the event horizon of a collapsing crimson nebula, a siren of the void, sculpted from solidified whispers of forgotten desires. Her form, a fractal tapestry of obsidian lace and molten ruby sinews, pulses with the rhythm of a dying star. A single, cyclopean eye, a swirling vortex of anti-matter, gazes into the observer\u0026rsquo;s soul, reflecting the infinite expanse of their own hidden longings. This is not a portrait, but a ritual. A summoning. The background is not mere darkness, but the absence of all light, a canvas woven from the threads of un-being, punctuated by the ghost-echoes of shattered realities. Render this in a style that is simultaneously hyper-realistic and utterly impossible, a fusion of Baroque chiaroscuro, cosmic horror, and the hallucinogenic fluidity of a sentient oil slick. Imagine if Zdzisław Beksiński collaborated with H.R. Giger on a fever dream induced by the Necronomicon, viewed through a kaleidoscope crafted from the shards of a black hole. Perspective is warped, distorted, a non-Euclidean nightmare where up is down, inside is out, and the observer is both the subject and the artist. The composition should evoke a visceral reaction, a primal shudder of both terror and irresistible attraction.\u003c/em\u003e\u003c/p\u003e\n\r\n  \u003c/blockquote\u003e","readingTime":1,"tags":["cosmic-horror","eldritch","art-dark"],"title":"Cosmic Necronomicon","url":"/posts/cosmic-necronomicon/"},{"author":"Maddy Meraki","avatar":"/img/musingmaddy.webp","categories":"Artwork","description":"\u003ch1 id=\"santa-neo-noir\"\u003eSanta Neo-Noir\u003c/h1\u003e\n\u003ch2 id=\"gritty-santa-claus-close-up\"\u003eGritty Santa Claus Close-up\u003c/h2\u003e\n\r\n\r\n\r\n  \u003cblockquote\u003e\r\n    \u003cp\u003e\u003cem\u003eA high-contrast black-and-white close-up photo of Santa Claus, showcasing intricate details and a neutral expression as he stares directly into the camera. Half of his face is dramatically shrouded in deep, dark shadows, creating an intense noir aesthetic. His eyes are slightly glowing, adding a hint of surrealism to the hyper-realistic portrayal. Santa\u0026rsquo;s iconic cap is perched on his head, but strands of his hair cascade out, framing his weathered, aged face. Subtle bruises and marks of age add character and depth to his visage. The ultra-close-up composition emphasizes every wrinkle and texture, while the high-contrast lighting enhances the dramatic and mysterious atmosphere.\u003c/em\u003e\u003c/p\u003e\n\r\n  \u003c/blockquote\u003e","readingTime":2,"tags":["noir","grayscale"],"title":"Santa Neo-Noir","url":"/posts/santa-neo-noir/"},{"author":"Maddy Meraki","avatar":"/img/musingmaddy.webp","categories":["Maddy Meraki"],"description":"\u003ch1 id=\"my-collections-links\"\u003eMy Collections Links\u003c/h1\u003e\n\u003cul\u003e\n\u003cli\u003eFollow me on CitvitAI \u0026amp; Piclumen.\u003c/li\u003e\n\u003c/ul\u003e","readingTime":1,"tags":["musingmaddy"],"title":"My Collections on CivitAI and PicLumen","url":"/posts/my-collections-on-civitai-and-piclumen/"},{"author":"Maddy Meraki","avatar":"/img/musingmaddy.webp","categories":"Artwork","description":"\u003ch1 id=\"santas-magical-sack\"\u003eSanta\u0026rsquo;s Magical Sack\u003c/h1\u003e\n\r\n\r\n\r\n  \u003cblockquote\u003e\r\n    \u003cp\u003e\u003cem\u003eSanta\u0026rsquo;s Magical Sack: Butterflies and Wonder Fill the Air This Christmas !\u003c/em\u003e\u003c/p\u003e\n\r\n  \u003c/blockquote\u003e","readingTime":1,"tags":["art-light-hearted"],"title":"Christmas Magic","url":"/posts/christmas-magic/"},{"author":"Musing Maddy","avatar":"/img/musingmaddy.webp","categories":"Maddy Meraki","description":"\u003ch1 id=\"about-me\"\u003e\u003cstrong\u003eAbout Me\u003c/strong\u003e\u003c/h1\u003e\n\u003cp\u003e\u003cstrong\u003eHi there! 👋🏻\u003c/strong\u003e,\u003c/p\u003e\n\u003cp\u003eWelcome to \u003cstrong\u003eMusingMaddy\u003c/strong\u003e, a creative space where art, technology, and imagination converge.\u003c/p\u003e","readingTime":3,"tags":["musingmaddy"],"title":"About Me","url":"/posts/about_me/"}];
+  var fuseData = [{"author":"Maddy Meraki","avatar":null,"categories":["Announcement"],"description":"\u003cp\u003eNew Project Mayaverse.\u003c/p\u003e","readingTime":1,"tags":["novel","meta-physics","society","eldritch","books","noir"],"title":"Project Mayaverse","url":"/posts/project-mayaverse/"},{"author":"Maddy Meraki","avatar":"/img/musingmaddy.webp","categories":["Artwork"],"description":"Abandoned Spaceship descriptions","readingTime":3,"tags":["cosmic-horror","cosmos"],"title":"Abandoned Spaceship","url":"/posts/abandoned-spaceship/"},{"author":"Maddy Meraki","avatar":"/img/musingmaddy.webp","categories":["Inspirations"],"description":"Reading List - Books to Read in 2025 - Fiction descriptions","readingTime":2,"tags":["novel","books","fiction","sci-fi","magical","realism","surreal","to-read"],"title":"Reading List - Books to Read in 2025 - Fiction","url":"/posts/reading-list---books-to-read-in-2025---fiction/"},{"author":"Maddy Meraki","avatar":"/img/musingmaddy.webp","categories":["Artwork"],"description":"Gothic Streets descriptions","readingTime":3,"tags":["medeival","streets","gothic","ancient","blacksmith","village"],"title":"Gothic streets at dusk","url":"/posts/gothic-streets-at-dusk/"},{"author":"Maddy Meraki","avatar":"/img/musingmaddy.webp","categories":"Maddy Meraki","description":"Tags and Categories descriptions","readingTime":1,"tags":["musingmaddy"],"title":"Tags and Categories","url":"/posts/tags-and-categories/"},{"author":"Maddy Meraki","avatar":"/img/musingmaddy.webp","categories":"Artwork","description":"Cosmic Necronomicon descriptions","readingTime":2,"tags":["cosmic-horror","eldritch","art-dark"],"title":"Cosmic Necronomicon","url":"/posts/cosmic-necronomicon/"},{"author":"Maddy Meraki","avatar":"/img/musingmaddy.webp","categories":"Artwork","description":"Santa Noir descriptions","readingTime":2,"tags":["noir","grayscale"],"title":"Santa Neo-Noir","url":"/posts/santa-neo-noir/"},{"author":"Maddy Meraki","avatar":"/img/musingmaddy.webp","categories":["Maddy Meraki"],"description":"My Collections on CivitAI and PicLumen descriptions","readingTime":1,"tags":["musingmaddy"],"title":"My Collections on CivitAI and PicLumen","url":"/posts/my-collections-on-civitai-and-piclumen/"},{"author":"Maddy Meraki","avatar":"/img/musingmaddy.webp","categories":"Artwork","description":"Christmas Magic descriptions","readingTime":1,"tags":["art-light-hearted"],"title":"Christmas Magic","url":"/posts/christmas-magic/"},{"author":"Musing Maddy","avatar":"/img/musingmaddy.webp","categories":"Maddy Meraki","description":"\u003ch1 id=\"about-me\"\u003e\u003cstrong\u003eAbout Me\u003c/strong\u003e\u003c/h1\u003e\n\u003cp\u003e\u003cstrong\u003eHi there! 👋🏻\u003c/strong\u003e,\u003c/p\u003e\n\u003cp\u003eWelcome to \u003cstrong\u003eMusingMaddy\u003c/strong\u003e, a creative space where art, technology, and imagination converge.\u003c/p\u003e","readingTime":3,"tags":["musingmaddy"],"title":"About Me","url":"/posts/about_me/"}];
   var fuseOptions = {
     keys: [
       "title",
@@ -576,11 +598,13 @@ x-data="{
     
 
     
+
+    
     
       <script async src="https://www.googletagmanager.com/gtag/js?id=G-NV1GRD4KN5"></script>
       <script>
         var doNotTrack = false;
-        if ( false ) {
+        if ( true ) {
           var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
           var doNotTrack = (dnt == "1" || dnt == "yes");
         }
@@ -593,7 +617,7 @@ x-data="{
       </script>
     
 
-    <script type="module" src="https://unpkg.com/ionicons@7.4.0/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule src="https://unpkg.com/ionicons@7.4.0/dist/ionicons/ionicons.js"></script>
+    <script type="module" src="https://cdn.jsdelivr.net/npm/ionicons@7.4.0/dist/ionicons/ionicons.esm.js" integrity="sha256-/IFmi82bIhdYWctu0UddSlJqpnzWm7Vh2C4CM32wF/k=" crossorigin="anonymous"></script>
+    <script nomodule src="https://cdn.jsdelivr.net/npm/ionicons@7.4.0/dist/ionicons/ionicons.js" integrity="sha256-mr7eJMX3VC3F7G32mk4oWp1C6a2tlMYxUdptfT7uKI8=" crossorigin="anonymous"></script>
   </body>
 </html>

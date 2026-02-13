@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en"
   x-data
-  :class="$store.darkMode.class()"
+  :class="$store.darkMode.isDark() ? 'dark' : 'light'"
   :data-theme="$store.darkMode.theme()">
   <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
     <meta charset="UTF-8">
@@ -9,7 +9,9 @@
     <title>Musingmaddy | MusingMaddy</title>
 
     
-<link href="/img/favicon.png" rel="icon" type="image/x-icon" />
+  
+    <link href="/img/favicon.png" rel="icon" type="image/x-icon" />
+  
 
 
 <link rel="canonical" href="http://localhost:1313/tags/musingmaddy/" />
@@ -17,17 +19,17 @@
 
 
 <meta name="author" content="Maddy Meraki" />
-<meta name="description" content="🍥 Maddy&#39;s Arts, Crafts & Perspectives." />
+<meta name="description" content="🦢 Maddy&#39;s Arts, Crafts & Perspectives." />
 
 
 
-<meta name="generator" content="Hugo 0.140.1">
+<meta name="generator" content="Hugo 0.155.3">
 
 
 <meta property="og:url" content="http://localhost:1313/tags/musingmaddy/">
   <meta property="og:site_name" content="MusingMaddy">
   <meta property="og:title" content="Musingmaddy">
-  <meta property="og:description" content="🍥 Maddy&#39;s Arts, Crafts &amp; Perspectives.">
+  <meta property="og:description" content="🦢 Maddy&#39;s Arts, Crafts &amp; Perspectives.">
   <meta property="og:locale" content="en">
   <meta property="og:type" content="website">
 
@@ -36,7 +38,7 @@
 
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Musingmaddy">
-  <meta name="twitter:description" content="🍥 Maddy&#39;s Arts, Crafts &amp; Perspectives.">
+  <meta name="twitter:description" content="🦢 Maddy&#39;s Arts, Crafts &amp; Perspectives.">
 
 
 
@@ -50,7 +52,20 @@
 
     
 
-    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+    <script>
+      window.lightTheme = 'emerald'
+      window.darkTheme = 'forest'
+
+      ;(function() {
+        const isDark = ('hugo-theme-dream-is-dark' in localStorage)
+          ? window.localStorage.getItem('hugo-theme-dream-is-dark') === 'y'
+          : window.matchMedia('(prefers-color-scheme: dark)').matches
+        const theme = isDark ? window.darkTheme : window.lightTheme
+
+        document.documentElement.setAttribute('data-theme', theme)
+      })()
+    </script>
+    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.15.1/dist/cdn.min.js" integrity="sha256-Rmqrc5SKeSLTSnQ9shSKWmJco1ks8c1hLI8UG2Np03M=" crossorigin="anonymous"></script>
   </head>
 
   <body x-data="{
@@ -69,7 +84,7 @@
   <div class="container flex justify-between px-4">
   
     <section class="flex items-center gap-4">
-      <div class="avatar cursor-pointer hover:online" @click="flip = !flip" title="Flip it!">
+      <div class="avatar cursor-pointer hover:avatar-online" @click="flip = !flip" title="Flip it!">
         <div class="h-10 rounded-full">
           <img src="/img/musingmaddy.webp" alt="Musing Maddy" />
         </div>
@@ -89,12 +104,20 @@
       
     </section>
 
+    
+    
+
     <div class="dropdown dropdown-end sm:hidden">
       <div tabindex="0" role="button" class="btn btn-ghost btn-square" aria-label="Select an option">
         <ion-icon name="menu" class="text-2xl"></ion-icon>
       </div>
-      <ul tabindex="0" class="dropdown-content menu w-36 bg-base-100 rounded-box z-[1] shadow-md">
+      <ul tabindex="0" class="dropdown-content menu w-36 bg-base-100 rounded-box z-1 shadow-md">
         
+
+
+
+
+
 
 
 <li>
@@ -161,20 +184,18 @@
     </div>
     <section class="hidden sm:flex sm:items-center sm:gap-2 md:gap-4">
       
-      
-      
-      <div role="link" tabindex="0"
-        class="text-sm font-semibold cursor-pointer hover:underline"
-        @click="flip = !flip"
-        title="About"
-      >About</div>
-      
-      
 
       
       
 
-      
+
+
+
+<div role="link" tabindex="0" class="text-sm font-semibold cursor-pointer hover:underline" @click="flip = !flip" title="About">About</div>
+
+
+
+
 
       
       
@@ -274,8 +295,8 @@
       
       
       
-      <a href="/tags/diagram/" class="badge h-6 no-underline hover:badge-primary">
-        Diagram
+      <a href="/tags/cosmos/" class="badge h-6 no-underline hover:badge-primary">
+        Cosmos
       </a>
       
       
@@ -316,6 +337,12 @@
       
       
       
+      <a href="/tags/meta-physics/" class="badge h-6 no-underline hover:badge-primary">
+        Meta-Physics
+      </a>
+      
+      
+      
       <span class="badge h-6 badge-primary">
         Musingmaddy
       </span>
@@ -342,6 +369,12 @@
       
       <a href="/tags/sci-fi/" class="badge h-6 no-underline hover:badge-primary">
         Sci-Fi
+      </a>
+      
+      
+      
+      <a href="/tags/society/" class="badge h-6 no-underline hover:badge-primary">
+        Society
       </a>
       
       
@@ -378,17 +411,17 @@
     
 
     
-    <div class="dream-grid">
-    
-      <div class="w-full md:w-1/2 lg:w-1/3 p-4 dream-column">
-        <a class="card card-compact bg-base-100 hover:bg-base-content/10 shadow-xl cursor-pointer dark:border dark:border-base-content/30" href="/posts/tags-and-categories/">
+      <div class="dream-grid">
+        
+          <div class="w-full md:w-1/2 lg:w-1/3 p-4 dream-column">
+            <a class="card bg-base-100 hover:bg-base-content/10 shadow-xl cursor-pointer dark:border dark:border-base-content/30" href="/posts/tags-and-categories/">
   
   <figure>
     
     
       
       <picture>
-        <source srcset="/posts/tags-and-categories/cover_hu15135653019587929469.webp" type="image/webp" />
+        <source srcset="/posts/tags-and-categories/cover_hu_180bae534ce71379.webp" type="image/webp" />
         <img src="/posts/tags-and-categories/cover.webp" alt="cover.webp" />
       </picture>
     
@@ -405,15 +438,16 @@
     
     </p>
 
-    <h1 id="categories--tags">Categories &amp; Tags</h1>
-<p>Apart from <code>Search</code>; <code>Categories</code> and <code>Tags</code> can also be used in this website for finetuning search.</p>
+    Tags and Categories descriptions
 
+    
     <div class="card-actions justify-between items-center mt-4">
-      <div class="flex items-center">
+      
+        <div class="flex items-center">
   
   <div class="avatar mr-1">
     <div class="w-8 rounded-full">
-      <img class="my-0" src="/img/musingmaddy.webp" alt="Maddy Meraki" />
+      <img class="my-0!" src="/img/musingmaddy.webp" alt="Maddy Meraki" />
     </div>
   </div>
   
@@ -427,6 +461,7 @@
   </span>
 </div>
 
+      
 
       <div class="flex items-center">
         <ion-icon name="time" class="mr-1"></ion-icon>
@@ -436,17 +471,17 @@
   </div>
 </a>
 
-      </div>
-    
-      <div class="w-full md:w-1/2 lg:w-1/3 p-4 dream-column">
-        <a class="card card-compact bg-base-100 hover:bg-base-content/10 shadow-xl cursor-pointer dark:border dark:border-base-content/30" href="/posts/my-collections-on-civitai-and-piclumen/">
+          </div>
+        
+          <div class="w-full md:w-1/2 lg:w-1/3 p-4 dream-column">
+            <a class="card bg-base-100 hover:bg-base-content/10 shadow-xl cursor-pointer dark:border dark:border-base-content/30" href="/posts/my-collections-on-civitai-and-piclumen/">
   
   <figure>
     
     
       
       <picture>
-        <source srcset="/posts/my-collections-on-civitai-and-piclumen/cover_hu150865734487556350.webp" type="image/webp" />
+        <source srcset="/posts/my-collections-on-civitai-and-piclumen/cover_hu_bd0a81fb1a3a51e4.webp" type="image/webp" />
         <img src="/posts/my-collections-on-civitai-and-piclumen/cover.webp" alt="cover.webp" />
       </picture>
     
@@ -463,17 +498,16 @@
     
     </p>
 
-    <h1 id="my-collections-links">My Collections Links</h1>
-<ul>
-<li>Follow me on CitvitAI &amp; Piclumen.</li>
-</ul>
+    My Collections on CivitAI and PicLumen descriptions
 
+    
     <div class="card-actions justify-between items-center mt-4">
-      <div class="flex items-center">
+      
+        <div class="flex items-center">
   
   <div class="avatar mr-1">
     <div class="w-8 rounded-full">
-      <img class="my-0" src="/img/musingmaddy.webp" alt="Maddy Meraki" />
+      <img class="my-0!" src="/img/musingmaddy.webp" alt="Maddy Meraki" />
     </div>
   </div>
   
@@ -487,6 +521,7 @@
   </span>
 </div>
 
+      
 
       <div class="flex items-center">
         <ion-icon name="time" class="mr-1"></ion-icon>
@@ -496,17 +531,17 @@
   </div>
 </a>
 
-      </div>
-    
-      <div class="w-full md:w-1/2 lg:w-1/3 p-4 dream-column">
-        <a class="card card-compact bg-base-100 hover:bg-base-content/10 shadow-xl cursor-pointer dark:border dark:border-base-content/30" href="/posts/about_me/">
+          </div>
+        
+          <div class="w-full md:w-1/2 lg:w-1/3 p-4 dream-column">
+            <a class="card bg-base-100 hover:bg-base-content/10 shadow-xl cursor-pointer dark:border dark:border-base-content/30" href="/posts/about_me/">
   
   <figure>
     
     
       
       <picture>
-        <source srcset="/posts/about_me/about_me_small_hu17105717759347723623.webp" type="image/webp" />
+        <source srcset="/posts/about_me/about_me_small_hu_9d9e18f3fa47acac.webp" type="image/webp" />
         <img src="/posts/about_me/about_me_small.webp" alt="about_me_small.webp" />
       </picture>
     
@@ -527,12 +562,14 @@
 <p><strong>Hi there! 👋🏻</strong>,</p>
 <p>Welcome to <strong>MusingMaddy</strong>, a creative space where art, technology, and imagination converge.</p>
 
+    
     <div class="card-actions justify-between items-center mt-4">
-      <div class="flex items-center">
+      
+        <div class="flex items-center">
   
   <div class="avatar mr-1">
     <div class="w-8 rounded-full">
-      <img class="my-0" src="/img/musingmaddy.webp" alt="Musing Maddy" />
+      <img class="my-0!" src="/img/musingmaddy.webp" alt="Musing Maddy" />
     </div>
   </div>
   
@@ -546,6 +583,7 @@
   </span>
 </div>
 
+      
 
       <div class="flex items-center">
         <ion-icon name="time" class="mr-1"></ion-icon>
@@ -555,9 +593,9 @@
   </div>
 </a>
 
+          </div>
+        
       </div>
-    
-    </div>
     
 
     
@@ -572,22 +610,22 @@
   <div>
   
   <p>
-    © 2024 MusingMaddy
+    © 2024 - 2026 MusingMaddy
   </p>
   
 
   
-  <p>🦢 Inspiring Better Perspectives - 💖 Maddy Meraki</p>
+  <p>🌺 Inspiring Better Perspectives - 🦢 Maddy Meraki</p>
   
 </div>
 
   <div
   x-data="{ icons: [
-    { name: 'moon', status: 'y' },
     { name: 'sunny', status: 'n' },
+    { name: 'moon', status: 'y' },
     { name: 'desktop', status: 'auto' }
   ] }"
-  class="flex items-center h-[32px] px-2 gap-2 border border-base-content/30 rounded-full"
+  class="flex items-center gap-2 h-8 px-2 bg-base-100 border border-base-content/30 rounded-full"
 >
   <template x-for="icon in icons">
     <div
@@ -621,7 +659,7 @@
   
   <div class="w-full md:w-1/2 lg:w-1/3 xl:w-1/4 p-4 dream-column">
     <article
-      class="card card-compact bg-base-100 hover:bg-base-content/10 shadow-xl dark:border dark:border-base-content/30"
+      class="card bg-base-100 hover:bg-base-content/10 shadow-xl dark:border dark:border-base-content/30"
     >
       <div class="card-body">
         <div class="card-title"></div>
@@ -649,7 +687,7 @@
   
   <div class="w-full md:w-1/2 lg:w-1/3 xl:w-1/4 p-4 dream-column">
     <article
-      class="card card-compact bg-base-100 hover:bg-base-content/10 shadow-xl dark:border dark:border-base-content/30"
+      class="card bg-base-100 hover:bg-base-content/10 shadow-xl dark:border dark:border-base-content/30"
     >
       <div class="card-body">
         <div class="card-title"></div>
@@ -671,7 +709,8 @@
 </li>
 <li>
 <p><strong>My Articles and Logs</strong></p>
-<p>In <a href="https://musingmaddy.github.io/">MusingMaddy</a> website, I casually muse on the questions surrounding the Truth and the essence of existence. Here, I explore my ideas and insights, aiming to inspire contemplation and a greater understanding of life and beyond.</p>
+<p>In <a href="https://musingmaddy.github.io/" target="_blank">MusingMaddy</a>
+ website, I casually muse on the questions surrounding the Truth and the essence of existence. Here, I explore my ideas and insights, aiming to inspire contemplation and a greater understanding of life and beyond.</p>
 </li>
 </ol>
 
@@ -682,7 +721,7 @@
   
   <div class="w-full md:w-1/2 lg:w-1/3 xl:w-1/4 p-4 dream-column">
     <article
-      class="card card-compact bg-base-100 hover:bg-base-content/10 shadow-xl dark:border dark:border-base-content/30"
+      class="card bg-base-100 hover:bg-base-content/10 shadow-xl dark:border dark:border-base-content/30"
     >
       <div class="card-body">
         <div class="card-title"></div>
@@ -704,7 +743,7 @@
   
   <div class="w-full md:w-1/2 lg:w-1/3 xl:w-1/4 p-4 dream-column">
     <article
-      class="card card-compact bg-base-100 hover:bg-base-content/10 shadow-xl dark:border dark:border-base-content/30"
+      class="card bg-base-100 hover:bg-base-content/10 shadow-xl dark:border dark:border-base-content/30"
     >
       <div class="card-body">
         <div class="card-title"></div>
@@ -712,7 +751,8 @@
         <div class="prose dark:prose-invert">
           <h2 id="license"><strong>License</strong></h2>
 <p><img src="https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png" alt="CC BY-NC-SA License"></p>
-<p>All images, artworks, and written content on <em>Musing Maddy</em> are crafted to inspire and are protected under a Creative Commons <strong>CC BY-NC-SA</strong> license. You are welcome to view, share, and use this content for non-commercial purposes, provided that you credit <em>Musing Maddy®</em> and link back to this website. This license ensures that your adaptations or remixes of the content must also carry the same terms. For anything else, you can contact me on <a href="mailto:musingmaddy@gmail.com">musingmaddy@gmail.com</a> .</p>
+<p>All images, artworks, and written content on <em>Musing Maddy</em> are crafted to inspire and are protected under a Creative Commons <strong>CC BY-NC-SA</strong> license. You are welcome to view, share, and use this content for non-commercial purposes, provided that you credit <em>Musing Maddy®</em> and link back to this website. This license ensures that your adaptations or remixes of the content must also carry the same terms. For anything else, you can contact me on <a href="mailto:musingmaddy@gmail.com" target="_blank">musingmaddy@gmail.com</a>
+ .</p>
 <p><em>Note: Some artworks on this site may feature disturbing, surreal or intense imagery that could evoke strong emotional responses. Viewer discretion is advised.</em></p>
 <p><img src="https://mirrors.creativecommons.org/presskit/buttons/88x31/png/by-nc-sa.png" alt="CC BY-NC-SA"></p>
 
@@ -723,7 +763,7 @@
   
   <div class="w-full md:w-1/2 lg:w-1/3 xl:w-1/4 p-4 dream-column">
     <article
-      class="card card-compact bg-base-100 hover:bg-base-content/10 shadow-xl dark:border dark:border-base-content/30"
+      class="card bg-base-100 hover:bg-base-content/10 shadow-xl dark:border dark:border-base-content/30"
     >
       <div class="card-body">
         <div class="card-title"></div>
@@ -733,8 +773,10 @@
 <p><strong>Let’s Connect!</strong></p>
 <p>Want to chat about art, tech, or my projects?</p>
 <ul>
-<li><strong>Personal Email:</strong> <a href="mailto:musingmaddy@gmail.com">musingmaddy@gmail.com</a></li>
-<li><strong>Instagram:</strong> <a href="https://instagram.com/musingmaddy">https://instagram.com/musingmaddy</a></li>
+<li><strong>Personal Email:</strong> <a href="mailto:musingmaddy@gmail.com" target="_blank">musingmaddy@gmail.com</a>
+</li>
+<li><strong>Instagram:</strong> <a href="https://instagram.com/musingmaddy" target="_blank">https://instagram.com/musingmaddy</a>
+</li>
 </ul>
 
         </div>
@@ -757,22 +799,22 @@
   <div>
   
   <p>
-    © 2024 MusingMaddy
+    © 2024 - 2026 MusingMaddy
   </p>
   
 
   
-  <p>🦢 Inspiring Better Perspectives - 💖 Maddy Meraki</p>
+  <p>🌺 Inspiring Better Perspectives - 🦢 Maddy Meraki</p>
   
 </div>
 
   <div
   x-data="{ icons: [
-    { name: 'moon', status: 'y' },
     { name: 'sunny', status: 'n' },
+    { name: 'moon', status: 'y' },
     { name: 'desktop', status: 'auto' }
   ] }"
-  class="flex items-center h-[32px] px-2 gap-2 border border-base-content/30 rounded-full"
+  class="flex items-center gap-2 h-8 px-2 bg-base-100 border border-base-content/30 rounded-full"
 >
   <template x-for="icon in icons">
     <div
@@ -800,12 +842,7 @@
       </div>
     </div>
 
-    <script>
-  window.lightTheme = "emerald"
-  window.darkTheme = "forest"
-</script>
-
-
+    
   <script src="https://cdn.jsdelivr.net/npm/imagesloaded@5.0.0/imagesloaded.pkgd.min.js" integrity="sha256-htrLFfZJ6v5udOG+3kNLINIKh2gvoKqwEhHYfTTMICc=" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha256-Nn1q/fx0H7SNLZMQ5Hw5JLaTRZp0yILA/FRexe19VdI=" crossorigin="anonymous"></script>
 
@@ -829,11 +866,13 @@
     
 
     
+
+    
     
       <script async src="https://www.googletagmanager.com/gtag/js?id=G-NV1GRD4KN5"></script>
       <script>
         var doNotTrack = false;
-        if ( false ) {
+        if ( true ) {
           var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
           var doNotTrack = (dnt == "1" || dnt == "yes");
         }
@@ -846,7 +885,7 @@
       </script>
     
 
-    <script type="module" src="https://unpkg.com/ionicons@7.4.0/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule src="https://unpkg.com/ionicons@7.4.0/dist/ionicons/ionicons.js"></script>
+    <script type="module" src="https://cdn.jsdelivr.net/npm/ionicons@7.4.0/dist/ionicons/ionicons.esm.js" integrity="sha256-/IFmi82bIhdYWctu0UddSlJqpnzWm7Vh2C4CM32wF/k=" crossorigin="anonymous"></script>
+    <script nomodule src="https://cdn.jsdelivr.net/npm/ionicons@7.4.0/dist/ionicons/ionicons.js" integrity="sha256-mr7eJMX3VC3F7G32mk4oWp1C6a2tlMYxUdptfT7uKI8=" crossorigin="anonymous"></script>
   </body>
 </html>

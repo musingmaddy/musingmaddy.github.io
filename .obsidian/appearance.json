@@ -1,7 +1,7 @@
 {
-  "cssTheme": "Border",
+  "cssTheme": "Poimandres Extended",
   "textFontFamily": "Atkinson Hyperlegible Next",
-  "interfaceFontFamily": "SN Pro",
+  "interfaceFontFamily": "",
   "monospaceFontFamily": "0xProto",
-  "theme": "moonstone"
+  "theme": "obsidian"
 }

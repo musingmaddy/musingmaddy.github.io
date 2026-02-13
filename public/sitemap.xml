@@ -2,29 +2,53 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/categories/</loc>
-    <lastmod>2024-12-28T10:11:44+05:30</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/diagram/</loc>
-    <lastmod>2024-12-28T10:11:44+05:30</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/posts/mermaid-diagram/</loc>
-    <lastmod>2024-12-28T10:11:44+05:30</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/</loc>
-    <lastmod>2024-12-28T10:11:44+05:30</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/posts/</loc>
-    <lastmod>2024-12-28T10:11:44+05:30</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/</loc>
-    <lastmod>2024-12-28T10:11:44+05:30</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/testing/</loc>
-    <lastmod>2024-12-28T10:11:44+05:30</lastmod>
+    <loc>http://localhost:1313/categories/announcement/</loc>
+    <lastmod>2025-09-17T08:51:03+05:30</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/books/</loc>
-    <lastmod>2024-12-25T19:08:06+05:30</lastmod>
+    <lastmod>2025-09-17T08:51:03+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/</loc>
+    <lastmod>2025-09-17T08:51:03+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/eldritch/</loc>
+    <lastmod>2025-09-17T08:51:03+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/meta-physics/</loc>
+    <lastmod>2025-09-17T08:51:03+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2025-09-17T08:51:03+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/noir/</loc>
+    <lastmod>2025-09-17T08:51:03+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/novel/</loc>
+    <lastmod>2025-09-17T08:51:03+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/</loc>
+    <lastmod>2025-09-17T08:51:03+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/project-mayaverse/</loc>
+    <lastmod>2025-09-17T08:51:03+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/society/</loc>
+    <lastmod>2025-09-17T08:51:03+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2025-09-17T08:51:03+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/abandoned-spaceship/</loc>
+    <lastmod>2024-12-28T14:04:16+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/artwork/</loc>
+    <lastmod>2024-12-28T14:04:16+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/cosmic-horror/</loc>
+    <lastmod>2024-12-28T14:04:16+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/cosmos/</loc>
+    <lastmod>2024-12-28T14:04:16+05:30</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/fiction/</loc>
     <lastmod>2024-12-25T19:08:06+05:30</lastmod>
@@ -33,9 +57,6 @@
     <lastmod>2024-12-25T19:08:06+05:30</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/magical/</loc>
-    <lastmod>2024-12-25T19:08:06+05:30</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/novel/</loc>
     <lastmod>2024-12-25T19:08:06+05:30</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/reading-list---books-to-read-in-2025---fiction/</loc>
@@ -54,9 +75,6 @@
     <lastmod>2024-12-25T19:08:06+05:30</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/ancient/</loc>
-    <lastmod>2024-12-25T12:26:28+05:30</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/artwork/</loc>
     <lastmod>2024-12-25T12:26:28+05:30</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/blacksmith/</loc>
@@ -92,16 +110,7 @@
     <loc>http://localhost:1313/posts/cosmic-necronomicon/</loc>
     <lastmod>2024-12-21T12:56:02+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/cosmic-horror/</loc>
-    <lastmod>2024-12-21T12:56:02+05:30</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/eldritch/</loc>
-    <lastmod>2024-12-21T12:56:02+05:30</lastmod>
-  </url><url>
     <loc>http://localhost:1313/tags/grayscale/</loc>
-    <lastmod>2024-12-20T14:03:44+05:30</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/noir/</loc>
     <lastmod>2024-12-20T14:03:44+05:30</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/santa-neo-noir/</loc>

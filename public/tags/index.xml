@@ -6,20 +6,62 @@
     <description>Recent content in Tags on MusingMaddy</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 28 Dec 2024 10:11:44 +0530</lastBuildDate>
+    <lastBuildDate>Wed, 17 Sep 2025 08:51:03 +0530</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Diagram</title>
-      <link>http://localhost:1313/tags/diagram/</link>
-      <pubDate>Sat, 28 Dec 2024 10:11:44 +0530</pubDate>
-      <guid>http://localhost:1313/tags/diagram/</guid>
-      <description></description>
-    </item>
     <item>
       <title>Books</title>
       <link>http://localhost:1313/tags/books/</link>
-      <pubDate>Wed, 25 Dec 2024 19:08:06 +0530</pubDate>
+      <pubDate>Wed, 17 Sep 2025 08:51:03 +0530</pubDate>
       <guid>http://localhost:1313/tags/books/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Eldritch</title>
+      <link>http://localhost:1313/tags/eldritch/</link>
+      <pubDate>Wed, 17 Sep 2025 08:51:03 +0530</pubDate>
+      <guid>http://localhost:1313/tags/eldritch/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Meta-Physics</title>
+      <link>http://localhost:1313/tags/meta-physics/</link>
+      <pubDate>Wed, 17 Sep 2025 08:51:03 +0530</pubDate>
+      <guid>http://localhost:1313/tags/meta-physics/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Noir</title>
+      <link>http://localhost:1313/tags/noir/</link>
+      <pubDate>Wed, 17 Sep 2025 08:51:03 +0530</pubDate>
+      <guid>http://localhost:1313/tags/noir/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Novel</title>
+      <link>http://localhost:1313/tags/novel/</link>
+      <pubDate>Wed, 17 Sep 2025 08:51:03 +0530</pubDate>
+      <guid>http://localhost:1313/tags/novel/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Society</title>
+      <link>http://localhost:1313/tags/society/</link>
+      <pubDate>Wed, 17 Sep 2025 08:51:03 +0530</pubDate>
+      <guid>http://localhost:1313/tags/society/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Cosmic-Horror</title>
+      <link>http://localhost:1313/tags/cosmic-horror/</link>
+      <pubDate>Sat, 28 Dec 2024 14:04:16 +0530</pubDate>
+      <guid>http://localhost:1313/tags/cosmic-horror/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Cosmos</title>
+      <link>http://localhost:1313/tags/cosmos/</link>
+      <pubDate>Sat, 28 Dec 2024 14:04:16 +0530</pubDate>
+      <guid>http://localhost:1313/tags/cosmos/</guid>
       <description></description>
     </item>
     <item>
@@ -34,13 +76,6 @@
       <link>http://localhost:1313/tags/magical/</link>
       <pubDate>Wed, 25 Dec 2024 19:08:06 +0530</pubDate>
       <guid>http://localhost:1313/tags/magical/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Novel</title>
-      <link>http://localhost:1313/tags/novel/</link>
-      <pubDate>Wed, 25 Dec 2024 19:08:06 +0530</pubDate>
-      <guid>http://localhost:1313/tags/novel/</guid>
       <description></description>
     </item>
     <item>
@@ -128,31 +163,10 @@
       <description></description>
     </item>
     <item>
-      <title>Cosmic-Horror</title>
-      <link>http://localhost:1313/tags/cosmic-horror/</link>
-      <pubDate>Sat, 21 Dec 2024 12:56:02 +0530</pubDate>
-      <guid>http://localhost:1313/tags/cosmic-horror/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Eldritch</title>
-      <link>http://localhost:1313/tags/eldritch/</link>
-      <pubDate>Sat, 21 Dec 2024 12:56:02 +0530</pubDate>
-      <guid>http://localhost:1313/tags/eldritch/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Grayscale</title>
       <link>http://localhost:1313/tags/grayscale/</link>
       <pubDate>Fri, 20 Dec 2024 14:03:44 +0530</pubDate>
       <guid>http://localhost:1313/tags/grayscale/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Noir</title>
-      <link>http://localhost:1313/tags/noir/</link>
-      <pubDate>Fri, 20 Dec 2024 14:03:44 +0530</pubDate>
-      <guid>http://localhost:1313/tags/noir/</guid>
       <description></description>
     </item>
     <item>

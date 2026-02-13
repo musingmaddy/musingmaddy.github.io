@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "761fd22bc928cd8e",
+        "id": "d7877f76701df624",
         "type": "tabs",
         "children": [
           {
-            "id": "d8d64594aea3d9c9",
+            "id": "38d73ae6e60bafce",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/posts/Project Mayaverse/index.md",
+                "file": "content/posts/My Macbook Setup/index.md",
                 "mode": "source",
                 "source": false
               },
@@ -139,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/posts/Project Mayaverse/index.md",
+                "file": "content/posts/My Macbook Setup/index.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -147,19 +147,9 @@
               "icon": "lucide-list",
               "title": "Outline of index"
             }
-          },
-          {
-            "id": "c351770a15c0fd44",
-            "type": "leaf",
-            "state": {
-              "type": "git-view",
-              "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
-            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -177,22 +167,22 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "d8d64594aea3d9c9",
+  "active": "26b9ea1c29a88e61",
   "lastOpenFiles": [
-    "content/posts/Project Mayaverse/poster_mayaverse.webp",
+    "content/posts/Abandoned Spaceship/index.md",
     "content/posts/Project Mayaverse/index.md",
+    "content/posts/Project Mayaverse/poster_mayaverse.webp",
+    "content/posts/Project Mayaverse/Generated Image September 14, 2025 - 8_14PM.png",
     "content/posts/My Collections on CivitAI and PicLumen/index.md",
     "static/img/disco_style.webp",
     "static/img/poster_mayaverse.webp",
     "static/img/Generated Image September 17, 2025 - 10_25AM.png",
     "static/img/blog.webp",
-    "content/posts/Project Mayaverse/Generated Image September 14, 2025 - 8_14PM.png",
     "static/img/dreamy_meanderings.jpeg",
     "static/img/cover2.webp",
     "static/img/cover.webp",
     "static/img/about_me_small.webp",
     "content/posts/Project Mayaverse",
-    "content/posts/Abandoned Spaceship/index.md",
     "hugo.toml",
     "themes/dream/decapCMS/config.yml",
     "content/posts/game as an artform/index.md",

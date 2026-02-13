@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Announcement on MusingMaddy</title>
+    <link>http://localhost:1313/categories/announcement/</link>
+    <description>Recent content in Announcement on MusingMaddy</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 17 Sep 2025 08:51:03 +0530</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/announcement/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Project Mayaverse</title>
+      <link>http://localhost:1313/posts/project-mayaverse/</link>
+      <pubDate>Wed, 17 Sep 2025 08:51:03 +0530</pubDate>
+      <guid>http://localhost:1313/posts/project-mayaverse/</guid>
+      <description>&lt;p&gt;New Project Mayaverse.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
