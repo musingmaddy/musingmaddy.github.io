@@ -4,7 +4,7 @@ name: Deploy Hugo site to Pages
 on:
   # Runs on pushes targeting the default branch
   push:
-    branches: ["master"]
+    branches: ["main"]  # <--- UPDATED: Changed from master to main
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -31,7 +31,8 @@ jobs:
   build:
     runs-on: ubuntu-latest
     env:
-      HUGO_VERSION: 0.128.0
+      # UPDATED: Matched version to AGENTS.md requirement for Dream Theme compatibility
+      HUGO_VERSION: 0.146.0
     steps:
       - name: Install Hugo CLI
         run: |
