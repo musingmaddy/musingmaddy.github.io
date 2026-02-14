@@ -11,11 +11,11 @@
 
 -   **Stack**: Hugo Static Site Generator (Extended Version).
 -   **Themes**: Two themes available via Git Submodules:
-    -   `dream` — Masonry Grid layout with "Flip" cards. Content is displayed as cards that flip to reveal summaries before clicking through.
+    -   `dream` — Content is displayed as cards, Uses Tailwind.
     -   `hugo-narrow` — A modern, clean, and minimal Hugo theme built with Tailwind CSS 4.0.
 -   **Hosting**: GitHub Pages.
 -   **Config**: Separate YAML configuration files for each theme.
--   **Hugo Extended** ≥ 0.146.0 required (Themes use SCSS/Sass/Tailwind).
+-   Themes use SCSS/Sass/Tailwind).
 
 ## Config Structure
 
@@ -23,9 +23,8 @@ The site uses separate configuration files for each theme:
 
 -   `hugo.dream.yaml` — Configuration for Dream theme (default for GitHub Pages deployment).
 -   `hugo.narrow.yaml` — Configuration for Hugo Narrow theme.
--   **Legacy**: `hugo.toml` — Replaced by `hugo.dream.yaml` (can be deleted).
 
-**Note**: Dream theme relies heavily on `params` for layout control (masonry columns, widgets, etc.).
+**Note**: Themes relies heavily on `params` for layout control (masonry columns, widgets, etc.).
 
 ## Front Matter Schema
 
@@ -49,8 +48,8 @@ header:                # Optional: Custom header settings for this page
   background: ""       # CSS background property (color or image)
 ```
 
-**Key Notes for Dream:**
-*   **`cover` vs `image`**: Dream uses **`cover`** for the grid image. Ensure this is set, or the card will look empty in the masonry layout.
+**Key Notes:**
+*   **`cover` vs `image`**: Dream uses **`cover`** for the grid image.
 *   **Page Bundles**: Highly recommended. Place `cover.jpg` inside the post folder (e.g., `content/posts/my-trip/cover.jpg`) and set `cover: "cover.jpg"`.
 *   **Summary**: If `summary` is empty, Hugo may auto-truncate the body text for the card back, which can look messy. Explicitly define it.
 
@@ -93,13 +92,6 @@ content/
 -   `layouts/_partials/` — Custom partials.
 -   `layouts/_default/baseof.html` — If overridden, check strictly against theme version.
 
-## Multilingual
-
-The site has Chinese (`zh-cn`) translations.
--   English (default): `content/posts/my-post/index.md`
--   Chinese: `content/posts/my-post/index.zh-cn.md`
--   Create only the English version unless explicitly asked for translations.
-
 ## Deployment
 
 -   GitHub Actions workflow in `.github/workflows/` handles CI/CD.
@@ -116,11 +108,10 @@ The site has Chinese (`zh-cn`) translations.
 | **Add a nav menu item**      | Edit `menus` section in `hugo.dream.yaml` or `hugo.narrow.yaml`                                   |
 | **Configure social links**   | Edit `params.author.social` in the respective config file.                                        |
 | **Change Card Grid**         | **Dream only**: Edit `params` in `hugo.dream.yaml` (masonry-related settings).                    |
-| **Read theme documentation** | https://hugo-theme-dream.g1en.site/                                                               |
 
 ## Before Completing Any Task
 
 1.  **Run `hugo server --config hugo.dream.yaml`** — confirm **zero errors**. Themes are strict about SCSS/Tailwind compilation; ensure `hugo extended` is working.
-2.  **Visual Check**: Verify the **Masonry Grid** (Dream) or layout (Narrow) renders correctly. Ensure cards have `cover` images and flip animations work.
+2.  **Visual Check**: Verify it renders correctly. Ensure cards have `cover` images and flip animations work.
 3.  **Ref Check**: Confirm no files inside `themes/dream/` or `themes/hugo-narrow/` were touched (`git diff --name-only`).
 4.  **Clean Build**: If CSS looks broken (cards overlapping), delete `resources/` and restart server.
