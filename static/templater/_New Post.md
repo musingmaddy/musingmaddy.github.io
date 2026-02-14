@@ -1,47 +1,60 @@
 <%*
-let qcFileName = await tp.system.prompt("Note Title");
-let titleName = qcFileName;
-await tp.file.rename('index');
-let baseFolder = "/content/posts/";
-let staticFolderPath = "/static/img"; // Ensure this path is correct
-let newFolder = `${baseFolder}/${titleName}/`;
-await tp.file.move(newFolder + `index`);
-let title = titleName;
-let slug = titleName.split(" ").join("-").toLowerCase()
-let date = tp.date.now("YYYY-MM-DDTHH:mm:ssZ"); // Standard ISO 8601 format with timezone
-let lastmod = date;
-let description = titleName + ' descriptions';
-let cover = '/img/cover.webp'; // Set cover image path
+const parseCSV = (s) =>
+  (s ?? "").split(",").map(v => v.trim()).filter(Boolean);
 
+const slugify = (s) =>
+  s.normalize("NFKD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .toLowerCase()
+    .trim()
+    .replace(/['"`]/g, "")
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-+|-+$/g, "");
 
-// Static fields updated to "Musing Maddy"
-let author = "Maddy Meraki";
-let avatar = "/img/musingmaddy.webp"; // Updated avatar path
-let authorlink = "https://musingmaddy.github.io"; // Assuming you have a similar GitHub page for Musing Maddy
-let nolastmod = true;
-let draft = false;
-let showComments = true;
+const title = (await tp.system.prompt("Post title"))?.trim();
+if (!title) { new Notice("Post title is required."); return; }
 
-// Gather tags and categories from the user
-let tags = await tp.system.prompt("Enter tags (comma-separated)");
-let categories = await tp.system.prompt("Enter categories (comma-separated)");
+const slug = slugify(title);
+const baseFolder = "content/posts";
+const bundleFolder = `${baseFolder}/${slug}`;
+if (app.vault.getAbstractFileByPath(bundleFolder)) {
+  new Notice(`Post folder already exists: ${bundleFolder}`);
+  return;
+}
 
-setTimeout(() => {
-  app.fileManager.processFrontMatter(tp.config.target_file, frontmatter => {
-    frontmatter["title"] = title;
-    frontmatter["slug"] = slug;
-    frontmatter["date"] = date;
-    frontmatter["lastmod"] = lastmod;
-    frontmatter["description"] = description;
-    frontmatter["author"] = author;
-    frontmatter["avatar"] = avatar;
-    frontmatter["authorlink"] = authorlink;
-    frontmatter["cover"] = cover; // Cover is now disabled by default
-    frontmatter["nolastmod"] = nolastmod;
-    frontmatter["draft"] = draft;
-    frontmatter["showComments"] = showComments;
-    frontmatter["tags"] = tags.split(","); // Split tags into an array
-    frontmatter["categories"] = categories.split(","); // Split categories into an array
-  });
-}, 200);
+const now = tp.date.now("YYYY-MM-DDTHH:mm:ssZ");
+const description = ((await tp.system.prompt("Short description", title)) || title).trim();
+const tags = parseCSV(await tp.system.prompt("Tags (comma-separated)"));
+const categories = parseCSV(await tp.system.prompt("Categories (comma-separated)"));
+const cover = (await tp.system.prompt("Cover filename", "cover.webp"))?.trim() || "cover.webp";
+const covercaption = (await tp.system.prompt("Cover caption (optional)", ""))?.trim() || "";
+const math = ((await tp.system.prompt("Math enabled? (y/n)", "n")) || "n").toLowerCase() === "y";
+const draft = ((await tp.system.prompt("Keep as draft? (y/n)", "y")) || "y").toLowerCase() === "y";
+
+await tp.file.rename("index");
+await tp.file.move(`${bundleFolder}/index`);
+
+await app.fileManager.processFrontMatter(tp.config.target_file, (fm) => {
+  fm.title = title;
+  fm.slug = slug;
+  fm.date = now;
+  fm.lastmod = now;
+  fm.description = description;
+  fm.cover = cover;
+  fm.images = [cover];
+  if (covercaption) fm.covercaption = covercaption;
+  fm.tags = tags;
+  fm.categories = categories;
+  fm.nolastmod = true;
+  fm.math = math;
+  fm.draft = draft;
+});
+
+tR += `# ${title}
+
+${description}
+
+<!--more-->
+
+`;
 -%>

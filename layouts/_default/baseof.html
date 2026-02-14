@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="{{ site.LanguageCode }}"
+  x-data
+  :class="$store.darkMode.isDark() ? 'dark' : 'light'"
+  :data-theme="$store.darkMode.theme()">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ block "title" . -}} {{ T "home" }} {{- end }} | {{ site.Title }}</title>
+
+    {{ partial "head.html" . }}
+
+    {{ block "css" . }} {{ end }}
+
+    {{ range site.Params.Advanced.customCSS }}
+    <link rel="stylesheet" href="{{ . | relURL }}" />
+    {{ end }}
+
+    <script>
+      window.lightTheme = '{{ site.Params.lightTheme }}'
+      window.darkTheme = '{{ site.Params.darkTheme }}'
+
+      ;(function() {
+        const themeKey = 'hugo-theme-dream-is-dark'
+        const initKey = 'hugo-theme-dream-initial-theme-set'
+
+        // Force first-ever visit to light mode, then preserve user/system behavior.
+        if (!(initKey in localStorage) && !(themeKey in localStorage)) {
+          window.localStorage.setItem(themeKey, 'n')
+          window.localStorage.setItem(initKey, '1')
+        }
+
+        const isDark = (themeKey in localStorage)
+          ? window.localStorage.getItem(themeKey) === 'y'
+          : window.matchMedia('(prefers-color-scheme: dark)').matches
+        const theme = isDark ? window.darkTheme : window.lightTheme
+
+        document.documentElement.setAttribute('data-theme', theme)
+      })()
+    </script>
+    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.15.1/dist/cdn.min.js" integrity="sha256-Rmqrc5SKeSLTSnQ9shSKWmJco1ks8c1hLI8UG2Np03M=" crossorigin="anonymous"></script>
+  </head>
+
+  <body x-data="{
+    flip: false,
+  }">
+    <!-- If backgroundImage defined -->
+    <div id="dream-global-bg"></div>
+
+    {{ partial "nav.html" . }}
+
+    <div class="flip-container" :class="{ 'flip-it': flip }">
+      <div class="flipper">
+        <div class="front">
+          <div class="container">
+            {{ block "main" . }} {{ end }}
+
+            {{ partial "footer.html" . }}
+          </div>
+        </div>
+        <div class="back">
+          <div class="container">
+            {{ if site.Params.zenMode }}
+            {{ partial "zen-back.html" . }}
+            {{ else }}
+            {{ partial "back.html" . }}
+            {{ end }}
+
+            {{ partial "footer.html" . }}
+          </div>
+        </div>
+      </div>
+    </div>
+
+    {{ partial "scripts.html" . }}
+    {{ block "js" . }} {{ end }}
+
+    {{ if .Store.Get "hasMermaid" }}
+      <script type="module">
+        import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@11.4.1/dist/mermaid.esm.min.mjs';
+        mermaid.initialize({ startOnLoad: true });
+      </script>
+    {{ end }}
+
+    {{ if .Store.Get "hasMathjax" }}
+      {{ partialCached "mathjax.html" . }}
+    {{ end }}
+
+    {{ range site.Params.Advanced.customJS }}
+    <script src="{{ . | relURL }}"></script>
+    {{ end }}
+
+    {{ if site.Config.Services.GoogleAnalytics.ID }}
+    {{ template "_internal/google_analytics.html" . }}
+    {{ end }}
+
+    <script type="module" src="https://cdn.jsdelivr.net/npm/ionicons@7.4.0/dist/ionicons/ionicons.esm.js" integrity="sha256-/IFmi82bIhdYWctu0UddSlJqpnzWm7Vh2C4CM32wF/k=" crossorigin="anonymous"></script>
+    <script nomodule src="https://cdn.jsdelivr.net/npm/ionicons@7.4.0/dist/ionicons/ionicons.js" integrity="sha256-mr7eJMX3VC3F7G32mk4oWp1C6a2tlMYxUdptfT7uKI8=" crossorigin="anonymous"></script>
+  </body>
+</html>
