@@ -1,4 +1,19 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Medeival on MusingMaddy</title><link>https://musingmaddy.github.io/tags/medeival/</link><description>Recent content in Medeival on MusingMaddy</description><generator>Hugo</generator><language>en</language><lastBuildDate>Wed, 25 Dec 2024 12:26:28 +0530</lastBuildDate><atom:link href="https://musingmaddy.github.io/tags/medeival/index.xml" rel="self" type="application/rss+xml"/><item><title>Gothic streets at dusk</title><link>https://musingmaddy.github.io/posts/gothic-streets-at-dusk/</link><pubDate>Wed, 25 Dec 2024 12:26:28 +0530</pubDate><guid>https://musingmaddy.github.io/posts/gothic-streets-at-dusk/</guid><description>&lt;blockquote&gt;
- &lt;p&gt;&lt;em&gt;An Ancient medieval village caught in the fleeting moments as twilight succumbs to night. Above, a brooding, overcast sky, heavy with dark, roiling clouds, presses down on the scene, diffusing an eerie, ethereal light that bathes the landscape in somber hues. The narrow, serpentine road, its worn cobblestones half-buried in slick mud, snakes sharply through the village, creating a dynamic, almost disorienting perspective. Scattered puddles mirror the fading remnants of daylight and the flickering amber glow of oil lamps, shimmering like fractured pieces of a forgotten dream.&lt;/em&gt;&lt;/p&gt;
-
- &lt;/blockquote&gt;</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Medeival on MusingMaddy</title>
+    <link>http://localhost:51182/tags/medeival/</link>
+    <description>Recent content in Medeival on MusingMaddy</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 25 Dec 2024 12:26:28 +0530</lastBuildDate>
+    <atom:link href="http://localhost:51182/tags/medeival/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Gothic streets at dusk</title>
+      <link>http://localhost:51182/posts/gothic-streets-at-dusk/</link>
+      <pubDate>Wed, 25 Dec 2024 12:26:28 +0530</pubDate>
+      <guid>http://localhost:51182/posts/gothic-streets-at-dusk/</guid>
+      <description>&lt;blockquote&gt;&#xA;    &lt;p&gt;&lt;em&gt;An Ancient medieval village caught in the fleeting moments as twilight succumbs to night. Above, a brooding, overcast sky, heavy with dark, roiling clouds, presses down on the scene, diffusing an eerie, ethereal light that bathes the landscape in somber hues. The narrow, serpentine road, its worn cobblestones half-buried in slick mud, snakes sharply through the village, creating a dynamic, almost disorienting perspective. Scattered puddles mirror the fading remnants of daylight and the flickering amber glow of oil lamps, shimmering like fractured pieces of a forgotten dream.&lt;/em&gt;&lt;/p&gt;&#xA;&#xA;  &lt;/blockquote&gt;</description>
+    </item>
+  </channel>
+</rss>

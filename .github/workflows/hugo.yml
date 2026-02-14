@@ -31,8 +31,8 @@ jobs:
   build:
     runs-on: ubuntu-latest
     env:
-      # UPDATED: Matched version to AGENTS.md requirement for Dream Theme compatibility
-      HUGO_VERSION: 0.146.0
+      # UPDATED: Matched version to local development environment
+      HUGO_VERSION: 0.155.3
     steps:
       - name: Install Hugo CLI
         run: |

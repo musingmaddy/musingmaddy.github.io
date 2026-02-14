@@ -1,8 +1,19 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Art-Light-Hearted on MusingMaddy</title><link>https://musingmaddy.github.io/tags/art-light-hearted/</link><description>Recent content in Art-Light-Hearted on MusingMaddy</description><generator>Hugo</generator><language>en</language><lastBuildDate>Tue, 17 Dec 2024 23:13:49 +0530</lastBuildDate><atom:link href="https://musingmaddy.github.io/tags/art-light-hearted/index.xml" rel="self" type="application/rss+xml"/><item><title>Christmas Magic</title><link>https://musingmaddy.github.io/posts/christmas-magic/</link><pubDate>Tue, 17 Dec 2024 23:13:49 +0530</pubDate><guid>https://musingmaddy.github.io/posts/christmas-magic/</guid><description>&lt;h1 id="santas-magical-sack"&gt;Santa&amp;rsquo;s Magical Sack&lt;/h1&gt;
-
-
-
- &lt;blockquote&gt;
- &lt;p&gt;&lt;em&gt;Santa&amp;rsquo;s Magical Sack: Butterflies and Wonder Fill the Air This Christmas !&lt;/em&gt;&lt;/p&gt;
-
- &lt;/blockquote&gt;</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Art-Light-Hearted on MusingMaddy</title>
+    <link>http://localhost:1313/tags/art-light-hearted/</link>
+    <description>Recent content in Art-Light-Hearted on MusingMaddy</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 17 Dec 2024 23:13:49 +0530</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/art-light-hearted/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Christmas Magic</title>
+      <link>http://localhost:1313/posts/christmas-magic/</link>
+      <pubDate>Tue, 17 Dec 2024 23:13:49 +0530</pubDate>
+      <guid>http://localhost:1313/posts/christmas-magic/</guid>
+      <description>&lt;h1 id=&#34;santas-magical-sack&#34;&gt;Santa&amp;rsquo;s Magical Sack&lt;/h1&gt;&#xA;&#xA;&#xA;&#xA;  &lt;blockquote&gt;&#xA;    &lt;p&gt;&lt;em&gt;Santa&amp;rsquo;s Magical Sack: Butterflies and Wonder Fill the Air This Christmas !&lt;/em&gt;&lt;/p&gt;&#xA;&#xA;  &lt;/blockquote&gt;</description>
+    </item>
+  </channel>
+</rss>
