@@ -24,9 +24,9 @@
         const themeKey = 'hugo-theme-dream-is-dark'
         const initKey = 'hugo-theme-dream-initial-theme-set'
 
-        // Force first-ever visit to light mode, then preserve user/system behavior.
+        // Force first-ever visit to dark mode, then preserve user/system behavior.
         if (!(initKey in localStorage) && !(themeKey in localStorage)) {
-          window.localStorage.setItem(themeKey, 'n')
+          window.localStorage.setItem(themeKey, 'y')
           window.localStorage.setItem(initKey, '1')
         }
 

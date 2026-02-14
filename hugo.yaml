@@ -11,8 +11,11 @@ services:
 
 params:
   zenMode: false
-  lightTheme: "emerald"
-  darkTheme: "forest"
+  lightTheme: "cupcake"
+  darkTheme: "dracula"
+  advanced:
+    customCSS:
+      - "css/daisyui-themes.css"
   
   author: "Maddy Meraki"
   description: "🦢 Maddy's Arts, Crafts & Perspectives."
