@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Maddy Meraki on MusingMaddy</title>
-    <link>http://localhost:51182/categories/maddy-meraki/</link>
-    <description>Recent content in Maddy Meraki on MusingMaddy</description>
+    <title>Maddy Meraki on </title>
+    <link>//localhost:52378/categories/maddy-meraki/</link>
+    <description>Recent content in Maddy Meraki on </description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Wed, 18 Dec 2024 12:26:21 +0530</lastBuildDate>
-    <atom:link href="http://localhost:51182/categories/maddy-meraki/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:52378/categories/maddy-meraki/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>My Collections on CivitAI and PicLumen</title>
-      <link>http://localhost:51182/posts/my-collections-on-civitai-and-piclumen/</link>
+      <link>//localhost:52378/posts/my-collections-on-civitai-and-piclumen/</link>
       <pubDate>Wed, 18 Dec 2024 12:26:21 +0530</pubDate>
-      <guid>http://localhost:51182/posts/my-collections-on-civitai-and-piclumen/</guid>
+      <guid>//localhost:52378/posts/my-collections-on-civitai-and-piclumen/</guid>
       <description>&lt;h1 id=&#34;my-collections-links&#34;&gt;My Collections Links&lt;/h1&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Follow me on CitvitAI &amp;amp; Piclumen.&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
     <item>
       <title>About Me</title>
-      <link>http://localhost:51182/posts/about_me/</link>
+      <link>//localhost:52378/posts/about_me/</link>
       <pubDate>Fri, 27 Sep 2024 12:00:48 +0530</pubDate>
-      <guid>http://localhost:51182/posts/about_me/</guid>
+      <guid>//localhost:52378/posts/about_me/</guid>
       <description>&lt;h1 id=&#34;about-me&#34;&gt;&lt;strong&gt;About Me&lt;/strong&gt;&lt;/h1&gt;&#xA;&lt;p&gt;&lt;strong&gt;Hi there! 👋🏻&lt;/strong&gt;,&lt;/p&gt;&#xA;&lt;p&gt;Welcome to &lt;strong&gt;MusingMaddy&lt;/strong&gt;, a creative space where art, technology, and imagination converge.&lt;/p&gt;</description>
     </item>
   </channel>

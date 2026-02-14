@@ -4,7 +4,7 @@ defaultContentLanguage: "en"
 title: "MusingMaddy"
 theme: "hugo-narrow"
 
-# Project Specifics from hugo.toml
+# Project Specifics from hugo.dream.yaml
 enableRobotsTXT: true
 
 # Services

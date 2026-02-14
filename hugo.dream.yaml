@@ -1,0 +1,39 @@
+baseURL: "https://musingmaddy.github.io"
+defaultContentLanguage: "en"
+languageCode: "en"
+title: "MusingMaddy"
+theme: "dream"
+enableRobotsTXT: true
+
+services:
+  googleAnalytics:
+    ID: "G-NV1GRD4KN5"
+
+params:
+  zenMode: false
+  lightTheme: "emerald"
+  darkTheme: "forest"
+  
+  author: "Maddy Meraki"
+  description: "🦢 Maddy's Arts, Crafts & Perspectives."
+  avatar: "img/musingmaddy.webp"
+  headerTitle: "Musing Maddy"
+  motto: "🌺 Inspiring New Perspectives"
+  
+  footerBottomText: "🌺 Inspiring Better Perspectives - 🦢 Maddy Meraki"
+  
+  utterancesRepo: "musingmaddy/musingmaddy.github.io"
+  
+  email: "musingmaddy@gmail.com"
+  
+  siteStartYear: 2024
+  
+  favicon: "img/favicon.png"
+  
+  # Options
+  stickyNav: true
+  
+  showTableOfContents: true
+  showSummaryCoverInPost: true
+  showPrevNextPost: true
+  imageZoomableInPost: true

@@ -1,29 +1,31 @@
 ## Hard Rules
 
-1.  **Theme is READ-ONLY.** `themes/hugo-theme-dream/` is a Git submodule — never create, edit, or delete anything inside it. To customize, copy the file to the identical path under project root and edit the copy.
-    `themes/hugo-theme-dream/layouts/_default/single.html` → `layouts/_default/single.html`
+1.  **Themes are READ-ONLY.** Both `themes/dream/` and `themes/hugo-narrow/` are Git submodules — never create, edit, or delete anything inside them. To customize, copy the file to the identical path under project root and edit the copy.
+    `themes/dream/layouts/_default/single.html` → `layouts/_default/single.html`
 2.  **Never commit `public/` or `resources/`.** Both are gitignored build artifacts.
-3.  **Read before writing.** Always `cat hugo.yaml` (and files in `config/_default/`) before changing config. Always read an existing file in the target content section before creating new content — match its structure exactly.
+3.  **Read before writing.** Always `cat hugo.dream.yaml` or `hugo.narrow.yaml` before changing config. Always read an existing file in the target content section before creating new content — match its structure exactly.
 4.  **Prefer `hugo new`** for content creation — it applies the theme's archetypes and produces correct front matter.
 5.  **Internal links must use ref**: `[text]({{< ref "posts/slug" >}})` — never hardcode paths.
 
 ## Core Architecture
 
 -   **Stack**: Hugo Static Site Generator (Extended Version).
--   **Theme**: `hugo-theme-dream` (Git Submodule).
--   **Design Philosophy**: Masonry Grid layout with "Flip" cards. Content is displayed as cards that flip to reveal summaries before clicking through.
+-   **Themes**: Two themes available via Git Submodules:
+    -   `dream` — Masonry Grid layout with "Flip" cards. Content is displayed as cards that flip to reveal summaries before clicking through.
+    -   `hugo-narrow` — A modern, clean, and minimal Hugo theme built with Tailwind CSS 4.0.
 -   **Hosting**: GitHub Pages.
--   **Config**: Split configuration in `config/_default/`.
--   **Hugo Extended** ≥ 0.146.0 required (Theme uses SCSS/Sass).
+-   **Config**: Separate YAML configuration files for each theme.
+-   **Hugo Extended** ≥ 0.146.0 required (Themes use SCSS/Sass/Tailwind).
 
 ## Config Structure
 
-Config is split across `config/_default/`. Note that Dream relies heavily on `params` for layout control.
+The site uses separate configuration files for each theme:
 
--   `hugo.yaml` — Core site settings (baseURL, theme, languageCode).
--   `params.yaml` — **Crucial for Dream.** Controls `headerWidgets`, `footerWidgets`, masonry layout columns, and background colors.
--   `menus.yaml` — Navigation menus (Dream places these in the sidebar/header).
--   `languages.yaml` — i18n / language settings.
+-   `hugo.dream.yaml` — Configuration for Dream theme (default for GitHub Pages deployment).
+-   `hugo.narrow.yaml` — Configuration for Hugo Narrow theme.
+-   **Legacy**: `hugo.toml` — Replaced by `hugo.dream.yaml` (can be deleted).
+
+**Note**: Dream theme relies heavily on `params` for layout control (masonry columns, widgets, etc.).
 
 ## Front Matter Schema
 
@@ -55,9 +57,18 @@ header:                # Optional: Custom header settings for this page
 ## Commands
 
 ```sh
-hugo server -D               # Dev server (includes drafts)
-hugo server                  # Dev server (published only)
-hugo --gc --minify           # Production build
+# Running with Dream theme
+hugo server --config hugo.dream.yaml -D      # Dev server (includes drafts)
+hugo server --config hugo.dream.yaml        # Dev server (published only)
+
+# Running with Hugo Narrow theme
+hugo server --config hugo.narrow.yaml -D    # Dev server (includes drafts)
+hugo server --config hugo.narrow.yaml      # Dev server (published only)
+
+# Production build (uses config specified in GitHub Actions)
+hugo --gc --minify --config hugo.dream.yaml
+
+# Create new content
 hugo new posts/slug/index.md # New blog post (Page Bundle - Recommended)
 ```
 
@@ -97,19 +108,19 @@ The site has Chinese (`zh-cn`) translations.
 
 ## Customization Lookup Table
 
-| I need to... | Look here / do this |
-| :--- | :--- |
-| **Fix Sidebar/Header** | `params.yaml` → Look for `headerWidgets` (This controls what appears in the left column). |
-| **Override a template** | Copy from `themes/hugo-theme-dream/layouts/` → `layouts/` |
-| **Add custom CSS** | Create `assets/scss/custom.scss` (Dream uses SCSS, check params to enable custom file injection). |
-| **Add a nav menu item** | `menus.yaml` → `menus.main` |
-| **Configure social links** | `params.yaml` → `social` map. |
-| **Change Card Grid** | `params.yaml` → `masonry_columns` (controls grid density). |
-| **Read theme documentation** | https://hugo-theme-dream.g1en.site/ |
+| I need to...                 | Look here / do this                                                                               |
+| :--------------------------- | :------------------------------------------------------------------------------------------------ |
+| **Fix Sidebar/Header**       | **Dream**: Check `hugo.dream.yaml` → `params` section for layout control.                         |
+| **Override a template**      | Copy from `themes/dream/layouts/` or `themes/hugo-narrow/layouts/` → `layouts/`                   |
+| **Add custom CSS**           | Create `assets/scss/custom.scss` (Dream uses SCSS, check params to enable custom file injection). |
+| **Add a nav menu item**      | Edit `menus` section in `hugo.dream.yaml` or `hugo.narrow.yaml`                                   |
+| **Configure social links**   | Edit `params.author.social` in the respective config file.                                        |
+| **Change Card Grid**         | **Dream only**: Edit `params` in `hugo.dream.yaml` (masonry-related settings).                    |
+| **Read theme documentation** | https://hugo-theme-dream.g1en.site/                                                               |
 
 ## Before Completing Any Task
 
-1.  **Run `hugo server`** — confirm **zero errors**. Dream is strict about SCSS compilation; ensure `hugo extended` is working.
-2.  **Visual Check**: Verify the **Masonry Grid** renders correctly. Ensure cards have `cover` images and flip animations work.
-3.  **Ref Check**: Confirm no files inside `themes/hugo-theme-dream/` were touched (`git diff --name-only`).
+1.  **Run `hugo server --config hugo.dream.yaml`** — confirm **zero errors**. Themes are strict about SCSS/Tailwind compilation; ensure `hugo extended` is working.
+2.  **Visual Check**: Verify the **Masonry Grid** (Dream) or layout (Narrow) renders correctly. Ensure cards have `cover` images and flip animations work.
+3.  **Ref Check**: Confirm no files inside `themes/dream/` or `themes/hugo-narrow/` were touched (`git diff --name-only`).
 4.  **Clean Build**: If CSS looks broken (cards overlapping), delete `resources/` and restart server.

@@ -1,172 +1,172 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on MusingMaddy</title>
-    <link>http://localhost:51182/tags/</link>
-    <description>Recent content in Tags on MusingMaddy</description>
+    <title>Tags on </title>
+    <link>//localhost:52378/tags/</link>
+    <description>Recent content in Tags on </description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Wed, 17 Sep 2025 08:51:03 +0530</lastBuildDate>
-    <atom:link href="http://localhost:51182/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:52378/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Books</title>
-      <link>http://localhost:51182/tags/books/</link>
+      <link>//localhost:52378/tags/books/</link>
       <pubDate>Wed, 17 Sep 2025 08:51:03 +0530</pubDate>
-      <guid>http://localhost:51182/tags/books/</guid>
+      <guid>//localhost:52378/tags/books/</guid>
       <description></description>
     </item>
     <item>
       <title>Eldritch</title>
-      <link>http://localhost:51182/tags/eldritch/</link>
+      <link>//localhost:52378/tags/eldritch/</link>
       <pubDate>Wed, 17 Sep 2025 08:51:03 +0530</pubDate>
-      <guid>http://localhost:51182/tags/eldritch/</guid>
+      <guid>//localhost:52378/tags/eldritch/</guid>
       <description></description>
     </item>
     <item>
       <title>Meta-Physics</title>
-      <link>http://localhost:51182/tags/meta-physics/</link>
+      <link>//localhost:52378/tags/meta-physics/</link>
       <pubDate>Wed, 17 Sep 2025 08:51:03 +0530</pubDate>
-      <guid>http://localhost:51182/tags/meta-physics/</guid>
+      <guid>//localhost:52378/tags/meta-physics/</guid>
       <description></description>
     </item>
     <item>
       <title>Noir</title>
-      <link>http://localhost:51182/tags/noir/</link>
+      <link>//localhost:52378/tags/noir/</link>
       <pubDate>Wed, 17 Sep 2025 08:51:03 +0530</pubDate>
-      <guid>http://localhost:51182/tags/noir/</guid>
+      <guid>//localhost:52378/tags/noir/</guid>
       <description></description>
     </item>
     <item>
       <title>Novel</title>
-      <link>http://localhost:51182/tags/novel/</link>
+      <link>//localhost:52378/tags/novel/</link>
       <pubDate>Wed, 17 Sep 2025 08:51:03 +0530</pubDate>
-      <guid>http://localhost:51182/tags/novel/</guid>
+      <guid>//localhost:52378/tags/novel/</guid>
       <description></description>
     </item>
     <item>
       <title>Society</title>
-      <link>http://localhost:51182/tags/society/</link>
+      <link>//localhost:52378/tags/society/</link>
       <pubDate>Wed, 17 Sep 2025 08:51:03 +0530</pubDate>
-      <guid>http://localhost:51182/tags/society/</guid>
+      <guid>//localhost:52378/tags/society/</guid>
       <description></description>
     </item>
     <item>
       <title>Cosmic-Horror</title>
-      <link>http://localhost:51182/tags/cosmic-horror/</link>
+      <link>//localhost:52378/tags/cosmic-horror/</link>
       <pubDate>Sat, 28 Dec 2024 14:04:16 +0530</pubDate>
-      <guid>http://localhost:51182/tags/cosmic-horror/</guid>
+      <guid>//localhost:52378/tags/cosmic-horror/</guid>
       <description></description>
     </item>
     <item>
       <title>Cosmos</title>
-      <link>http://localhost:51182/tags/cosmos/</link>
+      <link>//localhost:52378/tags/cosmos/</link>
       <pubDate>Sat, 28 Dec 2024 14:04:16 +0530</pubDate>
-      <guid>http://localhost:51182/tags/cosmos/</guid>
+      <guid>//localhost:52378/tags/cosmos/</guid>
       <description></description>
     </item>
     <item>
       <title>Fiction</title>
-      <link>http://localhost:51182/tags/fiction/</link>
+      <link>//localhost:52378/tags/fiction/</link>
       <pubDate>Wed, 25 Dec 2024 19:08:06 +0530</pubDate>
-      <guid>http://localhost:51182/tags/fiction/</guid>
+      <guid>//localhost:52378/tags/fiction/</guid>
       <description></description>
     </item>
     <item>
       <title>Magical</title>
-      <link>http://localhost:51182/tags/magical/</link>
+      <link>//localhost:52378/tags/magical/</link>
       <pubDate>Wed, 25 Dec 2024 19:08:06 +0530</pubDate>
-      <guid>http://localhost:51182/tags/magical/</guid>
+      <guid>//localhost:52378/tags/magical/</guid>
       <description></description>
     </item>
     <item>
       <title>Realism</title>
-      <link>http://localhost:51182/tags/realism/</link>
+      <link>//localhost:52378/tags/realism/</link>
       <pubDate>Wed, 25 Dec 2024 19:08:06 +0530</pubDate>
-      <guid>http://localhost:51182/tags/realism/</guid>
+      <guid>//localhost:52378/tags/realism/</guid>
       <description></description>
     </item>
     <item>
       <title>Sci-Fi</title>
-      <link>http://localhost:51182/tags/sci-fi/</link>
+      <link>//localhost:52378/tags/sci-fi/</link>
       <pubDate>Wed, 25 Dec 2024 19:08:06 +0530</pubDate>
-      <guid>http://localhost:51182/tags/sci-fi/</guid>
+      <guid>//localhost:52378/tags/sci-fi/</guid>
       <description></description>
     </item>
     <item>
       <title>Surreal</title>
-      <link>http://localhost:51182/tags/surreal/</link>
+      <link>//localhost:52378/tags/surreal/</link>
       <pubDate>Wed, 25 Dec 2024 19:08:06 +0530</pubDate>
-      <guid>http://localhost:51182/tags/surreal/</guid>
+      <guid>//localhost:52378/tags/surreal/</guid>
       <description></description>
     </item>
     <item>
       <title>To-Read</title>
-      <link>http://localhost:51182/tags/to-read/</link>
+      <link>//localhost:52378/tags/to-read/</link>
       <pubDate>Wed, 25 Dec 2024 19:08:06 +0530</pubDate>
-      <guid>http://localhost:51182/tags/to-read/</guid>
+      <guid>//localhost:52378/tags/to-read/</guid>
       <description></description>
     </item>
     <item>
       <title>Ancient</title>
-      <link>http://localhost:51182/tags/ancient/</link>
+      <link>//localhost:52378/tags/ancient/</link>
       <pubDate>Wed, 25 Dec 2024 12:26:28 +0530</pubDate>
-      <guid>http://localhost:51182/tags/ancient/</guid>
+      <guid>//localhost:52378/tags/ancient/</guid>
       <description></description>
     </item>
     <item>
       <title>Blacksmith</title>
-      <link>http://localhost:51182/tags/blacksmith/</link>
+      <link>//localhost:52378/tags/blacksmith/</link>
       <pubDate>Wed, 25 Dec 2024 12:26:28 +0530</pubDate>
-      <guid>http://localhost:51182/tags/blacksmith/</guid>
+      <guid>//localhost:52378/tags/blacksmith/</guid>
       <description></description>
     </item>
     <item>
       <title>Gothic</title>
-      <link>http://localhost:51182/tags/gothic/</link>
+      <link>//localhost:52378/tags/gothic/</link>
       <pubDate>Wed, 25 Dec 2024 12:26:28 +0530</pubDate>
-      <guid>http://localhost:51182/tags/gothic/</guid>
+      <guid>//localhost:52378/tags/gothic/</guid>
       <description></description>
     </item>
     <item>
       <title>Medeival</title>
-      <link>http://localhost:51182/tags/medeival/</link>
+      <link>//localhost:52378/tags/medeival/</link>
       <pubDate>Wed, 25 Dec 2024 12:26:28 +0530</pubDate>
-      <guid>http://localhost:51182/tags/medeival/</guid>
+      <guid>//localhost:52378/tags/medeival/</guid>
       <description></description>
     </item>
     <item>
       <title>Streets</title>
-      <link>http://localhost:51182/tags/streets/</link>
+      <link>//localhost:52378/tags/streets/</link>
       <pubDate>Wed, 25 Dec 2024 12:26:28 +0530</pubDate>
-      <guid>http://localhost:51182/tags/streets/</guid>
+      <guid>//localhost:52378/tags/streets/</guid>
       <description></description>
     </item>
     <item>
       <title>Village</title>
-      <link>http://localhost:51182/tags/village/</link>
+      <link>//localhost:52378/tags/village/</link>
       <pubDate>Wed, 25 Dec 2024 12:26:28 +0530</pubDate>
-      <guid>http://localhost:51182/tags/village/</guid>
+      <guid>//localhost:52378/tags/village/</guid>
       <description></description>
     </item>
     <item>
       <title>Art-Dark</title>
-      <link>http://localhost:51182/tags/art-dark/</link>
+      <link>//localhost:52378/tags/art-dark/</link>
       <pubDate>Sat, 21 Dec 2024 12:56:02 +0530</pubDate>
-      <guid>http://localhost:51182/tags/art-dark/</guid>
+      <guid>//localhost:52378/tags/art-dark/</guid>
       <description></description>
     </item>
     <item>
       <title>Grayscale</title>
-      <link>http://localhost:51182/tags/grayscale/</link>
+      <link>//localhost:52378/tags/grayscale/</link>
       <pubDate>Fri, 20 Dec 2024 14:03:44 +0530</pubDate>
-      <guid>http://localhost:51182/tags/grayscale/</guid>
+      <guid>//localhost:52378/tags/grayscale/</guid>
       <description></description>
     </item>
     <item>
       <title>Musingmaddy</title>
-      <link>http://localhost:51182/tags/musingmaddy/</link>
+      <link>//localhost:52378/tags/musingmaddy/</link>
       <pubDate>Wed, 18 Dec 2024 12:26:21 +0530</pubDate>
-      <guid>http://localhost:51182/tags/musingmaddy/</guid>
+      <guid>//localhost:52378/tags/musingmaddy/</guid>
       <description></description>
     </item>
   </channel>

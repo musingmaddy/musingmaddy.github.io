@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Art-Dark on MusingMaddy</title>
-    <link>http://localhost:51182/tags/art-dark/</link>
-    <description>Recent content in Art-Dark on MusingMaddy</description>
+    <title>Art-Dark on </title>
+    <link>//localhost:52378/tags/art-dark/</link>
+    <description>Recent content in Art-Dark on </description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Sat, 21 Dec 2024 12:56:02 +0530</lastBuildDate>
-    <atom:link href="http://localhost:51182/tags/art-dark/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:52378/tags/art-dark/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Cosmic Necronomicon</title>
-      <link>http://localhost:51182/posts/cosmic-necronomicon/</link>
+      <link>//localhost:52378/posts/cosmic-necronomicon/</link>
       <pubDate>Sat, 21 Dec 2024 12:56:02 +0530</pubDate>
-      <guid>http://localhost:51182/posts/cosmic-necronomicon/</guid>
-      <description>&lt;h1 id=&#34;cosmic-necronomicon&#34;&gt;Cosmic Necronomicon&lt;/h1&gt;&#xA;&#xA;&#xA;&#xA;  &lt;blockquote&gt;&#xA;    &lt;p&gt;&lt;em&gt;Emanating from the event horizon of a collapsing crimson nebula, a siren of the void, sculpted from solidified whispers of forgotten desires. Her form, a fractal tapestry of obsidian lace and molten ruby sinews, pulses with the rhythm of a dying star. A single, cyclopean eye, a swirling vortex of anti-matter, gazes into the observer&amp;rsquo;s soul, reflecting the infinite expanse of their own hidden longings. This is not a portrait, but a ritual. A summoning. The background is not mere darkness, but the absence of all light, a canvas woven from the threads of un-being, punctuated by the ghost-echoes of shattered realities.&lt;/em&gt;&lt;/p&gt;&#xA;&#xA;  &lt;/blockquote&gt;</description>
+      <guid>//localhost:52378/posts/cosmic-necronomicon/</guid>
+      <description>&lt;h1 id=&#34;cosmic-necronomicon&#34;&gt;Cosmic Necronomicon&lt;/h1&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;em&gt;Emanating from the event horizon of a collapsing crimson nebula, a siren of the void, sculpted from solidified whispers of forgotten desires. Her form, a fractal tapestry of obsidian lace and molten ruby sinews, pulses with the rhythm of a dying star. A single, cyclopean eye, a swirling vortex of anti-matter, gazes into the observer&amp;rsquo;s soul, reflecting the infinite expanse of their own hidden longings. This is not a portrait, but a ritual. A summoning. The background is not mere darkness, but the absence of all light, a canvas woven from the threads of un-being, punctuated by the ghost-echoes of shattered realities.&lt;/em&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;</description>
     </item>
   </channel>
 </rss>
