@@ -2,7 +2,7 @@
 title: 
 date: 2024-09-27T12:10:48+05:30
 lastmod: 2024-09-27T12:10:48+05:30
-author: Layna Lingam
+author: Musing Maddy
 avatar: /img/laynalingam.webp
 cover: laynalingam.webp
 categories: 
