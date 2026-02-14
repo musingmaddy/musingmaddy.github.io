@@ -1,30 +1,30 @@
 ---
-title: "Vercel Migration: Success!"
+title: "Back on GitHub Pages!"
 date: 2026-02-14T16:34:58+05:30
-lastmod: 2026-02-14T16:34:58+05:30
+lastmod: 2026-02-14T17:15:00+05:30
 author: Maddy Meraki
 cover: cover.png
-summary: "Testing the new Vercel deployment with a clean, private repository structure."
+summary: "Returning to GitHub Pages for hosting, now with a public repository and optimized deployment."
 categories:
   - Technical
 tags:
-  - Vercel
+  - GitHub Pages
   - Hugo
   - Hosting
 draft: false
 ---
 
-This post serves as a test to verify that the **Vercel** deployment is working correctly with the private repository setup.
+This post serves as a test to verify that the **GitHub Pages** deployment is working correctly after reverting from Vercel.
 
 <!--more-->
 
-## Why this works
-By moving to Vercel, we can keep the repository **Private** while still having a **Public** website. 
+## Why we're back
+While Vercel is great, GitHub Pages provides a seamless experience for `.github.io` domains. By making the repository public again, we can enjoy free hosting and automatic deployments via GitHub Actions.
 
-### What we tested:
-- [x] Private repository build
+### What we verified:
+- [x] Public repository deployment
+- [x] GitHub Actions workflow (restored and optimized)
 - [x] Hugo Extended support (Sass/SCSS)
-- [x] Page Bundles (this image is part of the post folder)
-- [x] URL rewrite to `musingmaddy.vercel.app`
+- [x] URL restored to `musingmaddy.github.io`
 
-Everything looks great! 🦢🌺
+Everything is back to normal! 🦢🌺
