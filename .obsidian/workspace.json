@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/posts/Another_testing/index.md",
+                "file": "content/posts/Tags and Categories/index.md",
                 "mode": "source",
                 "source": false
               },
@@ -68,7 +68,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 373.5026054382324
   },
   "right": {
     "id": "5838c7864aeaa259",
@@ -84,7 +84,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/posts/Another_testing/index.md",
+                "file": "content/posts/Tags and Categories/index.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -182,20 +182,25 @@
   },
   "active": "742f3bfc6c8451ea",
   "lastOpenFiles": [
-    "content/posts/Another_testing",
-    "AGENTS.md",
-    "content/posts/Another_testing/index.md",
+    "hugo.yaml",
+    "public/img/musingmaddy.png",
     "static/img/musingmaddy.png",
-    "public/posts/page/2/index.html",
-    "public/posts/page/2",
-    "public/tags/hosting/index.xml",
-    "public/tags/vercel/page/1/index.html",
-    "public/tags/vercel/page/1",
-    "public/tags/vercel/page",
-    "public/tags/vercel/index.xml",
-    "public/tags/vercel/index.html",
-    "public/tags/vercel",
-    "public/tags/hugo/page/1/index.html",
+    "static/templater/_New Post.md",
+    "public/categories/banter/index.xml",
+    "public/tags/writing/page/1/index.html",
+    "public/tags/writing/page/1",
+    "public/tags/writing/page",
+    "public/tags/writing/index.xml",
+    "public/tags/writing/index.html",
+    "public/tags/writing",
+    "public/tags/github-pages/page/1/index.html",
+    "public/tags/github-pages/page/1",
+    "public/tags/github-pages/page",
+    "static/templater/Alerts - Note.md",
+    "static/templater/Alerts - Important.md",
+    "static/templater/_Page Summary Place Holder.md",
+    "content/posts/Another_testing/index.md",
+    "AGENTS.md",
     "public/posts/vercel-test/cover_hu_5da0d4b6224ff075.webp",
     "public/posts/vercel-test/cover.png",
     "resources/_gen/images/posts/vercel-test/cover_hu_5da0d4b6224ff075.webp",
@@ -210,7 +215,6 @@
     "content/posts/Reading List - Books to Read in 2025 - Fiction/index.md",
     "content/posts/Project Mayaverse/poster_mayaverse.webp",
     "content/posts/Project Mayaverse/index.md",
-    "content/posts/Project Mayaverse/Generated Image September 14, 2025 - 8_14PM.png",
     "content/posts/Daily Schedule/index.md",
     "content/posts/Gothic Streets/index.md",
     "content/posts/My Macbook Setup/index.md",
@@ -223,10 +227,6 @@
     "themes/dream/docs/pages/i18n.md",
     "themes/dream/docs/pages/decap-cms.md",
     "themes/dream/docs/pages/archives-page.md",
-    "themes/dream/docs/pages/about-page.md",
-    "themes/dream/docs/pages/CHANGELOG.md",
-    "themes/dream/docs/NOTE.md",
-    "themes/dream/archetypes/posts/index.md",
-    "themes/dream/archetypes/posts.md"
+    "themes/dream/docs/pages/about-page.md"
   ]
 }
