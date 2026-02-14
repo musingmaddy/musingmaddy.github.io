@@ -25,5 +25,7 @@ Normal text.
 
 [![image-copy.png](https://i.postimg.cc/d068PZ7n/image-copy.png)](https://postimg.cc/8FFFL5mr)
 
-{{< CnaegIpkenA>}}
-{{< [youtube VIDEO_ID](https://www.youtube.com/watch?v=CnaegIpkenA) >}}
+
+https://www.youtube.com/watch?v=CnaegIpkenA 
+
+![https://www.youtube.com/watch?v=CnaegIpkenA](https://www.youtube.com/watch?v=CnaegIpkenA)
