@@ -1,4 +1,4 @@
-baseURL: "https://musingmaddy.github.io"
+baseURL: "https://musingmaddy.vercel.app"
 defaultContentLanguage: "en"
 languageCode: "en"
 title: "MusingMaddy"
