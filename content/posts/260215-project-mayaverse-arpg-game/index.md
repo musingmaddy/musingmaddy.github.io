@@ -56,6 +56,6 @@ The following features have been added.
 - Email: [musingmaddy@gmail.com](mailto:musingmaddy@gmail.com)
 
 
-![](content/posts/260215-project-mayaverse-arpg-game/Project_Mayaverse_Prototype_Screen1.png)
+![](Project_Mayaverse_Prototype_Screen1.png)
 
 ---

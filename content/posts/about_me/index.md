@@ -12,75 +12,85 @@ nolastmod: false
 draft: false
 
 ---
-# **About Me**
+# About Me
 
-**Hi there! 👋🏻**, 
+## About Me
 
-Welcome to **MusingMaddy**, a creative space where art, technology, and imagination converge.
+Hi, I’m **Maddy Meraki** — also known as ***Musing Maddy***.
+
+I build at the intersection of art, technology, and imagination.
 
 <!--more-->
 
-I'm **Maddy Meraki**, an artist, storyteller, and a developer. I'm passionate about harnessing the power of technology to bring creative visions to life. Here, you'll find a curated collection of my digital art, creative projects, and crafty innovations.
+Through digital art, storytelling, and game development, I explore systems of thought, altered perspectives, and the strange edges of reality.
 
-I'm always exploring new ways to inspire new perspectives. My work explores the intersection of art and technology, inspiring new ways of thinking and creating.
+This space is a living archive of those explorations.
 
-> **MusingMaddy : “Inspiring New Perspectives Through Creativity & AI”** 
-
----
-## **Interests**
-
-### **What My Work Explores**
-
-- **Mind & Soul:** philosophy, psychology, and human transcendence to understand the deeper facets of human experience.
-- **The Unusual & Enigmatic:** magical realism, mystery, and ideas that challenge conventional viewpoints.
-- **Art, Tech & Music:** surreal art, immersive trance music, and the creativity of indie gaming.
-
-My projects are infused with these themes, guiding my approach to my digital art, writing, and more. My goal is to create work that sparks insight and invites fresh perspectives. 
+> **Mission:** Inspiring new perspectives through creativity and AI.
 
 ---
-## **My Projects**
+## Interests
+### What My Work Explores
 
-1. **AI Art Collection**
+- **Mind & Consciousness**: philosophy and psychology as tools to examine identity, perception, and the limits of self-understanding.
+- **The Unusual & Enigmatic**: magical realism and mystery that destabilize ordinary assumptions about reality.
+- **Art, Technology & Sound**: surreal digital art, systems-driven creativity, immersive trance music, and experimental indie game design.
 
-   My Art Project is a vibrant collection of thematic digital artworks. I update this gallery regularly, showcasing the unexpected beauty, horror and uniqueness of thematic art that challenge and inspire viewers to see the world differently.
-
-2. **Fiction Novel: *The Legend Of Jeev Atman***  
-
-   *The Legend Of Jeev Atman* is an upcoming adventure novel in progress that weaves elements of mystery, philosophy, and spiritual growth. Through its characters and storyline, this work explores the questions about life, identity, self discovery and human transcendence. Writing this fiction novel is an ongoing journey, blending storytelling with themes that resonate deeply with my creative vision.
-
-3. **Indie Game Development**  
-
-	Extending the world of *The Legend Of Jeev Atman* into an interactive experience, this indie game project is designed to immerse players in the novel’s universe through artful gameplay and storytelling. Developed in Unity, the game reflects my vision of blending art, narrative, and interaction, offering a fresh, experiential journey where players actively engage with philosophical and creative themes.
-
-4. **My Articles and Logs**
-
-	 In [MusingMaddy](https://musingmaddy.github.io/) website, I casually muse on the questions surrounding the Truth and the essence of existence. Here, I explore my ideas and insights, aiming to inspire contemplation and a greater understanding of life and beyond.
-
-### My Art Collections
-
-- Follow me on [CitvitAI](https://civitai.com/user/musingmaddy/images) & [Piclumen](https://piclumen.com/app/user/social-home/1869048378567086081).
-
-- https://civitai.com/user/musingmaddy/images
-- https://piclumen.com/app/user/social-home/1869048378567086081
+These themes shape everything I build — from writing to interactive systems. I aim to create work that unsettles, provokes reflection, and expands how we see.
 
 ---
-## **License**  
+## My Projects
 
-![CC BY-NC-SA License](https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png)
+### 1. Project Mayaverse — Novel Trilogy
 
-All images, artworks, and written content on *Musing Maddy* are crafted to inspire and are protected under a Creative Commons **CC BY-NC-SA** license. You are welcome to view, share, and use this content for non-commercial purposes, provided that you credit *Musing Maddy®* and link back to this website. This license ensures that your adaptations or remixes of the content must also carry the same terms. For anything else, you can contact me on musingmaddy@gmail.com .
+*Project Mayaverse* is a long-form fiction project currently in development.
 
-*Note: Some artworks on this site may feature disturbing, surreal or intense imagery that could evoke strong emotional responses. Viewer discretion is advised.*
+The first installment, **_The Legend of Jeev Atman_**, begins a trilogy that blends adventure with philosophical inquiry. The narrative examines identity, agency, metaphysics, and psychological transformation through character-driven storytelling.
+
+This is an ongoing writing project, developed iteratively.
+
+
+### 2. Project Mayaverse — Story-Driven Action RPG
+
+Parallel to the novels, I’m developing a story-focused Action RPG set in the same universe.
+
+Built in Unity, the game translates the trilogy’s themes into interactive systems — allowing players to explore its world through mechanics, choice, and progression rather than exposition alone.
+
+This project treats narrative and gameplay as inseparable design elements.
+
+
+### 3. Digital Art Collection
+
+An evolving body of digital art exploring thematic contrasts — beauty and distortion, symbolism and abstraction, order and chaos.
+
+The collection grows alongside my other projects, functioning as both experimentation and world-building.
+
+
+### 4. Musings & Reflections
+
+On **MusingMaddy**, I write personal reflections on philosophy, life, politics, technology, games, and culture.
+
+It’s a casual but thoughtful space — a record of ideas in progress rather than finished conclusions.
+
+---
+## Contact
+### **Follow**
+
+- Website : &nbsp;
+- https://musingmaddy.github.io
+  
+- X / Twitter : &nbsp;
+- https://x.com/musingmaddy
+
+- Youtube : &nbsp;
+- https://www.youtube.com/@musingmaddy
+
+### **Contact**
+
+- Email : &nbsp;
+- [musingmaddy@gmail.com](mailto:musingmaddy@gmail.com)
+
 
 ---
 
 ![about_me](about_me_full.webp "Imagika")
-
-## **Connect With Me**
-
-**Let’s Connect!**
-
-Want to chat about art, tech, or my projects?
-
-- **Personal Email:** [musingmaddy@gmail.com](mailto:musingmaddy@gmail.com)
-- **Instagram:** https://instagram.com/musingmaddy
