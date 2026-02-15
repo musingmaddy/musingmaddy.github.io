@@ -10,14 +10,11 @@ tags:
 nolastmod: true
 draft: false
 ---
-## **Interests**
+# Interests
+## What My Work Explores
 
-### **What My Work Explores**
+- **Mind & Consciousness**: philosophy and psychology as tools to examine identity, perception, and the limits of self-understanding.
+- **The Unusual & Enigmatic**: magical realism and mystery that destabilize ordinary assumptions about reality.
+- **Art, Technology & Sound**: surreal digital art, systems-driven creativity, immersive trance music, and experimental indie game design.
 
-- **Mind & Soul:** philosophy, psychology, and human transcendence to understand the deeper facets of human experience.
-- **The Unusual & Enigmatic:** magical realism, mystery, and ideas that challenge conventional viewpoints.
-- **Art, Tech & Music:** surreal art, immersive trance music, and the creativity of indie gaming.
-
-My projects are infused with these themes, guiding my approach to my digital art, writing, and more. My goal is to create work that sparks insight and invites fresh perspectives. 
-
-
+These themes shape everything I build — from writing to interactive systems. I aim to create work that unsettles, provokes reflection, and expands how we see.

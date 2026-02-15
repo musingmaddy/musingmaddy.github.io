@@ -10,20 +10,35 @@ tags:
 nolastmod: true
 draft: false
 ---
-## **My Projects**
+# My Projects
 
-1. **AI Art Collection**
+## 1. Project Mayaverse — Novel Trilogy
 
-   My Art Project is a vibrant collection of thematic digital artworks. I update this gallery regularly, showcasing the unexpected beauty, horror and uniqueness of thematic art that challenge and inspire viewers to see the world differently.
+*Project Mayaverse* is a long-form fiction project currently in development.
 
-2. **Fiction Novel: *The Legend Of Jeev Atman***  
+The first installment, **_The Legend of Jeev Atman_**, begins a trilogy that blends adventure with philosophical inquiry. The narrative examines identity, agency, metaphysics, and psychological transformation through character-driven storytelling.
 
-   *The Legend Of Jeev Atman* is an upcoming adventure novel in progress that weaves elements of mystery, philosophy, and spiritual growth. Through its characters and storyline, this work explores the questions about life, identity, self discovery and human transcendence. Writing this fiction novel is an ongoing journey, blending storytelling with themes that resonate deeply with my creative vision.
+This is an ongoing writing project, developed iteratively.
 
-3. **Indie Game Development**  
 
-	Extending the world of *The Legend Of Jeev Atman* into an interactive experience, this indie game project is designed to immerse players in the novel’s universe through artful gameplay and storytelling. Developed in Unity, the game reflects my vision of blending art, narrative, and interaction, offering a fresh, experiential journey where players actively engage with philosophical and creative themes.
+## 2. Project Mayaverse — Story-Driven Action RPG
 
-4. **My Articles and Logs**
+Parallel to the novels, I’m developing a story-focused Action RPG set in the same universe.
 
-	 In [MusingMaddy](https://musingmaddy.github.io/) website, I casually muse on the questions surrounding the Truth and the essence of existence. Here, I explore my ideas and insights, aiming to inspire contemplation and a greater understanding of life and beyond.
+Built in Unity, the game translates the trilogy’s themes into interactive systems — allowing players to explore its world through mechanics, choice, and progression rather than exposition alone.
+
+This project treats narrative and gameplay as inseparable design elements.
+
+
+## 3. Digital Art Collection
+
+An evolving body of digital art exploring thematic contrasts — beauty and distortion, symbolism and abstraction, order and chaos.
+
+The collection grows alongside my other projects, functioning as both experimentation and world-building.
+
+
+## 4. Musings & Reflections
+
+On **MusingMaddy**, I write personal reflections on philosophy, life, politics, technology, games, and culture.
+
+It’s a casual but thoughtful space — a record of ideas in progress rather than finished conclusions.

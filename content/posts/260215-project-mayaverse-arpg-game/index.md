@@ -1,13 +1,15 @@
 ---
-title: Project Mayaverse - Action RPG Game
-slug: project-mayaverse-game-in-development
+title: Project Mayaverse - ARPG Game
+slug: 260215-project-mayaverse-arpg-game
 date: 2026-02-15T09:08:56+05:30
 lastmod: 2026-02-15T09:08:56+05:30
 description: Project Mayaverse Game is in development. I have created a prototype. Hopefully DEMO will be out in 2027.
 author: Maddy Meraki
+authorlink: https://x.com/musingmaddy
 avatar: /img/musingmaddy.webp
-cover: /posts/project-mayaverse-game-in-development/Project_Mayaverse_Prototype_Screen1.png
+cover: /posts/260215-project-mayaverse-arpg-game/Project_Mayaverse_Prototype_Screen1.png
 images:
+  - /posts/260215-project-mayaverse-arpg-game/Project_Mayaverse_Prototype_Screen1.png
 tags:
   - GameDev
   - Devlog
@@ -20,9 +22,11 @@ draft: false
 ---
 # Project Mayaverse
 
-As a Solo Game Developer, I have been working on my "Project Mayaverse" game for the last few months. Checkout the screenshot.
+I am "**Maddy Meraki**". I write under the name, "*Musing Maddy*" As a Solo Game Developer, I have been working on my "Project Mayaverse" game for the last few months. Checkout the screenshot.
 
 **Project Mayaverse** (working title) is a post-apocalyptic psychological-noir Action RPG that combines introspective, skill-based narrative systems with high-tempo, weapon-driven combat—merging philosophical storytelling with visceral action in a dystopian world shaped by fractured consciousness.
+
+---
 
 ## Project Mayaverse - Devlog
 
@@ -38,15 +42,20 @@ The following features have been added.
    
 > Full In-Engine Gameplay Video on March - 01 - 2026. 
 
-## Follow:
+---
+# **Follow**
 
 1. Follow (X/Twitter):
 	- https://x.com/musingmaddy
 2. Subscribe (Youtube):
-	-  https://www.youtube.com/@MaddyMeraki 
+	-  https://www.youtube.com/@musingmaddy
 3. Visit (Website):
 	- https://musingmaddy.github.io
+# **Contact**
 
-![Project_Mayaverse_Prototype_Screen1](Project_Mayaverse_Prototype_Screen1.png)
+- Email: [musingmaddy@gmail.com](mailto:musingmaddy@gmail.com)
+
+
+![](content/posts/260215-project-mayaverse-arpg-game/Project_Mayaverse_Prototype_Screen1.png)
 
 ---
