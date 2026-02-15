@@ -14,7 +14,9 @@ const slugify = (s) =>
 const title = (await tp.system.prompt("Post title"))?.trim();
 if (!title) { new Notice("Post title is required."); return; }
 
-const slug = slugify(title);
+const datePrefix = tp.date.now("YYMMDD");
+const baseSlug = slugify(title);
+const slug = `${datePrefix}-${baseSlug}`;
 const baseFolder = "content/posts";
 const bundleFolder = `${baseFolder}/${slug}`;
 
@@ -30,6 +32,7 @@ const categories = parseCSV(await tp.system.prompt("Categories (comma-separated)
 
 // Defaults
 const author = "Maddy Meraki";
+const authorlink = "https://x.com/musingmaddy";
 const avatar = "/img/musingmaddy.webp";
 const draft = false;
 const nolastmod = true;
@@ -64,9 +67,10 @@ await app.fileManager.processFrontMatter(tp.config.target_file, (fm) => {
   fm.lastmod = now;
   fm.description = description;
   fm.author = author;
+  fm.authorlink = authorlink;
   fm.avatar = avatar;
   fm.cover = cover;
-  fm.images = [cover];
+  fm.images = [`/posts/${slug}/01.png`];
   fm.tags = tags;
   fm.categories = categories;
   fm.nolastmod = nolastmod;

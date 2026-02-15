@@ -3,5 +3,6 @@
   "textFontFamily": "SN Pro",
   "interfaceFontFamily": "",
   "monospaceFontFamily": "Cascadia Code",
-  "theme": "obsidian"
+  "theme": "obsidian",
+  "showRibbon": false
 }

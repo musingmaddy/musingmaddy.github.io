@@ -10,6 +10,12 @@
       "ctime": 1771076657046,
       "path": "content/posts/another-new-post/index.md",
       "title": "New Post"
+    },
+    {
+      "type": "folder",
+      "ctime": 1771130973937,
+      "path": "static/templater",
+      "title": "Templater Scripts"
     }
   ]
 }

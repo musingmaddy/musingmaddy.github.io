@@ -1,5 +1,5 @@
 ---
-title: Project Mayaverse
+title: Project Mayaverse Begins
 date: 2025-09-17T08:51:03+05:30
 lastmod: 2025-09-17T08:51:03+05:30
 author: Maddy Meraki
@@ -16,7 +16,7 @@ tags:
 draft: false
 ---
 
-New Project Mayaverse. 
+New Project Mayaverse Narrative Universe Project.
 
 <!--more-->
 
