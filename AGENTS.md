@@ -1,4 +1,4 @@
-## Hard Rules
+## Rules
 
 1.  **Themes are READ-ONLY.** `themes/dream/` is a Git submodule — never create, edit, or delete anything inside it. To customize, copy the file to the identical path under project root and edit the copy.
     `themes/dream/layouts/_default/single.html` → `layouts/_default/single.html`
