@@ -40,3 +40,6 @@ params:
   showSummaryCoverInPost: true
   showPrevNextPost: true
   imageZoomableInPost: true
+
+  reorderShares: ["x", "whatsapp"]
+  reorderNavItems: ["search", "tags", "categories", "posts", "about"]

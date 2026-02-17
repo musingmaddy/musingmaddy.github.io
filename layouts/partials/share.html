@@ -1,0 +1,49 @@
+<div class="flex items-center gap-2">
+  <!-- slot: post-share-left.html -->
+  {{ if fileExists "layouts/partials/post-share-left.html" }}
+    {{ partial "post-share-left.html" . }}
+  {{ end }}
+
+  {{ $shares := slice "x" "facebook" "whatsapp" }}
+  {{ $shareTitles := dict
+    "x" "X"
+    "facebook" "Facebook"
+    "whatsapp" "WhatsApp"
+    "linkedin" "LinkedIn"
+    "reddit" "Reddit"
+    "telegram" "Telegram"
+    "pinterest" "Pinterest"
+    "mastodon" "Mastodon"
+    "email" "Email"
+  }}
+  {{ $shareLinks := dict
+    "x" (print "https://x.com/intent/post?text=" .Title "&url=" .Permalink)
+    "facebook" (print "https://facebook.com/sharer/sharer.php?u=" .Permalink)
+    "whatsapp" (print "https://wa.me/?text=" .Title " " .Permalink)
+    "linkedin" (print "https://www.linkedin.com/sharing/share-offsite/?url=" .Permalink)
+    "reddit" (print "https://www.reddit.com/submit?url=" .Permalink "&title=" .Title)
+    "telegram" (print "https://t.me/share/url?url=" .Permalink "&text=" .Title)
+    "pinterest" (print "https://pinterest.com/pin/create/button/?url=" .Permalink "&description=" .Title)
+    "mastodon" (print "https://mastodonshare.com/?text=" .Title " " .Permalink)
+    "email" (print "mailto:?subject=" .Title "&body=" .Permalink)
+  }}
+  {{ if site.Params.reorderShares }}
+    {{ $shares = site.Params.reorderShares }}
+  {{ end }}
+  {{ range $shares }}
+    {{ $iconName := (print "logo-" .) }}
+    {{ if eq . "email" }}
+      {{ $iconName = "mail-outline" }}
+    {{ end }}
+    <a class="group inline-flex items-center p-2 rounded-full cursor-pointer hover:bg-primary"
+      href="{{ index $shareLinks . }}" target="_blank" rel="noopener noreferrer"
+      title="Share on {{ index $shareTitles . }}">
+      <ion-icon class="group-hover:text-primary-content" name="{{ $iconName }}"></ion-icon>
+    </a>
+  {{ end }}
+
+  <!-- slot: post-share-right.html -->
+  {{ if fileExists "layouts/partials/post-share-right.html" }}
+    {{ partial "post-share-right.html" . }}
+  {{ end }}
+</div>
