@@ -7,9 +7,9 @@ description: I have created AI Roleplay Card Maker - The Tavern RolePlay Card Cr
 author: Maddy Meraki
 authorlink: https://x.com/musingmaddy
 avatar: /img/musingmaddy.webp
-cover: /img/covers/_Teal and Blue (futuristic, tech).png
+cover: /posts/260222-rp-card-maker-app-available-now/rpccardmaker.vercel.app%20screenshot.webp
 images:
-  - /posts/260222-rp-card-maker-app-available-now/01.png
+  - /posts/260222-rp-card-maker-app-available-now/rpccardmaker.vercel.app%20screenshot.webp
 tags:
   - app
   - roleplay
@@ -27,6 +27,9 @@ draft: false
 I have created AI Roleplay Card Maker - The Tavern RolePlay Card Creator Online - V3 Specification Card Creator for SillyTavern, RisuAI, JanitorAI, CharacterAI etc... 
 
 ### Available On :  https://rpcardmaker.vercel.app/
+
+---
+
 
 
 ![rpccardmaker.vercel.app screenshot](rpccardmaker.vercel.app%20screenshot.webp)

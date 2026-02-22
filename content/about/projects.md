@@ -42,3 +42,7 @@ The collection grows alongside my other projects, functioning as both experiment
 On **MusingMaddy**, I write personal reflections on philosophy, life, politics, technology, games, and culture.
 
 It’s a casual but thoughtful space — a record of ideas in progress rather than finished conclusions.
+
+## 5. Quirky Web Applications
+
+Enabling you to do quirky things !

@@ -10,4 +10,4 @@ tags:
 nolastmod: true
 draft: false
 ---
-#  [🏡 Go Back to Home](https://musingmaddy.github.io/)
+#  [🏡 Go Back Home](https://musingmaddy.github.io/)
