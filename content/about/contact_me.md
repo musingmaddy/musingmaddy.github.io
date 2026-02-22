@@ -3,8 +3,8 @@ title:
 date: 2024-09-27T12:15:48+05:30
 lastmod: 2024-09-27T12:15:48+05:30
 author: Musing Maddy
-avatar: /img/laynalingam.webp
-cover: laynalingam.webp
+avatar: /img/musingmaddy.webp
+cover: about_me.webp
 categories:
 tags:
 nolastmod: true

@@ -12,14 +12,14 @@ draft: false
 ---
 # About Me
 
-Hi, I’m **Maddy Meraki** — also known as ***Musing Maddy***.
+Hi, I’m **Maddy Meraki** aka ***Musing Maddy***.
 
 I build at the intersection of art, technology, and imagination.
 
-Through digital art, storytelling, and game development, I explore systems of thought, altered perspectives, and the strange edges of reality.
+Through art, storytelling, and game development, I explore systems of thought, altered perspectives, and the strange edges of reality.
 
 This space is a living archive of those explorations.
 
-> **Mission:** Inspiring new perspectives through creativity and AI.
+> **Mission:** Inspiring unique new perspectives through art and technology.
 
 ![about_me](http://musingmaddy.github.io/posts/about_me/about_me_small.webp)

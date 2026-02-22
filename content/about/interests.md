@@ -15,6 +15,6 @@ draft: false
 
 - **Mind & Consciousness**: philosophy and psychology as tools to examine identity, perception, and the limits of self-understanding.
 - **The Unusual & Enigmatic**: magical realism and mystery that destabilize ordinary assumptions about reality.
-- **Art, Technology & Sound**: surreal digital art, systems-driven creativity, immersive trance music, and experimental indie game design.
+- **Art, Technology & Sound**: surreal art, systems-driven creativity, immersive trance music, and experimental indie game design.
 
 These themes shape everything I build — from writing to interactive systems. I aim to create work that unsettles, provokes reflection, and expands how we see.

@@ -14,14 +14,43 @@ draft: false
 
 ![CC BY-NC-SA License](https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png)
 
-All images, artworks, and written content on *Musing Maddy* website are crafted to inspire and are protected under a Creative Commons **CC BY-NC-SA** license. 
+# 📜 License & Usage
 
-You are welcome to view, share, and use this content for non-commercial purposes, provided that you credit *Musing Maddy®* and link back to this website. This license ensures that your adaptations or remixes of the content must also carry the same terms. 
+Welcome to Musing Maddy®.
 
-For anything else, you can contact me on musingmaddy@gmail.com .
+All images, artworks, stories, and written pieces on this website are original creations, made to inspire curiosity, reflection, and imagination.
 
->*Note: Some artworks on this site may feature disturbing, surreal or intense imagery that could evoke strong emotional responses. Viewer discretion is advised.*
+They are shared under the Creative Commons CC BY-NC-SA License (Attribution–NonCommercial–ShareAlike).
+
+## What You’re Free To Do
+
+You’re welcome to:
+
+- View and enjoy the content
+- Share it with others
+- Adapt or remix it
+- Use it for non-commercial purposes
+
+## What I Ask In Return
+
+- Please provide clear attribution to Musing Maddy®
+- Include a link back to the website whenever possible
+- If you remix or adapt the work, share it under the same license
+
+Let’s create, collaborate, and grow together.
+
+## Commercial Use
+
+If you’d like to use any content for commercial purposes, collaborations, publishing, or licensing, please reach out directly:
+
+musingmaddy@gmail.com
+
+I’m open to meaningful partnerships.
+
+## Content Advisory
+
+Some artworks or written pieces on this site may explore surreal, intense, psychological, or emotionally charged themes. Certain imagery may feel unsettling or provocative.
+
+Viewer discretion is advised.
 
 ![CC BY-NC-SA](https://mirrors.creativecommons.org/presskit/buttons/88x31/png/by-nc-sa.png)
-
-
