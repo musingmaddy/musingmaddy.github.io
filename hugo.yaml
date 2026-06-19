@@ -1,6 +1,6 @@
 baseURL: "https://musingmaddy.github.io"
 defaultContentLanguage: "en"
-languageCode: "en"
+locale: "en"
 title: "MusingMaddy"
 theme: "dream"
 enableRobotsTXT: true
