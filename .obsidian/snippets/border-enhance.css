@@ -1,0 +1,205 @@
+/* Border Light — Monochrome Bevel Polish */
+
+body.theme-light {
+  --polish-accent: var(--interactive-accent, #4A526A);
+  --polish-accent-soft: rgba(74, 82, 106, 0.12);
+  --polish-accent-soft: color-mix(in srgb, var(--polish-accent) 12%, transparent);
+
+  --polish-line: rgba(18, 24, 36, 0.09);
+  --polish-line-strong: rgba(18, 24, 36, 0.14);
+
+  --polish-shadow:
+    0px 1px 2px rgba(17, 24, 39, 0.05),
+    0px 10px 24px rgba(17, 24, 39, 0.07);
+}
+
+/* Soft sheen on sidebars */
+body.theme-light .workspace-split.mod-left-split,
+body.theme-light .workspace-split.mod-right-split {
+  background-image: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.36),
+    rgba(255, 255, 255, 0)
+  );
+}
+
+/* Refined tab headers */
+body.theme-light .workspace-tab-header {
+  border-radius: 10px;
+  transition: background 120ms ease, box-shadow 120ms ease;
+}
+
+body.theme-light .workspace-tab-header:hover {
+  background: rgba(255, 255, 255, 0.58);
+}
+
+body.theme-light .workspace-tab-header.is-active {
+  background: linear-gradient(180deg, #FFFFFF 0%, #F5F7FA 100%);
+  box-shadow:
+    inset 0px 1px 0px rgba(255, 255, 255, 0.9),
+    0px 1px 3px rgba(17, 24, 39, 0.06),
+    0px 6px 16px rgba(17, 24, 39, 0.07);
+}
+
+body.theme-light .workspace-tab-header.is-active .workspace-tab-header-inner-title {
+  color: var(--polish-accent);
+  font-weight: 600;
+}
+
+/* =====================================================
+   FIX — remove focus/active border around note title
+   and editor content
+   (append to the end of the Monochrome Bevel Polish snippet)
+===================================================== */
+
+/* 1) Never draw a ring or border on writing surfaces */
+body.theme-light .inline-title:focus,
+body.theme-light .inline-title:focus-visible,
+body.theme-light .cm-content:focus,
+body.theme-light .cm-content:focus-visible,
+body.theme-light .cm-editor:focus,
+body.theme-light .cm-editor:focus-visible,
+body.theme-light .cm-editor.cm-focused,
+body.theme-light [contenteditable]:focus,
+body.theme-light [contenteditable]:focus-visible {
+  outline: none !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+
+/* 2) Container-level focus and active-leaf states */
+body.theme-light .markdown-source-view:focus-within,
+body.theme-light .markdown-preview-view:focus-within,
+body.theme-light .view-content:focus-within,
+body.theme-light .workspace-leaf-content:focus-within,
+body.theme-light .mod-root .workspace-leaf.mod-active .workspace-leaf-content {
+  outline: none !important;
+  border-color: transparent !important;
+}
+
+/* 3) Keep the focus ring only on real UI controls */
+body.theme-light :is(button, .clickable-icon, .workspace-tab-header, a, select, input[type="checkbox"]):focus-visible {
+  outline: 2px solid color-mix(in srgb, var(--polish-accent) 45%, transparent);
+  outline-offset: 1px;
+}
+
+/* File explorer / navigation items */
+body.theme-light .nav-file-title,
+body.theme-light .nav-folder-title {
+  border-radius: 9px;
+  border: 1px solid transparent;
+  transition:
+    background 120ms ease,
+    border-color 120ms ease,
+    box-shadow 120ms ease;
+}
+
+body.theme-light .nav-file-title:hover,
+body.theme-light .nav-folder-title:hover {
+  background: rgba(255, 255, 255, 0.66);
+  border-color: rgba(18, 24, 36, 0.05);
+}
+
+body.theme-light .nav-file-title.is-active {
+  background: linear-gradient(
+    180deg,
+    var(--polish-accent-soft),
+    rgba(255, 255, 255, 0.04)
+  );
+  border-color: color-mix(in srgb, var(--polish-accent) 18%, transparent);
+  box-shadow:
+    inset 0px 1px 0px rgba(255, 255, 255, 0.45),
+    0px 1px 3px rgba(17, 24, 39, 0.05);
+}
+
+/* Ribbon polish */
+body.theme-light .workspace-ribbon {
+  background: rgba(247, 248, 250, 0.86);
+  backdrop-filter: blur(8px);
+  border-right: 1px solid var(--polish-line);
+}
+
+/* Icon buttons */
+body.theme-light .clickable-icon {
+  border-radius: 8px;
+  transition:
+    background 120ms ease,
+    box-shadow 120ms ease,
+    color 120ms ease,
+    transform 120ms ease;
+}
+
+body.theme-light .clickable-icon:hover {
+  background: rgba(255, 255, 255, 0.74);
+  box-shadow:
+    inset 0px 1px 0px rgba(255, 255, 255, 0.8),
+    0px 1px 3px rgba(17, 24, 39, 0.05);
+}
+
+body.theme-light .clickable-icon:active {
+  transform: translateY(0.5px);
+  box-shadow: inset 0px 1px 2px rgba(17, 24, 39, 0.06);
+}
+
+/* Menus, popovers, modals */
+body.theme-light .menu,
+body.theme-light .suggestion-container,
+body.theme-light .popover,
+body.theme-light .modal {
+  border: 1px solid var(--polish-line);
+  box-shadow: var(--polish-shadow);
+  border-radius: 12px;
+}
+
+body.theme-light .menu-item:hover,
+body.theme-light .suggestion-item.is-selected {
+  background: var(--polish-accent-soft);
+}
+
+/* Buttons */
+body.theme-light button {
+  border-radius: 9px;
+  transition:
+    background 120ms ease,
+    box-shadow 120ms ease,
+    border-color 120ms ease,
+    transform 120ms ease;
+}
+
+body.theme-light button:not(.mod-cta):not(.mod-warning) {
+  background: linear-gradient(180deg, #FFFFFF 0%, #F2F4F7 100%);
+  border: 1px solid var(--polish-line);
+  box-shadow:
+    inset 0px 1px 0px rgba(255, 255, 255, 0.85),
+    0px 1px 2px rgba(17, 24, 39, 0.05);
+}
+
+body.theme-light button:hover {
+  transform: translateY(-0.5px);
+  box-shadow:
+    inset 0px 1px 0px rgba(255, 255, 255, 0.9),
+    0px 3px 8px rgba(17, 24, 39, 0.08);
+}
+
+body.theme-light button:active {
+  transform: translateY(0px);
+  box-shadow: inset 0px 1px 2px rgba(17, 24, 39, 0.07);
+}
+
+/* Status bar */
+body.theme-light .status-bar {
+  background: rgba(250, 250, 252, 0.78);
+  backdrop-filter: blur(10px);
+  border-top: 1px solid var(--polish-line);
+  box-shadow: 0px -6px 18px rgba(17, 24, 39, 0.045);
+}
+
+/* Selection and focus */
+body.theme-light ::selection {
+  background: color-mix(in srgb, var(--polish-accent) 18%, transparent);
+}
+
+body.theme-light :focus-visible {
+  outline: 2px solid color-mix(in srgb, var(--polish-accent) 45%, transparent);
+  outline-offset: 1px;
+}

@@ -1,0 +1,130 @@
+/* =====================================================
+   Editorial Tables — monochrome beveled data cards
+   Reading View (full) + Live Preview (row-card)
+===================================================== */
+
+/* -- Design tokens (reuses earlier snippet tokens when available) -- */
+body {
+  --tb-line:      #D3D8DF;                      /* outer border / header rule */
+  --tb-line-soft: #E5E8ED;                      /* inner hairlines            */
+  --tb-ink:       #3E4450;                      /* cell text                  */
+  --tb-head-ink:  var(--ink-h1, #24425C);       /* header ink (navy)          */
+  --tb-tint:      rgba(118, 128, 146, 0.05);    /* zebra stripe               */
+  --tb-hover:     rgba(118, 128, 146, 0.09);    /* row hover                  */
+  --tb-card:      #FDFDFE;                      /* card surface               */
+  --tb-serif:     var(--head-serif, ui-serif, "New York", "Iowan Old Style", Georgia, serif);
+}
+
+/* ================= READING VIEW ================= */
+
+.markdown-preview-view table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  margin: 1.6em 0;
+  background: var(--tb-card);
+  border: 1px solid var(--tb-line);
+  border-radius: 10px;
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.75),   /* top bevel highlight */
+    0 1px 2px rgba(17, 24, 39, 0.05),
+    0 8px 20px rgba(17, 24, 39, 0.06);
+  font-size: 0.95em;
+  line-height: 1.55;
+}
+
+/* Header row — small-caps serif, letterpress, soft gradient */
+.markdown-preview-view th {
+  font-family: var(--tb-serif);
+  font-variant-caps: all-small-caps;
+  letter-spacing: 0.06em;
+  font-weight: 600;
+  text-align: left;
+  color: var(--tb-head-ink);
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.85);
+  background: linear-gradient(180deg, #FCFDFE 0%, #F1F3F6 100%);
+  border-bottom: 1px solid var(--tb-line);
+  padding: 0.55em 1.1em;
+}
+
+/* Cells */
+.markdown-preview-view td {
+  padding: 0.5em 1.1em;
+  color: var(--tb-ink);
+  font-variant-numeric: tabular-nums;          /* numbers align in columns */
+  border-top: 1px solid var(--tb-line-soft);
+  transition: background 120ms ease;
+}
+.markdown-preview-view tbody tr:first-child td { border-top: none; }
+
+/* Vertical hairlines */
+.markdown-preview-view th + th,
+.markdown-preview-view td + td {
+  border-left: 1px solid var(--tb-line-soft);
+}
+
+/* Zebra stripes + hover */
+.markdown-preview-view tbody tr:nth-child(even) td { background: var(--tb-tint); }
+.markdown-preview-view tbody tr:hover td           { background: var(--tb-hover); }
+
+/* First column reads as a row label */
+.markdown-preview-view td:first-child {
+  color: #2A2F38;
+  font-weight: 500;
+}
+
+/* Inner corner rounding so cell fills never poke out of the card */
+.markdown-preview-view th:first-child              { border-top-left-radius: 9px; }
+.markdown-preview-view th:last-child               { border-top-right-radius: 9px; }
+.markdown-preview-view tr:last-child td:first-child { border-bottom-left-radius: 9px; }
+.markdown-preview-view tr:last-child td:last-child  { border-bottom-right-radius: 9px; }
+
+/* ================= LIVE PREVIEW =================
+   The editor has no real <table>, so the card is built
+   out of the table lines themselves.                    */
+
+.markdown-source-view.mod-cm6.is-live-preview .HyperMD-table {
+  background-color: var(--tb-card);
+  padding-left: 0.6em;
+  padding-right: 0.6em;
+  color: var(--tb-ink);
+  box-shadow:
+    inset 1px 0 0 var(--tb-line-soft),           /* left edge  */
+    inset -1px 0 0 var(--tb-line-soft);          /* right edge */
+}
+
+/* Pipes render as soft hairlines */
+.markdown-source-view.mod-cm6.is-live-preview .HyperMD-table .cm-table {
+  color: var(--tb-line);
+}
+
+/* Header row (first table line) */
+.markdown-source-view.mod-cm6.is-live-preview .HyperMD-table:not(.HyperMD-table + .HyperMD-table) {
+  font-family: var(--tb-serif);
+  font-variant-caps: all-small-caps;
+  letter-spacing: 0.06em;
+  font-weight: 600;
+  color: var(--tb-head-ink);
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.85);
+  background: linear-gradient(180deg, #FCFDFE 0%, #F1F3F6 100%);
+  border-radius: 10px 10px 0 0;
+  box-shadow:
+    inset 1px 0 0 var(--tb-line),
+    inset -1px 0 0 var(--tb-line),
+    inset 0 1px 0 var(--tb-line);
+}
+
+/* Delimiter row (| --- |) fades to a whisper */
+.markdown-source-view.mod-cm6.is-live-preview .HyperMD-table:not(.HyperMD-table + .HyperMD-table) + .HyperMD-table,
+.markdown-source-view.mod-cm6.is-live-preview .HyperMD-table:not(.HyperMD-table + .HyperMD-table) + .HyperMD-table .cm-table {
+  color: rgba(62, 68, 80, 0.16);
+}
+
+/* Last table row closes the card */
+.markdown-source-view.mod-cm6.is-live-preview .HyperMD-table:not(:has(+ .HyperMD-table)) {
+  border-radius: 0 0 10px 10px;
+  box-shadow:
+    inset 1px 0 0 var(--tb-line),
+    inset -1px 0 0 var(--tb-line),
+    inset 0 -1px 0 var(--tb-line);
+}

@@ -1,0 +1,104 @@
+/* =====================================================
+   Editorial Headings — macOS serif hierarchy
+   Letterpress depth · heritage inks · classic rules
+   Preview + Live Preview parity
+===================================================== */
+
+/* -- Design tokens -- */
+body {
+  /* ui-serif resolves to Apple's "New York" on macOS */
+  --head-serif: ui-serif, "New York", "Iowan Old Style", "Palatino Linotype",
+                Palatino, "Book Antiqua", Georgia, serif;
+
+  /* Letterpress: white press-line + faint depth */
+  --head-press: 0 1px 0 rgba(255, 255, 255, 0.85);
+  --head-depth: 0 2px 5px rgba(23, 26, 31, 0.10);
+
+  --head-rule: #C9CED6;
+
+  /* Heritage ink palette — muted, easy-on-eyes versions of your colors */
+  --ink-h1: #24425C;   /* navy   */
+  --ink-h2: #7A2F2F;   /* maroon */
+  --ink-h3: #2E5440;   /* green  */
+  --ink-h4: #5C4033;   /* brown  */
+  --ink-h5: #4A2E52;   /* plum   */
+  --ink-h6: #8A4A1F;   /* rust   */
+
+  /* Prefer pure monochrome? Swap the six inks for these:
+     --ink-h1:#23262B; --ink-h2:#34383E; --ink-h3:#454A51;
+     --ink-h4:#565C64; --ink-h5:#676D76; --ink-h6:#787E88;  */
+}
+
+/* ---------- Shared: serif + letterpress everywhere ---------- */
+.markdown-preview-view h1, .markdown-preview-view h2, .markdown-preview-view h3,
+.markdown-preview-view h4, .markdown-preview-view h5, .markdown-preview-view h6,
+.cm-header-1, .cm-header-2, .cm-header-3, .cm-header-4, .cm-header-5, .cm-header-6 {
+  font-family: var(--head-serif) !important;
+  text-shadow: var(--head-press), var(--head-depth);
+  font-optical-sizing: auto;
+}
+
+/* ---------- H1 · display title with book-style double rule ---------- */
+.markdown-preview-view h1, .cm-header-1 {
+  font-size: 2.05em !important;
+  font-weight: 700 !important;
+  letter-spacing: -0.015em;
+  color: var(--ink-h1) !important;
+}
+.markdown-preview-view h1 {
+  margin-top: 1.4em;
+  padding-bottom: 0.3em;
+  border-bottom: 3px double var(--head-rule);
+  text-wrap: balance;
+}
+.cm-header-1 {
+  padding-bottom: 0.12em;
+  background: linear-gradient(to right, var(--head-rule), transparent)
+              left bottom / 100% 1px no-repeat;
+}
+
+/* ---------- H2 · section head with fading rule ---------- */
+.markdown-preview-view h2, .cm-header-2 {
+  font-size: 1.65em !important;
+  font-weight: 700 !important;
+  letter-spacing: -0.01em;
+  color: var(--ink-h2) !important;
+}
+.markdown-preview-view h2 {
+  margin-top: 1.5em;
+  padding-bottom: 0.25em;
+  background: linear-gradient(to right, var(--head-rule), transparent)
+              left bottom / 5.5em 1px no-repeat;
+  text-wrap: balance;
+}
+
+/* ---------- H3 · italic subhead ---------- */
+.markdown-preview-view h3, .cm-header-3 {
+  font-size: 1.35em !important;
+  font-weight: 600 !important;
+  font-style: italic;
+  color: var(--ink-h3) !important;
+}
+
+/* ---------- H4–H6 · small-caps, descending emphasis ---------- */
+.markdown-preview-view h4, .cm-header-4 {
+  font-size: 1.15em !important;
+  font-weight: 600 !important;
+  font-variant-caps: all-small-caps;
+  letter-spacing: 0.05em;
+  color: var(--ink-h4) !important;
+}
+.markdown-preview-view h5, .cm-header-5 {
+  font-size: 1.02em !important;
+  font-weight: 600 !important;
+  font-variant-caps: all-small-caps;
+  letter-spacing: 0.06em;
+  color: var(--ink-h5) !important;
+}
+.markdown-preview-view h6, .cm-header-6 {
+  font-size: 0.92em !important;
+  font-weight: 600 !important;
+  font-variant-caps: all-small-caps;
+  letter-spacing: 0.08em;
+  color: var(--ink-h6) !important;
+}

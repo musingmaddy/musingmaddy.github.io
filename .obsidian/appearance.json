@@ -1,8 +1,13 @@
 {
-  "cssTheme": "Night Owl",
+  "cssTheme": "Border",
   "textFontFamily": "SN Pro",
   "interfaceFontFamily": "",
   "monospaceFontFamily": "Cascadia Code",
-  "theme": "obsidian",
-  "showRibbon": false
+  "theme": "moonstone",
+  "showRibbon": false,
+  "enabledCssSnippets": [
+    "table-style",
+    "horizontal-line-monochrome-etched",
+    "heder-font-serif-newyork"
+  ]
 }

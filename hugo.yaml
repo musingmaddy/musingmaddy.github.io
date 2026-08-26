@@ -16,6 +16,7 @@ params:
   advanced:
     customCSS:
       - "css/daisyui-themes.css"
+      - "css/custom.css"
   
   author: "Maddy Meraki"
   description: "🦢 Maddy's Arts, Crafts & Perspectives."

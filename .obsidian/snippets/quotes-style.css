@@ -1,0 +1,123 @@
+/* =====================================================
+   Editorial Blockquote — monochrome pull-quote
+   Live Preview + matching Reading View
+   macOS-native serifs: Iowan Old Style (text) / Didot (mark)
+===================================================== */
+
+/* -- Design tokens -- */
+body {
+  --qq-ink:     #565D69;                          /* quote text        */
+  --qq-mark:    #C6CBD4;                          /* ghost " glyph     */
+  --qq-rule:    #D9DDE3;                          /* vertical rule     */
+  --qq-tint:    rgba(118, 128, 146, 0.07);        /* card background   */
+  --qq-serif:   "Iowan Old Style", "Palatino Linotype", Palatino, "Book Antiqua", Georgia, serif;
+  --qq-display: "Didot", "Bodoni 72", "Big Caslon", Baskerville, Georgia, serif;
+  --qq-gutter:  3.4em;                            /* room for the mark */
+}
+
+/* ---------- Live Preview : quote lines ---------- */
+.markdown-source-view.mod-cm6.is-live-preview .HyperMD-quote {
+  position: relative;
+  border-left: none;
+  background-color: var(--qq-tint);
+  color: var(--qq-ink);
+  font-family: var(--qq-serif);
+  font-style: italic;
+  font-size: 1.13em;
+  line-height: 1.75;
+  letter-spacing: 0.012em;
+  margin-left: var(--qq-gutter) !important;
+  padding-left: 1.25em;
+  padding-right: 1.25em;
+}
+
+/* first line of a quote — top cap */
+.markdown-source-view.mod-cm6.is-live-preview .HyperMD-quote:not(.HyperMD-quote + .HyperMD-quote) {
+  margin-top: 0.4em;
+  padding-top: 0.85em;
+  border-radius: 10px 10px 0 0;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.65);
+}
+
+/* last line of a quote — bottom cap */
+.markdown-source-view.mod-cm6.is-live-preview .HyperMD-quote:not(:has(+ .HyperMD-quote)) {
+  margin-bottom: 0.4em;
+  padding-bottom: 0.85em;
+  border-radius: 0 0 10px 10px;
+  box-shadow: inset 0 -1px 0 rgba(255, 255, 255, 0.4);
+}
+
+/* single-line quote — full card */
+.markdown-source-view.mod-cm6.is-live-preview .HyperMD-quote:not(.HyperMD-quote + .HyperMD-quote):not(:has(+ .HyperMD-quote)) {
+  border-radius: 10px;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.65), inset 0 -1px 0 rgba(255, 255, 255, 0.4);
+}
+
+/* ---------- ghost " + vertical rule ---------- */
+.markdown-source-view.mod-cm6.is-live-preview .HyperMD-quote::before {
+  content: "\201C";
+  position: absolute;
+  left: calc(-1 * var(--qq-gutter));
+  top: 0;
+  width: var(--qq-gutter);
+  height: 100%;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding-right: 0.5em;
+  border-right: var(--blockquote-border-thickness, 2px) solid var(--blockquote-border-color, var(--qq-rule));
+  font-family: var(--qq-display);
+  font-size: 3em;
+  font-weight: 700;
+  font-style: normal;
+  line-height: 1;
+  color: var(--qq-mark);
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.85);  /* faint bevel */
+  pointer-events: none;
+}
+
+/* glyph only on first line; the rule continues on the rest */
+.markdown-source-view.mod-cm6.is-live-preview .HyperMD-quote ~ .HyperMD-quote::before {
+  content: "";
+}
+
+/* ---------- Reading View (same visual language) ---------- */
+.markdown-preview-view blockquote {
+  position: relative;
+  border: none;
+  background-color: var(--qq-tint);
+  border-radius: 10px;
+  margin: 1.1em 0.6em 1.1em calc(var(--qq-gutter) + 0.6em);
+  padding: 0.85em 1.4em;
+  color: var(--qq-ink);
+  font-family: var(--qq-serif);
+  font-style: italic;
+  font-size: 1.13em;
+  line-height: 1.75;
+  letter-spacing: 0.012em;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.65), 0 1px 2px rgba(17, 24, 39, 0.04);
+}
+
+.markdown-preview-view blockquote::before {
+  content: "\201C";
+  position: absolute;
+  left: calc(-1 * var(--qq-gutter));
+  top: 0;
+  width: var(--qq-gutter);
+  height: 100%;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding-right: 0.5em;
+  border-right: var(--blockquote-border-thickness, 2px) solid var(--blockquote-border-color, var(--qq-rule));
+  font-family: var(--qq-display);
+  font-size: 3em;
+  font-weight: 700;
+  font-style: normal;
+  line-height: 1;
+  color: var(--qq-mark);
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.85);
+  pointer-events: none;
+}

@@ -1,0 +1,61 @@
+/* === DARK THEME - PREVIEW MODE HEADINGS (Pastel Variant) === */
+.markdown-preview-view h1 {
+  font-family: "New York", serif !important;
+  color: #82b1ff !important; /* Soft Cornflower Blue */
+}
+
+.markdown-preview-view h2 {
+  font-family: "Atkinson Hyperlegible Next", sans-serif !important;
+  color: #ff8a80 !important; /* Gentle Coral Red */
+}
+
+.markdown-preview-view h3 {
+  font-family: "New York", serif !important;
+  color: #81c784 !important; /* Mellow Mint Green */
+}
+
+.markdown-preview-view h4 {
+  font-family: "Atkinson Hyperlegible Next", sans-serif !important;
+  color: #e6b980 !important; /* Muted Golden Sand */
+}
+
+.markdown-preview-view h5 {
+  font-family: "New York", serif !important;
+  color: #b388ff !important; /* Soft Lavender Purple */
+}
+
+.markdown-preview-view h6 {
+  font-family: "Atkinson Hyperlegible Next", sans-serif !important;
+  color: #ffb74d !important; /* Warm Pastel Orange */
+}
+
+/* === DARK THEME - EDITOR MODE HEADINGS (Live Preview / Source) === */
+.cm-header-1 {
+  font-family: "New York", serif !important;
+  color: #82b1ff !important; /* Soft Cornflower Blue */
+}
+
+.cm-header-2 {
+  font-family: "Atkinson Hyperlegible Next", sans-serif !important;
+  color: #ff8a80 !important; /* Gentle Coral Red */
+}
+
+.cm-header-3 {
+  font-family: "New York", serif !important;
+  color: #81c784 !important; /* Mellow Mint Green */
+}
+
+.cm-header-4 {
+  font-family: "Atkinson Hyperlegible Next", sans-serif !important;
+  color: #e6b980 !important; /* Muted Golden Sand */
+}
+
+.cm-header-5 {
+  font-family: "New York", serif !important;
+  color: #b388ff !important; /* Soft Lavender Purple */
+}
+
+.cm-header-6 {
+  font-family: "Atkinson Hyperlegible Next", sans-serif !important;
+  color: #ffb74d !important; /* Warm Pastel Orange */
+}

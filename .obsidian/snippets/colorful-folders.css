@@ -1,0 +1,30 @@
+body {
+   --folder-color-1: #B278F2;
+   --folder-color-2: #5E9BE1;
+   --folder-color-3: #FFC21F;
+   --folder-color-4: #46AC79;
+   --folder-color-5: #D07A40;
+   --folder-color-6: #D23838;
+}
+
+.nav-files-container > div > .nav-folder:nth-child(6n + 1) { --folder-color: var(--folder-color-1); }
+.nav-files-container > div > .nav-folder:nth-child(6n + 2) { --folder-color: var(--folder-color-2); }
+.nav-files-container > div > .nav-folder:nth-child(6n + 3) { --folder-color: var(--folder-color-3); }
+.nav-files-container > div > .nav-folder:nth-child(6n + 4) { --folder-color: var(--folder-color-4); }
+.nav-files-container > div > .nav-folder:nth-child(6n + 5) { --folder-color: var(--folder-color-5); }
+.nav-files-container > div > .nav-folder:nth-child(6n + 6) { --folder-color: var(--folder-color-6); }
+
+.nav-files-container > div > .nav-folder {
+   border: 1px solid var(--divider-color);
+   border-left: 4px solid var(--folder-color);
+   border-radius: var(--radius-s);
+}
+
+.nav-files-container > div > .nav-folder + .nav-folder {
+   margin-top: var(--size-2-2);
+}
+
+.nav-folder-title {
+   color: var(--folder-color);
+   font-weight: var(--font-bold);
+}

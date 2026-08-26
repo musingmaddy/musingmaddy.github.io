@@ -1,0 +1,61 @@
+/* === PREVIEW MODE HEADINGS === */
+.markdown-preview-view h1 {
+  font-family: "New York", serif !important;
+  color: #001f3f !important; /* Dark Navy Blue */
+}
+
+.markdown-preview-view h2 {
+  font-family: "Atkinson Hyperlegible Next", sans-serif !important;
+  color: #800000 !important; /* Dark Maroon */
+}
+
+.markdown-preview-view h3 {
+  font-family: "New York", serif !important;
+  color: #013220 !important; /* Dark Green */
+}
+
+.markdown-preview-view h4 {
+  font-family: "Atkinson Hyperlegible Next", sans-serif !important;
+  color: #5C4033 !important; /* Dark Brown */
+}
+
+.markdown-preview-view h5 {
+  font-family: "New York", serif !important;
+  color: #301934 !important; /* Dark Purple */
+}
+
+.markdown-preview-view h6 {
+  font-family: "Atkinson Hyperlegible Next", sans-serif !important;
+  color: #8B4000 !important; /* Dark Orange */
+}
+
+/* === EDITOR MODE HEADINGS (Live Preview / Source Mode) === */
+.cm-header-1 {
+  font-family: "New York", serif !important;
+  color: #001f3f !important; /* Dark Navy Blue */
+}
+
+.cm-header-2 {
+  font-family: "Atkinson Hyperlegible Next", sans-serif !important;
+  color: #800000 !important; /* Dark Maroon */
+}
+
+.cm-header-3 {
+  font-family: "New York", serif !important;
+  color: #013220 !important; /* Dark Green */
+}
+
+.cm-header-4 {
+  font-family: "Atkinson Hyperlegible Next", sans-serif !important;
+  color: #5C4033 !important; /* Dark Brown */
+}
+
+.cm-header-5 {
+  font-family: "New York", serif !important;
+  color: #301934 !important; /* Dark Purple */
+}
+
+.cm-header-6 {
+  font-family: "Atkinson Hyperlegible Next", sans-serif !important;
+  color: #8B4000 !important; /* Dark Orange */
+}

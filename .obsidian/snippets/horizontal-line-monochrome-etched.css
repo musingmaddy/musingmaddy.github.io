@@ -1,0 +1,94 @@
+/* =====================================================
+   Editorial Horizontal Rule — True Transparency Cutout
+   Line on ::before (masked) · Emojis on ::after (unmasked)
+===================================================== */
+
+/* -- Design tokens -- */
+body {
+  --hr-line-color: #C6CBD4;
+  --hr-bevel-highlight: rgba(255, 255, 255, 0.9);
+  --hr-bevel-shadow: rgba(17, 24, 39, 0.08);
+
+  --hr-ornament: "🍀 🌸 🍀";
+  --hr-ornament-size: 1.1em;
+
+  /* Width of the transparent gap. Increase if emojis get clipped. */
+  --hr-gap-width: 4.5em;
+}
+
+/* ---------- The hr is just an empty 3px stage ---------- */
+.markdown-source-view hr,
+.markdown-preview-view hr {
+  border: none;
+  height: 3px;               /* 1px shadow + 1px line + 1px highlight */
+  margin: 2.5em 0;
+  position: relative;
+  overflow: visible;
+  background: none;
+}
+
+/* ---------- The line lives on ::before, so the mask
+              only cuts the line — never the emojis ---------- */
+.markdown-source-view hr::before,
+.markdown-preview-view hr::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+
+  /* 3D bevel built into the background */
+  background: linear-gradient(
+    to bottom,
+    var(--hr-bevel-shadow) 0,
+    var(--hr-bevel-shadow) 1px,
+    var(--hr-line-color) 1px,
+    var(--hr-line-color) 2px,
+    var(--hr-bevel-highlight) 2px,
+    var(--hr-bevel-highlight) 3px
+  );
+
+  /* Fade the edges + cut a true transparent hole in the center */
+  -webkit-mask-image: linear-gradient(
+    to right,
+    transparent 0%,
+    black 20%,
+    black calc(50% - var(--hr-gap-width) / 2),
+    transparent calc(50% - var(--hr-gap-width) / 2),
+    transparent calc(50% + var(--hr-gap-width) / 2),
+    black calc(50% + var(--hr-gap-width) / 2),
+    black 80%,
+    transparent 100%
+  );
+  mask-image: linear-gradient(
+    to right,
+    transparent 0%,
+    black 20%,
+    black calc(50% - var(--hr-gap-width) / 2),
+    transparent calc(50% - var(--hr-gap-width) / 2),
+    transparent calc(50% + var(--hr-gap-width) / 2),
+    black calc(50% + var(--hr-gap-width) / 2),
+    black 80%,
+    transparent 100%
+  );
+}
+
+/* ---------- Botanical centerpiece — no mask here ---------- */
+.markdown-source-view hr::after,
+.markdown-preview-view hr::after {
+  content: var(--hr-ornament);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  white-space: nowrap;
+
+  background: transparent;   /* real transparency, no patch */
+  padding: 0 0.2em;
+
+  font-size: var(--hr-ornament-size);
+  line-height: 1;
+  letter-spacing: 0.1em;
+
+  /* Gentle lift so the emojis sit "on top of" the paper */
+  filter: drop-shadow(0 1px 0 rgba(255, 255, 255, 0.85))
+          drop-shadow(0 2px 3px rgba(17, 24, 39, 0.10));
+}
