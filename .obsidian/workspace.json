@@ -11,14 +11,14 @@
             "id": "f51487eea397a76e",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
+              "type": "markdown",
               "state": {
-                "aFile": "content/posts/260826-artist-block-a-loss-of-creative-momentum/index.md",
-                "bFile": "content/posts/260826-artist-block-a-loss-of-creative-momentum/index.md",
-                "aRef": ""
+                "file": "content/posts/260826-artist-block-a-loss-of-creative-momentum/index.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "diff",
-              "title": "Diff: index  (Working Tree)"
+              "icon": "lucide-file",
+              "title": "index"
             }
           }
         ]

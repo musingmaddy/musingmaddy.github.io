@@ -20,3 +20,5 @@ draft: false
 # Artist Block - A Loss of creative momentum
 
 > It's been a while since I gave an update, slow-simmering is happening. Many modules are built, demolished, rebuild - all to produce an unyeilding experience in the end. - Maddy Meraki
+
+Any great artistic product takes toil and inspiration, but when it finally flourishes it would make an impact that changes the world.
