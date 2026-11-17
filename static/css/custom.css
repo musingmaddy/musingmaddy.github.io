@@ -199,6 +199,11 @@ footer {
   color: color-mix(in oklab, var(--color-base-content) 65%, transparent);
 }
 
+.maddy-theme-mode {
+  min-width: 3.8rem;
+  margin-inline: 0.15rem;
+}
+
 @media (max-width: 640px) {
   nav section:first-child .text-base-content\/60 {
     display: none;
